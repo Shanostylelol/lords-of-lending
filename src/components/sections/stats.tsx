@@ -12,6 +12,10 @@ export function Stats() {
   return (
     <section className="bg-[var(--color-dark)] px-6 py-16 md:px-8 md:py-24">
       <div className="mx-auto max-w-5xl" ref={ref}>
+        <h2 className="mb-12 text-center font-[family-name:var(--font-montserrat)] text-xs font-bold uppercase tracking-[0.2em] text-white/40">
+          Our Deals in Action
+        </h2>
+
         <div className="grid gap-8 md:grid-cols-3">
           {STATS.map((stat, i) => (
             <motion.div
@@ -24,7 +28,7 @@ export function Stats() {
               <p className="font-[family-name:var(--font-montserrat)] text-5xl font-bold text-[var(--color-gold-light)] md:text-6xl">
                 {stat.value}
               </p>
-              <p className="mt-1 font-[family-name:var(--font-montserrat)] text-lg font-semibold text-white">
+              <p className="mt-1 font-[family-name:var(--font-montserrat)] text-sm font-semibold uppercase tracking-widest text-white">
                 {stat.label}
               </p>
               <p className="mt-1 text-sm text-white/50">{stat.description}</p>

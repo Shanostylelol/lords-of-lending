@@ -4,8 +4,39 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { BLOG_POSTS } from "@/lib/constants";
+import { BLOG_POSTS, SITE_CONFIG } from "@/lib/constants";
 import { Button } from "@/components/ui/button";
+import { BookOpen, Wrench, Play } from "lucide-react";
+
+const RESOURCE_TYPES = [
+  {
+    icon: BookOpen,
+    title: "Ebooks",
+    description:
+      "Our expertly crafted ebooks deliver actionable insights, proven strategies, and step-by-step guidance to help you navigate the SBA loan process with confidence.",
+    href: "/ebooks",
+    cta: "Browse Ebooks",
+    external: false,
+  },
+  {
+    icon: Wrench,
+    title: "Web Tools",
+    description:
+      "Access powerful, easy-to-use web tools designed to streamline your loan process and help you make informed financing decisions.",
+    href: "/tools",
+    cta: "Explore Tools",
+    external: false,
+  },
+  {
+    icon: Play,
+    title: "Videos",
+    description:
+      "Watch our library of short, informative videos to learn from industry experts and get the knowledge you need to fund your business.",
+    href: SITE_CONFIG.youtube,
+    cta: "Watch on YouTube",
+    external: true,
+  },
+];
 
 export function Resources() {
   const ref = useRef(null);
@@ -15,7 +46,7 @@ export function Resources() {
   return (
     <section className="px-6 py-16 md:px-8 md:py-24" ref={ref}>
       <div className="mx-auto max-w-7xl">
-        <h2 className="text-center font-[family-name:var(--font-montserrat)] text-3xl font-bold text-[var(--color-text)] md:text-4xl">
+        <h2 className="text-center font-[family-name:var(--font-montserrat)] text-3xl font-bold uppercase tracking-tight text-[var(--color-text)] md:text-4xl">
           Resources to Fund and Grow Your Business
         </h2>
 
@@ -78,7 +109,7 @@ export function Resources() {
                 transition={{ duration: 0.4, delay: 0.3 + i * 0.1 }}
               >
                 <Link
-                  href={`/blog/${post.slug}`}
+                  href={`/${post.slug}`}
                   className="group block overflow-hidden rounded-xl border border-[var(--color-border)] bg-white transition-shadow hover:shadow-md"
                 >
                   <div className="relative aspect-video overflow-hidden">
@@ -114,6 +145,50 @@ export function Resources() {
               Become a Business Expert
             </Button>
           </div>
+        </div>
+
+        {/* Ebooks, Web Tools, Videos subsections */}
+        <div className="mt-16 grid gap-6 md:grid-cols-3">
+          {RESOURCE_TYPES.map((resource, i) => (
+            <motion.div
+              key={resource.title}
+              className="rounded-xl border border-[var(--color-border)] bg-white p-6 md:p-8"
+              initial={{ opacity: 0, y: 20 }}
+              animate={inView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.4, delay: 0.5 + i * 0.1 }}
+            >
+              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-[var(--color-gold)]/10">
+                <resource.icon size={20} className="text-[var(--color-gold)]" />
+              </div>
+              <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-bold text-[var(--color-text)]">
+                {resource.title}
+              </h3>
+              <p className="mt-3 text-sm leading-relaxed text-[var(--color-text-muted)]">
+                {resource.description}
+              </p>
+              <div className="mt-5">
+                {resource.external ? (
+                  <a
+                    href={resource.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-sm font-semibold text-[var(--color-gold)] transition-colors hover:text-[var(--color-gold-dark)]"
+                  >
+                    {resource.cta}
+                    <span aria-hidden="true">&rarr;</span>
+                  </a>
+                ) : (
+                  <Link
+                    href={resource.href}
+                    className="inline-flex items-center gap-1 text-sm font-semibold text-[var(--color-gold)] transition-colors hover:text-[var(--color-gold-dark)]"
+                  >
+                    {resource.cta}
+                    <span aria-hidden="true">&rarr;</span>
+                  </Link>
+                )}
+              </div>
+            </motion.div>
+          ))}
         </div>
       </div>
     </section>

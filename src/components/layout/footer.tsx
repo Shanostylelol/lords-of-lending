@@ -41,10 +41,10 @@ export function Footer() {
               ))}
               <li>
                 <Link
-                  href="/podcast"
+                  href="/the-brokers-codex"
                   className="text-sm text-white/60 transition-colors hover:text-white"
                 >
-                  Podcast
+                  The Broker&apos;s Codex
                 </Link>
               </li>
             </ul>
