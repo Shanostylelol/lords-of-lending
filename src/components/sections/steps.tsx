@@ -7,24 +7,24 @@ import { Button } from "@/components/ui/button";
 const STEPS = [
   {
     number: "01",
-    label: "Your Goals. Your Deal.",
-    title: "Tell us your vision",
+    label: "Learn the Game.",
+    title: "Get SBA Lending Knowledge",
     description:
-      "We start with you. Whether you\u2019re buying a business, acquiring property, or securing working capital, we map the loan strategy to fit your goals. This isn\u2019t a cookie-cutter process\u2014we tailor every move to your deal.",
+      "Dive into our blog, podcast, and video library built by originators who\u2019ve closed hundreds of SBA deals. No fluff\u2014real strategies, real numbers, real talk about what works in small business lending.",
   },
   {
     number: "02",
-    label: "Only What Matters.",
-    title: "Send the Right Documents",
+    label: "Sharpen Your Edge.",
+    title: "Train with Purpose",
     description:
-      "No endless email chains. No missing pieces. We give you a clear, targeted checklist so you know exactly what to send. The right docs, in the right order, so your deal moves forward without delays.",
+      "Our learning platform gives brokers and originators the tools to source, structure, and close SBA loans with confidence. From deal packaging to lender matching\u2014level up your origination game.",
   },
   {
     number: "03",
-    label: "We Drive. You Win.",
-    title: "Let Us Lead the Process",
+    label: "Close More Deals.",
+    title: "Put Knowledge to Work",
     description:
-      "From packaging your deal to navigating underwriting, we handle the details with precision. You stay focused on running your business while we secure the funding and terms that set you up for long-term success.",
+      "Whether you\u2019re a business owner navigating your first SBA loan or an originator building a pipeline\u2014our resources turn knowledge into funded deals and repeat clients.",
   },
 ];
 
@@ -36,7 +36,7 @@ export function Steps() {
     <section className="bg-white px-6 py-16 md:px-8 md:py-24" id="process">
       <div className="mx-auto max-w-6xl" ref={ref}>
         <h2 className="text-center font-[family-name:var(--font-montserrat)] text-3xl font-bold uppercase tracking-tight text-[var(--color-text)] md:text-4xl">
-          Your Loan Journey, Step by Step
+          How We Help You Win
         </h2>
 
         <div className="mt-14 grid gap-10 md:grid-cols-3 md:gap-12">
@@ -63,7 +63,7 @@ export function Steps() {
         </div>
 
         <div className="mt-12 text-center">
-          <Button href="/loans/loan-application">Schedule a Call</Button>
+          <Button href="https://learn.lordsoflending.com">Explore the Learning Platform</Button>
         </div>
       </div>
     </section>

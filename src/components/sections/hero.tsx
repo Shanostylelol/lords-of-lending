@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
 const BADGE_PILLS = [
-  "425+ Businesses Funded",
-  "Funds Guaranteed by the SBA",
-  "Funding Secured",
-  "Stress-Free Process",
-  "Freedom to Focus",
-  "Faster Approvals",
+  "#1 SBA Knowledge Hub",
+  "Broker Training Platform",
+  "18+ Podcast Episodes",
+  "Expert-Led Education",
+  "Tools for Originators",
+  "Free Resources",
 ];
 
 export function Hero() {
@@ -51,10 +51,10 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
         >
-          Business Loans{" "}
+          Master the Art of{" "}
           <br className="hidden sm:block" />
           <span className="text-[var(--color-gold-light)]">
-            Made Simple and Successful
+            SBA Lending
           </span>
         </motion.h1>
 
@@ -65,9 +65,9 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          We remove the guesswork from securing business financing. Our team
-          manages the details, aligns funding with your goals, and keeps your
-          deal moving forward so you can focus on running your business.
+          The #1 resource for small business lending knowledge, tools, and
+          originator training. Whether you&apos;re a business owner seeking funding
+          or a broker sourcing SBA deals — we give you the edge.
         </motion.p>
 
         {/* CTAs */}
@@ -77,31 +77,27 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.5 }}
         >
-          <Button href="/loans/loan-application" className="px-8 py-4 text-base">
-            Start My Loan Application
+          <Button href="https://learn.lordsoflending.com" className="px-8 py-4 text-base">
+            Start Learning Free
           </Button>
-          <Button href="/contact" variant="outline" className="px-8 py-4 text-base border-white/30 text-white hover:bg-white/10 hover:text-white">
-            Schedule a Call
+          <Button href="/podcast" variant="outline" className="px-8 py-4 text-base border-white/30 text-white hover:bg-white/10 hover:text-white">
+            Listen to the Podcast
           </Button>
         </motion.div>
 
-        {/* SBA trust line */}
+        {/* Trust line */}
         <motion.div
-          className="mt-12 flex items-center justify-center gap-3"
+          className="mt-12 flex items-center justify-center gap-6"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.7 }}
         >
-          <Image
-            src="/images/partners/sba-logo-white.svg"
-            alt="US Small Business Administration"
-            width={200}
-            height={40}
-            className="h-7 w-auto opacity-50"
-          />
+          <p className="text-sm font-medium tracking-wide text-white/40">
+            Trusted by 425+ funded businesses
+          </p>
           <span className="text-sm text-white/40">|</span>
           <p className="text-sm font-medium tracking-wide text-white/40">
-            Nationwide SBA PLP Lender
+            $450M+ in deals closed
           </p>
         </motion.div>
       </div>

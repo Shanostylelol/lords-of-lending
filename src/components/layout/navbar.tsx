@@ -83,12 +83,14 @@ export function Navbar() {
               </Tag>
             );
           })}
-          <Link
-            href={SITE_CONFIG.loanAppUrl}
+          <a
+            href="https://learn.lordsoflending.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-md bg-[var(--color-gold)] px-5 py-2.5 font-[family-name:var(--font-montserrat)] text-sm font-semibold text-white transition-all hover:bg-[var(--color-gold-dark)] hover:shadow-md"
           >
-            Get Started
-          </Link>
+            Start Learning
+          </a>
         </div>
 
         {/* Mobile toggle */}
@@ -144,13 +146,15 @@ export function Navbar() {
                 transition={{ delay: NAV_LINKS.length * 0.05 }}
                 className="mt-4"
               >
-                <Link
-                  href={SITE_CONFIG.loanAppUrl}
+                <a
+                  href="https://learn.lordsoflending.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   onClick={() => setMobileOpen(false)}
                   className="block rounded-md bg-[var(--color-gold)] px-4 py-3 text-center font-[family-name:var(--font-montserrat)] text-lg font-semibold text-white"
                 >
-                  Start My Loan
-                </Link>
+                  Start Learning
+                </a>
               </motion.div>
             </div>
           </motion.div>

@@ -47,7 +47,7 @@ export function Resources() {
     <section className="px-6 py-16 md:px-8 md:py-24" ref={ref}>
       <div className="mx-auto max-w-7xl">
         <h2 className="text-center font-[family-name:var(--font-montserrat)] text-3xl font-bold uppercase tracking-tight text-[var(--color-text)] md:text-4xl">
-          Resources to Fund and Grow Your Business
+          Your SBA Knowledge Arsenal
         </h2>
 
         {/* Podcast promo */}
@@ -75,13 +75,13 @@ export function Resources() {
               className="h-8 w-auto"
             />
             <h3 className="mt-4 font-[family-name:var(--font-montserrat)] text-xl font-bold text-white md:text-2xl">
-              Insights for Business Owners
+              The SBA Lending Podcast
             </h3>
             <p className="mt-3 text-sm leading-relaxed text-white/60">
-              Tune in to the Lords of Lending podcast for expert conversations on
-              business financing, growth strategies, and real-world success stories.
-              Whether you&apos;re buying a business or expanding your current one, each
-              episode delivers the knowledge you need to fund your vision.
+              Real conversations about sourcing, structuring, and closing SBA deals.
+              Whether you&apos;re a business owner learning the process or an originator
+              sharpening your craft — every episode is packed with actionable insights
+              from people who&apos;ve been in the trenches.
             </p>
             <div className="mt-6">
               <Button href="/podcast" className="bg-[var(--color-gold-light)] hover:bg-[var(--color-gold)]">
