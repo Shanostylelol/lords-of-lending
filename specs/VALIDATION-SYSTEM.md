@@ -183,18 +183,29 @@ Scan for and ELIMINATE these AI writing patterns:
 
 **Auto-correct:** If links are missing, inject 2-3 contextual internal links in natural positions. Add CTA block if absent.
 
-### Check 6: Image Quality Check
+### Check 6: Image Quality Check — "Lords Ink" Style
 
 - [ ] **Hero image exists** at correct path (`/public/images/{category}/{slug}.webp`)
-- [ ] **File size** under 200KB
-- [ ] **Dimensions** appropriate (1200x630 for OG, or 1024x1024 from generation)
+- [ ] **File size** under 200KB (WebP compressed)
+- [ ] **Dimensions** 1200x630 (OG standard, converted from 1792x1024 source)
 - [ ] **Alt text** is descriptive and contains a keyword
-- [ ] **On brand:** Dark navy/gold palette, professional editorial aesthetic
-- [ ] **No text in image** (except quote cards)
-- [ ] **No AI artifacts:** No extra fingers, garbled text, distorted faces
-- [ ] **Relevant to article topic**
+- [ ] **Art style matches:** Hand-drawn ink illustration on cream/parchment (NOT photorealistic)
+- [ ] **Crosshatch/ink texture visible:** Pen strokes, hatching, sketch lines present
+- [ ] **Background:** Cream, off-white, or parchment (not dark, not pure white)
+- [ ] **Accent color:** Only ONE bold accent color, from the approved palette
+- [ ] **No text in image:** No words, letters, numbers, logos
+- [ ] **No AI artifacts:** No garbled text, no extra fingers, no distorted anatomy
+- [ ] **Metaphor is relevant:** Scene clearly relates to the article topic
+- [ ] **Consistent with existing blog images:** Would look natural alongside current articles
 
 **Auto-correct:** If image fails quality check, regenerate with refined prompt. Log the failure and new prompt in `logs/image-log.md`. Maximum 3 regeneration attempts before flagging for manual review.
+
+**Common regeneration fixes:**
+- "Too photorealistic" → Add "hand-drawn pen-and-ink, visible crosshatch strokes, sketch-like"
+- "Background too dark" → Add "on cream/off-white parchment paper, light background"
+- "Too many colors" → Add "ONLY black ink and [one accent color], no other colors"
+- "Has text/words" → Add "absolutely no text, no words, no letters, no numbers anywhere"
+- "Too clean/digital" → Add "rough ink texture, imperfect lines, visible pen strokes, paper grain"
 
 ### Check 7: Technical Build Check
 
@@ -366,27 +377,85 @@ in this article, we will
 
 ## Image Generation Brand Guide
 
-### DALL-E Prompt Template
+### DALL-E Prompt Template — "Lords Ink" Style
+
+The existing blog images use a distinctive **hand-sketched editorial ink illustration** style.
+All new images MUST match this aesthetic. Never generate photorealistic images.
+
+**Reference images (in `/public/images/blog/`):**
+- `cant-pay-loan.webp` — Man drowning, reaching for ship. Teal ink + cream.
+- `five-myths.webp` — Silhouetted warriors on hill, red sun. Black ink + cream + bold red.
+- `lenders-expect.webp` — Two figures in coats studying a red building. Black/red ink on cream.
+- `business-worth.webp` — Man contemplating, whimsical. Black + red on cream.
+- `bad-credit.webp` — Noir man with clock. Bold black-and-white ink, high contrast.
+- `startups-denied.webp` — Stern old man pointing from desk. Black + red crosshatch on parchment.
+- `sba-financing.webp` — Silhouette on mountaintop, city skyline. Warm amber/orange gradient.
+- `attention-leverage.webp` — Flat graphic, scale icon. Dark teal + orange type.
+
+**Style rules extracted from these images:**
+1. **Medium:** Pen-and-ink crosshatch illustration — visible ink strokes, hatching, sketch lines
+2. **Background:** Cream, off-white, or parchment paper texture (never pure white, never dark)
+3. **Ink color:** Black as the dominant line color
+4. **Accent color:** ONE bold accent per image, chosen from:
+   - Warm gold / amber (#AA712C, #E2A970) — for growth, opportunity, success themes
+   - Deep red / crimson (#B22222) — for urgency, danger, authority themes
+   - Steel teal (#4A7C8A) — for calm, analytical, process themes
+   - Rich orange (#D2691E) — for energy, ambition themes
+5. **Subjects:** Figurative and metaphorical — people in narrative scenes representing the article concept
+6. **Composition:** Strong silhouettes, dramatic framing, editorial magazine quality
+7. **Mood:** Vintage editorial illustration, sometimes dark/serious, sometimes whimsical
+8. **Never:** Photorealistic, 3D rendered, clip art, stock photo aesthetic, neon colors, gradients on figures
+
+**Master prompt template:**
 
 ```
-Professional editorial photograph for a financial services blog article about [TOPIC].
-Style: Dark, moody, premium — deep navy (#0B1D33) and warm gold (#AA712C) color palette.
-Setting: [SPECIFIC CONTEXT — e.g., "modern office with document signing", "restaurant interior"].
-Mood: Authoritative, trustworthy, sophisticated. No people's faces visible.
-Composition: Clean, minimal, editorial magazine quality.
-No text, no logos, no watermarks. No clip art or illustration style.
-Photorealistic, high contrast, shallow depth of field.
+Hand-drawn editorial ink illustration for an article about [TOPIC].
+Style: Vintage pen-and-ink crosshatch illustration on cream parchment paper.
+Technique: Visible ink pen strokes, crosshatching for shadows, fine line work.
+Scene: [SPECIFIC METAPHORICAL SCENE — e.g., "a figure in a suit standing at a crossroads
+with one path leading to a grand bank building and the other to a crumbling bridge"].
+Color: Black ink lines with [ACCENT COLOR — choose one: warm gold, deep crimson, steel teal,
+or rich amber] as the only color accent, applied selectively to key elements.
+Background: Cream/off-white parchment paper texture with subtle aging.
+Mood: [MOOD — e.g., "serious and contemplative", "urgent and dramatic", "quietly triumphant"].
+No text, no words, no letters, no numbers, no logos, no watermarks.
+No photorealism. No digital clean lines. Must look hand-drawn with visible ink texture.
+Composition: Widescreen editorial format, strong focal point, negative space on one side.
 ```
 
-### Quality Criteria
-- Professional editorial look (not stock photo generic)
-- Dark/moody tone matching site palette
-- No visible faces (avoids uncanny valley)
-- No text overlays
-- Clean composition
-- Relevant to article topic
+**Accent color selection guide:**
+| Article Theme | Accent Color | Hex |
+|---|---|---|
+| Success, growth, opportunity, funding | Warm gold / amber | #AA712C or #D4A04A |
+| Risk, urgency, danger, denial, default | Deep crimson / red | #B22222 or #CC3333 |
+| Analysis, process, structure, training | Steel teal / blue-gray | #4A7C8A or #5B8A9A |
+| Energy, ambition, predictions, future | Rich orange / burnt sienna | #D2691E or #CC7733 |
+| Authority, law, compliance, policy | Dark burgundy / oxblood | #722F37 or #800020 |
+
+### Image Pipeline (Tested & Working)
+1. Generate via DALL-E 3 at 1792x1024 HD quality → saves as PNG (~2-3MB)
+2. Convert to WebP at 1200x630 via `npx sharp-cli -i [input.png] -o [output.webp] -- resize 1200 630 --withoutEnlargement`
+3. Result: ~50-80KB WebP (well under 200KB threshold)
+4. Delete source PNG after conversion
+5. Verify visual quality by reading the WebP — check for:
+   - Hand-drawn ink style (not photorealistic)
+   - Cream/parchment background
+   - Correct accent color for the theme
+   - Relevant metaphorical scene
+   - No garbled text or artifacts
+6. If quality fails, regenerate with refined prompt (max 3 attempts)
+
+### Quality Criteria — "Lords Ink" Style
+- Hand-drawn pen-and-ink illustration (NOT photography, NOT digital clean art)
+- Crosshatch texture, visible ink strokes, sketch quality
+- Cream/parchment paper background
+- Black ink lines + ONE bold accent color
+- Figurative, metaphorical, narrative scene
+- No text, no logos, no watermarks
+- Vintage editorial illustration mood
+- Relevant metaphor for the article topic
 
 ### Fallback Order
-1. **DALL-E 3** (primary — best quality, full control over save location)
-2. **Gemini** (fallback — good quality, less control)
+1. **DALL-E 3** (primary — best quality, full control over save location and style)
+2. **Gemini** (fallback — good quality, less control over save location)
 3. **Nano-Banana** (last resort)
