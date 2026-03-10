@@ -20,8 +20,13 @@ export const metadata: Metadata = {
 };
 
 export default function PodcastPage() {
-  const latestEpisode = PODCAST_EPISODES[0];
-  const remainingEpisodes = PODCAST_EPISODES.slice(1);
+  /* Pick the most recent episode that has a live Buzzsprout player */
+  const featuredEpisode = PODCAST_EPISODES.find(
+    (ep) => !ep.buzzsproutId.startsWith("TBD"),
+  ) ?? PODCAST_EPISODES[0];
+  const remainingEpisodes = PODCAST_EPISODES.filter(
+    (ep) => ep.slug !== featuredEpisode.slug,
+  );
 
   return (
     <main id="main-content" className="bg-[var(--color-dark)] pt-24 pb-16 md:pt-32 md:pb-24">
@@ -83,7 +88,7 @@ export default function PodcastPage() {
             Latest Episode
           </p>
           <div className="flex flex-col gap-6 sm:flex-row sm:items-start">
-            <Link href={`/${latestEpisode.slug}`} className="shrink-0">
+            <Link href={`/${featuredEpisode.slug}`} className="shrink-0">
               <Image
                 src="/images/podcast/cover-art.webp"
                 alt=""
@@ -94,29 +99,29 @@ export default function PodcastPage() {
             </Link>
             <div className="min-w-0 flex-1">
               <time className="text-xs text-white/40">
-                {new Date(latestEpisode.date).toLocaleDateString("en-US", {
+                {new Date(featuredEpisode.date).toLocaleDateString("en-US", {
                   day: "numeric",
                   month: "long",
                   year: "numeric",
                 })}
               </time>
               <h2 className="mt-1 font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
-                <Link href={`/${latestEpisode.slug}`} className="hover:text-[var(--color-gold)] transition-colors">
-                  {latestEpisode.title}
+                <Link href={`/${featuredEpisode.slug}`} className="hover:text-[var(--color-gold)] transition-colors">
+                  {featuredEpisode.title}
                 </Link>
               </h2>
               <p className="mt-2 text-sm text-white/60">
-                {latestEpisode.excerpt}
+                {featuredEpisode.excerpt}
               </p>
               <div className="mt-4">
                 <iframe
-                  src={`https://www.buzzsprout.com/2315806/${latestEpisode.buzzsproutId}?client_source=small_player&iframe=true`}
+                  src={`https://www.buzzsprout.com/2315806/${featuredEpisode.buzzsproutId}?client_source=small_player&iframe=true`}
                   loading="lazy"
                   width="100%"
                   height="200"
                   frameBorder="0"
                   scrolling="no"
-                  title={latestEpisode.title}
+                  title={featuredEpisode.title}
                   className="rounded-lg"
                 />
               </div>
@@ -137,7 +142,7 @@ export default function PodcastPage() {
                 href={`/${ep.slug}`}
                 className="group overflow-hidden rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] transition-all hover:border-[var(--color-gold)]/40 hover:shadow-lg hover:shadow-[var(--color-gold)]/5"
               >
-                <div className="aspect-square overflow-hidden">
+                <div className="relative aspect-square overflow-hidden">
                   <Image
                     src="/images/podcast/cover-art.webp"
                     alt=""
@@ -145,6 +150,11 @@ export default function PodcastPage() {
                     height={400}
                     className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />
+                  {ep.buzzsproutId.startsWith("TBD") && (
+                    <span className="absolute top-2 right-2 rounded-md bg-[var(--color-gold)] px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-white">
+                      Coming Soon
+                    </span>
+                  )}
                 </div>
                 <div className="p-4">
                   <time className="text-xs text-white/40">
