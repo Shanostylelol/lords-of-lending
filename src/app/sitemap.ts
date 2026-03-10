@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
-import { BLOG_POSTS, PODCAST_EPISODES, SITE_CONFIG } from "@/lib/constants";
+import { BLOG_POSTS, PODCAST_EPISODES, PILLAR_ARTICLES, SUPPORTING_ARTICLES, SITE_CONFIG } from "@/lib/constants";
+import { STATE_DATA } from "@/lib/state-data";
+import { INDUSTRY_DATA } from "@/lib/industry-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = SITE_CONFIG.url;
@@ -35,5 +37,53 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...blogPages, ...podcastPages];
+  const pillarPages: MetadataRoute.Sitemap = PILLAR_ARTICLES.map((a) => ({
+    url: `${base}/${a.slug}`,
+    lastModified: new Date(a.date),
+    changeFrequency: "monthly" as const,
+    priority: 0.9,
+  }));
+
+  const supportingPages: MetadataRoute.Sitemap = SUPPORTING_ARTICLES.filter(
+    (a) => a.category === "supporting"
+  ).map((a) => ({
+    url: `${base}/${a.slug}`,
+    lastModified: new Date(a.date),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  const trainingPages: MetadataRoute.Sitemap = SUPPORTING_ARTICLES.filter(
+    (a) => a.category === "training"
+  ).map((a) => ({
+    url: `${base}/${a.slug}`,
+    lastModified: new Date(a.date),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  const statePages: MetadataRoute.Sitemap = STATE_DATA.map((s) => ({
+    url: `${base}/sba-loans-in-${s.slug}`,
+    lastModified: siteLastModified,
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
+
+  const industryPages: MetadataRoute.Sitemap = INDUSTRY_DATA.map((i) => ({
+    url: `${base}/sba-loans-for-${i.slug}`,
+    lastModified: siteLastModified,
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
+
+  return [
+    ...staticPages,
+    ...pillarPages,
+    ...blogPages,
+    ...supportingPages,
+    ...trainingPages,
+    ...podcastPages,
+    ...statePages,
+    ...industryPages,
+  ];
 }

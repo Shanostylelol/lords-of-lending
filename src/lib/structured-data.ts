@@ -1,5 +1,5 @@
 import { SITE_CONFIG, STATS, FAQ } from "./constants";
-import type { BlogPost } from "./constants";
+import type { BlogPost, ContentMeta } from "./constants";
 
 const ORG = {
   "@type": "Organization",
@@ -130,6 +130,45 @@ export function breadcrumbJsonLd(
       position: i + 1,
       name: item.name,
       item: `${SITE_CONFIG.url}${item.href}`,
+    })),
+  };
+}
+
+const AUTHOR_NAMES: Record<ContentMeta["author"], string> = {
+  shane: "Shane Pierson",
+  steph: "Stephanie Castagnier Dunn",
+  brian: "Brian Congelliere",
+};
+
+export function articleJsonLdWithAuthor(meta: ContentMeta) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: meta.title,
+    description: meta.excerpt,
+    image: `${SITE_CONFIG.url}${meta.image}`,
+    datePublished: new Date(meta.date).toISOString(),
+    author: {
+      "@type": "Person",
+      name: AUTHOR_NAMES[meta.author],
+      url: SITE_CONFIG.url,
+    },
+    publisher: ORG,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${SITE_CONFIG.url}/${meta.slug}`,
+    },
+  };
+}
+
+export function articleFaqJsonLd(questions: { q: string; a: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: questions.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: { "@type": "Answer", text: item.a },
     })),
   };
 }

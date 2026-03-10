@@ -96,4 +96,4 @@ If you want to grow in this business, like really grow, not just stack applicati
 
 That's the difference between being a vendor... And being a trusted voice in someone's most important financial move.
 
-If this resonated, and if you're building teams, managing SBA deals, or trying to stand out in a commoditized market, I'd love to hear how you're applying this. Let's elevate the craft, not just the close.
+If this resonated, and if you're building teams, managing SBA deals, or trying to stand out in a commoditized market, I'd love to hear how you're applying this. Let's raise the bar on the craft, not just the close.

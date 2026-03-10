@@ -599,10 +599,10 @@ export default function DualPathHomePage() {
             initial={{ y: "-100%", opacity: 0, height: "50%" }}
             animate={{ y: "0%", opacity: leftO, height: topH }}
             transition={{ duration: 0.95, ease: EASE_EXPO }}
-            className="relative flex w-full flex-none flex-col items-center justify-center overflow-hidden px-6 py-10"
+            className="relative flex w-full flex-none flex-col items-center justify-center overflow-hidden px-6 py-6"
             style={{ backgroundColor: EGGPLANT }}
           >
-            <div className="relative z-10 max-w-sm text-center">
+            <div className="relative z-10 flex max-w-sm flex-col items-center text-center">
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -734,7 +734,7 @@ export default function DualPathHomePage() {
           className="absolute bottom-6 left-1/2 z-30 -translate-x-1/2 md:bottom-8"
         >
           <p
-            className="font-[family-name:var(--font-montserrat)] text-[10px] font-medium tracking-[0.3em] uppercase md:text-xs"
+            className="whitespace-nowrap font-[family-name:var(--font-montserrat)] text-[8px] font-medium tracking-[0.2em] uppercase sm:text-[10px] sm:tracking-[0.3em] md:text-xs"
             style={{ color: DECO_GOLD }}
           >
             Purveyors of Honest Capital

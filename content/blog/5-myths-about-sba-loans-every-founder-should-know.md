@@ -91,3 +91,11 @@ The repayment terms matter. The ability to include working capital, goodwill, an
 But it's not for quick flips. It's not for low-margin businesses that are barely breaking even. And it's not for people who are hoping capital will solve problems they haven't fixed internally. It's built for owners who know what they're doing, who can document it, and who have a plan for the money that produces a measurable return.
 
 Use SBA financing when you need to move big levers and you have the track record to back it up. That's when it works best. It's not a shortcut. It's a tool for disciplined operators.
+
+---
+
+## Keep Learning
+
+If you want to understand how the SBA guarantee actually works — and why the distinction matters — our [SBA Lending 101 guide](/sba-lending-101-foundation) breaks down the mechanics in plain English.
+
+If you've already applied and been turned down, our guide on [what to do when your SBA loan gets denied](/sba-loan-denied) covers the top denial reasons and when it makes sense to try again versus try a different lender.

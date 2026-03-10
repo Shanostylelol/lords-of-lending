@@ -95,3 +95,13 @@ On the deal side, get familiar with what quality looks like. If you're working w
 The cleaner your deal and the tighter your documentation, the faster your loan can move. But if you show up unprepared and expect the lender to guide you through every step, you'll lose time and possibly the deal. Preparation isn't about chasing perfection. It's about respect--for the process, for the lender's time, and for the size of the commitment you're about to make.
 
 Use software like [QuickBooks](https://quickbooks.intuit.com/) or [Xero](https://www.xero.com/us/) to maintain lender-ready financials and make your acquisition package airtight.
+
+---
+
+## Go Deeper
+
+If you're buying in the food-service industry, the structuring challenges are unique and the failure rate is brutally high. [Episode 14: Building a Successful Restaurant](/building-a-successful-restaurant-lol-14) covers the economics, the margin traps, and what the Hannemann family learned building Seven Brothers from a $300-a-day hole in the wall to 14 locations.
+
+For the workforce evaluation that most buyers skip entirely, [Episode 4: Buying and Scaling a Business](/buying-and-scaling-a-business-lol-4) covers how to assess the people you're inheriting — who your star performers are, who is dead weight, and why throwing bodies at growth is almost always the wrong first move.
+
+And if you're holding off because rates feel too high, [Episode 13: Do Interest Rates Really Matter?](/do-interest-rates-really-matter-lol-13) runs the real math on what a rate cut actually saves on a million-dollar deal. The answer might change your timeline.

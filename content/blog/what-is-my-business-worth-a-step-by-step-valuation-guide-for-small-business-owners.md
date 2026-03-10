@@ -22,7 +22,7 @@ Here is a way to think about it: Buyers don't buy what you've done. They buy wha
 
 And they're going to measure that with numbers. It will mostly be your profits, how reliable those profits are, and how risky it feels to take over. That's why understanding the difference between revenue and profit is so important.
 
-Just because your business does $1 million in sales doesn't mean it's worth anything close to $1 million. If you keep $150,000 of that at the end of the day, and you're running everything yourself, then that $150K (plus how transferable it is) is what buyers are actually buying.
+Just because your business does $1 million in sales doesn't mean it's worth anything close to $1 million. If you keep $150,000 of that after everything's paid, and you're running everything yourself, then that $150K (plus how transferable it is) is what buyers are actually buying.
 
 So before we get into formulas, multiples, and all that jazz, lock this in: The value of your business is rooted in how much profit it can deliver to someone else without them having to become you to get it.
 
@@ -34,7 +34,7 @@ In short: your business isn't worth what you think it's worth. It's worth what s
 
 That's the first and most important rule in business valuation. Everything else is theory until a buyer shows up and puts money on the table.
 
-You can build spreadsheets, come up with your "dream number," or ask your cousin's accountant for an opinion, but at the end of the day, value is a market-driven thing. It's not about how much effort you've poured in, how many years you've been open, or what you _want_ to get. It's about risk and return.
+You can build spreadsheets, come up with your "dream number," or ask your cousin's accountant for an opinion, but when you strip it all down, value is a market-driven thing. It's not about how much effort you've poured in, how many years you've been open, or what you _want_ to get. It's about risk and return.
 
 So let's talk about how buyers see risk.
 
@@ -473,7 +473,7 @@ If you're dealing with legal matters (divorce, partnership disputes, ESOPs, esta
 
 **What to expect:**
 
-- Deep dive into financials, industry risk, economic trends
+- Detailed review of financials, industry risk, economic trends
 - Formal report, sometimes 30 to 60 pages
 - Pricing usually starts around $4K and can go way higher
 - Required for IRS reporting, legal settlements, and complex exits

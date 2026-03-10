@@ -1,4 +1,4 @@
-When a small business owner considers expansion, the first thought is often: How do I afford this? Traditionally, buying another business or expanding your current operations meant substantial upfront cash. But what if there was a way to buy another business with zero down? Enter the SBA 7(a) loan, specifically designed to facilitate such expansions, sometimes even providing 100% financing.
+When a small business owner considers expansion, the first thought is often: How do I afford this? Traditionally, buying another business or expanding your current operations meant substantial upfront cash. But what if there was a way to buy another business with zero down? Enter the SBA 7(a) loan, specifically designed to fund such expansions, sometimes even providing 100% financing.
 
 ## Understanding SBA 7(a) Loans
 
@@ -106,7 +106,7 @@ If your business doesn't quite qualify for 100% financing, a highly leveraged op
 
 - Instead of 100% financing, you contribute $40,000 (10%) upfront.
 - The SBA-backed loan covers the remaining $360,000.
-- Your modest investment significantly lowers lender risk, enhancing approval odds.
+- Your modest investment significantly lowers lender risk, improving approval odds.
 
 **Benefits for You:**
 
@@ -155,7 +155,7 @@ After approval:
 
 ## Final Thoughts: Growth is Within Reach
 
-Expanding your business through SBA 7(a) loans, especially with potential 100% financing, can feel like a hidden secret. The SBA's recent updates to SOP 50 10 8 further clarify and streamline this powerful growth option.
+Expanding your business through SBA 7(a) loans, especially with potential 100% financing, can feel like a hidden secret. The SBA's recent updates to SOP 50 10 8 further clarify and simplify this powerful growth option.
 
 However, remember:
 

@@ -47,3 +47,9 @@ working-memory.md
 # content staging
 _content/
 _research/
+
+# test/archive images (generated during style exploration)
+public/images/test/
+
+.vercel
+.env*.local
