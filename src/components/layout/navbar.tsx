@@ -63,17 +63,26 @@ export function Navbar() {
 
         {/* Desktop nav */}
         <div className="hidden items-center gap-6 md:flex">
-          {NAV_LINKS.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={`font-[family-name:var(--font-montserrat)] text-sm font-medium transition-colors hover:text-[var(--color-gold)] ${
-                isLight ? "text-[var(--color-text)]" : "text-white/80"
-              }`}
-            >
-              {link.label}
-            </Link>
-          ))}
+          {NAV_LINKS.map((link) => {
+            const isGlow = "glow" in link && link.glow;
+            const isExternal = "external" in link && link.external;
+            const Tag = isExternal ? "a" : Link;
+            const extraProps = isExternal
+              ? { target: "_blank", rel: "noopener noreferrer" }
+              : {};
+            return (
+              <Tag
+                key={link.href}
+                href={link.href}
+                {...extraProps}
+                className={`font-[family-name:var(--font-montserrat)] text-sm font-medium transition-colors hover:text-[var(--color-gold)] ${
+                  isLight ? "text-[var(--color-text)]" : "text-white/80"
+                } ${isGlow ? "relative after:absolute after:-inset-1.5 after:rounded-full after:bg-[var(--color-gold)]/15 after:blur-sm after:transition-opacity hover:after:bg-[var(--color-gold)]/25" : ""}`}
+              >
+                {link.label}
+              </Tag>
+            );
+          })}
           <Link
             href={SITE_CONFIG.loanAppUrl}
             className="rounded-md bg-[var(--color-gold)] px-5 py-2.5 font-[family-name:var(--font-montserrat)] text-sm font-semibold text-white transition-all hover:bg-[var(--color-gold-dark)] hover:shadow-md"
@@ -105,22 +114,30 @@ export function Navbar() {
             transition={{ duration: 0.2 }}
           >
             <div className="flex flex-col gap-1 px-6 py-6">
-              {NAV_LINKS.map((link, i) => (
-                <motion.div
-                  key={link.href}
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: i * 0.05 }}
-                >
-                  <Link
-                    href={link.href}
-                    onClick={() => setMobileOpen(false)}
-                    className="block rounded-md px-4 py-3 font-[family-name:var(--font-montserrat)] text-lg font-medium text-[var(--color-text)] transition-colors hover:bg-[var(--color-surface)]"
+              {NAV_LINKS.map((link, i) => {
+                const isExternal = "external" in link && link.external;
+                const isGlow = "glow" in link && link.glow;
+                const Tag = isExternal ? "a" : Link;
+                const extraProps = isExternal
+                  ? { target: "_blank", rel: "noopener noreferrer" }
+                  : {};
+                return (
+                  <motion.div
+                    key={link.href}
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: i * 0.05 }}
                   >
-                    {link.label}
-                  </Link>
-                </motion.div>
-              ))}
+                    <Tag
+                      href={link.href}
+                      onClick={() => setMobileOpen(false)}
+                      className={`block rounded-md px-4 py-3 font-[family-name:var(--font-montserrat)] text-lg font-medium text-[var(--color-text)] transition-colors hover:bg-[var(--color-surface)] ${isGlow ? "text-[var(--color-gold)]" : ""}`}
+                    >
+                      {link.label}
+                    </Tag>
+                  </motion.div>
+                );
+              })}
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
