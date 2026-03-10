@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 210">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 16px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #231f20;
+      }
+
+      .cls-1, .cls-4 {
+        font-family: Abiah-Bold, Abiah;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-family: BrandonGrotesque-Regular, 'Brandon Grotesque';
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 70px;
+      }
+
+      .cls-3 {
+        font-family: BrandonGrotesque-RegularItalic, 'Brandon Grotesque';
+        font-style: italic;
+      }
+
+      .cls-4 {
+        font-size: 12px;
+      }
+
+      .cls-5 {
+        fill: #f9fdfe;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-5" x="0" width="210" height="210"/>
+  <text class="cls-3" transform="translate(118.71 135.55)"><tspan x="0" y="0">Aa</tspan></text>
+  <text class="cls-2" transform="translate(18.21 135.55)"><tspan x="0" y="0">Aa</tspan></text>
+  <text class="cls-4" transform="translate(138.06 162.77)"><tspan x="0" y="0">ITALIC</tspan></text>
+  <text class="cls-4" transform="translate(32.45 162.77)"><tspan x="0" y="0">REGULAR</tspan></text>
+  <text class="cls-1" transform="translate(28.21 34.19)"><tspan x="0" y="0">BRANDON GROTESQUE</tspan></text>
+</svg>

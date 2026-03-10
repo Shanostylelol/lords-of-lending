@@ -240,6 +240,8 @@ export const BLOG_POSTS: BlogPost[] = [
 ];
 
 export const PODCAST_EPISODES = [
+  { slug: "why-equity-not-cash-flow-makes-or-breaks-sba-deals-lol-20", title: "Why Equity (Not Cash Flow) Makes or Breaks SBA Deals | LoL #20", date: "2026-03-04", excerpt: "Former SBA deputy director Lance Sexton reveals why equity injection—not cash flow—is the #1 deal killer, and what happens when thin deals go to liquidation.", buzzsproutId: "TBD-20" },
+  { slug: "the-year-of-discipline-lol-19", title: "The Year of Discipline | LoL #19", date: "2026-02-18", excerpt: "2026 is the year of discipline. The Lords break down why thin deals are dying, equity injection matters more than ever, and ownership must be earned.", buzzsproutId: "TBD-19" },
   { slug: "2026-look-ahead-and-prediction-lol-18", title: "2026 Look Ahead and Predictions | LoL #18", date: "2026-02-04", excerpt: "Economic forecast for small businesses in 2026, increased borrowing, and reduced equity trends.", buzzsproutId: "18585787" },
   { slug: "2025-lessons-and-reflections-lol-17", title: "2025 Lessons and Reflections | LoL #17", date: "2026-01-28", excerpt: "What happens when a business owner drops hints about selling\u2014or buying.", buzzsproutId: "18585460" },
   { slug: "when-a-business-owner-asks-you-to-dance-lol-16", title: "When a Business Owner Asks You to Dance | LoL #16", date: "2025-10-08", excerpt: "Reading signals from business owners and navigating the dance of deal-making.", buzzsproutId: "17977047" },

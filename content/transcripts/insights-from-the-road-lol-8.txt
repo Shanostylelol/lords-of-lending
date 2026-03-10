@@ -1,0 +1,524 @@
+﻿Road Trippin_1
+===
+
+
+[00:01:00] Shane: Welcome to another exciting episode of Lords of Lending. As you can see, we're on a road trick, and this is no longer a vacation. It's a quest. It's a quest for fun. Going into probably, I don't know, day five of this
+
+
+[00:01:19] extravaganza, you might call it. We're, uh, back to back trade show, ended up at, uh, some business broker conventions. One is a trans world conference that was in Orlando, followed by. IBBA, the International Business Broker Association, and, uh, off to now the, uh, MUR Murphy Business Sales Convention.
+
+
+[00:01:42] So we are, uh, we're on the road to figured why the hell not just go ahead and record and, and talk about some of the things that we were able to pick up while we were on this, uh, on this road trip. So. Let's, let's bring up a little bit of what we discussed yesterday. We, we kinda had a round table last night and we thought about what were some things that we saw were universally, universally discussed and un universally desired, um, by almost anybody that we talked to in the, in the business broker space, both from what the customer needs and also from what the, uh, the business brokers themselves would want.
+
+
+[00:02:15] So, Brian, do you recall some of the things we brought up? 
+
+
+[00:02:17] Brian: I think. From a business broker standpoint, a lot of people seem to be very focused on AI and using AI to optimize what they currently do and how they can use it to help their clients. There was seem to be a big focus on how can we provide more value for our clients and really.
+
+
+[00:02:44] Extend our reach, you know, 1.5 times what we can do as an individual utilizing technology and artificial intelligence. 
+
+
+[00:02:53] Shane: It's funny if you saw all the top, top guys in the game, there was, um, uh, the, the guys who were at the Trans World Show and in particular that all of the top performers you go up to, it didn't matter what age they were in.
+
+
+[00:03:03] I mean, some, I mean, some of these guys have been in this industry for 25, 30 years and they're the most spry and nimble on, on all of this technology, like the most up to date. More so than anybody that I've ever really talked to. Yeah. From loan brokers to residential mortgage, bro, like these guys were just on their game on how to, how to integrate technology into understanding how to download white papers and, um, upload 'em to an AI that turns it into a podcast and put it on their seat with, or their site with back links to optimize their SEO.
+
+
+[00:03:32] Like it was this whole pathway of hearing all the, the creative ways that business brokers were, were, um, kind of building traffic and flow of new customers, new clients, keeping themselves relevant. Today's world is really impressive because what's some of the things you picked up on? Steph
+
+
+[00:03:49] doesn't even care. I have to, she's like, yeah, you got it. What
+
+
+[00:03:56] Brian: you, you had some good ones last months ago. No. Yeah, 
+
+
+[00:03:58] Steph: no, it's all good points. It's true, I believe. I think that has been really apparent, and I think the overall theme is how do we add value and enhance productivity. You're right guys that have been in the business forever thinking about how could we add value more efficiently?
+
+
+[00:04:16] It's always been about adding value, right? We always have talked about adding value and the human connection and relationships and response times, all that good stuff. But now it's how to add value to these buyers and borrowers lives through technology and efficiency. So that's exciting and fun to think about.
+
+
+[00:04:33] Shane: Well, and we live in a highly transactional environment as SBA lenders and a very commoditized product one that we have too many banks that offer the same exact thing. One of the trade shows that we were at the IBBA show in particular, there's like 40 banks there all doing exactly the same thing with maybe a little bit of twist, but to try to find a way to stand out in that environment, um, is, is extremely difficult.
+
+
+[00:04:57] I mean, it's like, yeah, to the point where people would walk by and you'd say like, well, what makes you different? You're looking at him like, that's about it. This,
+
+
+[00:05:07] this freaking guy. Yeah. That glorious person back there. Like it, it was literally the, about the only selling point you can come up with because credit boxes and what the, what banks use to decide on whether or not a loan works have small nuance difference. But what the general players, if you're catering to the particular market, we're all playing the same game.
+
+
+[00:05:26] So the only thing we could think about is that all these guys were really looking for more value. In, in their space, how, how can we, how can we give more than just a loan to a, a business broker? And so during a presentation that we did, um, we, we talked about a business plan and how a customer might be able to use, use, not even just for a business plan, but use AI to be able to help them explain to a bank why they might be a good fit for the business they're trying to buy.
+
+
+[00:05:54] And it's something that any person who's going out to buy a business, when you look at something online, an online business listing. Like there's something about that that intrigued you. You thought, Hey, I could do this. I'm a tech guy, but I know I can go run a restaurant. Well, why the hell do you think you could run a restaurant?
+
+
+[00:06:08] That's gonna be the first thing that comes out of a credit guy's mouth when he looks at somebody that's going to buy a business. Is, why do you think you can run this? No, God, please. No. No, no. No. And so, you know, we've, we created a little tool that, that allowed people to kind of do that and it would build out a business plan.
+
+
+[00:06:27] Uh, you know, albeit not the most thorough, but enough to help help a customer kind of think through some of the like, top 10 questions that a bank would wanna know. You could understand when going into buy something like that. So we saw tons of interest on that, let alone all the other garbage we talked about with the SBA and all the fun things that are coming up that are changing.
+
+
+[00:06:45] And so, as a, as the three of us, we've been thinking about what do we need to do? To be able to pull in new and exciting things to, to really help these guys be more successful beyond just putting money on the table. So yeah, let's talk a little bit about other, the value adds that, that a small business owner might be able to actually, or not a small business owner that a lender might be able to give to a business broker to help them be successful and then also use that to tailor towards the small business owner themselves.
+
+
+[00:07:13] Brian: I think on the vein, in the vein of artificial intelligence. Lenders have a lot of knowledge and experience in their space, and I think you can put that knowledge and experience to work by utilizing, for example, open AI Chat, GPT. They allow you to create your own GPTs, your own agents, and uploading your own documents to that.
+
+
+[00:07:40] Walking through the configurator that they have and really creating something that's helpful. I did a podcast a few weeks ago, a webinar a few weeks ago, and in preparation for it made a quick and dirty GPT uploaded. The new SOP uploaded some other documents, uh, just about SBA loans in general, and with the general knowledge that these large language models are trained on plus.
+
+
+[00:08:09] Industry knowledge that you actually feed it. It did a pretty decent job of answering basic questions and structuring deals, which is more than what some residential mortgage brokers or other folks, borrowers who don't know much about SBA loans. It's more than they walk in the door with. Yeah. So it's, it is actually helpful and provides 'em a resource that they can hop on whenever.
+
+
+[00:08:36] Get answers to their questions, and if they have obviously more detailed questions and they wanna speak to somebody, then uh, you gotta make yourself available. But I think that's a tool that people can start putting together. 
+
+
+[00:08:50] Shane: Well, we're gonna, we're gonna throw up some of these things on lords of lending.com, so stay tuned for, uh, you know, and subscribe to us to be able to follow once, once all that goes live.
+
+
+[00:09:00] A couple of these tools that we've been developing that we know have helped our customers. Along with putting up templates, things that even if you're not going to get a loan, can help you just begin to structure logically. What you're doing from an investment standpoint of, of buying a business or, um, even trying to expand your business if you own one.
+
+
+[00:09:17] Uh, Steph yesterday you had mentioned that something that intrigued me is like the shift that the world went to. You know, the everything goes rope. Like remote from Covid and, and everyone's working all alone. And it seems like there's this new desire for like, in-person engagement, even with us as vendors, as a lender for these business brokers.
+
+
+[00:09:35] Like that was, a lot of these guys want, they want people to come back into the office to talk to 'em. Not necessarily we're gonna work there, but What was, what was the biggest take that you had with, I forgot which guy it was. Were pastor on the 
+
+
+[00:09:46] Steph: Yeah. Yeah. There is a a, we've come full circle, I think, on people just wanting to work virtually.
+
+
+[00:09:54] We now, there's a, a real thirst for relationships and that, and again, that goes back to the value add, right? What makes us different? Well, what makes anything different is the relationship and the, and the, the being able to exchange valuable information, live with human beings. 'cause there's so much, now we're flooded with all of the AI technology that's out there doing biz dev and out there trying to get client engagement.
+
+
+[00:10:22] Well, you know, I think everyone now is pretty skeptic. When you get any type of, uh, someone reaching out to you, you, you, the immediate response is, oh, is this AI driven and is this actually a real person? Right? So I think it's come 180 on people wanna deal with real people and have those real exchanges of information and, and idea generation.
+
+
+[00:10:49] I think this week was really exciting because people just wanna. Schedule more in-person meetings. Let's get together, let's talk this through. How could we be better for this whole experience? Right. And uh, one other interesting point is these business brokers were talking about how they're trying to add value is not just on the actual transaction, but it's the ongoing resources that we provide to business owners.
+
+
+[00:11:13] And that's something I'm really interested in is what is the ongoing value add, because that really. Creates an environment for real engagement because it shows that we really care for the long-term viability and not just the actual transaction itself. So if we can incorporate a AI into the tools that provide business resources to owners ongoing, that is exciting.
+
+
+[00:11:37] Shane: You know, that's funny. There's a, there's a guy that, that I use locally in Charlotte for my personal mortgages, um, that. Right man, that guy, he has found a way to, to keep it personal with me since the moment that I've met the dude probably 10 years ago, and he's done almost every single mortgage for me, for every house that I've gone into.
+
+
+[00:11:57] And, and, and the reason why he stayed top of mind. He's put himself e even if it's done through digital, you know, like the spreadsheets, or not the spreadsheets, sorry. The, um, 
+
+
+[00:12:07] Steph: touch points. 
+
+
+[00:12:07] Shane: The diff yeah. The different touch points would be, you can use automation to do some of that. You know, you can use make.com, you can Zapier and come up with some, some automations to make it personal, but.
+
+
+[00:12:16] He put his face on it. He even sent me videos of himself saying, Hey man, what's up? As opposed to the just a random text me text message. Things that were different that set themselves apart from anybody else, even after he's already done the loan for me, the transaction was over.
+
+
+[00:12:34] And I think residential mortgages, whether you're selling a service for doing HVAC or plumbing or whatever it might be, business brokering. You got, you can, you can keep that customer close. And just by showing yourself as being available and trying to find ways to add value, he's always sending me like appraisal, uh, updates information on the area, letting me know when neighbors have sold their houses and kind of what it's come in at just to kind of keep me on edge of, of knowing what, what the area's like.
+
+
+[00:13:00] And so he is been a part of every one of my, my, uh, transactions. It's something that I think is an excellent execution for, for a small business owner, for a business broker, just for a banker from that matter. We, we too easily fall back into just letting the transaction die through and, and getting, get it closed and then fall back into, I'd say, just completely disappear off the transactions.
+
+
+[00:13:22] Banks are notorious for just having really terrible follow up. They only want to get their, their payment and they leave you alone. And, and if they're, they're only there when things start going bad, stop it, get some help. They really start knocking on your door. So it the, there's a way to set yourself apart, I think, in this industry and in in any small business in general.
+
+
+[00:13:44] And I'm gonna need to take a left. 
+
+
+[00:13:48] Steph: Yeah. Yes. Got it. And you know what we need to do, guys? We need to think about value add. And that's interesting that you brought that up about your home warrior guy. 
+
+
+[00:13:55] Shane: Yeah. 
+
+
+[00:13:56] Steph: Because he's adding value to your life, not to his, yep. To yours. And so often what BDOs do is we post.
+
+
+[00:14:05] Information about ourselves or just closed another loan. Well, how is that a value add to a business owner? What does he care?
+
+
+[00:14:15] Shane: Yeah. Like he does. So No, it's, it's, it's showing off more than anything else, which is great. It's good to listen to the market, know what you do and all that. That's not 
+
+
+[00:14:22] Steph: value add. 
+
+
+[00:14:23] Shane: Yeah. 
+
+
+[00:14:23] Steph: That's what we need to shift towards more and more and more is what we're providing a service to others. So we need to provide that service to others.
+
+
+[00:14:32] And, and we need to provide them with the information and the tools they need to be successful. 
+
+
+[00:14:39] Shane: How about like pulling something cool that was learned by that guy or, you know what I'm saying? Like about the, the buyer? So if, yeah, if we're go instead of doing a tosome look at this loan, I close, but I.
+
+
+[00:14:48] Steph: Right. 
+
+
+[00:14:48] Shane: Look at this cool thing that this borrower did and how he was a good fit and, and tools like, so a cool thing to learn from this particular lesson of, of acquisition, like why it worked, why it didn't work, that kind of thing. But 
+
+
+[00:14:58] Steph: tools like it. Yeah. The guy beside us there on the trade show floor was a payroll company.
+
+
+[00:15:02] He was telling you all the advantages to his payroll services and that they're the biggest in the country, but most people don't know about it. Like that would be good stuff to post. 
+
+
+[00:15:10] Shane: Yeah, absolutely. 
+
+
+[00:15:11] Steph: Like if you are a small business owner. You don't need to be running paywall yourself. There are a lot of tools out there that could really increase your efficiency 
+
+
+[00:15:18] Shane: and much more efficient, which tends to be a complete crapshoot for, for of small business guys and a, and a thorn on the side of a, of any owner themselves.
+
+
+[00:15:25] So, no, I completely get that. 
+
+
+[00:15:27] Brian: Yeah. But part of that, I think is also getting to know your borrowers, getting to know who you're working with, and finding out what their actual pain points are in their business, and understanding what they need to be successful. I mean. So many times, I know I'm guilty of it too.
+
+
+[00:15:43] I'm shoveling loans in and, and just trying to hit the metrics that I know credit is looking for as opposed to really digging in and trying to see what I can understand about the business and how I could actually help that business moving forward. Like Steph, Sam. 
+
+
+[00:16:02] Steph: You know this one broker was telling me, the one that was saying he wants to really reinforce the relationship after the sale.
+
+
+[00:16:08] Brian: Mm-hmm 
+
+
+[00:16:09] Steph: By providing tools. 'cause a lot of times these buyers don't know what the pain points are gonna be till they're in there. So it would be an interesting exercise for us put to put together a toolbox for buyers so that they have ideas and resources and tools after they buy this business.
+
+
+[00:16:29] Shane: Copyright lords of lending. 
+
+
+[00:16:30] Steph: Copyright like and subscribe. Be 
+
+
+[00:16:32] Shane: ready for the SBA toolbox coming at you. Ons of lending.com and that name's been around for a while. The Lord, SBA toolbox, that's BA Brian and I have had for years, and Stephanie brings this up all the time. She always wants to value add. It's a big part of her personality.
+
+
+[00:16:48] This just giving more than, than the average Joe that's out there, but. Coming up with little tools and, and things that will make people's lives easier, such as the nightmare of forms that we have to fill out on an SBA loan. And everyone always asking the same questions and me having to reiterate it. So coming up with ways to automate some of that information in a still personal way that they feel that they're, they're getting a personal response to their, their need or their, where they fall short on things.
+
+
+[00:17:13] But, um, so be ready. But some of this stuff's gonna be landing on our page in the near future. You can, you can download it all and. We're not gonna pay wallet. We'll, we'll let you get on and start playing around with the stuff and breaking it. Um, but I want, so let's do an activity. Activity time. Activity time.
+
+
+[00:17:29] Steph's got her phone open, but Brian, do you have your, let's, let's pop, let's open up Chad EPT for a minute and let's pretend we are a, a, um, let's say an HVAC say beyond just providing HVAC loans. Let's, let's ask Chad, GPT. What, what, um. What other value we could create that for a customer that would make our service more sticky to that individual.
+
+
+[00:17:57] So beyond just servicing the HVAC system or installing a brand new hvac, what would make it so that that person always like, constantly keeps us top of mind? 
+
+
+[00:18:06] Brian: Okay. 
+
+
+[00:18:06] Steph: What our ongoing, ongoing ownership concerns, ongoing owner concerns. Hey. All right. Uh, take two. 
+
+
+[00:18:16] Shane: No, take two. 
+
+
+[00:18:17] Steph: Yeah. Uh, our lunch appointment is confirmed and I have the restaurant we're going to meet at.
+
+
+[00:18:24] Shane: Okay. We'll put it in. I don't wanna stop it. I'm just gonna let it roll and let 'em cut it, then it cut that out 
+
+
+[00:18:29] Brian: for customers. So if I own an HVAC company, how can I keep my business top of mind for customers? Anything else we wanna add to the 
+
+
+[00:18:38] Shane: No to, to add value to? 
+
+
+[00:18:40] Steph: If I'm an owner, an HVAC owner. What are my ongoing pain points?
+
+
+[00:18:44] How about that? Ongoing business ownership, pain points or operational pain points. 
+
+
+[00:18:49] Shane: And before you put it, push enter. We're gonna, I'll have you read the, the prompt. We'll jump back in for him to cut. To 
+
+
+[00:18:55] Brian: also tell me ongoing noise.
+
+
+[00:19:04] Tell me when you're ready.
+
+
+[00:19:10] You want me to do it deep? Deep research. 
+
+
+[00:19:13] Shane: Yeah. 'cause it takes like 15 minutes sometimes. Dude, five minutes. Alright, let's do normal. Yeah. But before we, okay. So. Alright. So Brian is fast forward. Fast forward. We're back in. Brian's gonna read the prop that we kinda came up with of this idea of an HVAC guy going into, uh, to use an AI to try to find a way to do some VA add to add value to their customers as of today.
+
+
+[00:19:35] Keep them sticky, keep them returning and remember their name, that kind of stuff. 
+
+
+[00:19:38] Brian: Yeah, and one thing to note is part of using AI is understanding how to prompt it the correct way. I don't know if this prompt is any good. We've literally thrown this together in a couple of seconds, but prompt is, if I own an HVAC company, how can I keep my business top of mind for customers in order to add value for the customer?
+
+
+[00:19:57] Also, tell me the ongoing pain points I as a business owner might have. So it comes back with, here comes the answer. All right. If you own an HVAC company, staying top of mind with customers while adding value involves consistent, helpful engagement and anticipating customer needs throughout the year, not just when something breaks.
+
+
+[00:20:17] Here's a structured breakdown, how to stay top of mind and add value. Email and text reminders for seasonal maintenance, annual maintenance plans or memberships, content marketing and education. Local SEO and Google reviews, loyalty and referral programs, branded items, and leave behinds. Those are all the suggestions for how to stay top of mind and help customers.
+
+
+[00:20:46] Shane: Well, that's, see, that's the kinda stuff that every AVAC guide tries to do for the most part. Okay. I think like that's commonplace, so maybe ask it, what's a cross pollinate ideas from another industry and see what it says. To come up with something that most HVAC companies don't already think about.
+
+
+[00:21:03] Right. 
+
+
+[00:21:04] Steph: Well, I don't think we're gonna be helping HVAC owners like do biz dev. I think the value, 
+
+
+[00:21:09] Shane: it's not even, it's not even the, it's that's, that's the point. We're not even trying to do the bus biz dev part. 
+
+
+[00:21:13] Steph: Right. We wanted to help them with their operations, with their ownership. So I think we're going down the wrong hold here.
+
+
+[00:21:20] Don't we wanna help them as business owners? 
+
+
+[00:21:24] Shane: Yeah. So the, the idea was showing for this is the idea is to show. 
+
+
+[00:21:28] Brian: Okay, so prompting for, yeah. Before I get to it, let me go through some of the pain points that here 
+
+
+[00:21:33] Steph: put in the 
+
+
+[00:21:34] Brian: restaurant Shink. '
+
+
+[00:21:35] Steph: cause we're not going to, the hotel 
+
+
+[00:21:37] Brian: guy wanna do this. 
+
+
+[00:21:39] Steph: It's Frenchies outpost 'cause it's, we're going north of Tampa right now to, for lunch.
+
+
+[00:21:45] Brian: Frenchies Outpost. Gimme directions to it. 
+
+
+[00:21:49] Steph: Done the lines. Keep 
+
+
+[00:21:50] Brian: all this in, baby 
+
+
+[00:21:51] Steph: French Outposts Barr Grill. 
+
+
+[00:21:53] Shane: Welcome to the Ride with the Lords 
+
+
+[00:21:54] Steph: Printing. 
+
+
+[00:21:55] Shane: There we go. 
+
+
+[00:21:57] Brian: How have some culture? 30 minutes. Okay. Um, jumping back in. Okay, so jumping back in, going through some of the on pain points, ongoing pain points, HVAC business owners may have customer related pain points, such seasonal revenue fluctuations, price shopping customers.
+
+
+[00:22:17] No shows, cancellations, limited customer education. Um, there's operational pain points. 
+
+
+[00:22:25] Steph: What about Yeah, technological enhancements that we could recommend or teach them and add value. 
+
+
+[00:22:32] Brian: Yeah, so I guess one of those would be inventory management. 
+
+
+[00:22:36] Steph: Yeah. There are lane closures ahead. 
+
+
+[00:22:39] Brian: This is great. Closures ahead.
+
+
+[00:22:42] This is neat. I'm just, I think I'm going the right way, guy. All right. I'm muted.
+
+
+[00:22:49] Uh, let's see. All right, shifting gears. So now
+
+
+[00:22:55] the next prompt that we wanted to follow up on was, let's see if we can come up with other ideas used by other companies or industries that could potentially apply. It's HDAC ownership. See what it's coming back with. 
+
+
+[00:23:06] Shane: I'm not, she's just heck there playing with a damn bag and eat some farce seed. She is officially hit the I-D-G-A-F of this conversation right now.
+
+
+[00:23:15] Brian: Cut this whole, 
+
+
+[00:23:16] Shane: no way. We're leaving it all in. I love it. The whole idea. What? Because I'm ignoring him, 
+
+
+[00:23:21] Steph: talking 
+
+
+[00:23:21] Shane: doesn't even care, so. Correct. He 
+
+
+[00:23:24] Steph: is muffling, 
+
+
+[00:23:25] Shane: that's what's funny about it. Exactly. Okay. He's like 
+
+
+[00:23:28] Steph: muffling to himself. 
+
+
+[00:23:30] Shane: Muffling. Great. Brian are 
+
+
+[00:23:31] Steph: all great points. I didn't hear a word you said, but I'm sure they were great.
+
+
+[00:23:36] Keep that in. Keep those in. 
+
+
+[00:23:38] Shane: We're having a fun one today guys. We're having a fun one as we race. Start in super good sleep. I'm 
+
+
+[00:23:43] Steph: starting to unhinging guys. Step stepped unhinging. 
+
+
+[00:23:46] Shane: Alright, so then we're gonna rope back to the idea of what we were trying to do, which was to. Just show how you could use CHATT PT to be able to come up with ways, just pretending you're relevant to pretending you're an HVAC guy to be relevant above and beyond Yeah.
+
+
+[00:24:00] What everybody else does. Like 
+
+
+[00:24:01] Steph: your home mortgage guy does. 
+
+
+[00:24:02] Brian: Yeah, exactly. Exactly. And you're trying to help, you're trying to help your customers. So if you have an HVAC guy, you could talk to 'em about some of these potential ways to flatten out his, or improve his, uh, revenue and not have it be so volatile every year.
+
+
+[00:24:19] Figure out things like that. Help him. Actually add value. So, 
+
+
+[00:24:23] Shane: so that's what we're doing. This is just like an example of a way you can do that. Yeah, exactly. I mean, we're not trying to fix HVAC companies right now. 
+
+
+[00:24:29] Brian: No, no. 
+
+
+[00:24:29] Shane: Yeah. 
+
+
+[00:24:31] Brian: No, no, no. It's not having it. No. So one of, some of the ideas that it came up with come up with a subscription model inspired by SaaS companies and car washes for HVAC, loyalty and rewards point systems.
+
+
+[00:24:48] Um, like every dollar spent gets you. Points towards future services, onboarding kits, giving them a welcome kit, a guide to use their systems, that sort of thing. Service bundles, kinda like cable and internet providers do. Let's see, maintenance alerts, community engagement. 
+
+
+[00:25:12] Shane: So I just thought of something, you know, it kinda reminds me in that episode of the office where they, they go get the food baskets, like the chocolate baskets and they're trying to beat technology.
+
+
+[00:25:21] Absolutely. I'm not gonna lie, I honestly think that would have more impact on it, on me than like someone constantly bugging me through text. Like, I just move into a house and I need to have an HVAC service. My first HVAC service bring me over like a home toolkit or something. Right? Like something that had like a branded toolkit.
+
+
+[00:25:37] That's the the leave behinds. It's more than just, I fixed your hvac. Oh, here's a hammer and a screw gun, or whatever else to, to be able to do all the things at, at your house. You know, like some, some other way to here's a, a bottle of Windex to clean your windows, or, Hey, we're gonna clean your windows too for free.
+
+
+[00:25:52] Whatev some little added service just to kind of stand out beyond just Yeah, we service your hvac. 
+
+
+[00:25:58] Brian: Yeah. So 
+
+
+[00:25:59] Shane: we could 
+
+
+[00:26:01] Brian: utilize that same sort of idea and concept as, uh, lenders to help small business owners. 
+
+
+[00:26:10] Shane: This is the kind of way that I think that you could use AI to brainstorm, to find, find that, find that niche and, and explore the little nuances of how you do things and say, what am I doing wrong?
+
+
+[00:26:20] What could I do better? And as lenders, I'm thinking of, of constantly trying to come up with ways to do this on our own, let alone just trying to fight the deal through freaking the credit gauntlet we have to do every day. 
+
+
+[00:26:31] Brian: But even, even using it as lenders, I mean, we were talking about this just before we.
+
+
+[00:26:36] Start a recording, literally using it and having one of our sales analysts go through the questions that our credit officer put together, and then trying to answer those questions and, uh, augment those questions and putting together potential answers for how we could deal with answering those questions and, and potentially helping the business owner get their business, their their loan.
+
+
+[00:27:04] Shane: Perfect. That was amazing. That was amazing. So fucking eloquent. No. Please bleep that out. 
+
+
+[00:27:14] Steph: He just kept going 
+
+
+[00:27:14] Shane: on and on. No, no. He, he was dropping reality. See, Steph is just in the moment where she, 
+
+
+[00:27:20] Steph: I was like, you, you just step 
+
+
+[00:27:21] Shane: on the road for more than three days and this is, this is the response you can to do anything 
+
+
+[00:27:26] Steph: more, aka.
+
+
+[00:27:30] Shane: And that's all folks. And that was one we're gonna call it. Call that. That was one sentence. No, don't even stuff. 
+
+
+[00:27:36] Steph: How do you, how do you cut all this out? How do you edit that one sentence, Phil? That was a definition of a run-on, 
+
+
+[00:27:43] Shane: yeah. Nope. There was no run on. I actually thought it was very crack. Okay. 
+
+
+[00:27:47] Brian: There are no such things as run on sentences.
+
+
+[00:27:49] Nothing. You haven't read as many. Contracts as I have that he was using. He was using his emotion, his words. Yeah, that's what 
+
+
+[00:27:55] Steph: it sounded like. That was the attorney response. 
+
+
+[00:27:59] Shane: I appreciate your attorney. I was with you, Brian. I was there. Stephanie's just drinking bottles. Those of us trying to cut some vodka cutter, bottle bottle in the back.
+
+
+[00:28:08] Steph: My A-D-D-A-D-D kicked in so 
+
+
+[00:28:10] Shane: hard. She's been a hard one to keep on task. Sweet. Alright, well thank you for joining us today on a random but fun, exciting, kinda rundown of all the things that we've done this. Last couple days and hopefully survive the next few more to, uh, give back to normal day job. Have a good one.
+
+
+[00:28:29] Brian: Lord of render 
+
+
+[00:28:30] Shane: lords of Lending is awesome. Subscribe. Let's do it 
+
+
+[00:28:33] Steph: like, and subscribe, 
+
+
+[00:28:34] Shane: like, and subscribe. Take it easy. 
+
+
+[00:28:37] I.

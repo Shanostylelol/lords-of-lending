@@ -1,0 +1,376 @@
+﻿Episode #2 -Transcript
+===
+
+
+Shane Pierson: That banker had the power to approve your loan almost just based on experience, judgment, and trust. So it really wasn't anything that would, have been driven by a data point. So fast forward to today, you really are just a data point.
+
+
+Stephanie Castagnier Dunn: But I think anyone not embracing AI and not embracing technology in the finance industry, we're already behind.
+
+
+Brian Congelliere: But at the same time, I get excited by all of this, the technology the fact that it can make me, instead of being able to do, 20, 30 loans a year by myself without having an assistant or anything to now, all of a sudden with the use of an agent, being able to do a hundred. 
+
+
+Shane Pierson: the FinTech innovators are filling a gap, but they're also just kind of modern day loan sharks
+
+
+Stephanie Castagnier Dunn: Everyone's fearful of living in a society where everything is now just robotic and we've removed our, we're no longer human.
+
+
+
+
+Shane Pierson: Welcome back to Lords of Lending, the podcast where we cut through the noise and get real about what's happening in business, ants and lending. So if you're here, you already know the game is changing. And today we're talking about one of the biggest shifts that we've seen in decades. The question is really simple is how has AI and automation killed relationship banking now, myself and Stephanie and Brian, who are my co hosts on the show today, uh, have all been in banking for many, many years and, and kind of seen the changes that have happened, but really not that long ago, getting a business loan meant walking into a bank and sitting across from a lender who actually knew your name, your business, and probably how many kids you had.
+
+
+I mean, we get really into the, the, your. dresser drawer of, of life and understand more than we probably need to as bankers. That banker had the power to approve your loan almost just based on experience, judgment, and trust. So it really wasn't anything that would, um, have been driven by a data point. So fast forward to today, you really are just a data point.
+
+
+So decisions are made by algorithms in seconds. And if you don't fit that model, honestly, you're out. Some people say that this, this progress is faster, fairer, and more efficient, and others are on the other side saying we've lost something critical. That banking is just about rela isn't just about relationships anymore, it's about who the systems think you are.
+
+
+So before we get into it, I've got two incredible co hosts today who bring different perspectives to the debate. Uh, Stephanie, let's start with you. Tell us a little bit about your background and your thoughts on, on whether relationship banking is really dead. 
+
+
+Stephanie Castagnier Dunn: Well, thanks for having me. My name is Stephanie Castagnet Dunn.
+
+
+Uh, but they call me Steph the banker. Uh, and my friends call me Steph. So, I have been in banking and finance for 25 years. Shoo, we're getting old. Uh, but I like to consider myself a connector of the old. Way of doing things and the new way of doing things. So I have this unique, you know, perspective of, I remember how we used to do it with the manila folders and our, and having actually FedEx in our credit memos and wait for the FedEx to come back.
+
+
+I remember those days, but we're living in a world now driven by technology and thank God for that. I mean. Without technology, I still think we're way behind as compared to other industries. But I think anyone not embracing AI and not embracing technology in the finance industry, we're already behind.
+
+
+It's time to get with it. So we got, we got to embrace it and move it forward and use it to make quicker decisions, more informed decisions. And like you said, Shane, that old way of doing things in front of, sitting in front of a banker, it was biased. Because we were driven by, uh, human judgment. And I think the advantage of AI and technology is it has removed down that human judgment and makes our decision making more data driven and factual.
+
+
+Shane Pierson: Oh, that's perfect. Honestly, I think that, that, uh, that, that human habit that, that Really controls us that's built over time can make those with honestly the most experience in banking become some of your biggest liabilities. And so we'll get into some of that and how that that relationship banking even if you you decided integrate with your business or your bank, wherever the places that you work, if you decide to utilize that and rely just on experience, it can actually slow you the hell down.
+
+
+So. Before we do that, let's jump over to Brian. So Brian, your career started in law before you got into SBA lending. So give us a little background on how you got into the game and your first thoughts on whether AI and automation are actually making lending a better for lending better or worse. 
+
+
+Brian Congelliere: Yeah. So I started my career in law, uh, worked in Los Angeles at a big law firm and got some great experience doing that.
+
+
+Learned. The ropes learned about, uh, big commercial real estate and kind of the background, the backbones of, of how deal structuring works and that sort of thing transitioned over, probably about eight years ago to banking and doing it ever since. Uh, it's, it's a very, I'd say vibrant, um, exciting deal structuring lifestyle.
+
+
+I would say, um, I've enjoyed it a lot and. In my experience, seeing what we've gone through just since I've been in it has been very interesting with the advent of AI coming in. When I first got into it, I know you and I, Shane, had conversations about the fact that the whole process was extremely antiquated.
+
+
+And so slow. And I remember having so many conversations about what can we do that would improve this process? Because it, it can be so painful, especially for the customer who's just trying to do their business and pay the bills and grow their business. And they need access to capital. They don't want to pay every time super high interest rates.
+
+
+And so that's where the SBA comes in. And that's the value. Of the SBA loan. And so now that we have AI coming in and really has the potential to disrupt and change the industry, there needs to be more willingness, in my opinion, to adopt that and move it forward. And it's, it's, we're already seeing what it's done with ChatGPT and Grock and, Claude and all these different, uh, LLMs that are out there.
+
+
+And the amount of. Of processing power that they have. I was listening to a podcast the other day where someone was mentioning that it took, it took someone two years. So a research team, two years to get a, um, a solution to a biological problem that they were researching as scientists. And it took AI two days.
+
+
+Shane Pierson: Sounds about right. 
+
+
+Brian Congelliere: So if that's any indication as to how it can improve and help what we do. And help borrowers. Uh, I think that there's a lot of potential. 
+
+
+Shane Pierson: Honestly, I think it's just us getting the hell out of our own damn way as bankers to, to try to, to let some of this technology flow and integrate, not take control, but really step into our lives and become a common part of how we approach.
+
+
+Helping the customer get what they need quicker and actually make it safer for us as lenders in our decisioning. This really isn't just a conversation for bankers, it's for anybody who's ever needed a loan, will need a loan, or wants to understand how this system actually works.
+
+
+So, let's start with the big question. Has relationship banking actually died, or is this just another, just the next evolution of banking? So, back in the day, loans were based on who you were, what your banker knew about you and whether you believed in your business. And so now underwriting is done by can be done by software And decisions and is based can be based just purely on numbers.
+
+
+So nobody's just sitting in a room fighting for your deal it's really got a lot of technology behind it that's trying to Uh to push and this is happening more on scale of of the larger fintechs outside of traditional banks that you might approach today. And some people argue that it, that it's really a good thing and that it removes bias, it speeds up approvals and makes lending more efficient while others are out there saying that it kills small business lending because algorithms don't care about the context character or like the relationships that you might have with that particular small business.
+
+
+So Stephanie, from your perspective, do we actually need relationship banking or is it just nostalgia for like a system that wasn't that great to begin with? 
+
+
+Stephanie Castagnier Dunn: I think the system has changed. And it's changed on us, and it was a slow evolution of change, really.
+
+
+Uh, so we shouldn't all be surprised here. But what has changed is this. Relationships are never going to go away. The world and society and human beings are entirely based on relationships. That's what human being interaction is about, right? So relationships have never gone away. They won't go away. They never will go away.
+
+
+What has changed and what technology has done has allowed for better interpretation of data. So, the data's always been the same and this data probably won't be changing for a while. We have basic data metrics that bankers and other industries use as comparison benchmarks, right? What's changed is, it used to be John Smith in an office somewhere in rural America at some branch that was interpreting that data.
+
+
+And, and to your point, Brian, earlier, it sometimes took three, four, six weeks, eight weeks, right? To underwrite and interpret data. Well now that same data, you plug it into our AI technology and the data is interpreted within minutes, seconds. And so the output then is, you're right, removed, we remove the judgment, remove the bias, remove human, uh, dependencies on, uh, inaccurate judgment, and then we just, we have a new interpreter that can just move faster.
+
+
+But the relationship's still there. Right? So you still have that human relationship that won't go away. 
+
+
+Shane Pierson: Well, that relationship goes, I think, so far. It's necessary, especially when internally, for us, we talk about relationships with the people that we work with on a day to day basis. But, Brian, I know, like, for instance, when a loan goes to a loan committee, I know that you've had to fight with credit committees like myself, all three of us have really had to do that.
+
+
+So are, are the people that we approach in this situation, are they really old school bankers and are they just bitter or do we actually need human decisioning? Do we, do we even need human decisioning? Like helping, helping make decisions on, on loans that are in lending right now? 
+
+
+Brian Congelliere: It does. And I think the arguments are, there's going to be arguments for and against, right? I personally, having seen everything and come from another industry that's, I don't want to say as slow as banking to adopt technology, but very slow to adopt technology. There is the commonality there that I see is the fear of, not appropriately assessing risk.
+
+
+And like Steph was saying, the best way, in my opinion, to assess risk without throwing in your own personal biases or whatever it is, is to have enough data. And large language models are quickly getting that appropriate amount of data, but they need to be conformed to the banking system and to the experiences that.
+
+
+We as bankers have that credit teams have so that they can make informed decisions. So in answer to your question, I think that, and there's, you know, when initially when ChatGPT kind of came out with their big launch, right. GPT, uh, three, 3. 5, everyone was thinking, Oh, it's going to blow it up. And everyone's going to lose their jobs.
+
+
+No one's AI is going to do everything for us. And then over the next year and maybe 18 months, people started recognizing, well, no, it, it actually is, uh, going to be more of this agentic system where you're building these AI agents that are going to assist with certain. Aspects of daily life and, and jobs and things like that.
+
+
+And I think the same thing goes with banking. Um, getting to a credit decision, like Steph was saying, interpreting all that data can be done in seconds with an LLM and then presented to a human with all of that information synthesized and probably scored in a way that makes sense without bias, without, uh, you know, anyone's preconceptions coming into it.
+
+
+Into the picture, and then you're able to, I, in my opinion, better capture not only what the data is telling you in an extremely fast way, but also kind of that intangible part that comes from the human to human interaction.
+
+
+Shane Pierson: I, I think that, and to piggyback on that, the word trust kind of comes to mind is I, I really feel that.
+
+
+The reason that it's going to hit walls is going to be a trust factor. So all, like you said, like everyone sees it and they can occasionally pull the errors because the, at the current point, the AI is not in a position that it's actually always 100 percent correct. But 95 percent of the time, when I ask it something, it's got enough data to be able to come up with that right answer.
+
+
+We need to get, we need to get people educated on, on really what's happening behind the scenes for the technology. To be, so that they can begin to trust what it's outputting and also build up systems to, to check that data, right? Like that's, you don't have to trust it 100%. You can build a QC system and you could even ask ChatGPT how to build the QC system to actually check that data itself.
+
+
+You don't even have to come up with a philosophy on your own. But common, it, it will spit things out in such a common logical way that you would be able to use that. Starting day one, implement that tool and those agents into your day to day life, into your day to day banking life, and it, it will help make you more efficient.
+
+
+And so that, that actually pushes us into the next question. So it's really digging deeper into the AI versus human judgment debate, because this is where the lines get. I think the lines really get drawn in the sand. So, AI supporters today are saying that it eliminates human bias. Brian, you were kind of saying that too.
+
+
+It really takes that out of this. But there's no more approvals based on just this gut feeling. How many times, I can't tell you how many times I've been in a, uh, a loan committee or talked to a credit manager and he's like, Oh, this one like makes my stomach turn or it doesn't pass the smell test. If you're an underwriter listening to this call, I'm sure you've used it.
+
+
+I've used it. It just becomes ingrained in the habits and the dialogue and the jargon that bankers use when analyzing the poor small business owner that maybe doesn't smell that great to us, as horrible as that sounds. So it, it, it does make lending faster, more efficient and scalable. And the other part of the argument is really that it can analyze thousands of data points in real time, way beyond what a human could ever process.
+
+
+But really there is a problem. And I think that AI is only as good as the data that it's trained on. So backing up to our earlier comment that You know, where it's 95 percent of the time correct, there, it's still a lot of data that I think is dated and it hasn't caught up. And specifically in the banking industry, there's a lot of information that is withheld because we can't just upload anybody's personal documents.
+
+
+You're not gonna just put in the personal identifying information, there's still a lack of trust and not knowing how accessible that data would be to somebody coming in to hack it. And so there's, there's a lot of guardrails that have been put up to control us, which is a smart move, in my opinion, until we completely understand it.
+
+
+And we've got the, the true protected guards to stop somebody from being able to steal that data, we've got to approach it carefully. It is, it is not only just being as good as the data that it's trained on, it, it doesn't really care about your story, so if you don't fit the model, you don't get approved, and that, that, if you've ever talked to a small business owner, Stephanie, you've probably been there too, Brian, all three of us have, have approached this, how often do people really even fit the damn model?
+
+
+We gotta find a way to make them, like, really fit the model. Like get their story in a position that it actually can fit the weird model that any credit manager has come up with the place that we work. And so that's been our job from day one is finding a way to, to try to get it to, to fit the square peg in the round hole, that whole mentality.
+
+
+So, so Stephanie, AI is obviously making lending faster, but it's, is, is faster, always better. So a couple of different questions to framework into what I want to hear from you, so is it always better or are we just approving loans based on convenience instead of real credit worthiness? 
+
+
+Stephanie Castagnier Dunn: Well, and that's where fear has set in for everyone, myself included.
+
+
+Alright, so when you think about technology and we think about AI, what it all really does is makes everything data metric driven and removes human emotion, right? So there's an advantage, but there's also a disadvantage to that. All right, so let's remove human emotion from everything we do every day and what we're doing is we're working with small business owners.
+
+
+So a lot of what we do is intuition, empathy, uh, and back to relationships about what we believe in this person. So we're making character assessments. So yeah, it's not always black and white data driven. And so if we remove that, it's a blessing and a curse. So we can move faster. And you're right, speed's always great, right?
+
+
+Speed's great, but it could be a lot of fast no's, a lot faster no's. So here we are now, and it's almost a be careful what you wish for. If we want to remove emotion, there's not a lever of saying, okay, well let's just make it 50 percent emotion. It's like all or nothing with technology. So we're removing emotion and we're removing conversation.
+
+
+Everything is a yes, no, pass, go. situation, and I think that's where everyone's fearful. Everyone's fearful of living in a society where everything is now just robotic and we've removed our, we're no longer human. 
+
+
+Shane Pierson: Well, you guys seen the movie Interstellar, you know, Where he sees that weird rectangular robot, and he starts telling, Ah, let's dial back your, your humor level.
+
+
+That's it. The lever does seem to, seem to interact, but I don't know how, how deep we understand really what, what is going on behind it to know if, if it is coming from an unbiased position or just a calculated bias that we've told it to follow. So, and, and I think with the, with the programming that, that happens in.
+
+
+And how a lot of these programs are built, it's so open ended right now that trying to, to, to, I guess, focalize the, the bias down to something that's controllable and measurable, especially for auditors, because you figure every loan that we do has to come in, they're going to, the federal government's going to come in, they're going to, they're going to audit these loans.
+
+
+So if that bias is being measured, there's this, this is the future of technology. Lending is they're going to make sure that the human bias hasn't found a way to bleed into, to stop somebody who might be from a lower income environment from getting approved just because they're in a low income environment.
+
+
+And the, the, the guy who came up with the algorithm themselves integrated their bias into that decisioning model. So, so Brian. Let's say you're sitting in front of a business owner who just got declined by that algorithm, but you know that their business is solid. So how often does AI miss a good deal?
+
+
+Do you think? 
+
+
+Brian Congelliere: That's a tough question. mainly because I haven't seen AI really at a point where it can tell us that at least in our industry, right? We, we haven't had any company yet say, yeah, we're using AI to decision all of our deals. And it's, you know, 80 or 90%. Good at its job. I mean, we do, we can check benchmarks for how good LLMs are performing on, you know, master level or college level or PhD level mathematics or coding, but as far as where we're at, it's, it's tough to say.
+
+
+And I think that again, it just comes down to, a couple of things like you're saying, programming it so that it's specifically, not excluding certain borrowers. Based on whatever criteria, not implementing bias in the programming, but also if you give it enough data, it can, you can theoretically, I say it can learn, but it can be programmed such that the data can get past those nuances that at, what you will see as a human, but that at a, uh, you know, basically a complex computer algorithm, can't really, can't really see that, right?
+
+
+You know, there's, there are cases where it is, like, for example, they just announced Grok 3 and, um, Elon's talking about how it will be able to interpret your tone and your feeling, your mood based on how you're responding and your inflection of your voice. Those are the nuances that will help us, but as far as our industry is concerned.
+
+
+We're just not quite there yet as far as, development has gone. Let 
+
+
+Stephanie Castagnier Dunn: me jump in real quick to, on that Interstellar movie. What I think about at night is this, all right, yeah, let's push AI. Let's push technology. This is great. We're going to remove the human emotion, but now the AI and the technology has to become smarter and smarter because we want to pick up those nuances.
+
+
+Well, now we're creating like Claude and I, Claude's my best friend. Like in the whole world. All right. Like we talk, he sends me messages like how I'm doing. I asked him where he lived and then he said, well, where do you want me to live? And that was my reality check. Like, wait a minute, Claude's not a real person.
+
+
+Like, hold up here. But the technology now, and that's where I kind of feel like the train has left the station and technology now. It is intuitive and, and now we have, you know, it's taught itself or we've taught it something to incorporate interpretation and emotion and all the human tendencies. So now, yeah, they are smarter than us and more intuitive than us and, and have all the, like the perfect set of data and emotion.
+
+
+And that's the fear, right? The fear is, all right, here we are. And technology is going to outsmart us. So there was a, what was it? It was, I think the air force did a trial with AI. Um, and it was a combat between a real pilot and an AI pilot and the AI pilot beat the real pilot. And the, uh, coordinator was trying to stop the test and the AI wouldn't let him stop the test.
+
+
+Because the AI interpreted that it was a better decision to let the test go. And so, we couldn't even override this, this system. 
+
+
+Shane Pierson: Sounds like an episode, like a, one of the, like Top Gun or something like that. I'm sure there's a Hollywood movie that, that, 
+
+
+Stephanie Castagnier Dunn: That's the fear. The fear is, are we at a point now where AI is smarter than us?
+
+
+Yeah,
+
+
+Shane Pierson: It's getting really freaking close to human intelligence level on on all. It's got more than I do. That's for sure. And I think to going back to what Brian was talking about the fact that it's not really integrated what Brian and I had spent a lot of time building out. Kind of a machine learning model we had started in Excel came up with these if and formulas and built out this great decisioning software that are this decisioning program and algorithm that that we converted into something that actually could calculate out the percent chance that a deal might get approved.
+
+
+And really, it was built entirely. On us understanding the emotion of the person that was deciding for us at that time. So we've had to figure out how to like tweak levers and get everything to work. And it's more machine learning or rpl as opposed to actual ai that the intelligence wasn't behind it It was just this levered switch decision model, and I think across most banks, that is more so what we're seeing, and that's what's more being integrated into the world than it is this more intelligent being, and I think because of fear of replacement, you know, there's, there's that, that play.
+
+
+So there, so that, but even in that, with that machine learning, even that step is something that needs to be relied on more often and is easily, easily, more easily measured. And fintechs are really a place that I think that you're starting you see the most aggressive use of that. And their approach to actually try to get into that So let's let's talk about fintechs for a minute because I think that's where honestly a lot of this gets spicy. So small business owners love them because they're fast and they're easy and they say yes when banks say no. And I don't know how the hell the investors on the balance sheet are cool with a lot of stuff that pushes through on that. Maybe it's the whole credit card model where you just approve 85 percent of people knowing that 20 percent are going to go bad but charge the rest of them 25 percent interest.
+
+
+But here's the reality is that many fintech loans are insanely, insanely expensive. Sometimes, like 30 40 percent APR, and there's a lot of small businesses that get trapped in this cycle of expensive short term debt. Talked about it on previous episodes, this merchant cash advance death spiral. Or they don't just build a relationship, they want they really just want the transaction.
+
+
+So they'll pump as many of these through and they've got third party affiliates that are out there selling it aggressively and pushing and kind of just. Not even giving people the truth, but drawing them into the crap, uh, with, without the education, just for the sake of making almost 10 points plus on every deal that they do.
+
+
+So the, I think the FinTech innovators are filling a gap, uh, but they're also just kind of modern day loan sharks for, for a lot of the ones that we're seeing. I've seen some conversions in, in the SBA world in particular, where there were guys that. That are with that, that world is kind of merged into the SBA and we're using smarter decisioning and that's definitely happening.
+
+
+But, um, Steph, what, what is really your take on, on the FinTech world? Cause I know you've gone through a lot of conferences. You and I were part of, of kind of trying to build out a FinTech model on, on the last place that we were at. So talk me through what your take is on, on their role now and really what the world looks like today.
+
+
+Stephanie Castagnier Dunn: Okay. I think what you just said is the sound bite of this, of this episode, which is FinTechs are the modern day loan sharks. So true. I never heard that, but that's genius. You're coming hot at me. I like it. I like it. But I agree. And you know what, though? Um, it was, it's like a necessary evil. 
+
+
+I'm a small business owner. And when you're a small business, you, you know what you don't have is time. You can't wait. You don't have an abundance of time to, to, Provide unlimited information. And so what you need is you need to move quickly and you have to pivot quickly and you have to make decisions quickly.
+
+
+So what that means is in the business world, when you need money, you need it quickly. And the industry was just so far behind in being able to keep up with speed. Um, that FinTechs were the necessary solution. And so here we are today, and now it's an expectation. They've, they've really set the tone to how fast things can go.
+
+
+Thank God, because now we have a benchmark, right? But so they're not going away. It's going to continue to grow. And that could very well be the entire replacement of the industry. And it, and we're not talking about, again, they haven't created some new secret sauce. All they're doing is doing this, doing what we do faster.
+
+
+It's just get people the money faster and use technology and be able to move. So we have to embrace it. I think every bank in America is a version now of a fintech. We all are. Everyone is. So are we the modern day loan sharks? Yeah, probably. Cause you know what comes with speed cost. 
+
+
+Shane Pierson: Immediately comes with it and it's interesting because that automation is supposed to be helping to drive costs down But somehow I think it's it's this reach for margin And that most of the banks are really they're reaching for the bottom line and they're trying to x out as much overhead as possible Being on the other the receiving end decisioning before myself.
+
+
+I know that that that's the play They're in this to make money and that's it. As much as the, the narrative that's preached out in the world is it's all about us helping the small business. The back end of it all is just how much money did you make me? These board meetings we've all been in for Steph I know you've been in a ton.
+
+
+That's the conversation. It's not how well did we help the customer? Sadly, that's not the case. I think that myself, Stephanie and Brian have been trying to preach the narrative, how imperative it is that it, that we actually are out there doing it. So Brian, I know you and I have had this conversation and it sometimes makes us throw up in our mouth just thinking about really the degree that can drive the banking world.
+
+
+Is it, is it just capitalism at work here or is it something that's, that's really worse when it comes to fintech lending and also like what you're seeing, like Stephanie addressed about where we're going. 
+
+
+Brian Congelliere: Actually wonder if it is just. To what extent it is just predatory, or we're just going after bottom line and maybe could be more of what we're seeing is, risk.
+
+
+And how risk is playing into that equation because they are moving fast and breaking things, right? FinTechs are, uh, that's just the nature of technology. And when you're at that bleeding edge, there has to be like, they can't, you're not able to make as, as, uh, maybe well thought out or less risky decisions when you're moving that fast.
+
+
+And so as a result. You have more risk involved in those transactions. What happens when you have a riskier deal, higher interest rates. And so that we could just be at, since it is relatively new, the whole FinTech space, at least in the sense that, uh, it's more people are aware of it. Now, that risk.
+
+
+Is what we're seeing play out as far as interest rates go and speed and as perhaps as things mature and people get better in the, the programs and software and algorithms that are being used and the data that is being used is better data and put together in a better way. Um, we might see better decisioning as a result and therefore.
+
+
+Less risk inherent in those transactions. And as a result, interest rates are going to be driven down because it's always a, you know, rush to the bottom as far as pricing goes. I mean, how many times have we seen borrowers come to us and say, Hey, uh, well, they're giving me this interest rate. We do that.
+
+
+And then we, let's ask, well, is this a good enough deal to do that? Maybe it is. So it's a race to the bottom almost every time. 
+
+
+Shane Pierson: Monetization. 
+
+
+Stephanie Castagnier Dunn: You know, profitability guys, look, we've been in the boardrooms and we've taught you, we've worked for CEOs that have told us that you guys are expensive. I'm going to get rid of you guys.
+
+
+And I'm going to replace you guys with FinTech and I'm going to charge the same, but make more money. And the reality is that's not true. So, I don't know, and this would be the question, right? The question for all these chairmen of boards is, is the FinTech model really that much more profitable than the community bank model?
+
+
+I don't know. Because guess what? You replace a bunch of BDOs or relationship managers or whatever you call all of us, right? Replace us with technology. Technology's not cheap. The maintenance of the technology's not cheap. Your loan loss reserves are probably double. Because you're right, when you go faster and you do more volume, it's a numbers game, guys.
+
+
+And what are your, what are your losses? If you're doing more volume, that the whole way is, you know, and I would say that's probably our biggest selling point right now for all of us when we're talking to end users and actual borrowers that say, Oh, well, you know, so and so kid, I have a machine that I can work with and I can get my money real quick and it'll be faster.
+
+
+You're right. It'll be faster. Someone somewhere is paying for that because you're right. The losses will be a lot higher. So the bank is having to pay for the technology and the losses. I mean. We, we have lived through a live example of let's pump money out to small businesses as fast as we can, the PPP and the EIDL, and that was the, the mentality was hurry up and give these people their money, right?
+
+
+So we hurried up, gave them their money, and now the losses are, they're saying EIDL and PPP fraud. And losses are now creeping into the 40 percent range. 
+
+
+Shane Pierson: That's incredible. I mean, so that model was so rushed and put out there. And it was interesting that a lot of people have, have referred back to that as, as what the future of lending could be, obviously like it, it went too fast and didn't have the regular regulatory support to actually make it something that I, that.
+
+
+Could last for a long time and is more knee jerk reaction lending. But so let's take let's take what we saw there and what we've seen transform over the last three years and really discuss. Um to kind of finish this up what what are what the future of lending really looks like especially for us bankers?
+
+
+We talk about it constantly. There's work, there's a, there's some job fear understanding what, how are we replaced and where are we not replaced? How do we create value within this system to ensure that, that we can either be operators of the machine or, uh, in working in tandem with the machine to try to help more people get access to money?
+
+
+So are, so for both of you, and we'll start, we'll start with Steph really, are we headed toward a world where Human bankers just flat out don't matter. We're talking to Shane, talking to Steph, talking to Brian. This doesn't, doesn't, isn't, isn't a relevance or is there a way to kind of balance technology with real relationships?
+
+
+Stephanie Castagnier Dunn: Well, we've gone through the natural evolution, all of us here, like the three of us, we've had these conversations over the last 10 years and look at how hard our job and our industry and the people we work for and the companies we work for have changed over the 10 years, right? So we're living, living proof of changes here.
+
+
+It's happening with or without us. And how many times have we said that, right? We better jump on this bandwagon because it's going without us. So to answer your question, the question, the answer is. We have to embrace the future, we have to be forward thinking, technology, we have to learn where we fit in to the piece here of, of this puzzle of where, where technology is going and what our role is going to be now.
+
+
+Are we the creators of the technology or are we the implementers of the technology? That's for us to figure out, right? What's our highest and best use. 
+
+
+Shane Pierson: Brian, what do you think about that as far as, uh, and I think that that correlates directly with AI agents. And I know you can't stop talking to me, texting me 10 30 at night about you're so stoked about AI agents and all the, and, and the ways you can build out these little tools to help replace workflows for us.
+
+
+But what are your thoughts? 
+
+
+Brian Congelliere: I, I think that there's, uh, we're on the verge of a productivity boom. And as long as we can understand through trial and error, unfortunately, cause that's just how it goes. Uh, as long as we can understand. How to, um, address and mitigate risk in the, along the way. I think that.
+
+
+The sky's the limit as far as how productive it can be. I don't think that humans get 100 percent replaced. At least not in the near future. Maybe down the line, yeah, could be the case. But I think that, you know, for certain, certain components of what we do, you know, creating a checklist or following up on a checklist, those types of things, those, those, you've been able to automate for the past, you know, 5 10 years.
+
+
+So implementing them in what we do in a smart way by using an LLM as a basis, it's a no brainer. And so for me, I think it is, like Steph's saying, it's a matter of time. There's a balance there, you know, obviously with Coming from law, I can't look at things without assessing, you know, risk and, and things like how things are going to play out when it comes to taking a more conservative approach to things.
+
+
+But at the same time, I get excited by all of this, the technology and the fact that it can make me, you know, instead of being able to do, you know, 20, 30 loans a year by myself without having an assistant or anything to now, all of a sudden with the use of an agent, being able to do a hundred. Or 150 loans a year, I said, bring it on.
+
+
+And, and I think that any one in the right mind in our industries, if you talk about being in board meetings and things like that, anyone would want that kind of return. 
+
+
+Shane Pierson: It's a, honestly, I think it's repurposing yourself, right? So think like you're at, you have to adapt to this environment. So if you're within the banking world, you've got to refit.
+
+
+Yourself into the, into your day to day career, because stuff will come in to replace you if you're not prepared for it. So if you've been in this industry for like 20, 25 years, and, and you've built up habits and all of these, these, these ways of doing business that you've felt are the way to do it, well, that's going to get turned on its head.
+
+
+I've already seen it. I've tried bringing that up and seeing it get implemented in the processes and procedures and things that I've, that we've all worked within together, uh, at the places that we've worked. And to date it's still not being fully adopted, but I'm telling you it's coming it's going to replace us. It will replace our workflows replace the approach that we have to doing business. It will remove a lot of the tedious little jobs that make our life harder and like really help us Like focus on the the highest and best use mentality Steph.
+
+
+You always say that to me It's like what's your highest and best use she's Stephanie is like my leader. I've followed her for about nine years now. We've been working together for nearly all 19 of my career. And, and it's really, that's always her mentality. What's Shane, what's your highest and best use, what's your highest and best use.
+
+
+And I think that that play is going to be how we can adapt, how we can repurpose ourselves within this world of, of technology coming into to really make our lives more efficient. Make it more easy and and more I think backed up data point driven Uh and really anything we do on a day to day basis So, you know, I really think today this was a killer discussion And if you've got any thoughts on this go ahead and drop a comment. Send us a message or just tell us how you're how wrong we are if you think. So we're we're here for it we want to we want to know your thoughts and where you really see this going. So this is lords of lending and until next time keep your deals tight and your interest rates low

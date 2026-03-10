@@ -1,24 +1,24 @@
 @import "tailwindcss";
 
 :root {
-  /* Brand Colors */
+  /* Brand Colors — Warm palette, zero blue */
   --color-gold: #AA712C;
   --color-gold-dark: #845823;
-  --color-gold-light: #C4944A;
-  --color-cream: #F7FCFC;
+  --color-gold-light: #E2A970;
+  --color-cream: #F5F0EB;
   --color-white: #FFFFFF;
   --color-text: #231F20;
-  --color-text-muted: #5A5A5A;
-  --color-text-light: #8A8A8A;
-  --color-border: #E5E5E5;
-  --color-border-light: #F0F0F0;
-  --color-surface: #FAFAFA;
-  --color-dark: #1A1A1A;
-  --color-dark-surface: #2A2A2A;
+  --color-text-muted: #9A918D;
+  --color-text-light: #6B6362;
+  --color-border: #3A3436;
+  --color-border-light: #2E2A2B;
+  --color-surface: #252122;
+  --color-dark: #181516;
+  --color-dark-surface: #252122;
 
   /* Status */
   --color-success: #22C55E;
-  --color-info: #3B82F6;
+  --color-info: #E2A970;
 }
 
 @theme inline {
@@ -34,8 +34,8 @@ html {
 }
 
 body {
-  background: var(--color-white);
-  color: var(--color-text);
+  background: var(--color-dark);
+  color: #F5F0EB;
 }
 
 /* Custom scrollbar */

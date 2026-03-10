@@ -24,7 +24,7 @@ export default function PodcastPage() {
   const remainingEpisodes = PODCAST_EPISODES.slice(1);
 
   return (
-    <main id="main-content" className="pt-24 pb-16 md:pt-32 md:pb-24">
+    <main id="main-content" className="bg-[var(--color-dark)] pt-24 pb-16 md:pt-32 md:pb-24">
       <div className="mx-auto max-w-6xl px-6 md:px-8">
         {/* Hero */}
         <div className="grid items-center gap-8 md:grid-cols-2">
@@ -34,12 +34,12 @@ export default function PodcastPage() {
               alt="Lords of Lending Podcast"
               width={300}
               height={40}
-              className="h-8 w-auto"
+              className="h-8 w-auto brightness-0 invert"
             />
-            <h1 className="mt-4 font-[family-name:var(--font-montserrat)] text-3xl font-bold text-[var(--color-text)] md:text-4xl">
+            <h1 className="mt-4 font-[family-name:var(--font-montserrat)] text-3xl font-bold text-white md:text-4xl">
               Insights for Business Owners
             </h1>
-            <p className="mt-4 text-[var(--color-text-muted)]">
+            <p className="mt-4 text-white/60">
               Tune in for expert conversations on business financing, growth
               strategies, and real-world success stories. Each episode delivers
               the knowledge you need to fund your vision.
@@ -60,7 +60,7 @@ export default function PodcastPage() {
                 href={SITE_CONFIG.rss}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-md border border-[var(--color-border)] px-3 py-1.5 text-xs font-medium text-[var(--color-text)] transition-colors hover:bg-[var(--color-surface)]"
+                className="rounded-md border border-[var(--color-border)] px-3 py-1.5 text-xs font-medium text-white/70 transition-colors hover:bg-white/10"
               >
                 RSS Feed
               </a>
@@ -93,19 +93,19 @@ export default function PodcastPage() {
               />
             </Link>
             <div className="min-w-0 flex-1">
-              <time className="text-xs text-[var(--color-text-light)]">
+              <time className="text-xs text-white/40">
                 {new Date(latestEpisode.date).toLocaleDateString("en-US", {
                   day: "numeric",
                   month: "long",
                   year: "numeric",
                 })}
               </time>
-              <h2 className="mt-1 font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+              <h2 className="mt-1 font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
                 <Link href={`/${latestEpisode.slug}`} className="hover:text-[var(--color-gold)] transition-colors">
                   {latestEpisode.title}
                 </Link>
               </h2>
-              <p className="mt-2 text-sm text-[var(--color-text-muted)]">
+              <p className="mt-2 text-sm text-white/60">
                 {latestEpisode.excerpt}
               </p>
               <div className="mt-4">
@@ -126,7 +126,7 @@ export default function PodcastPage() {
 
         {/* Episode Grid */}
         <div className="mt-12">
-          <h2 className="font-[family-name:var(--font-montserrat)] text-2xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white">
             All Episodes
           </h2>
 
@@ -135,7 +135,7 @@ export default function PodcastPage() {
               <Link
                 key={ep.slug}
                 href={`/${ep.slug}`}
-                className="group overflow-hidden rounded-xl border border-[var(--color-border)] bg-white transition-shadow hover:shadow-lg"
+                className="group overflow-hidden rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] transition-all hover:border-[var(--color-gold)]/40 hover:shadow-lg hover:shadow-[var(--color-gold)]/5"
               >
                 <div className="aspect-square overflow-hidden">
                   <Image
@@ -147,17 +147,17 @@ export default function PodcastPage() {
                   />
                 </div>
                 <div className="p-4">
-                  <time className="text-xs text-[var(--color-text-light)]">
+                  <time className="text-xs text-white/40">
                     {new Date(ep.date).toLocaleDateString("en-US", {
                       day: "numeric",
                       month: "long",
                       year: "numeric",
                     })}
                   </time>
-                  <h3 className="mt-1 font-[family-name:var(--font-montserrat)] text-sm font-bold leading-snug text-[var(--color-text)] group-hover:text-[var(--color-gold)]">
+                  <h3 className="mt-1 font-[family-name:var(--font-montserrat)] text-sm font-bold leading-snug text-white group-hover:text-[var(--color-gold)]">
                     {ep.title}
                   </h3>
-                  <p className="mt-2 text-xs leading-relaxed text-[var(--color-text-muted)] line-clamp-2">
+                  <p className="mt-2 text-xs leading-relaxed text-white/50 line-clamp-2">
                     {ep.excerpt}
                   </p>
                   <span className="mt-3 inline-block text-xs font-semibold uppercase tracking-wider text-[var(--color-gold)]">

@@ -8,6 +8,7 @@ import { join } from "path";
 import Markdown from "react-markdown";
 import { BLOG_POSTS, PODCAST_EPISODES, PODCAST_SUBSCRIBE_LINKS, SITE_CONFIG } from "@/lib/constants";
 import { articleJsonLd, podcastEpisodeJsonLd, breadcrumbJsonLd } from "@/lib/structured-data";
+import { TranscriptToggle } from "@/components/ui/transcript-toggle";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -88,31 +89,40 @@ async function getContent(type: "blog" | "podcast", slug: string): Promise<strin
   }
 }
 
+async function getTranscript(slug: string): Promise<string | null> {
+  try {
+    const filePath = join(process.cwd(), "content", "transcripts", `${slug}.txt`);
+    return await readFile(filePath, "utf-8");
+  } catch {
+    return null;
+  }
+}
+
 export const dynamicParams = false;
 
 const mdComponents = {
   h2: ({ children }: { children?: React.ReactNode }) => (
-    <h2 className="mt-10 mb-4 font-[family-name:var(--font-montserrat)] text-2xl font-bold text-[var(--color-text)]">
+    <h2 className="mt-10 mb-4 font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white">
       {children}
     </h2>
   ),
   h3: ({ children }: { children?: React.ReactNode }) => (
-    <h3 className="mt-8 mb-3 font-[family-name:var(--font-montserrat)] text-xl font-semibold text-[var(--color-text)]">
+    <h3 className="mt-8 mb-3 font-[family-name:var(--font-montserrat)] text-xl font-semibold text-white">
       {children}
     </h3>
   ),
   p: ({ children }: { children?: React.ReactNode }) => (
-    <p className="mb-4 text-base leading-relaxed text-[var(--color-text-muted)]">
+    <p className="mb-4 text-base leading-relaxed text-white/60">
       {children}
     </p>
   ),
   ul: ({ children }: { children?: React.ReactNode }) => (
-    <ul className="mb-4 ml-4 list-disc space-y-2 pl-4 text-base text-[var(--color-text-muted)]">
+    <ul className="mb-4 ml-4 list-disc space-y-2 pl-4 text-base text-white/60">
       {children}
     </ul>
   ),
   ol: ({ children }: { children?: React.ReactNode }) => (
-    <ol className="mb-4 ml-4 list-decimal space-y-2 pl-4 text-base text-[var(--color-text-muted)]">
+    <ol className="mb-4 ml-4 list-decimal space-y-2 pl-4 text-base text-white/60">
       {children}
     </ol>
   ),
@@ -130,7 +140,7 @@ const mdComponents = {
     </a>
   ),
   strong: ({ children }: { children?: React.ReactNode }) => (
-    <strong className="font-semibold text-[var(--color-text)]">
+    <strong className="font-semibold text-white">
       {children}
     </strong>
   ),
@@ -138,7 +148,7 @@ const mdComponents = {
     <em className="italic">{children}</em>
   ),
   blockquote: ({ children }: { children?: React.ReactNode }) => (
-    <blockquote className="mb-4 border-l-4 border-[var(--color-gold)] pl-4 italic text-[var(--color-text-muted)]">
+    <blockquote className="mb-4 border-l-4 border-[var(--color-gold)] pl-4 italic text-white/60">
       {children}
     </blockquote>
   ),
@@ -168,12 +178,12 @@ export default async function ContentPage({ params }: Props) {
         <article className="mx-auto max-w-3xl px-6 md:px-8">
           <Link
             href="/blog"
-            className="mb-6 inline-flex items-center gap-2 text-sm text-[var(--color-text-muted)] transition-colors hover:text-[var(--color-gold)]"
+            className="mb-6 inline-flex items-center gap-2 text-sm text-white/60 transition-colors hover:text-[var(--color-gold)]"
           >
             <ArrowLeft size={14} /> Back to Blog
           </Link>
 
-          <time className="text-sm text-[var(--color-text-light)]">
+          <time className="text-sm text-white/40">
             {new Date(post.date).toLocaleDateString("en-US", {
               day: "numeric",
               month: "long",
@@ -181,7 +191,7 @@ export default async function ContentPage({ params }: Props) {
             })}
           </time>
 
-          <h1 className="mt-3 font-[family-name:var(--font-montserrat)] text-3xl font-bold leading-tight text-[var(--color-text)] md:text-4xl">
+          <h1 className="mt-3 font-[family-name:var(--font-montserrat)] text-3xl font-bold leading-tight text-white md:text-4xl">
             {post.title}
           </h1>
 
@@ -200,16 +210,16 @@ export default async function ContentPage({ params }: Props) {
               <Markdown components={mdComponents}>{content}</Markdown>
             </div>
           ) : (
-            <div className="prose prose-lg mt-10 max-w-none text-[var(--color-text-muted)]">
+            <div className="prose prose-lg mt-10 max-w-none text-white/60">
               <p>{post.excerpt}</p>
             </div>
           )}
 
           <div className="mt-12 rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-6">
-            <p className="text-sm font-medium text-[var(--color-text)]">
+            <p className="text-sm font-medium text-white">
               Written by Shane Pierson
             </p>
-            <p className="mt-1 text-sm text-[var(--color-text-muted)]">
+            <p className="mt-1 text-sm text-white/60">
               Founder, Lords of Lending
             </p>
             <div className="mt-4 flex flex-wrap gap-3">
@@ -238,6 +248,7 @@ export default async function ContentPage({ params }: Props) {
   const episode = PODCAST_EPISODES.find((e) => e.slug === slug);
   if (episode) {
     const content = await getContent("podcast", slug);
+    const transcript = await getTranscript(slug);
     return (
       <main id="main-content" className="pt-24 pb-16 md:pt-32 md:pb-24">
         <script
@@ -255,7 +266,7 @@ export default async function ContentPage({ params }: Props) {
         <article className="mx-auto max-w-3xl px-6 md:px-8">
           <Link
             href="/podcast"
-            className="mb-6 inline-flex items-center gap-2 text-sm text-[var(--color-text-muted)] transition-colors hover:text-[var(--color-gold)]"
+            className="mb-6 inline-flex items-center gap-2 text-sm text-white/60 transition-colors hover:text-[var(--color-gold)]"
           >
             <ArrowLeft size={14} /> Back to Podcast
           </Link>
@@ -269,35 +280,43 @@ export default async function ContentPage({ params }: Props) {
               className="hidden shrink-0 rounded-xl shadow-lg sm:block"
             />
             <div>
-              <time className="text-sm text-[var(--color-text-light)]">
+              <time className="text-sm text-white/40">
                 {new Date(episode.date).toLocaleDateString("en-US", {
                   day: "numeric",
                   month: "long",
                   year: "numeric",
                 })}
               </time>
-              <h1 className="mt-2 font-[family-name:var(--font-montserrat)] text-2xl font-bold leading-tight text-[var(--color-text)] md:text-3xl">
+              <h1 className="mt-2 font-[family-name:var(--font-montserrat)] text-2xl font-bold leading-tight text-white md:text-3xl">
                 {episode.title}
               </h1>
-              <p className="mt-2 text-sm text-[var(--color-text-muted)]">
+              <p className="mt-2 text-sm text-white/60">
                 Shane Pierson, Stephanie Dunn &amp; Brian Congelliere
               </p>
             </div>
           </div>
 
-          {/* Buzzsprout Player */}
-          <div className="mt-6 rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-4">
-            <iframe
-              src={`https://www.buzzsprout.com/2315806/${episode.buzzsproutId}?client_source=small_player&iframe=true`}
-              loading="lazy"
-              width="100%"
-              height="200"
-              frameBorder="0"
-              scrolling="no"
-              title={episode.title}
-              className="rounded-lg"
-            />
-          </div>
+          {/* Buzzsprout Player — hidden for unpublished episodes */}
+          {!episode.buzzsproutId.startsWith("TBD") && (
+            <div className="mt-6 rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-4">
+              <iframe
+                src={`https://www.buzzsprout.com/2315806/${episode.buzzsproutId}?client_source=small_player&iframe=true`}
+                loading="lazy"
+                width="100%"
+                height="200"
+                frameBorder="0"
+                scrolling="no"
+                title={episode.title}
+                className="rounded-lg"
+              />
+            </div>
+          )}
+          {episode.buzzsproutId.startsWith("TBD") && (
+            <div className="mt-6 rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-4 text-center">
+              <p className="text-sm font-medium text-white">Episode Coming Soon</p>
+              <p className="mt-1 text-xs text-white/60">This episode will be available for streaming shortly.</p>
+            </div>
+          )}
 
           {/* Subscribe links */}
           <div className="mt-4 flex flex-wrap gap-2">
@@ -320,10 +339,13 @@ export default async function ContentPage({ params }: Props) {
               <Markdown components={mdComponents}>{content}</Markdown>
             </div>
           ) : (
-            <div className="mt-8 text-base leading-relaxed text-[var(--color-text-muted)]">
+            <div className="mt-8 text-base leading-relaxed text-white/60">
               <p>{episode.excerpt}</p>
             </div>
           )}
+
+          {/* Full Transcript (SEO + Accessibility) */}
+          {transcript && <TranscriptToggle transcript={transcript} />}
 
           {/* Related Episodes */}
           {(() => {
@@ -331,7 +353,7 @@ export default async function ContentPage({ params }: Props) {
             const related = PODCAST_EPISODES.filter((_, idx) => idx !== currentIdx).slice(0, 3);
             return (
               <div className="mt-12">
-                <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+                <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
                   More Episodes
                 </h2>
                 <div className="mt-4 grid gap-4 sm:grid-cols-3">
@@ -339,7 +361,7 @@ export default async function ContentPage({ params }: Props) {
                     <Link
                       key={ep.slug}
                       href={`/${ep.slug}`}
-                      className="group overflow-hidden rounded-xl border border-[var(--color-border)] bg-white transition-shadow hover:shadow-md"
+                      className="group overflow-hidden rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] transition-shadow hover:shadow-md"
                     >
                       <div className="aspect-square overflow-hidden">
                         <Image
@@ -351,14 +373,14 @@ export default async function ContentPage({ params }: Props) {
                         />
                       </div>
                       <div className="p-3">
-                        <time className="text-xs text-[var(--color-text-light)]">
+                        <time className="text-xs text-white/40">
                           {new Date(ep.date).toLocaleDateString("en-US", {
                             day: "numeric",
                             month: "long",
                             year: "numeric",
                           })}
                         </time>
-                        <h3 className="mt-1 text-xs font-bold leading-snug text-[var(--color-text)] group-hover:text-[var(--color-gold)]">
+                        <h3 className="mt-1 text-xs font-bold leading-snug text-white group-hover:text-[var(--color-gold)]">
                           {ep.title}
                         </h3>
                       </div>
@@ -371,10 +393,10 @@ export default async function ContentPage({ params }: Props) {
 
           {/* CTA */}
           <div className="mt-12 rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-6">
-            <p className="text-sm font-medium text-[var(--color-text)]">
+            <p className="text-sm font-medium text-white">
               Lords of Lending Podcast
             </p>
-            <p className="mt-1 text-sm text-[var(--color-text-muted)]">
+            <p className="mt-1 text-sm text-white/60">
               Real conversations about sourcing, structuring, and closing SBA deals.
             </p>
             <div className="mt-4 flex flex-wrap gap-3">

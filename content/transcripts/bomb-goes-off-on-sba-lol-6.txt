@@ -1,0 +1,835 @@
+﻿[00:00:00] **Shane:** Welcome back to another episode of Lords of Lending. I'm your host, Shane Pearson, as always with Stephanie Dunn, the Lord of Leadership, and Brian Conjole, the Lord of Law. Today's an exciting day, but kind of a little bit annoying too because we get to talk about some really. Drastic. Frustrating, maybe helpful in some ways, but also just kind of a pain in the butt changes to the SBAs rules, which might get a little bit heady today. Uh, so if you're a small business owner that actually is in a live application, some of the, what we talk about might be relevant to you, especially if you're trying to buy a business. Besides that, we're gonna talk about some of these nuances and hopefully be able to apply them back to you personally in, in how you interact with any type of an SBA lender, whether it's us or anybody else in the world, whether, even though you should be talking to us, let's be honest. But the, the reality is, is that these changes do, do affect your application and don't let any lender tell you otherwise. So, to jump into this, we're gonna, I'll, I'll kind of back you into a little bit of what, what happened. It was last week that. SBA had announced a new standard operating procedure for processing SBA loans, it's SBA fifty ten eight. Nobody really cares about the, that last number. But in the lender world, that means we've gotta go in and change internal processes and figure out how, figure out what the SBA is trying to, to, to do with a, with a new administration.
+
+
+[00:01:25] This is very common where they'll come in and start shifting around rules, trying to backwash some of the stuff that, uh. That Biden's era hadn't had put into play and adapt the philosophy of the SBA to what the Trump administration actually has. Rolling. So to kind of get into this, we're just gonna knock through some questions, uh, specifically around the major points that we've seen in the business acquisition space, and that's what Brian, myself and Stephanie, have spent a lot of time building. Is a relationship with business brokers and with buyers out there that are, that are trying to leverage the, the strength that SBA still even after these dumb changes is trying to help customers get into the SBA program or to get into it, owning a small business with the least amount of cash down, um, albeit a lot, lot more is required than was based on the previous rule book. And, uh, and do it with as, as least amount of friction as possible. let's jump into it. Brian and Steph, anything before we get into that, that you, you think is worth relevant, that that's relevant to bring up right now?
+
+
+[00:02:27] **Steph:** Yeah, I think if you look at the program. The whole purpose of the program is to provide access to capital, to small businesses. 'cause prior to this program's existence, very difficult for small businesses to obtain business loans, uh, in meeting the conventional banking criteria. So the program was created and exists still today to provide access to capital.
+
+
+[00:02:52] Now that being the case. There are some changes that have just been made to this SOP are not necessarily in the favor of providing access to capital small businesses, so let's dig into those.
+
+
+[00:03:04] **Shane:** Okay. Alright, so then I'll fire off the first question here to what I think is maybe the biggest one specifically in a business acquisition and that is the new injection rules. So what was it historically, Brian? So prior to this change, what was a buyer able to do that was getting a loan under the SBA seven A loan that, that we know we're gonna be able to address with the. That just.
+
+
+[00:03:29] **Brian:** Well, previously, I mean, when I first kind of got started, it was 10% down as a minimum. Right? And then with this last change. Over four years ago, I think it was 2023, um, so not four years ago at all. Uh, they changed it to allow for sellers to provide a good chunk of that injection, right? So up to 75% of that 10% requirement, so you could actually get into buying a business with only 2.5% from your own pocket or even get it as a gift from somebody else.
+
+
+[00:04:08] So having that change. Like Steph was saying, significantly impacts people's ability to, uh, leverage bank funds and their own funds to be able to buy more businesses and grow more businesses.
+
+
+[00:04:25] **Shane:** So even more crazy, you could actually get a hundred percent financing. And the way that that would work is that even the, even though you said the two point half percent, that tends to lean on what the bank rules were. would, you know, banks naturally should want some skin in the game as the,
+
+
+[00:04:41] **Brian:** Mm-hmm.
+
+
+[00:04:42] **Shane:** is always utilized. But even the, the rule was even more lax. You could technically get 10, the, the 10% needed to be there, but the seller could carry that. had to be on standby for two years. Right. So no payments, no interest on that loan. So you can go in and buy a business with technically not putting any cash down. Some lenders would do that. I, I had seen only maybe one or two transactions where I made that happen personally. And that's where I had a guy who had been the manager of the business had, that the owners wanted to let him buy it from them, so they, they were willing to carry some and kind of make that work.
+
+
+[00:05:12] And the cashflow numbers work. They were cutting him a break. now you're, now we're flipping in back, kind of going back to old school. as, uh, what that rule was. So the way where, how does that read now, Steph, what does the new SOP now, how is that read for that 10% injection?
+
+
+[00:05:32] **Steph:** yeah. The new SOP now reads it's back to basically
+
+
+[00:05:37] **Shane:** hold on.
+
+
+[00:05:37] **Steph:** six.
+
+
+[00:05:39] **Shane:** You kind of cut out again. So let me ask you that question again, just to make sure we get the recording straight. Okay. So I'm gonna actually, so Steph, how does the new SOP. Where does that new SOP put us today for the amount of down payment you have to have and how you can structure that if you're a business buyer?
+
+
+[00:05:57] **Steph:** The new SOP today, this fifty ten eight in essence reverting back to fifty ten six. So think. Two SOPs ago, and then we're back to the change of ownership requires 10% injection. It could be 5% buyer, 5% seller. So I, I, I think that overall, I'm in favor of this because I do believe buyers should have skin in the game. Uh, does it affect. transactions. Yes. But again, I'm of the believer if you're buying a business and you don't have 5%, you know, I really question is, are you ready to buy a business if you don't have 5% to put down? But there are industries where you know you're a sweat equity and working at a place and running a place for years and working for a seller, it's part of your your deal. So there, there will be those circumstances that are gonna be negatively affected.
+
+
+[00:06:59] **Shane:** I think you bring up an interesting point and it's, it goes, it actually tells to your tenure as a lender ID of how you identify things. I think any of the good lenders in the SBA industry weren't really often pushing anything like less down than 5%. I mean, I talked to some of our biggest competitors that we worked with, which are more colleagues in this industry, which is a weird little niche in the SBA world, but that 5% kind of, kind of was what we all backed into. I think the rule change that, that I, that messed up a lot of deals that are on the table right now is that seller carry actually has to, in order for it to count towards that 5% has to be in standby again for the life of the loan, for the life of the SBA loan.
+
+
+[00:07:39] **Brian:** Yeah.
+
+
+[00:07:39] **Shane:** 10 year term. That seller isn't getting that 5% for 10 years in order to be able to, to leverage the ability to get it at 5% of your down payment in there.
+
+
+[00:07:49] So if you are in contract now, you gotta, you, and this thing doesn't get done before June 1st, or you don't get the SBA approval on the bank side before June 1st. have. You have to go back and renegotiate with your seller and see if he's willing to put that 5% on standby for 10 years again, and that, that was the rule, right?
+
+
+[00:08:07] I think like I almost like have blacked out that period of life in my head, but I think that that's, that's what it was prior to. If it was gonna count towards, it has to be that, that 5% on standby for the life of the loan, which,
+
+
+[00:08:17] **Brian:** Yeah.
+
+
+[00:08:18] **Shane:** then it's really equity at that point, and I, I think that all kind of lines up when all is said and done.
+
+
+[00:08:25] **Steph:** yeah, that's my biggest problem with the fifty ten eight. I have two big problems. One is seller carry on standby for the life of the loan. I mean, we talk about the demographic of sellers in America. Guys, this is the baby boomer transfer of
+
+
+[00:08:42] **Brian:** They're in retirement.
+
+
+[00:08:43] **Steph:** So a 70-year-old doesn't wanna hold paper for 25 years.
+
+
+[00:08:48] Do the math guys,
+
+
+[00:08:49] **Shane:** Yep.
+
+
+[00:08:50] **Steph:** when you're talking about a real estate transaction and you have to hold paper for 25 years, that basically means the seller's never getting that 5%. Let's be honest.
+
+
+[00:08:59] **Shane:** It happen.
+
+
+[00:09:00] **Steph:** You are selling 95% of your business.
+
+
+[00:09:03] **Brian:** Yeah, it, it effectively forces people to restructure their deals, right? So instead of, Hey, I'm gonna, I'm gonna pay a certain amount and seller's gonna contribute. Um, I, I'm not a huge fan either of this change. I think, um, well, for one thing, I think. I like getting borrowers to bring in more capital. 'cause I, I agree with you, Steph.
+
+
+[00:09:27] They, you gotta bring in some, some skin in the game, but at the same time, having that be on standby for the entire life of the loan, it just doesn't make sense. And when you think about it, this is one of those things, like when I was in law school, they would talk a lot about the, you know, the whole ivory tower thing where you're, you're making rules in a vacuum.
+
+
+[00:09:48] And then when they're actually put into practice, they don't make sense.
+
+
+[00:09:51] **Shane:** Yeah.
+
+
+[00:09:52] **Brian:** Right. This is a type of rule where in reality, what are people gonna do? Well, they're just gonna charge more for their business and then carry that note. And at the end of 10 years they, maybe they get paid, maybe they don't at that point, but it's just gonna force different things to happen that effectuate the same result.
+
+
+[00:10:13] Right. So it's, it's one of those things where, yeah, in part I, I like it, but also at the same time. For the life of the loan thing. Come on. It's just not realistic.
+
+
+[00:10:25] **Shane:** Yeah, they, they could have chosen five years. Why the hell isn't it like five years or three years?
+
+
+[00:10:30] **Brian:** Right?
+
+
+[00:10:31] **Steph:** Uh, again with the aging demographic. But you know what, that just means you're right, Brian. What that means is all purchase prices have gone up 10%.
+
+
+[00:10:39] **Shane:** Damn it. That's.
+
+
+[00:10:40] **Steph:** go.
+
+
+[00:10:41] **Brian:** Yeah.
+
+
+[00:10:42] **Steph:** So there you go. So, and actually, I really love your reference to that ivory tower because that's exactly what I was thinking to myself as we listened to the changes.
+
+
+[00:10:52] I was thinking to myself, how did they think through the practical use of this change? Like if I'm a seller, will I hold paper for any period of extended time? No. So I was looking at the table of presenters and the new, um, uh, uh, the new team of administration there. And thinking to myself now, how many were actual lenders? None.
+
+
+[00:11:20] **Shane:** Zero.
+
+
+[00:11:21] **Steph:** Yeah. Not one
+
+
+[00:11:22] **Shane:** There was, there was no,
+
+
+[00:11:24] **Brian:** It's usually how that goes.
+
+
+[00:11:26] **Steph:** Yeah.
+
+
+[00:11:27] **Shane:** Well, there's, there's no frontline people that actually can see the impact of the net decisions that are made with, with any of this. So it, it, it, decisioning around any of this tends to be the academics. And the people who get put into these government positions, and I mean, we, there's some great people on the, that have been put on the SBA like that, that, that have come with this transition.
+
+
+[00:11:48] I mean, we know one of 'em really
+
+
+[00:11:49] **Brian:** Sure.
+
+
+[00:11:49] **Shane:** um, that, that they have good experience and they understand the play and they've been in it for years. But there, there's a current, like with us being literally in the front lines, we're seeing the true impact that this has on a business owner and having to help them figure out how to navigate this nonsense as it, as it unravels. A lot of, a lot of pre-thought and, and, and get to see the impact and how bad it hurts. I mean, we are the, uh, we are the, the triage doctors, if you will, that are try to there to help fix it.
+
+
+[00:12:16] **Steph:** Well, and here's, this leads us to the next big bullet point here. That is a point of, to me, friction
+
+
+[00:12:24] **Shane:** Mm-hmm.
+
+
+[00:12:24] **Steph:** the change any partial acquisition. So regardless of your percentage ownership. You must provide a full guarantee. So if you're a 5% owner, you are fully guaranteeing the entire loan. Once again, practical use of that. did that make any sense to minority partners? So we just eliminated minority partners.
+
+
+[00:12:51] **Shane:** And
+
+
+[00:12:52] **Brian:** Great.
+
+
+[00:12:53] **Shane:** If you saw the change, the way that they, they versed this in, actually, I think within the, uh, the SOP itself is be, is saying because those, those owners who are buying that partial percentage are getting some net guarantee or like some, some benefit from the loan, which I. It sounds sassy for me to do that with some weird moves as I'm saying it, but the, the whole thing is contradicts a regular business acquisition that's a full transfer of ownership. If there's minority partners, like why the hell would just, because it's a partial transfer, be treated any different than a full transfer, because on a full transfer, you also have a benefit of the loan by being a 3% partner. It's that that's where someone wasn't thinking through, they're, they're trying to. I, or they're overthinking, what the hell's going on with that? I had heard some language come from, um, a credit officer to a buddy of mine at a different bank where he had kind of mentioned that like, well, they're getting a benefit of the loan. I've heard that come out of like attorney's mouths actually, you know, anyone benefiting from the loan should have to guarantee it.
+
+
+[00:13:50] Like that's, but that's never been the case historically on regular acquisition changes. So the, the, the whole idea, I think was to try to not let. seller's off the hook on the business if we're doing that. 'cause they're the ones getting the lion's share bonus. Like, Hey, I'm selling 95% of my business. I get to sit in a 5% equity seat for the next couple years, and then maybe gracefully exit out of the business, um, while still taking advantage of the profitability that's there. But that, that, that, let's lead right into that point though, Steph,
+
+
+[00:14:19] **Steph:** that if
+
+
+[00:14:20] **Shane:** the 5%. So if a seller stays on,
+
+
+[00:14:24] **Steph:** Yeah,
+
+
+[00:14:25] **Shane:** go ahead.
+
+
+[00:14:26] **Steph:** the lines. don't want sellers staying on and getting a big lump sum and sellers staying on read between the lines, right? So they don't
+
+
+[00:14:33] **Shane:** Yeah.
+
+
+[00:14:34] **Steph:** partial ownership transfers. They don't want partial ownership
+
+
+[00:14:37] **Shane:** Mm-hmm.
+
+
+[00:14:38] **Steph:** and they don't want seller carries. Like those are the big takeaways because all to eliminate those two things, all you do is say the G seller has to fully guarantee and the seller has to hold paper for the life alone.
+
+
+[00:14:49] Well, that
+
+
+[00:14:50] **Shane:** Yeah.
+
+
+[00:14:50] **Steph:** that.
+
+
+[00:14:51] **Shane:** That's true.
+
+
+[00:14:53] **Brian:** Yeah.
+
+
+[00:14:53] **Shane:** you nailed it. That's the, the attitude behind those things is, we don't really want to do this, but here, let me appease you by giving you these little options that maybe the crazy people will take on. 'cause that's, that's essentially what it's at is freaking loco the
+
+
+[00:15:05] **Steph:** down. Let's shut down two options way.
+
+
+[00:15:10] **Shane:** a very, very strategic way. Well, the. We were talking earlier about this before we hopped on the call, the the seller that does stay on in a partial transfer. So if you go buy 95% of this business, and let's say the seller stays on with 5%, he has to guarantee the loan, but only for two years. So there's no other rule as an SBA history that I've ever experienced that had a short term guarantee that would somehow be released later, SBA a's notorious. For keeping people in bed on the loan for the life of the loan. Like it's really hard to exit unless you get completely bought out or a partner buyout. Like there's, it's not easy to get off an SBA loan. So I'm interested to see how easy they make it for a seller to leave in two years or if they put some weird PPP stab back on, uh, to try to, to get back at them for getting any benefit.
+
+
+[00:15:57] I mean, what do you think is gonna happen with that?
+
+
+[00:15:59] **Steph:** great point. So after the call last week where the SBA rolled out these changes or made the announcement to lenders, I deliberated with our head of servicing who has been in servicing for 40 years. Ran servicing for the SBA and is a true veteran and the, and the real OG in servicing. he said, point blank, these changes that seller guarantee.
+
+
+[00:16:22] The, and then the seller, um, life of the loan. Those two things alone will bog down servicing at the SBA,
+
+
+[00:16:29] **Shane:** I'm sure.
+
+
+[00:16:30] **Steph:** two things alone.
+
+
+[00:16:31] **Shane:** Yep.
+
+
+[00:16:32] **Steph:** so servicing for the life of the loan, now having to manage that ongoing. know how minority partners come and go on these transactions, right?
+
+
+[00:16:42] **Shane:** Yep.
+
+
+[00:16:42] **Steph:** And so now to maintain the guarantee on minority partners for 25 years is gonna be a servicing. I mean, think about the servicing, huge servicing demand now on banks and on the SVA
+
+
+[00:16:56] **Brian:** Yeah.
+
+
+[00:16:57] **Steph:** the way, just cut 40% of their staff.
+
+
+[00:16:59] **Brian:** Yeah.
+
+
+[00:17:00] **Shane:** Well, that, that makes me lead maybe to the next, next change that I think we'll have. It will have an impact on borrowers based on the lender attitude on loans. If that lender isn't used to taking risk, and that's specifically that in the world of SBA, a small business lender can achieve what's called a, uh, PLP status preferred lending partner.
+
+
+[00:17:23] Am I, I think I'm saying it right. I always just call it PLP. In our world world, what that means is if you're working with a lender who has a PLP status, they are, uh, able to approve everything in house, don't have to go off to the SBA to get things approved. the SBA historically has done is left the door open to be able to process four of one of those lenders that maybe has some questions about whether or not a transaction actually might work to just then go send it off.
+
+
+[00:17:46] So a credit manager that is unsure if a deal is eligible would utilize the ability to send it to the center to have them approve your loan, and that could add maybe two to three weeks to the loan, if not longer. Sometimes. gave them the, the credit manager, the ability to get over an eligibility issue that, that might put the bank at risk if the deal goes bad. So is the new change that went along with this S-S-B-A-S-O-P Brian, from, from what you had seen, what are they now requiring are they saying banks are allowed to do when they have questions instead?
+
+
+[00:18:22] **Brian:** I'm not sure.
+
+
+[00:18:24] **Shane:** Oh, dammit. Okay. You didn't see that change
+
+
+[00:18:26] **Brian:** No, I didn't see that change. The only thing I know is that PLP lenders can't go GP anymore.
+
+
+[00:18:31] **Shane:** That's what I'm talking about.
+
+
+[00:18:32] **Brian:** Okay.
+
+
+[00:18:33] **Shane:** back
+
+
+[00:18:33] **Brian:** right.
+
+
+[00:18:34] **Shane:** you that question again. They
+
+
+[00:18:35] **Brian:** All right.
+
+
+[00:18:35] **Shane:** anymore and what the solution is to try to get,
+
+
+[00:18:38] **Steph:** This is why and Dumber,
+
+
+[00:18:41] **Shane:** we're leaving this in. This is staying. Don't cut this.
+
+
+[00:18:44] **Steph:** best.
+
+
+[00:18:45] **Shane:** Yep. No clue. Well.
+
+
+[00:18:47] **Steph:** I didn't understand your question. She but the best was Brian's answer. I don't know.
+
+
+[00:18:53] **Brian:** Yeah, dunno.
+
+
+[00:18:55] **Shane:** Lender,
+
+
+[00:18:56] **Steph:** ego at all.
+
+
+[00:18:57] **Shane:** like you said, no longer get gp. We're leaving all that in, guys. Don't worry about it. People. So plp, lenders no longer gp. What does that mean? What impact does that have on a bank now?
+
+
+[00:19:10] **Brian:** So. Yeah, that one's, that one's interesting because all of a sudden you're shifting the risk, right? On a bunch of deals that may have been marginal deals to the lender who, you know, you're, you're kind of taking a shot, shot in the dark, playing your shot in the dark from, uh, survivor speak. Um, it's, I don't know how that one ends up shaking out, to be quite honest.
+
+
+[00:19:39] I mean, I've had a number of deals where. Credit is for whatever reason, concerned on it, and they say, let's send this one into the center just to be sure. Uh, I think that that one ends up being credit officers saying flat out no,
+
+
+[00:19:57] **Shane:** Yeah.
+
+
+[00:19:58] **Brian:** in a lot of those scenarios. Otherwise, yeah, I just don't see, I just don't see them doing a lot of those fringe deals anymore.
+
+
+[00:20:09] **Steph:** Now, and once again, I'm gonna say it again, very intentional. the administration's
+
+
+[00:20:15] **Brian:** Yeah, they don't want those.
+
+
+[00:20:16] **Steph:** you said. Brian, you know what the thought process is? Don't be sending your crap in. Don't send it to us. If you guys can't make the decision, don't expect us to make the decision for you. It's like a cop out, right? If you can't make your own risk decisions, shouldn't have to rely on the agency to make 'em for you. you, it's like you guys all have to do your jobs here in assessing your own risk.
+
+
+[00:20:41] **Brian:** To some degree.
+
+
+[00:20:42] **Steph:** never supposed to be used for that, so I kinda understand what their purpose is. The agency was never supposed to be the credit department for the bank.
+
+
+[00:20:51] **Shane:** Yeah.
+
+
+[00:20:52] **Brian:** Yeah, it makes sense to some degree what you're saying, Steph, it, it's, it creates more, which is funny because a lot of these changes create more servicing and, uh, SBA work on their end. This one obviously goes the other way, shifts that work back to the lender. But I think a lot of maybe less experienced SBA lenders now all of a sudden aren't gonna be playing, you know, this, this riskier game that they have been playing in, sending a lot of transactions in and being like, oh, we'll, we'll just get the guarantee.
+
+
+[00:21:29] We're good. You know, we, we got the G, we got their blessing, we got it. We're good.
+
+
+[00:21:33] **Steph:** Yeah. Yeah, you're right. I know a lot of, and look, oh, you weren't with me at this. I went to an event a couple weeks ago and it was all the top in the country at this awards banquet, and a couple of the top lenders in America had a PLP license, but their credit department sent everything in gp. And we know some lenders that have been in the business forever, but their credit department. Preferred sending everything NGP. And that's what basically probably changed the administration's mind. 'cause they were flooded with underwriting and they were like, wait a minute, we're not lenders. We're supposed to only be used in circumstances and special circumstances.
+
+
+[00:22:17] Right. So because of that, now it's forcing anyone who has a PLP license to, yeah, I guess you're right. Credit departments now are really gonna have to master the SOP.
+
+
+[00:22:29] **Brian:** Well, let me ask you this. What do you think? Do you think that there could. Could be some lenders who say, you know what, we don't like that level of risk. We're just gonna opt out and not do SBA loans anymore.
+
+
+[00:22:42] **Steph:** Yeah, I agree. I think there will be some lenders who are just not willing to take the risk on these credits. And you're right. Before it was a, well, let's send it in gp. 'cause we don't have the SOP expertise here at our small little community bank. Right.
+
+
+[00:22:56] **Brian:** Mm-hmm.
+
+
+[00:22:56] **Steph:** now they're just gonna pass.
+
+
+[00:22:58] **Shane:** I've got some points for you. So there's some footnotes to this rule, right? That, that you can't send in something GP anymore. As a lender and as a borrower, it's important to understand what this means. So we've identified that there's risk associated with. The decisioning that the bank is making, there always is risk on your, on your deal. And this is really only gonna hit those that are doing some crazy stuff. when all is said is like there's, they're coming from a funky industry, they've got cashflow problems, there's some story that has to be told on this that doesn't fit the norm. So this is all set up to try that. That's where that was set up.
+
+
+[00:23:30] Those situations where banks would do that, besides the point that Brian brought up where some just decided to send everything in, even though they already have what's called that preferred lender like license. So. Going back to what Steph said, SBA, just cut 40% of their staff. How do you control the ability to get through all those loans?
+
+
+[00:23:48] No. PLP lenders, you can't send into the office anymore. There goes like probably 40% of the applications that were getting sent in gp. Right? People playing have the license, but playing as a GP lender, just to avoid the risk issues, to make sure their guarantee is perfected. That's the whole thing. They want to be perfected so those lenders can decide, surrender their PLP license and just be a GP lender. It doesn't change their business model. That's probably what's gonna end up happening is that some will just err on the side of, we're not gonna play the PLP game, but the extra footnote that I'm talking about SBA a's opening up this little email that's specific for PLP lenders to allow them to send in questions on a, on a transaction.
+
+
+[00:24:27] This isn't the SBA seven A questions@sba.gov thing that let, lets you just get a little, some dude on the other end, or probably even AI, just to respond and say, yeah, that sounds like it might be eligible. And then use that to help back you up. It's supposed to be a little bit more thorough and they'd even talked about maybe developing a template for the lender to spell out all of the issues so that a decision can be made on the particular nuance of a deal that, that you're trying to see if it actually is something that's eligible. So this could be some, their way of trying to work around it and only having like 10 or 15 people there to respond and make it easier to get deals. Through. Um, maybe it'll help help some, uh, some borrowers or some banks kind of grow some Voss and make decisions and stop wsn out and actually use their license the way they can.
+
+
+[00:25:12] That could cause a speed up. But I think the, knowing how bankers have worked and us all being in this industry for 20 plus years, we know what happens when this kind of stuff happens. You get banks, they, they contract with all the noise, nobody, nobody's like really leaning in aggressively on risk. So expect slow downs if you've got a really weird ask for the bank, and I think that's the net, the net issue that this could potentially put an issue if they, if you get the, the lender like myself on the front end to, to hum and haw about eligibility and you hear that word come outta their mouth, be prepared.
+
+
+[00:25:45] There's gonna be maybe be some kickback on whether or not you get that deal to work and on a lot less lenders that may be willing to take that risk. So don't be afraid of a GP lender if they're out there. Nevertheless, hopefully, hopefully a bank like ours and, and the places that we work will like lean into this a little hard, okay.
+
+
+[00:26:04] **Steph:** I don't know. I mean, if I'm a GP lender right now I'm applying for my PLP license. Because just said the SBA is cutting 40% of their staff. So if I'm a GP lender, think about the turn time
+
+
+[00:26:17] **Shane:** Yeah,
+
+
+[00:26:18] **Steph:** dealing with.
+
+
+[00:26:19] **Shane:** right now it's like three weeks. Just nothing closing. That's not the front end. So if you, you have three weeks added to your loan if you're, if you're going out there to get there to, uh, going out to get an SBA loan. So yeah, there's, you're right. Correct me.
+
+
+[00:26:32] **Steph:** once again, if you read between the lines, the SBA is saying, we wanna work with PP lenders.
+
+
+[00:26:38] **Shane:** Yeah, that's valid. And we'll give you, we'll give you some help so you're not. I don't think your things are gonna go bad, but I don't know. It is a lot of skeptics, a lot of pessimism that exists in the decisioning world. That makes this a hard, hard play to know.
+
+
+[00:26:52] **Steph:** Yeah. Find a PLP lender. My my advice is don't mess with GP lenders. Go go find a PLP lender. There are, and 20, I don't know what, 2000 PLP lenders in America. Go find one of those.
+
+
+[00:27:04] **Shane:** yeah, that's the truth.
+
+
+[00:27:06] **Steph:** Don't mess with a GP lender 'cause it's hard enough right now for POP lenders, a GP lender is not gonna understand the program, the nuances of the SOP, and they're gonna fumble the ball and fumble through SVA and you'll be your, your odds of closing your loan or a lot less.
+
+
+[00:27:25] **Shane:** Nope. That's, that's awesome. Uh, you're right. Well, so this makes me think about another one that came up. And this isn't for business buyers, but this is the whole refinance change. Something that I think might get rolled back because this one, when it was being sold to a bunch of this SBA lenders really screwed everyone up.
+
+
+[00:27:43] Like, what the hell are you doing? SBA, like, why would you take this stance? Steph, do you know what I'm talking about? Or do I phrase the question? Okay.
+
+
+[00:27:51] **Steph:** And this was my other two big problems. My two big problems were seller carry for the life loan, and this, my other big problem is no refinance of MCA or factoring debt.
+
+
+[00:28:04] **Brian:** Yeah.
+
+
+[00:28:05] **Shane:** Okay, so let's talk through that. What are, right now, we know that there are some significant problems in the small business lending world, and that is that us stupid SBA lenders can't move fast enough. So there, it opened the, opened the gate to these psychotic, I'm gonna call 'em psychotic, MCA lenders. put together these terms, they're called Merchant cash advance, and they're, and I won't name any of them on here, but you can go look up who are the MCA lenders that are out there and see plenty of them. But the terms on these notes are so predatory, uglier than any debt I've ever seen probably in my life.
+
+
+[00:28:41] Um, on, on consumer side or not. I, I'm amazed that this hasn't been. Had they, they, that these kind of debts haven't already been like regulated heavily because it's borderline usy and the workarounds that they have on the legal, legal documentation. Yeah. Straight up loan sharks into small businesses and it buries them. I get SBA hesitating, I want to help these people. But what, what is it about that kind of a debt that you think SBA would, would have so much hesitation in, in making this dumb rule not want to help these farmers?
+
+
+[00:29:09] **Steph:** We've all dealt with our credit departments over the years as these MCA debt and factoring debt has become more and more common right to small businesses. Look, let's think on why these small businesses got into this debt in the first place. Like that's, that's always my argument, right to our credit teams is, well, there was this little thing called the global pandemic. so this little global pandemic problem in America. And then you deal with all the, uh, recession issues, inflation issues, staff, payroll expenses, have shot through the roof, okay? All of this in a five year period. Like think about it as a, from a small business owner. So small business owners couldn't keep up with the rapid increase of doing business. Fast enough, and sure the government pumped a whole bunch of money into the system right through PPP and Idle and all these other government relief programs, but it wasn't
+
+
+[00:30:05] **Brian:** Yep.
+
+
+[00:30:05] **Steph:** and it wasn't fast enough, quite frankly.
+
+
+[00:30:08] **Brian:** Mm-hmm.
+
+
+[00:30:08] **Steph:** so what they did was they had to resort to short-term debt just to keep afloat, just to make payroll. But it was just that it was short term debt with the expectation of. Let me go through the process of applying for a long-term, long-term debt to take out the short term debt. It was a bandaid,
+
+
+[00:30:29] **Shane:** Yeah.
+
+
+[00:30:29] **Steph:** calling them. Sorry guys. You're stuck with that expensive short-term debt. There's no out, I mean, think about how we're setting these small businesses up for now. access to capital.
+
+
+[00:30:43] **Shane:** Yeah. I mean you, you just have ripped. The, uh, the IV outta these guys on their death bed. I mean,
+
+
+[00:30:52] **Steph:** Yeah.
+
+
+[00:30:53] **Shane:** it's sad and 'cause SBA can be a cure for those problems. I think that's it. It it, that's what it's been kind of staged up as. The problem is the, the MCA lenders were, were administering that as the exit strategy, as the saving grace for the debt that they were about to put on these borrowers books.
+
+
+[00:31:10] It was a selling strategy. Oh, we'll just get you an SBA loan and get you to pay, pay this note off afterwards. Regardless of what the situation is that got you into the, the loan you want, we're gonna plug this in, milk you for a whole bunch of fees, like 40% plus tack that all onto the debt right away, and then don't worry, SBA will take it out and put you on normal, good, healthy terms. like, it's like taking cocaine, knowing that some ibuprofen at the other end will just, you know, solve the headache of the aftermath or something like. so plastered drunk in, in like immediately and then thinking that that's gonna be your solution. And oftentimes it never solves the issue.
+
+
+[00:31:43] I mean, hell, you get, people literally kill themselves with overdrinking and these SSBA loans so that, that that strategy needed to go go away. And I think that s b's leaning away from 'em in hopes that maybe it buries some of these MCA lenders. That's, that's the only thing I can think that forget us going to try to build regulation into the SO or into congress. Let's just take the, uh, take the the solution off the table for those lenders and maybe see what happens to see if they roll off,
+
+
+[00:32:11] **Brian:** Yeah, I,
+
+
+[00:32:12] **Shane:** behind anymore. There's no exit.
+
+
+[00:32:14] **Brian:** I, I question that. I, I just don't really see the value in it. Um, it seems like if they don't like MCA in factoring, then there should be on the flip side, like you were saying, Shane, some sort of, um. Laws created to stop that level of, I mean, call it what it is, usury.
+
+
+[00:32:38] **Shane:** Yep.
+
+
+[00:32:38] **Brian:** So, but at the same time, I just don't see how stopping that at this point really helps anything.
+
+
+[00:32:48] I mean, there have been situations we, we've had and seen situations where people come in, they've got tons of MCA debts. They're, they're basically getting one MCA debt. Using that to pay off the previous one, getting a little bit more money and just robbing Peter to pay Paul,
+
+
+[00:33:05] **Shane:** Yeah.
+
+
+[00:33:06] **Brian:** but, and then they end up getting an SBA loan and then right after they do that, they go back to doing MCA loans and then they go outta business
+
+
+[00:33:15] **Shane:** Yeah.
+
+
+[00:33:16] **Brian:** and defaults on everything.
+
+
+[00:33:17] **Shane:** Yep.
+
+
+[00:33:18] **Brian:** So I suppose there are those situations. I can't imagine that being a huge percentage of defaulted loans. The reason why there is a huge percentage of de defaulted loans. But yeah, it just seems baffling to me why that would be, um, that would be frowned upon to such a degree to put it in this new SOP that we can't do it at all.
+
+
+[00:33:48] **Shane:** Yeah.
+
+
+[00:33:48] **Steph:** Well, and then here's my thought. My thought is if we say MCA debt and factoring debt is not eligible, where do we stop?
+
+
+[00:34:01] **Shane:** Yeah.
+
+
+[00:34:01] **Steph:** say credit card debt is not eligible? 'cause
+
+
+[00:34:03] **Shane:** Mm-hmm.
+
+
+[00:34:04] **Steph:** is 30%.
+
+
+[00:34:05] **Shane:** Yeah. Yep.
+
+
+[00:34:06] **Steph:** going to say, um, inventory financing or equipment financing is not eligible? 'cause some of that could just be in the 20% range.
+
+
+[00:34:14] **Shane:** Yeah.
+
+
+[00:34:14] **Steph:** do we stop? Where do we draw? Now that we've tip dipped our toe in the water of eliminating eligibility on one type of debt, it opens it up now to a whole. Slew of other debt that falls within the same, what is it, rate and term that's that dictated that eligibility. So now what are we not gonna refinance?
+
+
+[00:34:35] Credit card debt. And I did a quick search of small businesses in America that have MCA debt and in 20 25, 20 5% of small businesses in America have MCA debt. So that tells me 25% of small businesses in America are still on life support since Covid.
+
+
+[00:34:56] **Shane:** Yeah.
+
+
+[00:34:56] **Steph:** tried to find alternative solutions to financing and access capital, and now we just buried them.
+
+
+[00:35:03] **Shane:** Yeah,
+
+
+[00:35:04] **Brian:** And, and I also see, you know, businesses that are just growing so fast hand over fist that they choose. They know what they're doing and they choose to get these MCA loans because they know, Hey, I've got this contract for, I don't know, a million bucks, and I don't have the capital to fund the work to be done on that contract, and so now I'm losing out on a million bucks.
+
+
+[00:35:35] I'd rather go and make. You know, whatever their margin is, instead of it being 20 or 30%, I'd rather go make 10 or 15% on that million dollar contract
+
+
+[00:35:47] **Steph:** Yeah.
+
+
+[00:35:47] **Brian:** with an MCA loan
+
+
+[00:35:49] **Shane:** Yep.
+
+
+[00:35:49] **Brian:** not at all.
+
+
+[00:35:51] **Steph:** And to, that's a great point. If the whole intention is to get rid of those predatory lenders. All right. Again, read in between the lines. Then the agency's intention is shutting down MCA lenders. 'cause now there's no takeout. All right? So that's inevitably suffocating that business. Okay? So, 'cause there's no takeout and so they, they just lost their sales proposition.
+
+
+[00:36:11] **Shane:** Yep.
+
+
+[00:36:12] **Steph:** inevitably, if that's the goal to get rid of that MCA debt, why would we not then enhance our product, the line of credit product. So that's the alternative to small
+
+
+[00:36:26] **Brian:** Mm-hmm.
+
+
+[00:36:27] **Steph:** I.
+
+
+[00:36:27] **Shane:** Yep.
+
+
+[00:36:28] **Steph:** no longer MCA debt. I mean, getting a line of credit, as we all know as lenders, is difficult. It's, it is really difficult to get a line of credit if you're in the pharmacy business. Anything that requires a rapid inventory turnover. SBA, does not make it easy to provide a line of credit. So why wouldn't we work on enhancing our, our line of credit product and making it more reasonable for small business owners?
+
+
+[00:36:55] Again, access to capital. That's the point of the administration. And forget about suffocating. The M cas. would put 'em out of business if we had a, a competing product that could, that could meet the demand of these rapidly growing businesses.
+
+
+[00:37:09] **Shane:** And put a guarantee around it and make it sellable there, there's gotta be something in there that makes it enticing enough for a bank to wanna get into it. I, I, I was on a different podcast where I, I kind of brought up some of the changes you could make to the. and trying to make things more profitable.
+
+
+[00:37:24] 'cause I'm, I'm a sales guy and so I think, how do you lure people into a program or, or lure, lure more sales out of a sales guy? You get you up the comp plan. Like it's kinda like one-on-one. Like we make, make the carrot a little bit bigger, don't come at 'em with a stick. This is totally stick mentality of how to try to, and, you know, help an industry that it actually does the opposite. So putting pause on the ability to touch those. I it. I almost think that because of how asinine it all sounds that I actually think it might get rolled back or reworded, rephrased on what they might do. Maybe put a, give a, give a little bit more of a rule set of situations that would allow it. For instance, if it's only been, if they just got the loan last month, you can't pay it off.
+
+
+[00:38:04] Maybe you need at least a three to six month like lifespan of that MCA loan to show that that didn't sink the ship. that's what was happening. You'd have a guy go out and borrow two weeks earlier this MCA debt and then turn around and apply for a seven a loan the next day. Like that's that, that, that was what the problem was.
+
+
+[00:38:21] So get rid of that, buying that whole strategy say that it has to be seasoned for three to six months, and now all of a sudden that that debt now becomes something that actually could be paid off.
+
+
+[00:38:31] **Brian:** Yeah.
+
+
+[00:38:31] **Steph:** The longer they stay with that expensive debt, the more they, it's a slow death.
+
+
+[00:38:35] **Shane:** Sure.
+
+
+[00:38:36] **Steph:** wanna kill their cashflow? Like that's the, that's the double-edged sword we're dealing with here
+
+
+[00:38:40] **Shane:** Yeah, it is double-edged sword. You nailed it.
+
+
+[00:38:43] **Steph:** we want them to see, to maintain that debt. Like, let's see how long you can manage under this torture to see if you're worthy of a refinance. Like I say, the quicker we can get 'em out, the better for everyone.
+
+
+[00:38:57] **Shane:** entirely right. And I think that's the key. I, I, I, it's like trying to placate to stupidity, in my opinion that just.
+
+
+[00:39:02] **Steph:** Yeah, I
+
+
+[00:39:03] **Brian:** With a lot of these, with a lot of these changes, you know, I think about like when you're, when you're in, for example, a fast moving industry like technology, you create these feedback loops, right? So that you can constantly be iterating on your product and getting product market fit with. With, uh, when you're making laws, for example, um, the way that they end up playing out, you, Congress makes these laws and then they pass laws, and then inevitably those laws get litigated in courts, and so the nuances get flushed out and the rules get.
+
+
+[00:39:46] More detailed and you know, for example, the Supreme Court comes up with ways to actually implement a lot of these rules that, that, um, the government puts out with SBA. There's no feedback loop.
+
+
+[00:40:01] **Shane:** Yeah.
+
+
+[00:40:01] **Brian:** no way for anyone to litigate out what these rules actually mean.
+
+
+[00:40:07] **Shane:** Mm-hmm.
+
+
+[00:40:07] **Brian:** And so consequently there's no way for anyone to.
+
+
+[00:40:12] Make changes. It's just new administration comes in. Hmm, we think we should make some changes. They poll some people, they talk to some industry, um, heads and, and people that have been in it for a while, and then they basically go in a room it seems like and come up with the decisions they wanna make. Um, to me this screams that there needs to be a better feedback loop for SBA specifically.
+
+
+[00:40:42] Both with borrowers and with active lenders in the space so that we can come up with the best version of these rules. Not something that, you know, the ivory tower issue or something that someone who knows somebody on the inside can get away with because. They think, oh, I'm making a ton of money as a, maybe it's, I'm an MCA lender, I'm making a ton of money and I want to be able to get SBA loans to take out my loans so I can sell, sell more MCA loans, something along those lines, or could be something else.
+
+
+[00:41:21] Right.
+
+
+[00:41:22] **Shane:** Yep.
+
+
+[00:41:23] **Brian:** There just needs to be a better way for us to proceed forward because a lot of these changes that happen based on the, the administration that's in. At the time, they're not the most beneficial for the ultimate end user, which is the small business owner.
+
+
+[00:41:42] **Steph:** Yep. That's a great point. I love that. And actually, that's very well said.
+
+
+[00:41:47] **Shane:** Like I, if I could make a good, I'm just like, like almost mic dropped the
+
+
+[00:41:52] **Brian:** I,
+
+
+[00:41:52] **Shane:** That
+
+
+[00:41:53] **Brian:** I, I don't say much. I don't say a ton, but you know, I just try and listen and synthesize and then, uh,
+
+
+[00:41:59] **Shane:** execute
+
+
+[00:42:00] **Brian:** it.
+
+
+[00:42:00] **Shane:** with precision.
+
+
+[00:42:01] **Steph:** well said. Write that. You need to write that down and we need to send that over to the administration, like write that exact, we're gonna record that, dictate it and
+
+
+[00:42:10] **Brian:** It.
+
+
+[00:42:10] **Steph:** over to Kelly.
+
+
+[00:42:12] **Shane:** It Good. Kelly Loeffler. crap.
+
+
+[00:42:15] **Brian:** knows? Maybe, maybe some of the, uh. I, I know not everyone's a fan of Doge, but there, there are some things that they do that I think are positive.
+
+
+[00:42:23] **Shane:** Mm-hmm.
+
+
+[00:42:24] **Brian:** whole concept of the feedback loop
+
+
+[00:42:25] **Shane:** Yep.
+
+
+[00:42:26] **Brian:** that Elon Musk talks about a lot, I think that's what large reason why his companies are so freaking successful.
+
+
+[00:42:32] **Shane:** Yep.
+
+
+[00:42:33] **Steph:** Yeah,
+
+
+[00:42:34] **Brian:** that could be a,
+
+
+[00:42:35] **Steph:** step here in this administration
+
+
+[00:42:37] **Shane:** Yeah.
+
+
+[00:42:38] **Steph:** They didn't, they skipped the feedback loop. It appears,
+
+
+[00:42:42] **Brian:** yeah.
+
+
+[00:42:42] **Steph:** even look.
+
+
+[00:42:43] **Shane:** the where they just blow things.
+
+
+[00:42:46] **Steph:** Yeah, and you know what it is? It's, it was a, I almost feel like they, they spit out this SOP and said, all right, let's just bring back the last one from eight years ago. Again, we're the America's a whole different country than it was today eight years ago.
+
+
+[00:43:03] **Shane:** Yep.
+
+
+[00:43:04] **Steph:** say, oh, yeah, let's just treat it like we were in years ago.
+
+
+[00:43:07] No, no, no. How's that even possible when you think about, like, think about that as a starting point.
+
+
+[00:43:13] **Shane:** Yep.
+
+
+[00:43:13] **Steph:** The SOP just reverted back eight years. Well, that would be convenient. However, this country is no longer in the same place. It was eight years ago. We had a global pandemic, a recession, change of administration, put a lot of political turmoil. I mean, small businesses have endured a lot in the last eight years. Yeah, so to your point. If anything, this SOP should have been drastically different from the SOP eight years ago. Like when you think about our state of the union.
+
+
+[00:43:47] **Shane:** So that leads me to the, the, the final question for each three of us to then wrap this up 'cause there's plenty of other changes, but we focused on some of the ones that are maybe the most annoying to us as lenders, trying to help out small business owners. You could change one thing. Out of all of the crap that they just announced that's gonna roll unroll on borrowers, what would be the one thing that you would change?
+
+
+[00:44:07] That you would, and how would you change it? Steph?
+
+
+[00:44:10] **Steph:** I would say number one is we gotta let sellers get out. This sellers need to sell. We have an aging demographic in America. It's time to pass the torch. Sellers gotta go. They wanna go. They did their time. We gotta give them the respect and them and the money due to them. So seller carry for two years, no more two years.
+
+
+[00:44:31] If there's a seller carry, I'm okay with the five and five, but two years seller carry. And if a seller's less than 20% ownership, they don't need a guarantee. Let the seller go in peace.
+
+
+[00:44:41] **Shane:** Yep. Oh, I, I.
+
+
+[00:44:43] **Brian:** echo the exact same thing. The things that I was thinking of, the biggest one I was thinking of was the seller carry issue and then of course, keeping sellers in and making 'em guarantee it's, it makes zero sense given the huge demographic that our sellers at this point, I.
+
+
+[00:45:04] **Shane:** So you both, uh, you both kind of encompass. changes of ownership and the seller note concept. Right? So there, there's, there's two elements there that I think live, but it's just the, the, the reaction to the sellers. 'cause we know this market right now, and the business space is 65% of, or if not higher, of what our focus is in, in generating loans.
+
+
+[00:45:26] What the majority of the top 50 SBA lenders are focusing on. It is the transition tool of best resort. banks won't touch conventionally, so I think three of us kind of sit in that same seat.
+
+
+[00:45:38] **Steph:** look it, you know, if the government thought through the silver tsunami we talk about all the time and the largest transfer of wealth in the US history happening now, why would we not let sellers go in peace? They, they built incredible businesses. We have qualified buyers. Let the seller get the, the market price for their business and be able to move on and transition.
+
+
+[00:46:04] Look, there's a lot of questions regarding social security and, and solvency. If sellers have built themself a knife, nice business and can sell it, we should let them.
+
+
+[00:46:15] **Brian:** Exactly. I mean, I, I, I have parents myself who have a small business and they were surprised to hear that, oh, you should sell your business. They were my, my parents were like, wait, what? I could sell my business. How much, how much would I even sell it for? It's, it's such a benefit for them to be able to do that.
+
+
+[00:46:38] And there's already this new rule that comes into play where there's additional scrutiny on goodwill transactions. So with that additional scrutiny, it seems to me like we probably don't need as much scrutiny. Therefore on these sellers who are trying to exit and step out.
+
+
+[00:46:59] **Shane:** Get 'em out of bed, man. We don't want 'em in bed with
+
+
+[00:47:02] **Steph:** Let
+
+
+[00:47:03] **Shane:** the buyers.
+
+
+[00:47:03] **Steph:** go enjoy their retirement with their own money, because if not, guess what government it's gonna be the government's problem.
+
+
+[00:47:10] **Brian:** Mm-hmm.
+
+
+[00:47:11] **Shane:** exactly what happened. Default rise on their existing business. Now you got people that are gonna be relying on social security and all sorts of other problems and all that other crap that they're trying to reduce expenses on. It only belows and becomes a bigger problem for the government on the other side of all this. So, and I know SBA makes up a small amount of the, the inevitable funding that happens in the market. For businesses today, but it really is the lifeline for small business owners and we want it to remain that way. That's why I'm staying in it and why I haven't left it for 19 years is I really enjoy and appreciate the, the opportunity that this program does create for small business owners. The SBA is built around. Seeing people kind of make the American dream come true. And I feel that I get to be a part of that. As corny as it sounds, it may sound like it's, it's just like some joke, but after doing so many deals, it's not about the money anymore on how much I make out. I don't get that gratification there.
+
+
+[00:48:01] I actually get gratification about seeing the seller and buyer on the phone call with me, get excited that there's an option to make their dream come true on both sides of the equation. So like that, that's more fun. That's more fulfilling. I don't know. That's just, I think all three of us share that sentiment and so. you're listening today, please follow and, and give us feedback on what, what ways we can address new content for you. Um, things, things that really would help solve the problems you have. We're gonna have some guests coming in that are, that are specialists in the industry like hospitality, some in the funeral services.
+
+
+[00:48:32] If you're not in the funeral services, you should probably just jump in on that one alone, just because it's fun to hear how that off industry operates. If you've never thought about funeral services as an actual thriving, you know, growing business, I know a guy like me that didn't spend much. Time lending to that industry where Stephanie's like a master and a goddess in that world. Um, you get to hear some fun, crazy death stories, so enjoy that. But like, stick around for those and, and please again, let us know what any other way that we can, can help satisfy the, the needs of the small business owner and, and ensure that we're giving you good, solid topics. So thanks for chiming in.
+
+
+[00:49:04] We'll talk to you again soon. Go get 'em.

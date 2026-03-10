@@ -36,7 +36,7 @@ export default function BrokersPage() {
             <Button
               href="#contact"
               variant="outline"
-              className="border-white/30 px-8 py-4 text-base text-white hover:bg-white/10 hover:text-white"
+              className="border-white/30 px-8 py-4 text-base text-white hover:bg-[var(--color-surface)]/10 hover:text-white"
             >
               Schedule a Call
             </Button>
@@ -48,7 +48,7 @@ export default function BrokersPage() {
       <section
         className="relative px-6 py-16 md:px-8 md:py-20"
         style={{
-          background: "linear-gradient(135deg, #1a1a1a 0%, #8B5E34 50%, #C4883A 100%)",
+          background: "linear-gradient(135deg, #181516 0%, #8B5E34 50%, #C4883A 100%)",
         }}
       >
         {/* Fleur-de-lis pattern overlay */}
@@ -80,7 +80,7 @@ export default function BrokersPage() {
       </section>
 
       {/* ── Eligible Uses — Light with subtle pattern ── */}
-      <section className="relative bg-white px-6 py-16 md:px-8 md:py-20">
+      <section className="relative bg-[var(--color-surface)] px-6 py-16 md:px-8 md:py-20">
         {/* Faint fleur-de-lis */}
         <div
           aria-hidden="true"
@@ -92,7 +92,7 @@ export default function BrokersPage() {
         />
 
         <div className="relative mx-auto max-w-5xl">
-          <h2 className="font-[family-name:var(--font-montserrat)] text-2xl font-bold uppercase tracking-wide text-[var(--color-text)] md:text-3xl">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-2xl font-bold uppercase tracking-wide text-white md:text-3xl">
             Eligible Uses
           </h2>
           <div className="mt-10 grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-5">
@@ -105,7 +105,7 @@ export default function BrokersPage() {
                   height={64}
                   className="h-16 w-16 object-contain"
                 />
-                <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-[var(--color-text)]">
+                <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-white">
                   {use.label}
                 </p>
               </div>
@@ -147,7 +147,7 @@ export default function BrokersPage() {
       {/* ── Contact Section ── */}
       <section className="bg-[var(--color-surface)] px-6 py-16 md:px-8 md:py-20" id="contact">
         <div className="mx-auto max-w-5xl">
-          <h2 className="font-[family-name:var(--font-montserrat)] text-2xl font-bold uppercase tracking-wide text-[var(--color-text)] md:text-3xl">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-2xl font-bold uppercase tracking-wide text-white md:text-3xl">
             Contact Us
           </h2>
           <div className="mt-8 grid gap-6 md:grid-cols-3">
@@ -158,7 +158,7 @@ export default function BrokersPage() {
               return (
                 <div
                   key={member.name}
-                  className="overflow-hidden rounded-xl border border-[var(--color-border)] bg-white shadow-sm"
+                  className="overflow-hidden rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] shadow-sm"
                 >
                   <div className="relative aspect-[3/4]">
                     <Image
@@ -169,7 +169,7 @@ export default function BrokersPage() {
                     />
                   </div>
                   <div className="p-5 text-center">
-                    <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-bold text-[var(--color-text)]">
+                    <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-bold text-white">
                       {firstName}
                       <br />
                       {lastName}
@@ -180,13 +180,13 @@ export default function BrokersPage() {
                     <div className="mt-4 space-y-2">
                       <a
                         href={`tel:${member.phone.replace(/-/g, "")}`}
-                        className="flex items-center justify-center gap-2 text-sm text-[var(--color-text-muted)] hover:text-[var(--color-text)]"
+                        className="flex items-center justify-center gap-2 text-sm text-white/60 hover:text-white"
                       >
                         <Phone size={14} /> {member.phone}
                       </a>
                       <a
                         href={`mailto:${member.email}`}
-                        className="flex items-center justify-center gap-2 text-sm text-[var(--color-text-muted)] hover:text-[var(--color-text)]"
+                        className="flex items-center justify-center gap-2 text-sm text-white/60 hover:text-white"
                       >
                         <Mail size={14} /> {member.email}
                       </a>

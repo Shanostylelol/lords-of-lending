@@ -31,7 +31,7 @@ export default function ContactPage() {
             return (
               <div
                 key={member.name}
-                className="overflow-hidden rounded-xl border border-[var(--color-gold)]/30 bg-[#1a1a1a]"
+                className="overflow-hidden rounded-xl border border-[var(--color-gold)]/30 bg-[var(--color-surface)]"
               >
                 <div className="flex flex-col sm:flex-row">
                   {/* Headshot */}

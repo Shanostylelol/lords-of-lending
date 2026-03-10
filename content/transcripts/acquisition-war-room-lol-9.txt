@@ -1,0 +1,988 @@
+00:00:00:05 - 00:00:23:02
+Shane
+Welcome to the Lords of Lending. Today is not a panel. Today is not a case study. This is a war room. Lords lending is where capital gets weaponised. Structure gets sharpened and deals get dissected before they blow up in your hands. Today we're gathered around what we'll call a roundtable. And it's. It's not just the voices, but it's really tacticians.
+
+00:00:23:04 - 00:00:51:14
+Shane
+It's each one of the people here today holds a seat because I really believe that we've earned it. We've each helped hundreds of entrepreneurs scale or we've scaled ourselves. We've cleaned up the messes, we've restructured disasters, and we've seen firsthand what happens when strategy meets friction in the real world. Today's war map is scaling through acquisition. So one of our fellow lords that we brought on today, that's a real special person, somebody that I've done business with before in the past.
+
+00:00:51:16 - 00:00:59:19
+Shane
+We're going to call him the Vanguard. He's a deep in the field of alarm services. Is that right, Colin?
+
+00:00:59:21 - 00:01:00:21
+Collin
+Yep. You got it.
+
+00:01:00:23 - 00:01:20:07
+Shane
+Services. Right. So he's not thinking about acquisition theory. He's closing deals and integrating chaos and building systems in the middle of the storm. So his name, as you've heard it already, is Colin Colin Trimble. And today we're not here to celebrate just him, but we're here to join him on the battlefield of scale. Let me introduce to you today the the roundtable.
+
+00:01:20:09 - 00:01:43:04
+Shane
+So myself is taking on the persona of what you would call the alchemist, the Lord of execution and strategy. I'm a banker, a builder, and a post close strategist. So my seed exists for one reason. And because I've helped operators take the theory and turn it into operating systems. I've walked with buyers who are one invoice away from collapse and help them turn chaos into command.
+
+00:01:43:06 - 00:02:04:20
+Shane
+So when scale hurts and it definitely does. I show them where the levers are and what happens if they don't pull them. Next to the table is Brian Cancelliere. His mighty persona is the magistrate or the Lord of Structure and Governance. He is an attorney and we excuse him for that, but also an SBA originator and a deal mechanic.
+
+00:02:04:22 - 00:02:23:11
+Shane
+So Brian is the guy who closes your deal and makes sure it doesn't eat you, eat you alive afterwards. He's the voice in the in the room that asks what happens if the seller disappears, or what happens if the sellers don't transfer. If the structure isn't right, scale is just a slow failure, and Brian doesn't let that happen.
+
+00:02:23:13 - 00:02:45:09
+Shane
+Next is Stephanie Dunn. So she is the mighty leader. We'll call her the Oracle. She's the lord of vision and capital strategy. The president really the financial architect that I really think helps build the big vision of everything. She sees the whole board. She doesn't just help people get funded. She helps them build capital stacks that can take a punch and keep growing.
+
+00:02:45:11 - 00:03:06:21
+Shane
+So she's guided acquirers through explosive growth and also near collapse. And we've been in the same room as she's trying to help them overcome those those nuclear bombs that just go off and really can't shut you down. She's always brings the long game into the room, even when the rooms are on fire. And last but definitely not least, is the mighty Colin Tremble brought up before.
+
+00:03:06:23 - 00:03:29:18
+Shane
+He is the Lord of applied acquisition and operator, a founder, a five time Emmy Award winning acquirer of businesses. So he's not he's not really talking theory today. He's building in real time. And these five acquisition it is five acquisitions. Right, Colin I've got the count right. Okay. Five acquisitions deep in the alarm and security space and scaling.
+
+00:03:29:18 - 00:03:54:07
+Shane
+Not because it's just easy, but really he's he's been he's really chose a hard path. And with his partner, Steven Altman who will speak to him in future episodes and have really built an empire and continuing to leverage and grow that empire. So today's episode really matters because entrepreneurs everywhere are being told to scale or die. They're being sold on growth through acquisition and on SBA leverage.
+
+00:03:54:07 - 00:04:13:08
+Shane
+It's just a lot of the tools that we tend to use on roll ups and RMR recurring monthly revenue. But nobody's really talking about what breaks, what gets missed, and what gets ignored until it's it costs really everything. And so that's why we're here. So each segment in today's discussion comes from briefing, the briefing that Colin received.
+
+00:04:13:08 - 00:04:36:13
+Shane
+And we're going to go through it line by line. What failed, what got rebuilt, what strategy made it work. And so today it really isn't just a theory. It's a practice. So so put your chair in. Let's, let's get this war room open, and we're going to get right into it before we do. Colin the Mighty, give me a little brief rundown of yourself and where we came from, maybe how you and I met and where you're at today.
+
+00:04:36:15 - 00:04:54:23
+Collin
+Yeah, absolutely. Thanks. Yeah. Thanks for having me. Excited to be here. I'll give you a quick background on myself. I, started, like many good the Estonians and the oil and gas industry. As a financial analyst, out of A&M, I realized, that I probably shouldn't have been a financial analyst because I was up walking around and talking to people so much.
+
+00:04:54:23 - 00:05:17:12
+Collin
+So they're like, hey, you need to be behind this spreadsheet and not talking to people. So they moved me into sales. I loved it. It was a lot of fun, but I really wanted something a little bit more high paced. So I ended up moving into the SAS world in the physical security industry. So I was a, manufacturers rep, started at the very bottom, worked my way up to being a sales manager, met a ton of owners.
+
+00:05:17:19 - 00:05:38:00
+Collin
+And this is where my love for, for RMR and for, the security industry came. I was working with these independent owners who had started as technician and I, they had 30 year careers, and they were exiting successful businesses on multiples of armor that I just could not believe. And in my, you know, mid to late 20s, I thought to myself, paying that would be a dream.
+
+00:05:38:00 - 00:06:00:07
+Collin
+I would love to do that. I feel like I could do some of that myself, so I kind of pocketed that away. Ended up moving on. I finished my graduate degree and ended up moving on to Salesforce, where I was, enterprise sales at Salesforce. And while I was there, I had many of these, historical customers of mine from, from my security days, asked me to be their VP of sales.
+
+00:06:00:07 - 00:06:20:12
+Collin
+So I said, well, instead of that, why don't you let me do some consulting with you? So I started a revenue consulting shop and helped, you know, a couple dozen of these security businesses, build their organic growth strategy. How can they scale, have the first salesperson pay for the next salesperson? It create predictable revenue for a lack of better words.
+
+00:06:20:13 - 00:06:36:20
+Collin
+And, so I did that. And at some point, my, my business partner Steven, who, Steven and I had been friends since college. We were in the same Bible study together at Texas A&M. So we've been friends for decades. We said, man, we we really I think we need to do this ourself. Like, I feel like we have the skill set.
+
+00:06:36:20 - 00:06:56:16
+Collin
+We've we've seen the playbook work. Let's go acquire a business and try to do this ourself. So oh behold one of my customers or dealers from when I was in the industry, who I maintain a relationship with said, hey, man, I'm, you know, I'm not ready to retire. I'd love it. You know, you consider buying the business, and, and that's where we went.
+
+00:06:56:16 - 00:07:16:11
+Collin
+So. So, I'm not the traditional self-funded searcher, if you will, who spent a year trying to find a business. I looked at one business and under the wire for that business, and we closed that business. And not to say there was no heartache along the way. Shane can tell you, we had a lot of, hiccups trying to get this deal closed, but, we did, and we're in a great spot.
+
+00:07:16:18 - 00:07:40:01
+Collin
+Shane, actually, you were a connection through Steven. You and I met, from my business partner, Steven. And we got connected, and, again, we didn't shop around. We had one call it Shane. Right? That guy actually does know what he's talking about. And, your strong suit is definitely figuring out, like, being a problem solver, not letting no, be the thing that hits our brakes or, like, hey, no, is just, you know, a place for us to solve a problem.
+
+00:07:40:01 - 00:07:55:08
+Collin
+And so we had many of those situations where we get throwing a problem and we'd be on the phone with Shane and say, okay, man, how are we gonna how are we going to solution this thing so that it doesn't, look as bad as it might actually be? And so, yeah, that's just a quick background on me.
+
+00:07:55:10 - 00:08:16:13
+Shane
+I vividly remember sitting in a, in a, I went to to go shopping for countertops with my wife and had to step outside and talk for with you guys for about 35, 40 minutes trying to resolve just something coming up in the middle of underwriting, trying to figure out how the hell we were going to value the book that you were buying and how that was your initial bit right there, your flagship alarm masters.
+
+00:08:16:15 - 00:08:33:14
+Shane
+That was product. And so we did an SBA loan trying to get that to convert. But there's nothing fun about going through the SBA loan process. Too many weird little nuances. They kick up this make our life a living hell. And I'm sure pride and stuff can have obviously speak to that. But no, that's that's great. I appreciate the background on that call.
+
+00:08:33:14 - 00:08:49:16
+Shane
+And so we're so let's jump into it a little bit and talk about the first question, which is what part of the strategy or infrastructure you thought was bulletproof but just really wasn't in the end. So thinking back to that initial business by.
+
+00:08:49:18 - 00:09:13:08
+Collin
+Yeah, I think, actually, I know when when looking at the business, I thought, this is a 40 year old alarm business. They have not seen a tremendous amount of growth. They hit a ceiling and they hadn't really got above that ceiling in terms of top line revenue or EBITDA. Getting involved in the business seemed like there was a lot of inefficiencies from an administrative front office perspective.
+
+00:09:13:10 - 00:09:32:20
+Collin
+And there was zero or I would say negative, go to market strategy or sales and marketing effort. So in my brain, my assumption was front office sales, marketing. Those things need to be fixed. But what's the one thing that I don't really know that well, and it's probably working just fine. And that's operations I thought meant going in.
+
+00:09:32:21 - 00:09:59:04
+Collin
+It's a four year old business. How are you going to stick around in this industry for 40 years if you don't have your operations dialed in? And what I mean, operations, I mean, the actual turning screws, wiring panels, doing all the things that are required to execute on the job. My assumption going into the deal was that the operations would be dialed, the I would just continue to shove more bodies into it, and I would grow the front office.
+
+00:09:59:06 - 00:10:23:22
+Collin
+And what I quickly realized was that operations was held together with duct tape, and the owner's right hand trying to make this thing continue to roll forward. And it was no joke. We got slapped in the face. I couldn't even pay attention to the front office or sales for months, probably 6 to 9 months, because we had so much to fix on the operation side.
+
+00:10:23:22 - 00:10:42:01
+Collin
+So anyone that is looking at acquiring a deal do not undervalue the any department. You need to dig in, even if you if it looks good on the outside, you should really dig in and figure out what is your contingency plan. Because I'm not a technical guy. I'm not the guy that knows how to wire up the panels and do all the door readers.
+
+00:10:42:01 - 00:10:49:04
+Collin
+That's not what I do. And so that was something that could have been a major risk. And I would advise any buyer to take a look at that.
+
+00:10:49:06 - 00:11:08:13
+Shane
+Interesting. Okay, so the man, how long did it take? Like, how many day were you into this before. Before like kind of the alarm went off. I'm sure you were stoked as hell. You get to the signing tables. You know, here are the keys. You go in and you really, you kind of lift the skirt on the business and see, what the hell that I just do?
+
+00:11:09:00 - 00:11:38:23
+Collin
+Yeah, I would say about 28 minutes in, we had signed the closing documents. I called Shane and said, hey, man, congrats. Hung up the phone, walked into the break room, and I sat with all the technicians to announce that we had purchased the business. Found out that that was the first time all the technicians had ever been in one place, because the prior owner didn't believe in meetings and found out that the technicians had zero respect for the prior owner.
+
+00:11:39:10 - 00:11:58:14
+Collin
+And were and were pretty, had a lot of frustration there. Some people kind of half way out the door, a lot of people kind of doing half the job and not really working very hard. We had a lot of crazy stuff going all the way to people that had, lied about some of their hiring documents and their background check.
+
+00:11:58:14 - 00:12:16:22
+Collin
+I mean, just all of it, like, got into it, and and this is day one. I mean, like day one. Not only that, on day one, not not even kidding, one technician didn't show up if he was on an emergency call. We get a phone call from him. You walk out to his technician or to his truck, and the truck had been broken into and $3,000 worth of tools had been stolen.
+
+00:12:17:03 - 00:12:22:05
+Collin
+This was my first 60 minutes owning a small business.
+
+00:12:22:07 - 00:12:23:23
+Brian
+Oh my gosh.
+
+00:12:24:01 - 00:12:47:15
+Steph
+You know what that is? That I would probably say that's like the norm buying small business. Yeah, in every industry. And you know, what's interesting is I don't know if you could have prepared because when you're in a situation when you're buying someone else's business, they don't give you access and you own it. That's right. And so it's like a catch 22.
+
+00:12:47:18 - 00:13:03:23
+Steph
+You can't, see really what's going on under the hood until you actually own the place. And then after you own the place, you realize, oh, wow, I wasn't prepared or I didn't prepare the staff for this or I didn't prepare whatever whoever else I needed to bring in, I didn't know what I was going to need to walk in through the door.
+
+00:13:04:04 - 00:13:32:03
+Steph
+So the key day one is how fast can you assess? Right. So I would say for like my question to you is, yeah, how could you have vetted that out differently on the front end, if any. And then day one, like I would say, what is your advice to buyers to not panic assess quickly and and you has to make it.
+
+00:13:32:05 - 00:13:51:03
+Steph
+You have to make tough decisions. Day one you probably have to cut some people. You probably have to change some operations right away that they're not going to like. Because first of all, there's confusion as to, whoa, there's a new owner in here. Is my job safe? Right? So like my question would be, how could you have assessed earlier?
+
+00:13:51:05 - 00:13:54:22
+Steph
+And then how do you assess week one. What do you do.
+
+00:13:55:00 - 00:14:15:03
+Collin
+Yeah, I think that's a great question. I've been on a couple podcasts and interviews with folks, and I've gotten that question which is like, how do you overcome that pitfall? And the answer is you can't, you can't overcome it. There's no way to predict that, there's no way to predict everything. And so you have to fall back on your gut and your intuition and your skill and know that you're going to make the wrong choice.
+
+00:14:15:03 - 00:14:33:12
+Collin
+And we're waiting for, you know, we're batten on a thousand bats here. We're not, you know, this is it. You know, six plays. You're batting a thousand times, and you're going to be lucky if you're over 50%. And the and the real thing is you got to rely on your gut, and then you got to learn quickly on the fly and not second guess yourself, because you're going to make mistakes.
+
+00:14:33:14 - 00:14:54:20
+Collin
+And the question is, what level of impact are those going to have? Are you going to make that again? And so I'd say you a cannot prepare B what you can do is make sure that you are confident in yourself, ignore any imposter syndrome you have, because that's a natural feeling whenever you buy a business feeling like, I'm not qualified for this, and you probably are, you know, you probably not qualified.
+
+00:14:54:20 - 00:15:15:11
+Collin
+Anybody qualify that buying a sub $2 million EBITDA business. Okay. Like if they're qualified, they're buying something much bigger and much more established. So I'd say you can't you can't qualify that. The second thing though is about the people, I think a big and this is one of my main learning themes. Nothing that I did in the first 90 days is something we're doing now.
+
+00:15:15:12 - 00:15:40:03
+Collin
+No change that I implemented, no software that I rolled out, no process or SOP that I wrote has been is still being used today. The one thing that is, because you don't know. You don't know what you have no idea what you don't know. And I'll tell you, the one thing that that is still being used is my respect and desire to treat my employees with a lot of care and a lot of integrity.
+
+00:15:40:12 - 00:15:58:23
+Collin
+And that's being continued to be used. But nothing I did in the first 80 days is being used at all. I'll say this to you. The best thing you can do is pretend like you're an employee for 90 days. And what would an employee do in their first 90 days? They would listen. They would ask a tremendous amount of questions, and they would be the hardest working person in the room.
+
+00:15:59:00 - 00:16:17:12
+Collin
+If you can do those three things, you're going to get scaled way faster. I wanted to implement a bunch of stuff. I was chomping at the bit to go and roll out all my SOPs and my playbooks and do all the things these are. They glazed over? They don't know what sop. They don't know what that is like.
+
+00:16:17:13 - 00:16:35:00
+Collin
+You got to earn the right to instill change. It doesn't even matter if you want to replace a bodies, because you've got to earn that right with your existing employees, whether or not you're going to keep those employees or not. They are the engine of the business. So you have to, and create the trust and respect with the employees in that first 90 days.
+
+00:16:35:04 - 00:16:49:05
+Collin
+So I would just I would just advise anybody that's listening to this and just, hey, be the best employee you can be for 98. You're going to have to make some non-employee decisions. There probably going to be wrong 50% of the time. And that's just part of the expectation.
+
+00:16:49:06 - 00:17:07:01
+Steph
+Yeah, I think that's great advice. That is great advice because all of us on this call here, we're all, you know, high performers. We want to get in and fix stuff. Right. So I think that is great advice to harness that and just wait a bit. If you can't wait as long as you can. And I would say 90 days is probably a good rule of thumb.
+
+00:17:07:01 - 00:17:23:19
+Steph
+Wait 90 days. Just listen, assess, learn, get to know people, earn trust and vice versa. Right. And then implement change. I think that's great advice. That's probably a good nugget guys that we could use on an ongoing basis as a sound bite.
+
+00:17:23:21 - 00:17:24:19
+Collin
+Yeah.
+
+00:17:24:21 - 00:17:31:00
+Shane
+The one key I just picked up on is, is like I need to take more personally is, hey Shane, shut up.
+
+00:17:31:01 - 00:17:32:15
+Steph
+I was thinking the exact same thing.
+
+00:17:32:18 - 00:17:34:03
+Shane
+Everyone think of the exact.
+
+00:17:34:05 - 00:17:35:23
+Brian
+We think that daily. Yes and.
+
+00:17:36:01 - 00:17:57:18
+Shane
+No. Yeah. And I think back and listening try to try to see things from other people's perspective. And because that empathy goes long, it goes deep. Right. And I mean, I can think of, of, of employees that I've worked with before that, and you just in the departments that we built and that we've built from ground up and, you know, it's it's funny how quick it often starts as friction.
+
+00:17:57:23 - 00:18:15:06
+Shane
+And if you come in hot, like I tend to come in hot, want to fix it immediately hit hits butts up against somebody else that had you already instilled that I mean, this might be something you saw calling within within the infrastructure that was there. I mean, how much how much influence was really, put on by the previous owner?
+
+00:18:15:15 - 00:18:33:21
+Shane
+Compared to maybe instilled by the people who are working in it? Because I, I've seen a lot of owners, I've had plenty of customers myself, that they, they don't really they, they run things at a high level. They kind of they jump in and they get out, and they're kind of hot, cold. On pushing the business forward and, and, but they hire people that are actually relatively competent.
+
+00:18:34:02 - 00:18:50:22
+Shane
+They kind of come up with their own mandated system for keeping the business going. So when you stepped into it, how many of the the, let's call it routines that these employees that were deer in headlights, how many of those routines were actually set by the people who had been kind of like, hired into managerial positions, things like that?
+
+00:18:51:00 - 00:19:17:15
+Collin
+Yeah, that's a great question. I'll tell you what I did not experience was an uninvolved owner, and it's something we can talk more about, which is key man risk and not, undervaluing that which we can talk more about later on the podcast. But I will tell you, in the absence of leadership, an employee is going to step up somewhere and they may not be providing great leadership or adequate leadership, but when there is no leadership in any area, there's no leadership for me in every area.
+
+00:19:17:15 - 00:19:36:10
+Collin
+Right? So like my job is to create managers and leaders within my organization to fill those gaps. So, so it's very natural for when you're looking at sub $2 million, even a businesses where there's, you know, a primary owner that's built this business for there to be gaps. They're trying to run this thing usually as lean as they can possibly do.
+
+00:19:36:10 - 00:19:52:02
+Collin
+They're trying to run a very flat organization. What happens is you have natural leaders that step up in the organization. For me, I knew who that was immediately. It was one of the lead techs, a guy named, and he's still with us. He's been at the company for 20 years. I've given him four promotions and three raises in the last two years.
+
+00:19:52:02 - 00:20:11:03
+Collin
+He's my right hand man. He's our service manager. This guy is awesome. He was basically the ops manager every technician would use a technician to. But they would all call him for questions because they needed help with process. How do we do this better? How do we what do we do? And so he was implementing best practices.
+
+00:20:11:03 - 00:20:29:11
+Collin
+And I don't want to call them SOPs but but processes standard operating procedures that they wouldn't have called them that that the owner had no idea, because he just wasn't he was trying to run the business, so he wasn't cut in on every little detail. And so this particular employee was saying, hey, every time you go out, I want you to do these five.
+
+00:20:29:13 - 00:20:40:09
+Collin
+I want you to talk to the customer. I want you to address. I want you to clean your shoes. I want you to test. I want you to verify, and I want you to read. You know, he had this whole thing, and he he every new technician came in, and they all knew that about him. And what was this?
+
+00:20:40:09 - 00:21:10:18
+Collin
+A massive blessing for us was when we moved in, we quickly identified his leadership. We moved him in use, a natural fit. The guys respected him. They were excited that we did that. They wanted him to be the supervisor that does not happen when you try to find somebody, 1 or 2 things is going to happen. Generally, you're either going to have to hire externally and there's no respect for trust built, or you're going to promote somebody internal and you are taking a shot in the dark that that person is the right person for the job and many times make the wrong decision.
+
+00:21:10:18 - 00:21:25:10
+Collin
+And first amongst I made the wrong internal hires or promotions, rather, and in this case it worked out great. So this, this particular employee was doing leadership, creating recipes and processes in the absence of of having that leadership already there.
+
+00:21:25:12 - 00:21:59:07
+Brian
+How can you? So one question that came to my mind, as you were saying, that is for someone who is and so often we deal with business owners, right? They're reviewing lots of different businesses. Were you involved? I know that you knew the owner beforehand in this scenario. To what extent were you able to extrapolate from him this level of detail, before you actually close out the transaction, or did you did you have conversations with this key employee?
+
+00:21:59:12 - 00:22:26:14
+Brian
+Have you taken that mentality and applied it to the new acquisitions that you're doing where you're like, okay, clearly I had a, star employee here, and, I don't know if whether you ended up finding that out beforehand or what. You know, day one, you just started noticing it. But is that something that you've started looking at as you've acquired more companies?
+
+00:22:26:16 - 00:22:34:16
+Brian
+And to what extent is the the existing owner actually, you know, facilitated that or like, made that clear to you?
+
+00:22:34:18 - 00:22:53:18
+Collin
+The owner had told, you know, everybody that's, that's said, well, not everybody. Most people that are evaluating a business are evaluating employee personnel. And they usually get a personnel file that kind of outlines each employee and what the owner's subjective kind of perspective on those employees are. We got one that was, you know, one sheet of paper with one sentence for employee.
+
+00:22:53:18 - 00:23:17:18
+Collin
+So it didn't really give us a lot. But then over time, I visited the site, for various reasons, as honestly, it's often as I can. And that's another piece of advice I would give you is, you need to get, you know, hand to hand with your, with your sellers as often as you can. There's so much temptation to do this over phone calls, then over zoom meetings and, you're just not going to give yourself the highest degree.
+
+00:23:17:18 - 00:23:31:20
+Collin
+Just like in sales, the more touchpoints you can get, the higher likelihood you're going to close the deal, the more face to face you can get with your seller, the higher likelihood you're going to close that deal. You're also going to learn more about the business. So I knew a little bit. So the owner had said, hey, I got this employee.
+
+00:23:31:20 - 00:23:50:03
+Collin
+Brilliant. He's great. He's, what did he say? He's a jack of all trades. He's Swiss Army knife. He can quote. He can install, he can sell. You know, he can do all these things. He's great. He probably needs a raise. And so that was it. That was the whole thing. So I thought to myself, A great guy could be a good asset, but I didn't.
+
+00:23:50:05 - 00:24:07:04
+Collin
+I? Everything I hear from an owner, and this isn't to be rude to them. It's just I take it with a grain of salt and it's like I don't, you know, I don't know until I get in there what's going to happen. So I do not have a high degree of confidence about this. And it wasn't like I knew buying this business, I was going to go and promote him.
+
+00:24:07:04 - 00:24:23:13
+Collin
+I did not know that. I just learned that very quickly. I took all my guys to lunch in the first eight days that I started the business, so that I could get to know them individually. I quickly realized that, well, what I was, was the guy that I needed to promote. But on future deals, what are we looking at?
+
+00:24:23:13 - 00:24:48:15
+Collin
+So right now, we're doing a lot of tuck ins. So what that means is we already have the infrastructure. We're layering businesses into ours, integrating them in, we are keeping some personnel, but you're not generally putting them in management positions. They're generally first line employees, sales technicians, administrative staff. But we are evaluating and we're actually evaluating two separate platform deals in, Dallas, which is about four hours north of Houston.
+
+00:24:49:02 - 00:25:05:18
+Collin
+And that is absolutely. The number one thing we're looking at is talk to me about your employees. Talk to me about your employees. Help me understand who are the key. You know, the key employees that are in your business. How long have they been there? We want to interview those employees or have some degree of information about those employees.
+
+00:25:05:18 - 00:25:32:06
+Collin
+At the beginning, most business owners are going to be very, very hesitant to letting you have any interaction with their employees. So that means a lot of conversation with, that manager. And if you're doing if you're buying a like, I'm buying a platform, but I already own a platform. So I kind of have the questions to ask now, but a lot of it just has to do with roles, responsibilities and understanding like pressure testing, nerve theory of why that employee is so good.
+
+00:25:32:17 - 00:25:42:22
+Collin
+Yeah. And yeah, we absolutely are looking at if you're buying a platform meaning like a standalone business that you don't find a role in, that employee stack is critically important.
+
+00:25:43:00 - 00:26:11:12
+Brian
+And you have to like, let me, I'll just follow up with this. Did you have to contract in or include that in your contracts or in your Loi, that hey, seller, I'm going to be going in and getting pretty deep with these employees. So that needs to be something that you're okay with or are sellers just have you seen that sellers are just okay with it if they see that you're serious, you're bringing money at the table, that sort of thing.
+
+00:26:11:14 - 00:26:32:15
+Collin
+It's it was no, there's no contracts not contracted in it's not in the Loi. There's no there's no not now that I've seen in this industry. I'm sure it's possible. I would say most owners would probably be pretty against that. They again they want to limit the amount of employee interaction. Right. So a lot of it starts with the individual owner.
+
+00:26:32:17 - 00:26:51:02
+Collin
+Sometimes you can go to the office and get to know people. I may introduce you as a consultant or whatever finance or, you know, whatever. They're there. I don't think I've ever been a part of a deal. One deal that I've done where they they said, we're selling this business, but what was happening is the guy at two sides of the business, he was selling on one side.
+
+00:26:51:07 - 00:27:09:13
+Collin
+He wasn't actually letting any employees go. So he was okay letting those employees know that he was selling off that side, out and out. In that one case, I had a lot of time with two key technicians that I ended up hiring one of them. I ended up promoting, to a project supervisor within our now core business.
+
+00:27:09:20 - 00:27:27:09
+Collin
+But I'll just, I will say from my own experience, very rarely do you get to have a deep conversation with the existing employees. And you just that's just part of the deal. I mean, it's just you're not. It's just uncommon. Not always, but it's pretty uncommon. Yeah.
+
+00:27:27:11 - 00:27:47:01
+Shane
+Oh, yeah. Interesting thing. And I think that this is this is part of the pain that comes along with acquisitions when I think of it more like a little bit larger company, Amazon going to buy Whole Foods, for instance. And you know, that story of kind of what went down like internally at Whole Foods. So so essentially Amazon bought bought Whole Foods, as we know today.
+
+00:27:47:11 - 00:28:06:16
+Shane
+I don't know if you knew the Whole Foods before Amazon bought it, but as my my sister literally had a name for the people that work there calling them Granolas. And we got dreadlock people wearing flip flops and everything else. And there was a culture, there was this idea of operation and something that made Whole Foods what it was, even at the scale that it had grown to at that point, to even be of interest to Amazon.
+
+00:28:06:18 - 00:28:27:09
+Shane
+And so you have somebody come in. It has a completely different philosophy on how to operate, how inventory is managed. They took over and there was just like upheaval within the people that work there, just like this pain, this friction that that kind of comes along with that transition that nobody could see. They just they just see this big, a blob of a, of a business coming into their getting absorbed into.
+
+00:28:27:14 - 00:28:45:22
+Shane
+And they lose kind of that internal culture. And, and so I think specifically, you know, and hearing what you talked about with Alarm Masters and I'm interested to see once you move to the next couple companies that you picked up, I know some of them were more of a book of business, but you brought did you bring employees with every single step?
+
+00:28:46:08 - 00:28:52:20
+Collin
+Yeah, yeah. And we deal. We've done so far. No. All but one of them we brought employees.
+
+00:28:52:22 - 00:29:21:04
+Shane
+Got it. So I mean so what. And what was the, the like the most difficult or hardest team. Like cultural molding because I'm like I've heard you specifically say that you were targeting people that were our targeting companies are more like these mom and pop family type places that are solid businesses and not the larger scaled ones that already have their own infrastructure, but those that you think could, could mold and kind of fit the family operated business that I think all our masters is really, really pitching.
+
+00:29:21:04 - 00:29:27:02
+Shane
+Like a good infrastructure built one. What was that that biggest cultural like shift and challenge that you ran into.
+
+00:29:27:04 - 00:29:35:01
+Collin
+So when you're asking about cultural shift, you mean what is a cultural shift? Since I bought other businesses and brought those employees into my business and how that went.
+
+00:29:35:03 - 00:29:54:03
+Shane
+Yeah, like that's second. That's the round two, round three acquisition and trying to get those business, those that business element of the second and third business to actually start to fit with yours because that's that's like that, I call it the whole food game are gone like head butt. Two completely different ways of operating that. Now all of a sudden you have to start doing the same thing.
+
+00:29:54:05 - 00:30:14:00
+Collin
+Yeah. So I would I would answer that with, with two things. The first thing is, I let my employees and my culture speak for myself. And so I have developed a culture of trust and respect and excitement and empathy. And that's not, that wasn't like a false like, you read these leadership and entrepreneur books. It's like you need to lead with empathy.
+
+00:30:14:00 - 00:30:31:15
+Collin
+And it's like, yo, if you if that's not a natural movement for you, your employees are going to see straight through it. So like if you don't naturally have some level of empathy, you're going to have to have some other value or culture that you're standing on because, you're going to struggle and your employees are going to see through it.
+
+00:30:31:15 - 00:30:52:05
+Collin
+And so, luckily, I was at a at a stage in my life and have a, a strength of just caring about people, you know what I mean? And so that was a natural thing for me, was to care about my employees. There was already a lot of times in these family run businesses, it's just tough. Like there's just not any culture.
+
+00:30:52:05 - 00:31:17:19
+Collin
+And it feels almost like a dysfunctional family and less like a business. And so whenever you're creating structure and you're layering empathy on top employees, are they? That makes them comfortable. They thrive when they know that what is expected of them, if they're operating in an environment where they don't know what's expected of them, all they know is when they do something and they get yelled at, that was not the right thing, but they don't know what it was that wasn't right.
+
+00:31:17:21 - 00:31:38:18
+Collin
+So the they operate out of fear and then they don't perform well. And so I created structure and empathy. And so anytime I brought employees in, I don't convince them of anything. I just say, hey, speak to my other employees like just have a conversation with them. Anybody front office? Back office. I've not had a single employee resign from my business.
+
+00:31:38:20 - 00:31:57:23
+Collin
+I've had boys I've had to let go. When some employees retire. I've not had any buddy like quit because they didn't enjoy working with me now or in my business. The second thing that I think is really important is, and in this industry, so again, I'm not, I'm not a security company buying an Hvac business.
+
+00:31:57:23 - 00:32:30:05
+Collin
+I'm security business buying security businesses. So employees are attracted to growth. They're not attracted to downward trending businesses. So they're either attracted to a company that's going up or they think potentially could be going up, because that feels comfortable and secure when they're evaluating what who they can work for. We are growing rapidly. And so whenever these employees are our businesses that have kind of hit a ceiling and there's no structure and there's no empathy, and they're going to a place where there is structure and there's empathy, and they know what's expected of them.
+
+00:32:30:08 - 00:32:53:20
+Collin
+And that business is growing. They're attracted to that and they want to come over. So it's I've not had enough personnel. I've had a ton of integration challenges, but personnel has not been a challenge for us. But again, we haven't done it, a second platform yet. So we've done, you know, these five acquisitions. The only platform we purchased was Alarm Masters and then layered on for additional acquisitions.
+
+00:32:54:01 - 00:33:03:03
+Collin
+But we're evaluating additional platforms right now. And so, you know that that might be different. And we might I'm open to learning. I don't have it all figured out, but that's been my experience so far.
+
+00:33:03:05 - 00:33:13:17
+Shane
+Stuff that makes me think some of the things that, that we've gone through, just in some of the departments we built and you've, you've even bought a couple businesses on your own. I mean, speak to it there.
+
+00:33:13:19 - 00:33:36:15
+Steph
+Yeah. That, you know, it's interesting because this is really where my my passion lies. My passion lies. And, you know, we live in such a rapidly advancing technological world. Right. But the reality is this when you're buying businesses, you're buying a group of people that and you want instill your purpose and your values to go out and do the best you can do as an organization.
+
+00:33:36:15 - 00:34:00:20
+Steph
+Right? So when I think a culture, the interesting part is this a lot of people that I've worked for, culture was just about the company and what the company's values and purpose was. Right. But to me, the definition of culture is our people and our client experience. So when I like when I started, we started talking about you like my real interests and picking your brain was right.
+
+00:34:00:20 - 00:34:22:15
+Steph
+You bought an established 40 year old business, and I knew there would probably be intricacies on the people that were a part of this organization that you were going to come in on and instill your values to, because your culture as the owner, you know, is top down. But from a client experience, what did you walk in on from a client experience perspective?
+
+00:34:22:17 - 00:34:44:08
+Steph
+And then how do how or if did that change since you've taken over with yours? And I talked to a funny thing yesterday was, my personal trainers and I was picking his brain. I'm like, so tell me about, like, your client experience. And he said, you know, as a personal trainer, everyone wants structure. They want to know that there's a set routine.
+
+00:34:44:12 - 00:35:02:17
+Steph
+They want to know that there's a program in place that they could trust and that is scalable. Right. So I was thinking about yesterday, I was thinking about your business. And I'm like, oh, I wonder like what the client experience was, because I think about my father in law, who is from West Texas and has a 50 year old, you know, Texas tool shop.
+
+00:35:02:19 - 00:35:07:23
+Steph
+And his client experience is probably a lot different from if I took over the business today.
+
+00:35:08:01 - 00:35:09:03
+Shane
+Yeah.
+
+00:35:09:05 - 00:35:33:08
+Collin
+Yeah, that's, that's that's an evolving answer. So let's talk about this now. And in four years when you have me back on, we'll we'll answer that question probably very differently. Why, the question you have to ask yourself is why do people and customers purchase from small businesses in the first place? The answer is they want personal attention.
+
+00:35:33:10 - 00:36:16:14
+Collin
+They want to feel like they've been heard. They want to feel like they're important. That is why people, do work with smaller businesses. There's a downside to smaller businesses. Generally. They don't have process in place. Generally, they're bad communicators. Generally they're not organized. Generally, they're all over the place. Right. So you're there's this balancing act that that your customers have with they come stay with you because you are talking to the owner directly, and you have his cell phone number, and they're okay with putting up to a certain degree of the owner forgot to show up to the service call because whatever.
+
+00:36:16:20 - 00:36:42:19
+Collin
+And they they put up with a certain level of that. So so the answer is how do you retain those customers, improve the organization and remove the the single threaded siloed access to the right. And I if you figure that out to, to a degree with excellence, you probably will be the next Jeff Bezos. I don't know, to use the Amazon example, I would say.
+
+00:36:42:21 - 00:36:59:10
+Steph
+Yeah I do. Yeah. Like I think about this 24 seven like client experience as it relates to employee culture. Right. That's the extension. If you like it, it's that thing. If you take care of your employees, your employees will take care of your customer. It'll be an extension of you. Right? That's the source.
+
+00:36:59:12 - 00:37:22:02
+Collin
+Yeah. So I would say, the way that we think about this is, I use very, easy to understanding, consume value examples for my employees. Everybody's eating a Chick-Fil-A, and everybody understands that they have the best customer service. Their food is good. It is consistent. It is not the best chicken in the world. It's not even the best fast food probably in the world.
+
+00:37:22:11 - 00:37:40:02
+Collin
+But everybody understands. My pleasure. You know, everybody is, you know, that's Chick-Fil-A. So. So I tell my employees, hey, y'all, I want to be the chick fil A of the life, safety, physical security world. They get that right. It's like hokey not putting it on the walls. But like I say it all the time because they get it.
+
+00:37:40:04 - 00:37:57:22
+Collin
+They understand that, my strategy is I'm going to lose customers because I'm not going to give them my cell phone number. And I tell them this. I say, Mr. Customer, you don't want my cell phone number. I'm not the guy. Like, I'm not the guy. What? You actually want is to be heard and you want your alarm system to work.
+
+00:37:58:02 - 00:38:18:00
+Collin
+You want your cameras to be online. You want it to be. You want to be able to know that you're not a ticket in the system, and you're going to be, you know, have some level of responsiveness. And so that for the majority of the customers is fine. And as long as we prove that to them through my cut, through my employees executing on being the chick fil A of security, we've been able to retain a lot of customers.
+
+00:38:18:00 - 00:38:37:19
+Collin
+In fact, we've had industry low attrition. But there is attrition. I remember the first year I had this customer who had three locations, wasn't even that big, like truly was. And she called me, she said, is this the new owner? It sure is. You should have called me the first day you bought the business. Sorry, I didn't didn't, didn't know you.
+
+00:38:37:19 - 00:38:52:10
+Collin
+I needed to do that. And she said, I need your cell phone right now because I need to make sure you're going to come here at midnight, just like Brian did. If I have a situation, if there's something going on, you're going to be the guy, and I just use the same narrative. I said, ma'am, I, I'm not going to do that.
+
+00:38:52:10 - 00:39:07:17
+Collin
+I'll give you my cell phone, but it's turned off after 7:00 unless one of my key employees calls me. But we have a process in place, and here's what it looks like. And what's going to happen at midnight. Let's talk about that. You know, if your alarm goes off at midnight, here's what we're going to do. That wasn't enough.
+
+00:39:07:17 - 00:39:29:21
+Collin
+It was a it was a kind of a pride personal connection thing. So she, she left and we're like, maybe that's good. And she found out very quickly, three months later before we actually even fully off boarded her. She had already gone through two other security companies, and she came back and said, hey, I really I really want to come back.
+
+00:39:29:21 - 00:39:45:17
+Collin
+Your employees are really good. So, like, can I come back? And I was like, sure, but nothing's changing from what we talked about. Like, I'm still not gonna answer my phone for you at midnight. So just as long as you're good with that, I'm good with that. So there is that balancing act and we've lost some employees that have not come back.
+
+00:39:45:17 - 00:40:07:04
+Collin
+You know, we've lost some some customers who have just said, sorry, Brian always did it this way. When a customer that this is a fun little nugget you get, you get it. Not all revenue is created equal, folks. Okay. So just know that and not all and not all payments are created equal because we've found out that one of the larger customer was a tire shop and they exchanged tires for alarm monitoring.
+
+00:40:07:04 - 00:40:17:06
+Collin
+So I go out to go collect for my invoice. And he said, well, your employees haven't been by to change out their tires. And I'm like, what? What are we talking about? You know, he's like, yeah, we exchanged.
+
+00:40:17:11 - 00:40:19:12
+Steph
+For that tire.
+
+00:40:19:14 - 00:40:34:16
+Collin
+Yeah. I'm like, okay, well that's that's not going to work. I'm good on tires. What I need is for you to pay your alarm monitoring bill. So you get you get crazy stuff like that all the time where you just have special hookups between the owner and customers.
+
+00:40:34:18 - 00:40:37:12
+Steph
+Barter. Barter paying customers.
+
+00:40:37:14 - 00:40:39:16
+Collin
+Yeah, right. Yeah.
+
+00:40:39:18 - 00:40:57:02
+Shane
+All that chasing concern right there. That's. It's a phrase I think of is that you're you're doing everything to try to mitigate that. But it's, it's a, it's a hand on, hands on process really to, to have to, to mitigate the fallout that I think transfers over on that so that tailors into the rmbs aspect of this.
+
+00:40:57:02 - 00:41:14:01
+Shane
+And Brian, you and I have talked about recurring monthly revenue on, on some of the website building and things we've done on the past. And, and so when when it comes to the, you know, the multiple different customer bases and and really like what what surprised you the most about that? You use the idea of revenue. No, no.
+
+00:41:14:01 - 00:41:33:04
+Shane
+Written that not all revenue was good. Revenue and tires are definitely not the revenue that we're looking for. But like what what structural changes have you made like protect yourself from from that on each acquisition, from the first one to the next one. Like what? What compared to how the how alarm masters went down to like let's say round two and three.
+
+00:41:33:06 - 00:41:39:11
+Shane
+The did you go into that differently on on how you might protect that you've minimized that that churn.
+
+00:41:39:12 - 00:42:03:15
+Collin
+Yeah, yeah. Number one, you're not smarter than the due diligence providers okay. So I don't care if you have an MBA in finance. Your due diligence providers are better than you are. Like if the business is big enough, you need to do a, you need to do a Q of, of some degree, no matter how big the businesses and, and you don't have to spend $40,000 or $100,000 on a Cuvee, you could do a light version or a very specific, scope of work.
+
+00:42:03:17 - 00:42:12:16
+Collin
+So your due diligence providers are smarter than you. They do this every single day. And so we have a set of due diligence providers that will go through.
+
+00:42:12:18 - 00:42:18:08
+Steph
+Yeah. So listen off of high level. What what would you recommend is due diligence provider.
+
+00:42:18:10 - 00:42:22:00
+Brian
+And for those who don't know of is quality of earnings.
+
+00:42:22:02 - 00:42:24:15
+Collin
+There is yeah quality of earnings. That's exactly right.
+
+00:42:24:17 - 00:42:32:15
+Steph
+So do you hear that. Yeah. Advisory group of due diligence when you're buying a business.
+
+00:42:32:17 - 00:42:52:03
+Collin
+Yeah. So depends on the size of the business. There's two that you never skip on. Which in our world one is what's called a RMR, due diligence provider or RMR auditor. And they're basically looking at this is kind of getting into the weeds, but they look at all the different accounts that are being monitored. And I carried up with the vendors that are providing.
+
+00:42:52:03 - 00:43:08:03
+Collin
+So. Right. We don't do the monitoring station. Right. So we have a monitoring station that charges us, we mark up that monitoring. And there's also some other software that's layered in. So they basically take all the software and the vendors. They take the customers and they take the contracts and they take the accounting. And they say is everything tied.
+
+00:43:08:05 - 00:43:26:01
+Collin
+So if I have a customer we're charging RMR for and I don't see a contract and I don't see monitoring who, what are you charging them for? And then it's like, oh shoot, I should have turned that off without a cancel customer for six months ago. Okay. Well, I was just about to spend 35 x for every dollar of theirs.
+
+00:43:26:01 - 00:43:58:03
+Collin
+That's, you know, so what is quality of earnings? From an RMR perspective or RMR due diligence provider. The other is legal. And having the legal vet through the structure of the agreement, looking at things like, a lot of times you're buying small businesses and they have loans or liens or both. And they have family members and they have, non-linear paths to equity ownership, in terms of who holds the stock in the business and have relinquished that stock.
+
+00:43:58:18 - 00:44:17:00
+Collin
+And so you need to, a be extremely tight on that. You can get protected a little bit from that when you're doing asset sales versus a stock sale. But not always because they may have a lean. So you have to go through that. You should always be doing a lean search. And then, but that's that's not always a deal killer.
+
+00:44:17:00 - 00:44:36:07
+Collin
+Right. So like, you could have lean. And sometimes those lean providers are incorrect or not. So overreaching that they're applied to recurring revenue. So legal and ALM are due diligence. And then again, if it if it's big enough, we do a full quality of earnings. And it's basically what I talked about with RMR. But they do it at the entire arm, at the tire revenue level.
+
+00:44:36:07 - 00:44:54:10
+Collin
+So they're trying to find that person that pays their Armagh bell, their alarm, ordinary bell and tires. Right. Like they're trying to uncover that we should have done that for alarm masters. To some degree. We did none of that. I thought, yeah, I've an MBA in finance. Like, are you kidding me? Like, I can do this. Well, this is not a big deal.
+
+00:44:54:12 - 00:45:03:16
+Collin
+And, boy, was I wrong. My financial model looks nothing like, the 30 day model that I built before. So. Yeah.
+
+00:45:03:18 - 00:45:26:16
+Shane
+Interesting. Brian, this is right analogy right now. I mean, the, the idea of, like, the term latent liability come to mind and is when it comes to the trans, like what, what is hidden in the, the dark corners of it. All right. From your opinion, what can someone do and what are we we've what kind of advice have we given to customers before to minimize that?
+
+00:45:26:16 - 00:45:40:05
+Shane
+I mean, Colin brought up some great points specifically about, the, the transfer risk and like how you set up between an asset or a stock purchase. But what other things do you know about from, from your legal background that help to mitigate some of that?
+
+00:45:40:07 - 00:46:08:18
+Brian
+I mean, a lot of these transactions, so let me just start with the, lowest common denominator. The first thing that I try and tell people is to hire an actual attorney. That's number one. And and not just an attorney who's like, oh, you know what? My brother or my cousin is an attorney. It turns out that just like in, so many industries, there are specialties within the law.
+
+00:46:08:20 - 00:46:37:12
+Brian
+And when you get someone who is a family law attorney, they deal with divorce all day long. They don't necessarily know a ton when it comes to buying real estate or buying a business. And those intricacies that Colin just talked about, like, you don't really learn those things unless you've seen them before. And so many times that I know all three of us just from a more of a like consulting standpoint, not even from a legal, practice standpoint.
+
+00:46:37:14 - 00:47:11:15
+Brian
+You have to tell these customers, hey, you need to get these contracts in place and to some degree, I was thinking, as tough as it is, the SBA process does put in place a lot of that infrastructure because so many of these small business owners, not not necessarily Collin, but a lot of folks that are maybe less sophisticated buyers who don't have the pedigree, the experience, they come into it, they don't even think about a contract.
+
+00:47:11:17 - 00:47:37:00
+Brian
+They don't even realize, oh, wait, I should have had an operating agreement. I should have spelled out who owns what and how those shares vest. Are those real shares? Are those shadow shares. I'm literally looking at a deal right now where the owners promised shadow shares to the buyer, and the buyer is going to use that towards their down payment.
+
+00:47:37:02 - 00:48:08:21
+Brian
+So those are things that, all of those little things that you would just that a lot of business owners just kind of talk about in passing and say, oh yeah, let's do that, let's do that. A lot of those things they don't realize need to be memorialized in a contract so that when it comes time to sell, when it comes time to buy, you have something there that is that can be substantiated on paper for a lender like in our situation.
+
+00:48:08:23 - 00:48:30:08
+Collin
+So and also I would say to, you should fully expect that the seller is not going to use the transaction attorney. So their attorney is going to be their divorce attorney, their real estate attorney, or this magical business attorney that apparently does litigation contracts, acquisitions, insurance, you know, HR suits. It's like that's the attorney that they're going to use.
+
+00:48:30:23 - 00:48:53:08
+Collin
+And so that means you can't control that. You're not going to dictate to your, you know, seller, one attorney to use. That means that your attorney has to be on their game and know how to speak that language. They need to be, fluent in seven different languages so they know how to communicate in control. And we learned a hard lesson because we did not use a transaction attorney at a la masters.
+
+00:48:53:08 - 00:49:11:21
+Collin
+And that was a mistake. And then every, every, transaction we've done since we paid more money and had a transaction attorney. And it was night and day different, like just the the organization and the level of communication, because the other side is not speaking the same language as you like, then they don't care about the same stuff.
+
+00:49:12:01 - 00:49:31:06
+Collin
+Our deal literally almost blew up because of our two lawyers because of a miscommunication. Yeah, our seller wanted it written in his non-compete that he could sell alarm parts on eBay, and so he wanted that written in is not compete. And so we said sure we don't we don't care about that. Like whatever. Let our attorneys figure that out.
+
+00:49:31:06 - 00:49:55:23
+Collin
+Well, so our attorneys talked and they were like, that doesn't need to be included. That's a frivolous that's that's not part of a non-compete. And his, his, lawyer said, yeah, I agree, we don't need that at all. Well, he didn't communicate that back. And she he said, oh yeah, I'll tell the I'll tell the seller. And our attorney didn't follow up, didn't put notes, just didn't include it in the revised Red lives of the next, asset purchase agreement.
+
+00:49:56:00 - 00:50:13:21
+Collin
+So we send the asset purchase agreement and the seller sins as a note and says, I'm done with you. You're trying to pull one over. You set everything over except for this eBay thing. I told you that this is the most important thing. I'm not talking to you. Don't call me. This is the week before close. And we were like, oh, crap.
+
+00:50:13:21 - 00:50:34:06
+Collin
+And so our attorney was like, well, his attorney said they were going to have a conversation, you know? And so anyway, the the lesson there is, you you have to be involved as the buyer and you need to understand what those changes are, and you need to be presenting those changes to your seller and have enough legal fluency to be able to say, hey, seller, here's the changes.
+
+00:50:34:06 - 00:50:47:11
+Collin
+Just want to make sure we're on the same page. Our attorneys agreed that that statement had to be in there. I know that's important to you. Are you good? You want us to include that in there? You know, that's just an example of you can't control their attorney. You can control your attorney, and you need to be involved in that process.
+
+00:50:47:13 - 00:51:17:11
+Brian
+Yeah. And and from the legal side, one thing I would say too, is having been at a big firm and small firms, one thing you realize is that kind of like what we've discussed already, the bigger companies always have processes and procedures for everything, right? And one thing that I really loved being in at a larger firm was that they would have the business side and the legal side separate it out.
+
+00:51:17:13 - 00:51:40:12
+Brian
+So when I when a deal was getting negotiated, the business side would start things out. They would talk about things, they would put together an LLC or terms, and then all of those terms would get put into the contract. The business folks would be kind of in charge of that and making sure that all of those things get translated.
+
+00:51:40:14 - 00:51:58:02
+Brian
+And then, of course, the attorneys have to also make sure those things get translated. But then by separating out the legal side, you kind of do what you're talking about, calling where you have the business folks being involved and somewhat responsible. I mean, the attorney is going to still be responsible for the contracts at the end of the day.
+
+00:51:58:04 - 00:52:24:18
+Brian
+But the attorneys can, you know, squabble over, all the tiny provisions and indemnities and how insurance is going to work out and all those little kind of details for how the the smaller bits are going to work out in the transaction because that affects you pose close, that affects what you're going to be able to do. And the things that the that end up showing up post close.
+
+00:52:24:18 - 00:52:50:14
+Brian
+I mean, in preparing for this, I was reading about transactions with huge companies, right? Uber buying, buying. I think it was a AI company or some sort of driving service company. They ended up getting into legal problems because they somehow missed something in those contracts that the seller was selling. That happens on a small scale too.
+
+00:52:50:16 - 00:53:03:20
+Brian
+So, you know, it's important to make sure from a legal standpoint that even though you have an attorney, you know, you still got to be, somewhat involved and make sure that your attorney is on the ball, just like you said.
+
+00:53:03:20 - 00:53:25:04
+Collin
+Yeah, it's both and it's not either or. You're not going to have a great attorney and you get to sit back. If you got a great attorney and you're going to be involved. And honestly, run your deal cycle like you do a big enterprise sale cycle. Right? So, like, get that agreement or a boilerplate agreement with standard identities to the seller and their and their lawyer.
+
+00:53:25:11 - 00:53:40:10
+Collin
+Like the first day, just as a part of a closing pat or. Sorry, is that due diligence phase? Okay. Here's what we typically use, not what we're putting in front of you in terms of like that first draft. But what what issues do you have conceptually with this? Because most of these deals aren't blowing up over the purchase price.
+
+00:53:40:12 - 00:53:56:14
+Collin
+They're blowing up over transition services, agreement identity, like, warranties and wraps. I mean, that's where these deals are blowing up on very small little changes. And so getting ahead of that as much as you can is critically important. I think.
+
+00:53:56:16 - 00:54:13:14
+Shane
+Well, I think it carves out some of the elements of the business. Like if you think about, from the seller's perspective, all of those little nuances of that contract and any of the contracts that exist, even the contract that they have with their customers, there's a lot of handshake in there. There's a lot of emotion tied into some of the relations ever built.
+
+00:54:13:14 - 00:54:31:21
+Shane
+So when you're going to buy somebody's existing small business that they've had, and I've seen this happen, there's a lot behind it that you don't know about that they just never documented or things that and promises that I think still holds some legal value. Don't correct me if I'm wrong, Brian, but there's there's liability that ties through even with promises made by the previous owner.
+
+00:54:31:23 - 00:54:50:19
+Shane
+You know, I'd say whether or not it's an asset or a sale sales agreement that could cause return legality, aspect. Yeah, you might get away from it. But there's there's a reputational risk in that transition in that, that, that, that, that could create a problem for you, whether it's with the employees, whether it was with the customers and any that the vendors that you're working with.
+
+00:54:50:19 - 00:55:05:23
+Shane
+I mean, I feel like a lot of that is inherent and built into it. And so it makes me think about kind of the next element. And the next question of this is stepping into it. So you said you're for it. You know, you talked about your first 90 days, that any of the things you've tried to institute, you weren't still doing that.
+
+00:55:06:02 - 00:55:23:07
+Shane
+Did I hear that? Right? Like, it's I never quite held through. So, you know, being the the avid planner that I am, we've with every place that Stephanie, myself and Brian have gone to, my first move is I need an SOP, right? I need I need some type of CRM. I need freaking infrastructure. Let's get that up top, like up and rolling right away.
+
+00:55:23:13 - 00:55:41:13
+Shane
+Yeah, I was if I was the start up business, it's a hell of a lot easier to do when I'm walking into an existing business that already has people doing other things. It is. It is like grinding your face on sandpaper. It's just freaking painful to try to see. And you have a change to the point where I'm like, all right, I'm going to pull back and not do anything.
+
+00:55:41:13 - 00:55:58:19
+Shane
+Like I said, I eventually I learn, shut the hell up and just live in it for a minute and then try to find your way to start maneuvering the people the right direction, maneuvering the processes, then start to slowly implement those SOPs and other things. So like what system or tool really has become your growth command center like that?
+
+00:55:58:20 - 00:56:11:04
+Shane
+It's really what you're relying on going forward. And what is that platform look like and how could that be framed for other people like listeners that were that are watching the show today? They're trying to get into their first acquisition?
+
+00:56:11:06 - 00:56:32:19
+Collin
+Yeah. My, my business partner Steven says that I should get, an affiliate deal with Salesforce because I've sold more Salesforce to people that, since I've left Salesforce than I did when I was there. It wasn't. But the reality is, every step of my career has led me to being at this point. And and the big thing was at Salesforce, they pitched this concept in there and they didn't claim it.
+
+00:56:32:19 - 00:57:16:19
+Collin
+They don't own it. But like they pitch it and they claim it and it's the customer. 360. So understanding every touchpoint and in a physical service business, not a SaaS business, there's a lot of touchpoints between your customers. And so their idea is create one customer platform that has all the things on it. And so I bought into that and we implemented Salesforce on a business like Full Stack that not just CRM, but our ticketing system, our phone system, our billing system, our recurring revenue, our work order system, our project tracking, our sales and opportunities are quoting every email, every phone call, every file, every single thing related to the customer is tied
+
+00:57:16:21 - 00:57:42:09
+Collin
+to Salesforce. And it's not, we're still we're still to this day. We implemented it over a year ago. We're still filling it information because a lot of it, we just didn't have information. But now what we have is as customer 360 so anyone in my entire business can look today at every single customer and see when their last ticket was like, did they have a problem what their outstanding balance was, what the last work order was, what the last part?
+
+00:57:42:09 - 00:58:09:22
+Collin
+We sold them, all their parts, all their information listed. No one in my industry has that, and if they do, they're not a sub $100 million business. And so I invested in that, and knew that where we're going is not going to be where we are today. And I'm not going to do this twice. And so we transitioned from a, they had there's not a single piece of software that the business had when we purchased that we're still using today, not a single piece of software.
+
+00:58:10:00 - 00:58:31:11
+Collin
+So we totally transitioned everything to cloud for a whole lot of reasons. I could go and write a whole narrative on that. And, and part of that was Salesforce. And so now my team can scale and they know, hey, we're going to we now have all this access. But we came from this old legacy platform that was so slow, you had to be physically on site to access it.
+
+00:58:31:14 - 00:58:54:06
+Collin
+You had no reporting. I couldn't tell you anything about the customer. And so I was immediately walking into the business. I was like, the number one thing I have to do, I'm going to implement the Chick-Fil-A of the security industry is I have to understand and have a perspective and a POV on my customer point of view. And so if I'm going to have a point of view, I've got to have the information and all the information has to be in a single place.
+
+00:58:54:08 - 00:59:12:23
+Collin
+And so we moved everything on to Salesforce. And it was extremely painful. It took two times or three times longer than we thought it was. And the end product initially wasn't as great as we needed it to be because we didn't have all the information. But we've since have layered on more and more and more, and now we're in a place where it's and it's our it's our secret weapon.
+
+00:59:13:00 - 00:59:15:00
+Collin
+I mean, it's awesome.
+
+00:59:15:02 - 00:59:16:10
+Shane
+Yeah. If this sounds familiar.
+
+00:59:16:12 - 00:59:30:00
+Steph
+Now, man, I, I've been through multiple company builds and we built on Salesforce. I have drilled that into Shane and Brian's brains for years and years and years. Like I said. Customer 360 is a game changer.
+
+00:59:30:02 - 00:59:31:00
+Collin
+
+
+00:59:31:01 - 00:59:48:19
+Shane
+Well thanks Steph. And this is something else that, that that, that I think backs up what Colin saying Steph sell us on it again because you've sold it. You sold it to me seven years ago and it's been in my brain. We've never been able to get anywhere we go to just think the same way. But we know that this freaking methodology works.
+
+00:59:48:19 - 00:59:54:15
+Shane
+Colin is preaching here the truth. What the hell are we? What are most businesses missing when it comes to this element?
+
+00:59:54:17 - 01:00:24:19
+Steph
+Yeah, I think exactly what you just said, Colin. Like you need, whether it's Salesforce or whatever other platform you need a platform where your employees and your customers all live together in one community so that you, Colin, the owner, has purview over the entire city at all times, 24 seven, in the cloud, real time. And that's the only way to do it, is you have to have a cloud based platform like a Salesforce that integrates your entire company inside and out.
+
+01:00:24:19 - 01:00:45:22
+Steph
+Right? It's so it's the the clients, the customer. 360 but it's also your cut your organizational management. So like you said, expenses, operations, inventory management, people management it's all there within one platform. I mean, I don't understand how a company in today's environment can operate without that.
+
+01:00:46:00 - 01:01:05:17
+Collin
+Yeah. And they do every day. And businesses significantly larger than us do it every day. And Salesforce is not the only one that does it. That's the only one that I know that does it the way that we need it to do. And I was already familiar with the product, so that obviously helped. And I'll, I'll just say this, I just one I started thinking, hey, I need this for me so I can make better decisions.
+
+01:01:05:17 - 01:01:25:04
+Collin
+And what I learned is we need this for my employees. My employees can now make have better interactions with my customers because they have more access. Hey, Mr. Customer, this is the third time you call this in the last 30 days. I am so sorry you're having these issues. I'm gonna go ahead and escalate this to my manager, because I can't believe you're having to call us three times about the same issue.
+
+01:01:25:06 - 01:01:35:23
+Collin
+They're telling the customer that the customer is not telling us that because we have the access to the information in their call logs that recorded their corporate phones, all that. So, yeah.
+
+01:01:36:01 - 01:01:44:00
+Steph
+Look at that data ecology in the platform drives that client experience. It's it's beautiful. Go around the client experience.
+
+01:01:44:02 - 01:02:07:22
+Shane
+Well there's an urgency that needs to go into it. And it's not you I would say you want to execute that as quickly as you can and urgently as you can, but also as carefully as you can, because there's plenty of opportunities to take on a new a new layer, a new tool, that this can become an expensive tail chasing more than anything else, trying to get the plug to work because you got sold by them so hard.
+
+01:02:07:22 - 01:02:31:10
+Shane
+On this being the solution to your problem, when it just may not be. This is a I. I've seen this a it happens at banks. Banks are a perfect idea of and especially small banks. Some of the most archaic, poorly operated business types that are out there. They're stuck on an infrastructure that is 40 to 50 years old trying to integrate anything into it has to follow legal and compliance.
+
+01:02:31:12 - 01:02:49:03
+Shane
+And it is the worst game of Legos. I mean, I feel like a frustrated toddler trying to jam that, that flipping cube into the circle, and it's just not going and not going. It's not going in. And I can't get the damn cube shape well enough to fit into that stupid hole, because that hole just seems to keep getting more and more constricted.
+
+01:02:49:05 - 01:03:04:02
+Shane
+And I think that that as as the small business owner and I've heard it from my other customers, technology can have that effect. You're trying to force it in. And I think there's a there's a moment where you can sit back and say, okay, I'm going to slow down. I've got to find a different shape to make fit here, to make this one go.
+
+01:03:04:02 - 01:03:24:16
+Shane
+And it's going to take a minute. And it always ends up taking longer than than you expect. I every dialog that we have, it's I mean, within the corporate world or in small business, it's going to take longer than you were expecting. But that shouldn't change your foresight into wanting to make it go faster. That urgency is what's going to help you scale and get to that point of efficiency, I think, sooner.
+
+01:03:24:18 - 01:03:43:12
+Shane
+So the okay, so to kind of finish this up, this is a bit like the quick fire strategy round and on what, like a few of these questions we'll hit up and we'll we'll see who can who can chime in on it. So the first question is what would you never do again. So I kind it was kind of forfeited for you if you went back and had to restart again, what would you never do again?
+
+01:03:43:14 - 01:04:03:02
+Shane
+Brian I think about this one. What legal what legal tricks should be a standard for, for anybody going into this kind of an acquisition and, or, or this trying to scale their business, like what's the standard? And you might have already set it. So you can you can bring that back up. Steph, what's always your 30 day move when you're walking into that business?
+
+01:04:03:02 - 01:04:21:16
+Shane
+Right. When you're first stepping in? What's within that 30 day. What's that playbook look like? The number one most important move will go off of. And then you can finish this up on this one call. Like what? What guides your next five acquisitions. So starting out what would you never do again having gone around and done this, you know now five times.
+
+01:04:21:16 - 01:04:25:09
+Shane
+But looking back acquisition threats.
+
+01:04:25:11 - 01:04:42:12
+Collin
+Yeah I I'm then I'm going to answer that differently. If you're buying a platform or buying your first business versus you're doing, tuck ins or acquisitions. So I'll, I'll start with if you're buying your first one, this is so tactical. So I'm sorry, but it's just real. I would never buy a business with as little working capital as we did.
+
+01:04:42:21 - 01:04:59:20
+Collin
+With alarms you need for working capital than you think you do. And then you're going to double it, and then you should probably double it again. So figure out how to go get that money before you close versus after, because good luck. The SBA is not doesn't really love it when you go take out let even like credit cards but let you know anyway.
+
+01:04:59:20 - 01:05:19:22
+Collin
+So go get that working capital ahead of time, whether that's equity or additional debt, whatever you have to do. And if you can't, that is a huge red flag. And you should probably not do the bill. Because it is really, really, really, really, really hard to operate a business. And it's even harder when you're having to operate a business on razor thin margins.
+
+01:05:20:00 - 01:05:39:21
+Collin
+And also you got to like, go collect your cash, and it's just like a whole bunch of stuff that's really difficult about getting your cash. So, I would never buy a business with as little working capital as I did. That's number one. And if I'm doing a, if I'm doing a tuck in, or a, like a, an acquisition that we're rolling into my existing business, I'm just going to go back to what I already said, because the truth, which is I'm not smarter than my new diligence providers.
+
+01:05:39:21 - 01:05:56:22
+Collin
+I will never not use a due diligence provider, to evaluate all my deals. I'm going to spend the money. And we've had the, two deals that I've, we've spent $30,000 on, and they it did not work out. And I am so glad that they didn't work out. And and that was because of our due diligence providers.
+
+01:05:56:22 - 01:06:04:06
+Collin
+And so we would never have known that, Colin, the NBA would have tried to figure it out. So those are the two things I would say that I would not do. Again.
+
+01:06:04:08 - 01:06:06:08
+Shane
+Brilliant. That's a that's a good hit.
+
+01:06:06:09 - 01:06:10:23
+Steph
+Oh, mine. Exactly what all of us probably were going to say is the the money.
+
+01:06:11:01 - 01:06:21:22
+Shane
+Yeah. No kidding. So Brian, your role. What's that. What's the one legal trick that that everyone needs to be doing, whether they're buying their first or scaling into a second.
+
+01:06:22:00 - 01:06:47:14
+Brian
+So number one I would say look at hiring an attorney. Look at budgeting for an attorney. You can include those attorney fees in the SBA loan to some degree. Right. So you can get extra working capital built in to be able to cover some of those fees and then be able to disclose that on, you know, your closing documents so that it's SBA compliant.
+
+01:06:47:23 - 01:07:15:20
+Brian
+That would be number one. Number two, one thing that I don't know that we touched on a bunch here, but I've heard you mentioned in other podcasts, Colin is hold backs and another client of mine that's done a bunch of, acquisitions does this a bunch he will put in to the purchase agreement. It's some sort of, since you can't have earn outs and things like that in SBA, he kind of flips it on the inverse and says, okay, stellar, are you going to carry a note?
+
+01:07:15:22 - 01:07:44:03
+Brian
+But you're only going to get so much of it if we hit these targets, or I'm only going to pay you back if we hit a certain, you know, one and a half times or two times, debt coverage ratio based on EBITDA. So I would say those two things would be my, my points. And because by doing that, if you're not going to have a seller stay on as a partner or a minority shareholder, there's really no way to hold their feet to the fire.
+
+01:07:44:03 - 01:08:12:19
+Brian
+I know, Colin, you had mentioned, RMR and experiencing churn, with some of that RMR like that's a huge risk. You know, if you've got I don't know, 30, 40% of your income from RMR and then the rest of it coming from one time services, you're taking a risk as a new business owner, whether those to what to to what degree those services and that revenue is going to continue moving forward.
+
+01:08:12:19 - 01:08:17:16
+Brian
+And I think that sort of a thing hold back kind of accomplishes that.
+
+01:08:17:21 - 01:08:34:18
+Shane
+That's, that's that's brilliant. We didn't get to dive too much into that right on this episode. But for sure, in future episodes we're going to get we're going to pick Brian's brain on what that can actually look like, build some templates that we'll share with people, because I really think that that's more people need to think, think creatively and how you're putting the deal together.
+
+01:08:34:18 - 01:08:57:12
+Shane
+It's not just a purchase price, it's not just a dollar amount. There's so much that goes with the transition risks that you have to think about. And after this podcast, also, landlords of lending, you'll be able to download a 30 day playbook of additional things that you can actually dig into, and step by step from day 1 to 10 10 to 20, 20 to 30, that will will help you as a business owner that's going into it.
+
+01:08:57:18 - 01:09:12:16
+Shane
+Think about all of the elements that you want to execute to look as as sexy as Colin's experience did on round two and three. Right? A little less painful than the first 90 days of of trying to get in and take over. But ways that you can execute on that, that I think they'll help you be the most successful.
+
+01:09:12:18 - 01:09:24:11
+Shane
+And so talking about that, Steph, what's always your 30 day like first move that we've done from the businesses that you've bought and the places that we went and started up departments for, what's the first thing you're doing in that first 30 days?
+
+01:09:25:03 - 01:09:45:03
+Steph
+Okay. Well, I'm going to say what probably people try to, deny I've bought a lot of different businesses and sold businesses. I've made money and I lost money, and I was in businesses that I knew nothing about. I was a I bought a construction company, and I'm a general contractor, and I'm this, like, little lady here in North Carolina and bought the construction company.
+
+01:09:45:05 - 01:10:07:19
+Steph
+I would say this companies fail for two reasons. They grow too fast or they grow too slow. And the common denominator of growing too fast or going too slow in determining if you're going to make it or not is liquidity. You have to have liquidity. And every day I work with buyers and they have very little liquidity. And what they do have, they're putting down.
+
+01:10:07:22 - 01:10:33:02
+Steph
+So I'm worried about Post-closing. I build in working capital as much as I possibly can. But you're right, banks are tight on the working capital. They're stingy. I would say, you know, honestly, I think business owners need 6 to 12 months operating capital on reserve at all times. So I would say the first three days I'm making sure I have that liquidity and be disciplined enough to keep it and don't touch it.
+
+01:10:33:02 - 01:10:54:00
+Steph
+Don't use it because you're going to need to cycle it for your business. And, the kiss of death is expensive debt. And this is what businesses do they get into month three four. They need more money. So they go out and they get expensive debt, MCA debt or whatever it is. And that's the kiss of death, because there's almost no getting out of that, so expensive debt.
+
+01:10:54:00 - 01:11:08:17
+Steph
+Stay away from an expensive equity. You bring in partners, and you have to give them more than you wanted to give them. And that sucks, too. You don't want to have to give away your business just because you're in month four and oops, you need 200 grand. So you need to save up before you go and buy a business.
+
+01:11:08:23 - 01:11:23:09
+Steph
+You need cash, save up, keep it in reserves and have it on hand at all times. Or a cheap or inexpensive revolver at all times that that is accessible so that you can continue to grow and meet that momentum.
+
+01:11:23:11 - 01:11:39:02
+Shane
+It's like, damn it, if you have a house, just take out a freaking headlock. We're having some of the cheapest debt you can get out there. As far as, as far as keeping your business alive, do it before you apply for a loan. That's I mean it. You what you said, Steph reinforces perfectly what Colin had brought up about working capital liquidity.
+
+01:11:39:05 - 01:12:03:13
+Shane
+This has to be top of mind as bankers. It's something that we are always looking at and analyzing. We really don't want your business to fail as your equity partner or sorry, as a as a lending partner. We're taking a heavy hit. We're not not getting in the way of running your business, but we we will be there as a as a shackle and we'll we'll stop you from from getting too far if you're not, if you're not keeping an eye on those things because of the demands of our, of our investment.
+
+01:12:03:15 - 01:12:18:08
+Shane
+So. Okay, so the final one here for Colin, the guide for the next five acquisitions. Like what what is what do you have in place where you pointed. What's the what's the arrowhead that, that's kind of guiding your next five moves?
+
+01:12:18:10 - 01:12:46:07
+Collin
+Yeah. It's at this point it's geographic expansion for us. So we're really bullish on Texas. Being from Texas, we love Texas. That's how we are Texans. We love Texas. And we are trying to expand, through acquisition. The buy versus build thing has never been truer in my opinion. And I've seen many, many, many, many operators try to go, build an outpost in another city and fail many times.
+
+01:12:46:09 - 01:13:06:04
+Collin
+But I've never seen somebody buy an outpost as an expansion of their business, in another city and fail. I'm sure there are examples of that, but it just anecdotally, we are trying to expand it geographically to get our footprint. And it's it's also for specific deals. It's not just to go grow for the sake of growing in that market.
+
+01:13:06:16 - 01:13:25:14
+Collin
+Or because the economics in that market look good. It's also because many of our customers are multi-site or regional national players that have locations in those markets, and we need the infrastructure and operations in those markets to be able to support that. So it's kind of a vanilla answer, but it's the true one. We're looking we're looking at geography.
+
+01:13:25:14 - 01:13:44:01
+Collin
+And so we're looking really tightly at specific markets. We've looked at I talked to sellers multiple times a week. I've looked at 100 deals over the last 90 days, and we have not pulled the trigger on one in another market yet. We are on your leave for one in Houston, but we're, we're going to continue to look at outside of Houston pretty heavily.
+
+01:13:44:03 - 01:14:07:18
+Shane
+Love it. All right. Expand the empire, man. Build those walls. Keep it growing. You've got the tight, tight knit infrastructure. You got the army underneath you. I think that's how it all comes together. So Colin, we appreciate you coming on the show with us today. Given us some of your your mastery, sharing your insights. And so for anyone listening today, if this episode has hit something deep, by all means please share it and tag a founder who is in the weeds on their first acquisition.
+
+01:14:07:18 - 01:14:24:07
+Shane
+Send them our way. We'd be happy to help have him watch and look for some of the solutions. What we we've actually put down on the table, because I really think there's there's been some great insight and some great mentorship that will help you to achieve and achieve the best that you can, whether you're scaling or even just stepping into your first business.
+
+01:14:24:07 - 01:14:30:01
+Shane
+So this is Lords of Lending. We serve the builders. We protect your capital. Thanks for chiming in.
+

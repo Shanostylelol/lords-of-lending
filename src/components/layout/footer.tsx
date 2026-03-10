@@ -4,7 +4,7 @@ import { SITE_CONFIG, NAV_LINKS } from "@/lib/constants";
 
 export function Footer() {
   return (
-    <footer className="border-t border-[var(--color-border)] bg-[var(--color-dark)]">
+    <footer className="border-t bg-[#181516]" style={{ borderColor: "rgba(226,169,112,0.12)" }}>
       <div className="mx-auto max-w-7xl px-6 py-12 md:px-8 md:py-16">
         <div className="grid gap-10 md:grid-cols-3">
           {/* Brand */}

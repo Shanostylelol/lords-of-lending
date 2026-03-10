@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function BlogPage() {
   return (
-    <main id="main-content" className="bg-[var(--color-surface)] pt-24 pb-16 md:pt-32 md:pb-24">
+    <main id="main-content" className="bg-[var(--color-dark)] pt-24 pb-16 md:pt-32 md:pb-24">
       <div className="mx-auto max-w-6xl px-6 md:px-8">
-        <h1 className="text-center font-[family-name:var(--font-montserrat)] text-3xl font-bold uppercase tracking-tight text-[var(--color-text)] md:text-5xl">
+        <h1 className="text-center font-[family-name:var(--font-montserrat)] text-3xl font-bold uppercase tracking-tight text-white md:text-5xl">
           Become an Expert
         </h1>
 
@@ -23,7 +23,7 @@ export default function BlogPage() {
             <Link
               key={post.slug}
               href={`/${post.slug}`}
-              className="group block overflow-hidden rounded-xl bg-white transition-shadow hover:shadow-lg"
+              className="group block overflow-hidden rounded-xl bg-[var(--color-surface)] border border-[var(--color-border)] transition-all hover:border-[var(--color-gold)]/40 hover:shadow-lg hover:shadow-[var(--color-gold)]/5"
             >
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
@@ -34,10 +34,10 @@ export default function BlogPage() {
                 />
               </div>
               <div className="p-5">
-                <h2 className="font-[family-name:var(--font-montserrat)] text-sm font-bold uppercase leading-snug tracking-wide text-[var(--color-text)] group-hover:text-[var(--color-gold)]">
+                <h2 className="font-[family-name:var(--font-montserrat)] text-sm font-bold uppercase leading-snug tracking-wide text-white group-hover:text-[var(--color-gold)]">
                   {post.title}
                 </h2>
-                <time className="mt-2 flex items-center gap-1 text-xs text-[var(--color-text-light)]">
+                <time className="mt-2 flex items-center gap-1 text-xs text-white/40">
                   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <circle cx="12" cy="12" r="10" />
                     <polyline points="12 6 12 12 16 14" />
@@ -48,7 +48,7 @@ export default function BlogPage() {
                     year: "numeric",
                   })}
                 </time>
-                <p className="mt-2 text-sm leading-relaxed text-[var(--color-text-muted)] line-clamp-2">
+                <p className="mt-2 text-sm leading-relaxed text-white/50 line-clamp-2">
                   {post.excerpt}
                 </p>
                 <span className="mt-3 inline-block text-xs font-semibold uppercase tracking-wider text-[var(--color-gold)]">

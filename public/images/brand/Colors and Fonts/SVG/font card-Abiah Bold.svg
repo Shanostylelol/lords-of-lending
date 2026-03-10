@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 210">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 16px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #231f20;
+        font-family: Abiah-Bold, Abiah;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 12px;
+      }
+
+      .cls-3 {
+        font-size: 100px;
+      }
+
+      .cls-4 {
+        fill: #f9fdfe;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-4" width="210" height="210"/>
+  <text class="cls-3" transform="translate(53.88 139.2)"><tspan x="0" y="0">Aa</tspan></text>
+  <text class="cls-2" transform="translate(90.71 162.77)"><tspan x="0" y="0">BOLD</tspan></text>
+  <text class="cls-1" transform="translate(85.79 34.19)"><tspan x="0" y="0">ABIAH</tspan></text>
+</svg>

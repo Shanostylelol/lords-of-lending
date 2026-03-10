@@ -17,7 +17,8 @@ export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const hasDarkHero = DARK_HERO_PAGES.has(pathname);
-  const isLight = scrolled || !hasDarkHero;
+  /* Always dark nav — black bg with white text */
+  const isLight = false;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -32,11 +33,8 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isLight
-          ? "bg-white/95 backdrop-blur-md shadow-sm border-b border-[var(--color-border-light)]"
-          : "bg-transparent"
-      }`}
+      className="fixed top-0 left-0 right-0 z-50 border-b transition-all duration-300"
+      style={{ backgroundColor: "#231F20", borderColor: "rgba(226,169,112,0.15)" }}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-8">
         {/* Logo */}
@@ -109,7 +107,8 @@ export function Navbar() {
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
-            className="fixed inset-0 top-[72px] z-40 bg-white md:hidden"
+            className="fixed inset-0 top-[72px] z-40 md:hidden"
+            style={{ backgroundColor: "#231F20" }}
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
@@ -133,7 +132,7 @@ export function Navbar() {
                     <Tag
                       href={link.href}
                       onClick={() => setMobileOpen(false)}
-                      className={`block rounded-md px-4 py-3 font-[family-name:var(--font-montserrat)] text-lg font-medium text-[var(--color-text)] transition-colors hover:bg-[var(--color-surface)] ${isGlow ? "text-[var(--color-gold)]" : ""}`}
+                      className={`block rounded-md px-4 py-3 font-[family-name:var(--font-montserrat)] text-lg font-medium transition-colors hover:bg-white/10 ${isGlow ? "text-[var(--color-gold)]" : "text-white/80"}`}
                     >
                       {link.label}
                     </Tag>
