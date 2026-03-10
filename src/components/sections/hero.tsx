@@ -77,7 +77,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.5 }}
         >
-          <Button href="https://learn.lordsoflending.com" className="px-8 py-4 text-base">
+          <Button href="https://learn.lordsoflending.com/pricing" className="px-8 py-4 text-base">
             Start Learning Free
           </Button>
           <Button href="/podcast" variant="outline" className="px-8 py-4 text-base border-white/30 text-white hover:bg-white/10 hover:text-white">

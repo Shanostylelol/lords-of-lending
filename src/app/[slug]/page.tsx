@@ -214,7 +214,7 @@ export default async function ContentPage({ params }: Props) {
             </p>
             <div className="mt-4 flex flex-wrap gap-3">
               <a
-                href="https://learn.lordsoflending.com"
+                href="https://learn.lordsoflending.com/pricing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center rounded-md bg-[var(--color-gold)] px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-[var(--color-gold-dark)]"
@@ -385,7 +385,7 @@ export default async function ContentPage({ params }: Props) {
                 See All Episodes
               </Link>
               <a
-                href="https://learn.lordsoflending.com"
+                href="https://learn.lordsoflending.com/pricing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center rounded-md border border-[var(--color-gold)] px-4 py-2 text-sm font-semibold text-[var(--color-gold)] transition-colors hover:bg-[var(--color-gold)] hover:text-white"

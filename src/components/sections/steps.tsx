@@ -63,7 +63,7 @@ export function Steps() {
         </div>
 
         <div className="mt-12 text-center">
-          <Button href="https://learn.lordsoflending.com">Explore the Learning Platform</Button>
+          <Button href="https://learn.lordsoflending.com/pricing">Explore the Learning Platform</Button>
         </div>
       </div>
     </section>

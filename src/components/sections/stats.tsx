@@ -37,7 +37,7 @@ export function Stats() {
         </div>
 
         <div className="mt-12 text-center">
-          <Button href="https://learn.lordsoflending.com" className="bg-[var(--color-gold-light)] hover:bg-[var(--color-gold)]">
+          <Button href="https://learn.lordsoflending.com/pricing" className="bg-[var(--color-gold-light)] hover:bg-[var(--color-gold)]">
             Learn from the Best in SBA
           </Button>
         </div>

@@ -84,7 +84,7 @@ export function Navbar() {
             );
           })}
           <a
-            href="https://learn.lordsoflending.com"
+            href="https://learn.lordsoflending.com/pricing"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-md bg-[var(--color-gold)] px-5 py-2.5 font-[family-name:var(--font-montserrat)] text-sm font-semibold text-white transition-all hover:bg-[var(--color-gold-dark)] hover:shadow-md"
@@ -147,7 +147,7 @@ export function Navbar() {
                 className="mt-4"
               >
                 <a
-                  href="https://learn.lordsoflending.com"
+                  href="https://learn.lordsoflending.com/pricing"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => setMobileOpen(false)}
