@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { PORTFOLIO_LOGOS, PODCAST_SUBSCRIBE_LINKS } from "@/lib/constants";
 import { motion, AnimatePresence } from "framer-motion";
 
 /* ════════════════════════════════════════════════════════
@@ -194,7 +195,7 @@ const TESTIMONIALS: Testimonial[] = [
   },
   {
     quote:
-      "Stephany is the most knowledgeable banker I have used! I have done 5 SBA loans with her. She is always ready to help and guide you through every point of the process. When you have the right person, it makes the loan process so easy. Stephany is that person — she is on your side! You don't get that personalized treatment anywhere else.",
+      "Stephanie is the most knowledgeable banker I have used! I have done 5 SBA loans with her. She is always ready to help and guide you through every point of the process. When you have the right person, it makes the loan process so easy. Stephany is that person — she is on your side! You don't get that personalized treatment anywhere else.",
     name: "Ruth Thornquest",
     title: "CEO, Faithful Heritage Holdings",
     result: "5 SBA Loans Funded",
@@ -233,12 +234,14 @@ const TRUST_STATS = [
    LATEST EPISODE
    ════════════════════════════════════════════════════════ */
 const LATEST_EPISODE = {
-  number: "EP 47",
-  title: "The Deal That Almost Died — And How We Saved It",
+  number: "EP 20",
+  title: "Why Equity (Not Cash Flow) Makes or Breaks SBA Deals",
+  slug: "why-equity-not-cash-flow-makes-or-breaks-sba-deals-lol-20",
   description:
-    "A real SBA 7(a) deal breakdown: $1.2M acquisition loan, two banks said no, and the one move that got it across the finish line. Raw numbers, real lessons.",
-  duration: "38 min",
-  date: "Mar 7, 2026",
+    "Former SBA deputy director Lance Sexton reveals why equity injection — not cash flow — is the #1 deal killer, and what happens when thin deals go to liquidation.",
+  duration: "42 min",
+  date: "Mar 4, 2026",
+  buzzsproutId: "18585787", /* Using EP 18's player as EP 20 is TBD */
 };
 
 /* ════════════════════════════════════════════════════════
@@ -840,20 +843,24 @@ export default function DualPathHomePage() {
                   {/* Fade edges */}
                   <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24" style={{ background: `linear-gradient(to right, ${SUITE_BLACK}, transparent)` }} />
                   <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24" style={{ background: `linear-gradient(to left, ${SUITE_BLACK}, transparent)` }} />
-                  {/* Scrolling track */}
+                  {/* Scrolling track — real logos */}
                   <div
-                    className="flex w-max gap-12 whitespace-nowrap px-6"
-                    style={{ animation: "logo-scroll 25s linear infinite" }}
+                    className="flex w-max items-center gap-14 px-6"
+                    style={{ animation: "logo-scroll 30s linear infinite" }}
                   >
-                    {/* Duplicate array for seamless loop */}
-                    {[...DEALS_IN_ACTION, ...DEALS_IN_ACTION].map((logo, i) => (
-                      <span
-                        key={`${logo}-${i}`}
-                        className="inline-flex items-center font-[family-name:var(--font-montserrat)] text-sm font-bold tracking-[0.15em] uppercase"
-                        style={{ color: `${TEXT_MUTED}60` }}
+                    {[...PORTFOLIO_LOGOS, ...PORTFOLIO_LOGOS].map((logo, i) => (
+                      <div
+                        key={`${logo.name}-${i}`}
+                        className="flex h-10 flex-none items-center"
                       >
-                        {logo}
-                      </span>
+                        <Image
+                          src={logo.image}
+                          alt={logo.name}
+                          width={120}
+                          height={40}
+                          className="h-8 w-auto object-contain brightness-0 invert opacity-50 transition-opacity hover:opacity-80"
+                        />
+                      </div>
                     ))}
                   </div>
                 </div>
@@ -883,13 +890,24 @@ export default function DualPathHomePage() {
                     {features.map((f) => (
                       <div
                         key={f.num}
-                        className="group rounded-xl border p-6 transition-all duration-300 hover:border-opacity-60 md:p-8"
+                        className={`group relative overflow-hidden rounded-xl border p-6 transition-all duration-300 md:p-8 ${
+                          isBrokers
+                            ? "hover:border-[#E2A970]/40 hover:shadow-lg hover:shadow-[#E2A970]/5"
+                            : "hover:border-opacity-60"
+                        }`}
                         style={{
                           backgroundColor: CARD_BG,
                           borderColor: CARD_BORDER,
                         }}
                       >
-                        <div className="flex items-start gap-4">
+                        {/* Subtle gradient accent on hover */}
+                        <div
+                          className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                          style={{
+                            background: `radial-gradient(ellipse at top left, ${isBrokers ? DECO_GOLD : EGGPLANT}12 0%, transparent 70%)`,
+                          }}
+                        />
+                        <div className="relative flex items-start gap-4">
                           <span
                             className="flex h-10 w-10 flex-none items-center justify-center rounded-full border text-sm font-bold"
                             style={{ borderColor: `${DECO_GOLD}40`, color: DECO_GOLD }}
@@ -909,6 +927,51 @@ export default function DualPathHomePage() {
                         </div>
                       </div>
                     ))}
+                  </div>
+
+                  {/* Path-specific CTA below features */}
+                  <div className="mt-10 text-center">
+                    {isOwners ? (
+                      <Link
+                        href="/loans/loan-application"
+                        className="inline-flex items-center gap-3 rounded-md px-10 py-4 font-[family-name:var(--font-montserrat)] text-sm font-bold tracking-wider uppercase transition-all duration-300 hover:brightness-110 hover:shadow-lg"
+                        style={{ backgroundColor: DECO_GOLD, color: SUITE_BLACK }}
+                      >
+                        Get Funded Now
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                          <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
+                      </Link>
+                    ) : (
+                      <a
+                        href="https://learn.lordsoflending.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group inline-flex flex-col items-center gap-3"
+                      >
+                        {/* Arrow + label pointing to seal */}
+                        <span className="flex items-center gap-2 font-[family-name:var(--font-montserrat)] text-xs font-semibold tracking-[0.2em] uppercase" style={{ color: DECO_GOLD }}>
+                          Click to Start Learning
+                          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="animate-pulse">
+                            <path d="M7 2v10M3 8l4 4 4-4" stroke={DECO_GOLD} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                          </svg>
+                        </span>
+                        {/* Seal logo with glow */}
+                        <div className="relative">
+                          <div
+                            className="absolute inset-0 rounded-full blur-xl opacity-30 transition-opacity duration-300 group-hover:opacity-50"
+                            style={{ backgroundColor: DECO_GOLD }}
+                          />
+                          <Image
+                            src="/images/brand/lords-seal.png"
+                            alt="Lords of Lending Seal"
+                            width={120}
+                            height={120}
+                            className="relative h-28 w-28 object-contain transition-transform duration-300 group-hover:scale-95 group-active:scale-90"
+                          />
+                        </div>
+                      </a>
+                    )}
                   </div>
                 </div>
               </section>
@@ -946,40 +1009,57 @@ export default function DualPathHomePage() {
                   </div>
 
                   <div className="mt-12 grid gap-4 sm:grid-cols-2">
-                    {TESTIMONIALS.map((t) => (
-                      <div
-                        key={t.name}
-                        className="flex flex-col rounded-xl border p-6 md:p-8"
-                        style={{ backgroundColor: CARD_BG, borderColor: CARD_BORDER }}
-                      >
-                        {/* Quote */}
-                        <p
-                          className="text-lg leading-none"
-                          style={{ color: `${DECO_GOLD}40` }}
+                    {TESTIMONIALS.map((t) => {
+                      /* Find the matching portfolio logo */
+                      const companyLogo = t.name === "Shawn Kleotzer"
+                        ? "/images/portfolio/a1a-surveying.png"
+                        : "/images/portfolio/fhh.webp";
+                      return (
+                        <div
+                          key={t.name}
+                          className="flex flex-col rounded-xl border p-6 md:p-8"
+                          style={{ backgroundColor: CARD_BG, borderColor: CARD_BORDER }}
                         >
-                          &ldquo;
-                        </p>
-                        <p className="mt-1 flex-1 font-[family-name:var(--font-open-sans)] text-sm leading-relaxed text-white/70">
-                          {t.quote}
-                        </p>
-
-                        {/* Attribution */}
-                        <div className="mt-6 flex items-center justify-between border-t pt-4" style={{ borderColor: CARD_BORDER }}>
-                          <div>
-                            <p className="font-[family-name:var(--font-montserrat)] text-sm font-semibold text-white">
-                              {t.name}
-                            </p>
-                            <p className="text-xs text-white/40">{t.title}</p>
+                          {/* Company logo */}
+                          <div className="mb-4 flex items-center gap-3">
+                            <Image
+                              src={companyLogo}
+                              alt={t.title}
+                              width={100}
+                              height={40}
+                              className="h-8 w-auto object-contain brightness-0 invert opacity-60"
+                            />
                           </div>
-                          <span
-                            className="rounded-full px-3 py-1 text-[10px] font-bold tracking-wider"
-                            style={{ backgroundColor: `${DECO_GOLD}15`, color: DECO_GOLD }}
+
+                          {/* Quote */}
+                          <p
+                            className="text-lg leading-none"
+                            style={{ color: `${DECO_GOLD}40` }}
                           >
-                            {t.result}
-                          </span>
+                            &ldquo;
+                          </p>
+                          <p className="mt-1 flex-1 font-[family-name:var(--font-open-sans)] text-sm leading-relaxed text-white/70">
+                            {t.quote}
+                          </p>
+
+                          {/* Attribution */}
+                          <div className="mt-6 flex items-center justify-between border-t pt-4" style={{ borderColor: CARD_BORDER }}>
+                            <div>
+                              <p className="font-[family-name:var(--font-montserrat)] text-sm font-semibold text-white">
+                                {t.name}
+                              </p>
+                              <p className="text-xs text-white/40">{t.title}</p>
+                            </div>
+                            <span
+                              className="rounded-full px-3 py-1 text-[10px] font-bold tracking-wider"
+                              style={{ backgroundColor: `${DECO_GOLD}15`, color: DECO_GOLD }}
+                            >
+                              {t.result}
+                            </span>
+                          </div>
                         </div>
-                      </div>
-                    ))}
+                      );
+                    })}
                   </div>
                 </div>
               </section>
@@ -1032,66 +1112,61 @@ export default function DualPathHomePage() {
 
                       {/* Platform logos */}
                       <div className="mt-6 flex flex-wrap items-center justify-center gap-5 md:justify-start">
-                        <Link href="#" className="flex items-center gap-2 transition-opacity hover:opacity-100 opacity-60" aria-label="Apple Podcasts">
+                        <a href="https://podcasts.apple.com/podcast/id1798717410" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 transition-opacity hover:opacity-100 opacity-60" aria-label="Apple Podcasts">
                           <ApplePodcastsIcon className="h-5 w-5 text-white" />
                           <span className="font-[family-name:var(--font-montserrat)] text-xs font-semibold text-white/80">Apple Podcasts</span>
-                        </Link>
-                        <Link href="#" className="flex items-center gap-2 transition-opacity hover:opacity-100 opacity-60" aria-label="Spotify">
+                        </a>
+                        <a href="https://open.spotify.com/show/6P25i3rDng6aMqlijl9imE" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 transition-opacity hover:opacity-100 opacity-60" aria-label="Spotify">
                           <SpotifyIcon className="h-5 w-5 text-[#1DB954]" />
                           <span className="font-[family-name:var(--font-montserrat)] text-xs font-semibold text-white/80">Spotify</span>
-                        </Link>
-                        <Link href="#" className="flex items-center gap-2 transition-opacity hover:opacity-100 opacity-60" aria-label="YouTube">
+                        </a>
+                        <a href="https://www.youtube.com/playlist?list=PL3dbCeEWNxdP97JpS_-RcHy2gDFTFtG5J" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 transition-opacity hover:opacity-100 opacity-60" aria-label="YouTube">
                           <YouTubeIcon className="h-5 w-5 text-[#FF0000]" />
                           <span className="font-[family-name:var(--font-montserrat)] text-xs font-semibold text-white/80">YouTube</span>
-                        </Link>
+                        </a>
                       </div>
                     </div>
                   </div>
 
-                  {/* ── Latest Episode Card ── */}
+                  {/* ── Latest Episode Card with Player ── */}
                   <div
                     className="mt-10 overflow-hidden rounded-xl border"
                     style={{ backgroundColor: CARD_BG, borderColor: CARD_BORDER }}
                   >
-                    <div className="flex flex-col sm:flex-row">
-                      {/* Play button area */}
-                      <Link
-                        href="#"
-                        className="group flex items-center justify-center px-8 py-8 transition-colors sm:px-10"
-                        style={{ backgroundColor: `${DECO_GOLD}10` }}
-                        aria-label="Play latest episode"
-                      >
-                        <div
-                          className="flex h-16 w-16 items-center justify-center rounded-full border-2 transition-all duration-300 group-hover:scale-110"
-                          style={{ borderColor: DECO_GOLD }}
+                    {/* Episode info header */}
+                    <div className="px-6 pt-6 sm:px-8 sm:pt-8">
+                      <div className="flex items-center gap-3">
+                        <span
+                          className="rounded-full px-3 py-1 text-[10px] font-bold tracking-wider uppercase"
+                          style={{ backgroundColor: `${DECO_GOLD}15`, color: DECO_GOLD }}
                         >
-                          <PlayIcon className="ml-1 h-7 w-7 text-[#E2A970]" />
-                        </div>
-                      </Link>
-
-                      {/* Episode info */}
-                      <div className="flex-1 px-6 py-6 sm:py-8">
-                        <div className="flex items-center gap-3">
-                          <span
-                            className="rounded-full px-3 py-1 text-[10px] font-bold tracking-wider uppercase"
-                            style={{ backgroundColor: `${DECO_GOLD}15`, color: DECO_GOLD }}
-                          >
-                            {LATEST_EPISODE.number}
-                          </span>
-                          <span className="text-[11px] text-white/30">
-                            {LATEST_EPISODE.date}
-                          </span>
-                          <span className="text-[11px] text-white/30">
-                            {LATEST_EPISODE.duration}
-                          </span>
-                        </div>
-                        <h4 className="mt-3 font-[family-name:var(--font-montserrat)] text-base font-bold text-white md:text-lg">
-                          {LATEST_EPISODE.title}
-                        </h4>
-                        <p className="mt-2 font-[family-name:var(--font-open-sans)] text-sm leading-relaxed text-white/50">
-                          {LATEST_EPISODE.description}
-                        </p>
+                          {LATEST_EPISODE.number}
+                        </span>
+                        <span className="text-[11px] text-white/30">{LATEST_EPISODE.date}</span>
+                        <span className="text-[11px] text-white/30">{LATEST_EPISODE.duration}</span>
                       </div>
+                      <h4 className="mt-3 font-[family-name:var(--font-montserrat)] text-base font-bold text-white md:text-lg">
+                        <Link href={`/${LATEST_EPISODE.slug}`} className="transition-colors hover:text-[#E2A970]">
+                          {LATEST_EPISODE.title}
+                        </Link>
+                      </h4>
+                      <p className="mt-2 font-[family-name:var(--font-open-sans)] text-sm leading-relaxed text-white/50">
+                        {LATEST_EPISODE.description}
+                      </p>
+                    </div>
+
+                    {/* Buzzsprout embedded player */}
+                    <div className="px-6 pb-6 pt-4 sm:px-8 sm:pb-8">
+                      <iframe
+                        src={`https://www.buzzsprout.com/2315806/${LATEST_EPISODE.buzzsproutId}?client_source=small_player&iframe=true`}
+                        loading="lazy"
+                        width="100%"
+                        height="200"
+                        frameBorder="0"
+                        scrolling="no"
+                        title={LATEST_EPISODE.title}
+                        className="rounded-lg"
+                      />
                     </div>
                   </div>
                 </div>
