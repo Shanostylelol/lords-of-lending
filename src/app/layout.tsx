@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat, Open_Sans } from "next/font/google";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
+import { organizationJsonLd, websiteJsonLd } from "@/lib/structured-data";
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -21,38 +22,44 @@ const openSans = Open_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL("https://lordsoflending.com"),
   title: {
-    default: "Business Loans & Financing Experts - Lords of Lending",
+    default: "SBA Lending Knowledge & Originator Training - Lords of Lending",
     template: "%s - Lords of Lending",
   },
   description:
-    "Lords of Lending connects small businesses with SBA loans and funding. Expert help, clear steps, and fast approvals to fuel your business growth.",
+    "The #1 resource for SBA lending education, broker training, and small business financing tools. Podcast, articles, and a learning platform for originators and business owners.",
   keywords: [
-    "SBA loans",
-    "business loans",
-    "small business financing",
+    "SBA loan training",
+    "SBA broker training",
+    "SBA lending education",
     "SBA 7a loans",
+    "small business lending",
+    "loan originator training",
+    "SBA loan podcast",
     "business acquisition loans",
     "Lords of Lending",
-    "business funding",
+    "SBA loan broker",
+    "how to source SBA loans",
+    "SBA lending tools",
   ],
   openGraph: {
-    title: "Business Loans & Financing Experts - Lords of Lending",
+    title: "SBA Lending Knowledge & Originator Training - Lords of Lending",
     description:
-      "Lords of Lending connects small businesses with SBA loans and funding. Expert help, clear steps, and fast approvals to fuel your business growth.",
+      "The #1 resource for SBA lending education, broker training, and small business financing tools. Podcast, articles, and a learning platform.",
     url: "https://lordsoflending.com",
-    siteName: "Lords of Lending - Purveyors of Honest Capital",
+    siteName: "Lords of Lending",
     images: [{ url: "/images/logos/wordmark-vert.png", width: 800, height: 1036 }],
     type: "website",
-    locale: "en_GB",
+    locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Business Loans & Financing Experts - Lords of Lending",
+    title: "SBA Lending Knowledge & Originator Training - Lords of Lending",
     description:
-      "Lords of Lending connects small businesses with SBA loans and funding. Expert help, clear steps, and fast approvals to fuel your business growth.",
+      "The #1 resource for SBA lending education, broker training, and small business financing tools.",
     images: ["/images/logos/wordmark-vert.png"],
   },
   robots: { index: true, follow: true },
+  alternates: { canonical: "https://lordsoflending.com" },
 };
 
 export default function RootLayout({
@@ -63,6 +70,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${montserrat.variable} ${openSans.variable}`}>
       <body className="font-[family-name:var(--font-open-sans)] antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd()) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd()) }}
+        />
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:bg-[var(--color-gold)] focus:text-white focus:px-4 focus:py-2 focus:text-sm focus:font-bold"

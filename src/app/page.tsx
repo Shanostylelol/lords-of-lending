@@ -5,10 +5,15 @@ import { PortfolioMarquee } from "@/components/sections/portfolio-marquee";
 import { Stats } from "@/components/sections/stats";
 import { Resources } from "@/components/sections/resources";
 import { Faq } from "@/components/sections/faq";
+import { faqJsonLd } from "@/lib/structured-data";
 
 export default function Home() {
   return (
     <main id="main-content">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd()) }}
+      />
       <Hero />
       <Steps />
       <Testimonials />

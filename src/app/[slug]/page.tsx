@@ -7,6 +7,7 @@ import { readFile } from "fs/promises";
 import { join } from "path";
 import Markdown from "react-markdown";
 import { BLOG_POSTS, PODCAST_EPISODES, PODCAST_SUBSCRIBE_LINKS, SITE_CONFIG } from "@/lib/constants";
+import { articleJsonLd, podcastEpisodeJsonLd, breadcrumbJsonLd } from "@/lib/structured-data";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -38,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         siteName: "Lords of Lending - Purveyors of Honest Capital",
         images: [{ url: post.image, width: 1200, height: 630 }],
         type: "article",
-        locale: "en_GB",
+        locale: "en_US",
         publishedTime: new Date(post.date).toISOString(),
       },
       twitter: {
@@ -63,7 +64,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         siteName: "Lords of Lending - Purveyors of Honest Capital",
         images: [{ url: "/images/podcast/cover-art.webp", width: 1024, height: 1024 }],
         type: "article",
-        locale: "en_GB",
+        locale: "en_US",
         publishedTime: new Date(episode.date).toISOString(),
       },
       twitter: {
@@ -152,6 +153,18 @@ export default async function ContentPage({ params }: Props) {
     const content = await getContent("blog", slug);
     return (
       <main id="main-content" className="pt-24 pb-16 md:pt-32 md:pb-24">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd(post)) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd([
+            { name: "Home", href: "/" },
+            { name: "Blog", href: "/blog" },
+            { name: post.title, href: `/${post.slug}` },
+          ])) }}
+        />
         <article className="mx-auto max-w-3xl px-6 md:px-8">
           <Link
             href="/blog"
@@ -199,12 +212,20 @@ export default async function ContentPage({ params }: Props) {
             <p className="mt-1 text-sm text-[var(--color-text-muted)]">
               Founder, Lords of Lending
             </p>
-            <div className="mt-4">
-              <Link
-                href="/loans/loan-application"
+            <div className="mt-4 flex flex-wrap gap-3">
+              <a
+                href="https://learn.lordsoflending.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center rounded-md bg-[var(--color-gold)] px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-[var(--color-gold-dark)]"
               >
-                Start Your Loan Application
+                Start Learning Free
+              </a>
+              <Link
+                href="/podcast"
+                className="inline-flex items-center rounded-md border border-[var(--color-gold)] px-4 py-2 text-sm font-semibold text-[var(--color-gold)] transition-colors hover:bg-[var(--color-gold)] hover:text-white"
+              >
+                Listen to the Podcast
               </Link>
             </div>
           </div>
@@ -219,6 +240,18 @@ export default async function ContentPage({ params }: Props) {
     const content = await getContent("podcast", slug);
     return (
       <main id="main-content" className="pt-24 pb-16 md:pt-32 md:pb-24">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(podcastEpisodeJsonLd(episode)) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd([
+            { name: "Home", href: "/" },
+            { name: "Podcast", href: "/podcast" },
+            { name: episode.title, href: `/${episode.slug}` },
+          ])) }}
+        />
         <article className="mx-auto max-w-3xl px-6 md:px-8">
           <Link
             href="/podcast"
@@ -342,7 +375,7 @@ export default async function ContentPage({ params }: Props) {
               Lords of Lending Podcast
             </p>
             <p className="mt-1 text-sm text-[var(--color-text-muted)]">
-              Expert conversations on business financing and growth strategies.
+              Real conversations about sourcing, structuring, and closing SBA deals.
             </p>
             <div className="mt-4 flex flex-wrap gap-3">
               <Link
@@ -351,12 +384,14 @@ export default async function ContentPage({ params }: Props) {
               >
                 See All Episodes
               </Link>
-              <Link
-                href="/loans/loan-application"
+              <a
+                href="https://learn.lordsoflending.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center rounded-md border border-[var(--color-gold)] px-4 py-2 text-sm font-semibold text-[var(--color-gold)] transition-colors hover:bg-[var(--color-gold)] hover:text-white"
               >
-                Start Your Loan Application
-              </Link>
+                Start Learning Free
+              </a>
             </div>
           </div>
         </article>
