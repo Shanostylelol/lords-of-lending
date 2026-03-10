@@ -1021,13 +1021,13 @@ export default function DualPathHomePage() {
                           style={{ backgroundColor: CARD_BG, borderColor: CARD_BORDER }}
                         >
                           {/* Company logo */}
-                          <div className="mb-4 flex items-center gap-3">
+                          <div className="mb-6 flex justify-center">
                             <Image
                               src={companyLogo}
                               alt={t.title}
-                              width={100}
-                              height={40}
-                              className="h-8 w-auto object-contain brightness-0 invert opacity-60"
+                              width={180}
+                              height={60}
+                              className="h-12 w-auto object-contain brightness-0 invert opacity-50"
                             />
                           </div>
 
