@@ -21,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/terms-of-application`, lastModified: new Date("2026-03-09"), changeFrequency: "yearly", priority: 0.2 },
     { url: `${base}/electronic-disclosure`, lastModified: new Date("2026-03-09"), changeFrequency: "yearly", priority: 0.2 },
     { url: `${base}/ada-accessibility`, lastModified: new Date("2026-03-09"), changeFrequency: "yearly", priority: 0.2 },
+    { url: `${base}/tools`, lastModified: siteLastModified, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/tools/sba-loan-calculator`, lastModified: siteLastModified, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/tools/dscr-calculator`, lastModified: siteLastModified, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/tools/sba-eligibility-checker`, lastModified: siteLastModified, changeFrequency: "monthly", priority: 0.7 },

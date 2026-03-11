@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useCallback } from "react";
+import { Fragment, useState, useMemo, useCallback } from "react";
 
 /* ── Constants ────────────────────────────────────────────────── */
 
@@ -367,9 +367,9 @@ export function SbaCalculator() {
                 const isSkipped =
                   i > 0 && row.year - displayYears[i - 1].year > 1;
                 return (
-                  <>
+                  <Fragment key={row.year}>
                     {isSkipped && (
-                      <tr key={`gap-${row.year}`}>
+                      <tr>
                         <td
                           colSpan={4}
                           className="py-2 text-center text-xs text-[var(--color-text-muted)]"
@@ -378,10 +378,7 @@ export function SbaCalculator() {
                         </td>
                       </tr>
                     )}
-                    <tr
-                      key={row.year}
-                      className="border-b border-[var(--color-border)]/50 transition-colors hover:bg-[var(--color-gold)]/5"
-                    >
+                    <tr className="border-b border-[var(--color-border)]/50 transition-colors hover:bg-[var(--color-gold)]/5">
                       <td className="py-3 pr-4 font-semibold text-white">
                         Year {row.year}
                       </td>
@@ -395,7 +392,7 @@ export function SbaCalculator() {
                         {fmt(row.endBalance)}
                       </td>
                     </tr>
-                  </>
+                  </Fragment>
                 );
               })}
             </tbody>

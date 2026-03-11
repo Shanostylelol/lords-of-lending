@@ -117,21 +117,21 @@ export default function SBAEligibilityCheckerPage() {
       <div className="mx-auto max-w-3xl px-6 md:px-8">
         {/* Breadcrumb */}
         <nav className="mb-6 text-sm text-white/40" aria-label="Breadcrumb">
-          <Link
-            href="/"
-            className="transition-colors hover:text-[var(--color-gold)]"
-          >
-            Home
-          </Link>
-          <span className="mx-2">/</span>
-          <Link
-            href="/tools"
-            className="transition-colors hover:text-[var(--color-gold)]"
-          >
-            Tools
-          </Link>
-          <span className="mx-2">/</span>
-          <span className="text-white/60">SBA Eligibility Checker</span>
+          <ol className="flex items-center gap-2">
+            <li>
+              <Link href="/" className="transition-colors hover:text-[var(--color-gold)]">
+                Home
+              </Link>
+            </li>
+            <li className="text-white/20">/</li>
+            <li>
+              <Link href="/tools" className="transition-colors hover:text-[var(--color-gold)]">
+                Tools
+              </Link>
+            </li>
+            <li className="text-white/20">/</li>
+            <li className="text-white/60">SBA Eligibility Checker</li>
+          </ol>
         </nav>
 
         {/* Page Header */}
