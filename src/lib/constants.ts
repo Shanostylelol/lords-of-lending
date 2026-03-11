@@ -245,9 +245,9 @@ export interface ContentMeta {
   date: string;
   excerpt: string;
   image: string;
-  category: "pillar" | "supporting" | "training";
+  category: "pillar" | "supporting" | "training" | "roundup";
   author: "shane" | "steph" | "brian";
-  cluster?: "sba-basics" | "acquisition" | "originator-training" | "deal-structuring" | "industry-trends";
+  cluster?: "sba-basics" | "acquisition" | "originator-training" | "deal-structuring" | "industry-trends" | "general";
   keywords?: string[];
   readingTime?: number;
   lastUpdated?: string;
@@ -624,6 +624,10 @@ export const SUPPORTING_ARTICLES: ContentMeta[] = [
     cluster: "originator-training",
     readingTime: 8,
   },
+];
+
+export const ROUNDUP_POSTS: ContentMeta[] = [
+  // Will be populated with actual roundup issues
 ];
 
 export const PODCAST_EPISODES = [

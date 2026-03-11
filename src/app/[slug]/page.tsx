@@ -12,6 +12,7 @@ import {
   PODCAST_SUBSCRIBE_LINKS,
   PILLAR_ARTICLES,
   SUPPORTING_ARTICLES,
+  ROUNDUP_POSTS,
   SITE_CONFIG,
 } from "@/lib/constants";
 import type { ContentMeta } from "@/lib/constants";
@@ -36,13 +37,14 @@ interface Props {
   params: Promise<{ slug: string }>;
 }
 
-type ContentType = "blog" | "podcast" | "pillar" | "supporting" | "state" | "industry";
+type ContentType = "blog" | "podcast" | "pillar" | "supporting" | "state" | "industry" | "roundup";
 
 const ALL_CONTENT: { slug: string; type: ContentType }[] = [
   ...BLOG_POSTS.map((p) => ({ slug: p.slug, type: "blog" as const })),
   ...PODCAST_EPISODES.map((e) => ({ slug: e.slug, type: "podcast" as const })),
   ...PILLAR_ARTICLES.map((a) => ({ slug: a.slug, type: "pillar" as const })),
   ...SUPPORTING_ARTICLES.map((a) => ({ slug: a.slug, type: "supporting" as const })),
+  ...ROUNDUP_POSTS.map((r) => ({ slug: r.slug, type: "roundup" as const })),
   ...STATE_DATA.map((s) => ({ slug: `sba-loans-in-${s.slug}`, type: "state" as const })),
   ...INDUSTRY_DATA.map((i) => ({ slug: `sba-loans-for-${i.slug}`, type: "industry" as const })),
 ];
@@ -132,6 +134,34 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title: `${article.title} — Lords of Lending`,
         description: article.excerpt,
         images: [article.image],
+      },
+    };
+  }
+
+  /* --- Roundup metadata --- */
+  const roundup = ROUNDUP_POSTS.find((r) => r.slug === slug);
+  if (roundup) {
+    const authorName = AUTHOR_NAMES[roundup.author];
+    return {
+      title: `${roundup.title} — Lords of Lending`,
+      description: roundup.excerpt,
+      alternates: { canonical: `${base}/${roundup.slug}` },
+      openGraph: {
+        title: `${roundup.title} — Lords of Lending`,
+        description: roundup.excerpt,
+        url: `${base}/${roundup.slug}`,
+        siteName: "Lords of Lending - Purveyors of Honest Capital",
+        images: [{ url: roundup.image, width: 1200, height: 630 }],
+        type: "article",
+        locale: "en_US",
+        publishedTime: new Date(roundup.date).toISOString(),
+        authors: [authorName],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: `${roundup.title} — Lords of Lending`,
+        description: roundup.excerpt,
+        images: [roundup.image],
       },
     };
   }
@@ -641,6 +671,114 @@ export default async function ContentPage({ params }: Props) {
           })()}
 
           <AuthorBio author={article.author} />
+        </article>
+      </main>
+    );
+  }
+
+  /* --- Roundup page --- */
+  const roundupPost = ROUNDUP_POSTS.find((r) => r.slug === slug);
+  if (roundupPost) {
+    const content = await getContent("roundup", slug);
+    const authorName = AUTHOR_NAMES[roundupPost.author];
+
+    return (
+      <main id="main-content" className="pt-24 pb-16 md:pt-32 md:pb-24">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLdWithAuthor(roundupPost)) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd([
+            { name: "Home", href: "/" },
+            { name: "SBA Lending This Week", href: "/sba-lending-this-week" },
+            { name: roundupPost.title, href: `/${roundupPost.slug}` },
+          ])) }}
+        />
+        <article className="mx-auto max-w-3xl px-6 md:px-8">
+          <Breadcrumb items={[
+            { label: "Home", href: "/" },
+            { label: "SBA Lending This Week", href: "/sba-lending-this-week" },
+            { label: roundupPost.title },
+          ]} />
+
+          <div className="flex items-center gap-3">
+            <span className="inline-flex items-center rounded-full bg-[var(--color-gold)]/10 px-3 py-0.5 text-xs font-semibold text-[var(--color-gold)]">
+              Weekly Digest
+            </span>
+            <time className="text-sm text-white/40">
+              {new Date(roundupPost.date).toLocaleDateString("en-US", {
+                day: "numeric",
+                month: "long",
+                year: "numeric",
+              })}
+            </time>
+            {content && (
+              <span className="inline-flex items-center gap-1 text-sm text-white/40">
+                <Clock size={12} /> {Math.ceil(content.split(/\s+/).length / 250)} min read
+              </span>
+            )}
+          </div>
+
+          <h1 className="mt-3 font-[family-name:var(--font-montserrat)] text-3xl font-bold leading-tight text-white md:text-4xl">
+            {roundupPost.title}
+          </h1>
+
+          <p className="mt-3 text-sm text-white/50">
+            By {authorName}
+          </p>
+
+          <div className="mt-3">
+            <SocialShare url={`${SITE_CONFIG.url}/${slug}`} title={roundupPost.title} />
+          </div>
+
+          {content ? (
+            <div className="prose-blog mt-10 max-w-none">
+              <Markdown components={mdComponents}>{content}</Markdown>
+            </div>
+          ) : (
+            <div className="prose prose-lg mt-10 max-w-none text-white/60">
+              <p>{roundupPost.excerpt}</p>
+            </div>
+          )}
+
+          {/* Subscribe CTA */}
+          <div className="mt-12 rounded-xl border border-[var(--color-gold)]/20 bg-[var(--color-gold)]/5 p-6 text-center">
+            <p className="font-[family-name:var(--font-montserrat)] text-lg font-bold text-white">
+              Get this in your inbox every Monday
+            </p>
+            <p className="mt-2 text-sm text-white/60">
+              SBA Lending This Week — free weekly insights for originators and brokers.
+            </p>
+            <div className="mt-4">
+              <EmailCapture variant="banner" />
+            </div>
+          </div>
+
+          {/* Previous / Next roundup navigation */}
+          {(() => {
+            const sorted = [...ROUNDUP_POSTS].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+            const currentIdx = sorted.findIndex((r) => r.slug === slug);
+            const newer = currentIdx > 0 ? sorted[currentIdx - 1] : null;
+            const older = currentIdx < sorted.length - 1 ? sorted[currentIdx + 1] : null;
+            return (newer || older) ? (
+              <div className="mt-10 flex items-center justify-between gap-4">
+                {older ? (
+                  <Link href={`/${older.slug}`} className="group text-sm text-white/60 hover:text-[var(--color-gold)]">
+                    <ArrowLeft size={14} className="mr-1 inline" /> Previous Issue
+                  </Link>
+                ) : <span />}
+                {newer ? (
+                  <Link href={`/${newer.slug}`} className="group text-sm text-white/60 hover:text-[var(--color-gold)]">
+                    Next Issue <ArrowLeft size={14} className="ml-1 inline rotate-180" />
+                  </Link>
+                ) : <span />}
+              </div>
+            ) : null;
+          })()}
+
+          <AuthorBio author={roundupPost.author} />
         </article>
       </main>
     );
