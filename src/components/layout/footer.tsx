@@ -24,36 +24,50 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Navigation */}
+          {/* Content */}
           <div>
             <h4 className="font-[family-name:var(--font-montserrat)] text-xs font-bold uppercase tracking-widest text-white/40">
-              Navigation
+              Content
             </h4>
             <ul className="mt-4 space-y-2">
-              {NAV_LINKS.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-sm text-white/60 transition-colors hover:text-white"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
               <li>
-                <Link
-                  href="/the-brokers-codex"
-                  className="text-sm text-white/60 transition-colors hover:text-white"
-                >
+                <Link href="/blog" className="text-sm text-white/60 transition-colors hover:text-white">
+                  Articles & Guides
+                </Link>
+              </li>
+              <li>
+                <Link href="/podcast" className="text-sm text-white/60 transition-colors hover:text-white">
+                  Podcast
+                </Link>
+              </li>
+              <li>
+                <Link href="/tools" className="text-sm text-white/60 transition-colors hover:text-white">
+                  SBA Lending Tools
+                </Link>
+              </li>
+              <li>
+                <Link href="/guides" className="text-sm text-white/60 transition-colors hover:text-white">
+                  State & Industry Guides
+                </Link>
+              </li>
+              <li>
+                <Link href="/sba-lending-this-week" className="text-sm text-white/60 transition-colors hover:text-white">
+                  SBA Lending This Week
+                </Link>
+              </li>
+              <li>
+                <Link href="/the-brokers-codex" className="text-sm text-white/60 transition-colors hover:text-white">
                   The Broker&apos;s Codex
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/sba-lending-this-week"
-                  className="text-sm text-white/60 transition-colors hover:text-white"
-                >
-                  SBA Lending This Week
+                <Link href="/brokers" className="text-sm text-white/60 transition-colors hover:text-white">
+                  For Brokers
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="text-sm text-white/60 transition-colors hover:text-white">
+                  Contact
                 </Link>
               </li>
             </ul>

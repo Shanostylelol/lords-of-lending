@@ -12,11 +12,12 @@ export const SITE_CONFIG = {
 } as const;
 
 export const NAV_LINKS = [
-  { label: "Brokers", href: "/brokers" },
-  { label: "Blog", href: "/blog" },
+  { label: "Articles", href: "/blog" },
+  { label: "Tools", href: "/tools" },
+  { label: "Guides", href: "/guides" },
   { label: "Podcast", href: "/podcast" },
+  { label: "Brokers", href: "/brokers" },
   { label: "Learn", href: "https://learn.lordsoflending.com", external: true, glow: true },
-  { label: "Contact", href: "/contact" },
 ] as const;
 
 export const TEAM = [
