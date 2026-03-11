@@ -11,7 +11,6 @@ import {
   Mic,
   Code,
   ChevronRight,
-  ExternalLink,
   Landmark,
   Shield,
   Target,
@@ -181,25 +180,6 @@ export default function ShanePiersonPage() {
               504, and USDA B&amp;I loans deployed nationwide. A career defined by discipline, procedure,
               and the belief that safe and sound lending is the only lending worth doing.
             </p>
-
-            {/* CTA row */}
-            <div className="mt-8 flex flex-wrap justify-center gap-4 md:justify-start">
-              <Link
-                href="/contact-us-bc"
-                className="inline-flex items-center gap-2 rounded-lg px-7 py-3.5 font-[family-name:var(--font-montserrat)] text-sm font-bold text-white shadow-lg transition-all hover:shadow-xl"
-                style={{ background: C.gold }}
-              >
-                Get in Touch
-                <ChevronRight size={16} />
-              </Link>
-              <Link
-                href="/the-brokers-codex"
-                className="inline-flex items-center gap-2 rounded-lg border-2 px-7 py-3.5 font-[family-name:var(--font-montserrat)] text-sm font-bold text-white transition-all hover:bg-white/10"
-                style={{ borderColor: C.gold }}
-              >
-                Read The Broker&rsquo;s Codex
-              </Link>
-            </div>
 
             {/* Institution logos */}
             <div className="mt-10 flex flex-wrap items-center justify-center gap-6 md:justify-start">
@@ -452,17 +432,12 @@ export default function ShanePiersonPage() {
             the same: remove friction, increase transparency, and help lenders do what they do best.
           </p>
 
-          <div className="mt-10 grid gap-6 md:grid-cols-3">
+          <div className="mt-10 grid gap-6 md:grid-cols-2">
             {[
               {
                 title: "Lords of Lending",
                 desc: "SBA lending education platform, podcast, and the industry's most comprehensive originator training library.",
                 link: "/",
-              },
-              {
-                title: "The Broker's Codex",
-                desc: "The definitive guidebook for SBA loan brokers — from sourcing to closing to building a sustainable brokerage.",
-                link: "/the-brokers-codex",
               },
               {
                 title: "15-Module Training System",
@@ -531,52 +506,6 @@ export default function ShanePiersonPage() {
         </div>
       </section>
 
-      {/* ═══ CTA FOOTER ═══════════════════════════════════════════════ */}
-      <section className="px-6 py-16 md:px-8 md:py-24" style={{ background: C.offWhite }}>
-        <div className="mx-auto max-w-3xl text-center">
-          <Image
-            src="/images/bio/cbt-black-solid.png"
-            alt="Community Bank & Trust"
-            width={200}
-            height={60}
-            className="mx-auto h-14 w-auto object-contain"
-          />
-          <h2
-            className="mt-6 font-[family-name:var(--font-montserrat)] text-2xl font-bold md:text-3xl"
-            style={{ color: C.nearBlack }}
-          >
-            Let&rsquo;s Build Something
-          </h2>
-          <p className="mx-auto mt-3 max-w-lg text-base" style={{ color: C.textMuted }}>
-            Whether you&rsquo;re an institution seeking SBA lending expertise, a broker looking to
-            partner, or a business owner ready to grow — the first step starts here.
-          </p>
-          <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link
-              href="/contact-us-bc"
-              className="inline-flex items-center gap-2 rounded-lg px-7 py-3.5 font-[family-name:var(--font-montserrat)] text-sm font-bold text-white shadow-lg transition-all hover:shadow-xl"
-              style={{ background: C.maroon }}
-            >
-              Contact Shane
-              <ChevronRight size={16} />
-            </Link>
-            <a
-              href="https://www.linkedin.com/in/shanepierson/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg border-2 px-7 py-3.5 font-[family-name:var(--font-montserrat)] text-sm font-bold transition-all hover:bg-gray-50"
-              style={{ borderColor: C.maroon, color: C.maroon }}
-            >
-              LinkedIn Profile
-              <ExternalLink size={14} />
-            </a>
-          </div>
-
-          <p className="mt-10 text-xs" style={{ color: C.textMuted }}>
-            shane@lordsoflending.com &bull; Lords of Lending &bull; PHX Business / Community Bank &amp; Trust
-          </p>
-        </div>
-      </section>
     </main>
   );
 }
