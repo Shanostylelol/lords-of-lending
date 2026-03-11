@@ -297,13 +297,20 @@ export default async function ContentPage({ params }: Props) {
             <ArrowLeft size={14} /> Back to Blog
           </Link>
 
-          <time className="text-sm text-white/40">
-            {new Date(post.date).toLocaleDateString("en-US", {
-              day: "numeric",
-              month: "long",
-              year: "numeric",
-            })}
-          </time>
+          <div className="flex items-center gap-3">
+            <time className="text-sm text-white/40">
+              {new Date(post.date).toLocaleDateString("en-US", {
+                day: "numeric",
+                month: "long",
+                year: "numeric",
+              })}
+            </time>
+            {content && (
+              <span className="inline-flex items-center gap-1 text-sm text-white/40">
+                <Clock size={12} /> {Math.ceil(content.split(/\s+/).length / 250)} min read
+              </span>
+            )}
+          </div>
 
           <h1 className="mt-3 font-[family-name:var(--font-montserrat)] text-3xl font-bold leading-tight text-white md:text-4xl">
             {post.title}
@@ -563,11 +570,16 @@ export default async function ContentPage({ params }: Props) {
                 year: "numeric",
               })}
             </time>
-            {article.readingTime && (
-              <span className="inline-flex items-center gap-1 rounded-full bg-[var(--color-surface)] px-2.5 py-0.5 text-xs text-white/50">
-                <Clock size={12} /> {article.readingTime} min read
-              </span>
-            )}
+            {(() => {
+              const readTime = content
+                ? Math.ceil(content.split(/\s+/).length / 250)
+                : article.readingTime;
+              return readTime ? (
+                <span className="inline-flex items-center gap-1 text-sm text-white/40">
+                  <Clock size={12} /> {readTime} min read
+                </span>
+              ) : null;
+            })()}
           </div>
 
           <h1 className="mt-3 font-[family-name:var(--font-montserrat)] text-3xl font-bold leading-tight text-white md:text-4xl">
