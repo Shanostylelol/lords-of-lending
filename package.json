@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "content-freshness": "npx tsx scripts/content-freshness.ts"
+    "content-freshness": "npx tsx scripts/content-freshness.ts",
+    "link-health": "npx tsx scripts/link-health.ts"
   },
   "dependencies": {
     "clsx": "^2.1.1",
