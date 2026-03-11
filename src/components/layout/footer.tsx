@@ -48,6 +48,14 @@ export function Footer() {
                   The Broker&apos;s Codex
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/sba-lending-this-week"
+                  className="text-sm text-white/60 transition-colors hover:text-white"
+                >
+                  SBA Lending This Week
+                </Link>
+              </li>
             </ul>
           </div>
 

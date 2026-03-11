@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { BLOG_POSTS, PODCAST_EPISODES, PILLAR_ARTICLES, SUPPORTING_ARTICLES, SITE_CONFIG } from "@/lib/constants";
+import { BLOG_POSTS, PODCAST_EPISODES, PILLAR_ARTICLES, SUPPORTING_ARTICLES, ROUNDUP_POSTS, SITE_CONFIG } from "@/lib/constants";
 import { STATE_DATA } from "@/lib/state-data";
 import { INDUSTRY_DATA } from "@/lib/industry-data";
 
@@ -80,6 +80,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  const roundupArchive: MetadataRoute.Sitemap = [
+    {
+      url: `${base}/sba-lending-this-week`,
+      lastModified: siteLastModified,
+      changeFrequency: "weekly" as const,
+      priority: 0.6,
+    },
+  ];
+
+  const roundupPages: MetadataRoute.Sitemap = ROUNDUP_POSTS.map((r) => ({
+    url: `${base}/${r.slug}`,
+    lastModified: new Date(r.date),
+    changeFrequency: "monthly" as const,
+    priority: 0.5,
+  }));
+
   return [
     ...staticPages,
     ...pillarPages,
@@ -89,5 +105,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...podcastPages,
     ...statePages,
     ...industryPages,
+    ...roundupArchive,
+    ...roundupPages,
   ];
 }
