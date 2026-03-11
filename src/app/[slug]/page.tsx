@@ -25,6 +25,7 @@ import {
 } from "@/lib/structured-data";
 import { TranscriptToggle } from "@/components/ui/transcript-toggle";
 import { AuthorBio } from "@/components/ui/author-bio";
+import { TableOfContents, extractHeadings } from "@/components/ui/table-of-contents";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -212,14 +213,23 @@ function MdLink({ href, children }: { href?: string; children?: React.ReactNode 
   );
 }
 
+function headingId(children: React.ReactNode): string {
+  const text = typeof children === "string" ? children : String(children ?? "");
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-");
+}
+
 const mdComponents = {
   h2: ({ children }: { children?: React.ReactNode }) => (
-    <h2 className="mt-10 mb-4 font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white">
+    <h2 id={headingId(children)} className="mt-10 mb-4 font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white scroll-mt-24">
       {children}
     </h2>
   ),
   h3: ({ children }: { children?: React.ReactNode }) => (
-    <h3 className="mt-8 mb-3 font-[family-name:var(--font-montserrat)] text-xl font-semibold text-white">
+    <h3 id={headingId(children)} className="mt-8 mb-3 font-[family-name:var(--font-montserrat)] text-xl font-semibold text-white scroll-mt-24">
       {children}
     </h3>
   ),
@@ -563,9 +573,15 @@ export default async function ContentPage({ params }: Props) {
           </p>
 
           {content ? (
-            <div className="prose-blog mt-10 max-w-none">
-              <Markdown components={mdComponents}>{content}</Markdown>
-            </div>
+            <>
+              {(() => {
+                const tocItems = extractHeadings(content);
+                return tocItems.length >= 3 ? <TableOfContents items={tocItems} /> : null;
+              })()}
+              <div className="prose-blog mt-10 max-w-none">
+                <Markdown components={mdComponents}>{content}</Markdown>
+              </div>
+            </>
           ) : (
             <div className="prose prose-lg mt-10 max-w-none text-white/60">
               <p>{article.excerpt}</p>
