@@ -72,7 +72,7 @@ export function TableOfContents({ items }: TableOfContentsProps) {
       </div>
 
       {/* Desktop: sticky sidebar */}
-      <aside className="fixed top-32 right-8 hidden w-56 xl:right-[calc((100vw-48rem)/2-16rem)] lg:block">
+      <aside className="fixed top-32 right-8 hidden w-56 xl:right-[calc((100vw-48rem)/2-16rem)] xl:block">
         <nav className="max-h-[calc(100vh-10rem)] overflow-y-auto rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-4">
           <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-white/40">
             On This Page

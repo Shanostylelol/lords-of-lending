@@ -26,7 +26,7 @@ import {
 import { TranscriptToggle } from "@/components/ui/transcript-toggle";
 import { AuthorBio } from "@/components/ui/author-bio";
 import { TableOfContents } from "@/components/ui/table-of-contents";
-import { extractHeadings } from "@/lib/extract-headings";
+import { extractHeadings, slugifyHeading } from "@/lib/extract-headings";
 import { Breadcrumb } from "@/components/ui/breadcrumb";
 import { RelatedArticles } from "@/components/sections/related-articles";
 
@@ -218,11 +218,7 @@ function MdLink({ href, children }: { href?: string; children?: React.ReactNode 
 
 function headingId(children: React.ReactNode): string {
   const text = typeof children === "string" ? children : String(children ?? "");
-  return text
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, "")
-    .replace(/\s+/g, "-")
-    .replace(/-+/g, "-");
+  return slugifyHeading(text);
 }
 
 const mdComponents = {
@@ -726,6 +722,7 @@ export default async function ContentPage({ params }: Props) {
               const relatedCards = [
                 ...(sba7aPillar ? [{ slug: sba7aPillar.slug, title: sba7aPillar.title, image: sba7aPillar.image, excerpt: sba7aPillar.excerpt, category: sba7aPillar.category }] : []),
                 ...relatedArticleLinks.map((link) => { const a = allContent.find((c) => c.slug === link.slug) as ContentMeta | undefined; return a ? { slug: a.slug, title: a.title, image: a.image, excerpt: a.excerpt, category: a.category } : null; }).filter(Boolean) as { slug: string; title: string; image: string; excerpt: string; category: string }[],
+                ...relatedEpisodeLinks.map((link) => ({ slug: link.slug, title: link.title, image: "/images/podcast/cover-art.webp", excerpt: "", category: "podcast" })),
               ].slice(0, 3);
               return relatedCards.length > 0 ? <RelatedArticles articles={relatedCards} heading="Related Resources" /> : null;
             })()}
