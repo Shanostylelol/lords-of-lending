@@ -233,3 +233,8 @@ We built the training platform at [learn.lordsoflending.com](https://learn.lords
 If that is you, get moving. Tomorrow is a promise nobody made you.
 
 **[Start your SBA originator training at learn.lordsoflending.com →](https://learn.lordsoflending.com)**
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

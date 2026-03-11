@@ -133,3 +133,8 @@ Conferences reward the people who can talk deals, not just collect business card
 For more on what we saw at recent conferences — including how AI adoption by veteran brokers was the biggest surprise — [Episode 8: Insights from the Road](/insights-from-the-road-lol-8) covers back-to-back conferences at Transworld, IBBA, and Murphy Business Sales. The pendulum swinging back to human connection was a recurring theme.
 
 Reading seller signals is one of the most valuable skills you can build at conferences and through referral networks. [Episode 16: When a Business Owner Asks You to Dance](/when-a-business-owner-asks-you-to-dance-lol-16) covers how Ruth Thorn Kress built a funeral industry empire by leading with the right question and recognizing when a seller is ready to exit.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

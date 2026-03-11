@@ -246,3 +246,8 @@ The throughline across everything we've covered is that deal structuring is both
 The originators who master this framework don't just close more deals. They close better deals — deals where the borrower has adequate reserves, the DSCR has breathing room, and the structure is sound enough to survive the inevitable bumps of a first-year ownership transition.
 
 **Master deal structuring in our training program:** [learn.lordsoflending.com/pricing](https://learn.lordsoflending.com/pricing)
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

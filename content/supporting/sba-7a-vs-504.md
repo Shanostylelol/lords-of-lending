@@ -187,3 +187,8 @@ The down payment is often the deciding factor between programs. If equity inject
 Once you've picked your program, make sure you actually qualify. Our [SBA eligibility deep dive](/sba-eligibility-deep-dive) covers the NAICS code traps, affiliate rules, and size standard nuances that catch both borrowers and originators off guard.
 
 For originators trying to decide which program to recommend, the fee math matters. Our [SBA fee structures guide](/sba-fee-structures-explained) walks through guarantee fees, closing costs, and packaging fees for both programs with real numbers.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

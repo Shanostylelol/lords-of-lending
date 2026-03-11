@@ -157,3 +157,8 @@ Before you scale, make sure your pipeline is producing enough volume to justify 
 Your tech stack needs to work for a team, not just for you. Our breakdown of the [SBA originator tech stack](/sba-originator-tech-stack) covers what tools support solo work and which ones scale to multi-originator operations.
 
 For the career path that leads to this decision — including the early years and the training gap — our guide on [how to become an SBA loan broker](/how-to-become-sba-loan-broker) covers the full trajectory from zero to established practice.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

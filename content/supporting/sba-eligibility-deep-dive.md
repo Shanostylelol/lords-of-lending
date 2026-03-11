@@ -69,3 +69,8 @@ Start with the ineligible list in SOP 50 10. If it's not explicitly excluded, it
 ---
 
 Once you've confirmed eligibility, the next question is cost. Our [SBA fee structures guide](/sba-fee-structures-explained) breaks down every fee from guarantee charges to closing costs, so you can quote accurately from day one. And if a deal does get denied, our guide on [what to do when your SBA loan gets denied](/sba-loan-denied) covers the recovery path.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

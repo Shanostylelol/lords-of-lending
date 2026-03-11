@@ -106,3 +106,8 @@ If this resonated, and if you're building teams, managing SBA deals, or trying t
 - **[SBA Deal Structuring: From LOI to Closing](/sba-deal-structuring-guide)** — When you do have full attention on a deal, this is the technical framework for getting it across the finish line.
 - **[How to Build a $10M SBA Pipeline in 12 Months](/build-10m-sba-pipeline)** — Building the pipeline is one thing. Managing it without fracturing your focus is another.
 - **[Episode 3: You Are Not Urgent Enough](/you-are-not-urgent-enough-lol-3)** — The conversation that started this whole thread about urgency, presence, and what separates closers.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

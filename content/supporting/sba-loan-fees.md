@@ -204,3 +204,8 @@ If you're preparing to apply for an SBA loan and want to make sure you have ever
 For the complete picture of how SBA 7(a) loans work — rates, terms, qualification criteria, and program mechanics — start with our [Complete Guide to SBA 7(a) Loans](/complete-guide-sba-7a-loans). And if you're an originator or broker looking to master fee structures so you can explain them to borrowers with confidence, the training at [learn.lordsoflending.com](https://learn.lordsoflending.com) covers the full deal economics from first conversation to closing table.
 
 Interest rates are the other major cost factor, and they get more attention than fees despite often having less impact on total deal economics. [Episode 13: Do Interest Rates Really Matter?](/do-interest-rates-really-matter-lol-13) runs the actual math on what a 25 basis point cut means for a million-dollar SBA loan — the answer surprises most borrowers.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

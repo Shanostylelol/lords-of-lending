@@ -178,4 +178,4 @@ And when you're ready for your next move — whether that's a refinance, an expa
 
 ---
 
-**Ready for your next financial move?** Whether you're looking to refinance, expand, or acquire your next business, our SBA lending team has funded over $450 million in small business loans. We've been through this cycle hundreds of times — let us help you time it right. [Apply for SBA Financing →](/loans/loan-application) or [Talk to Our Team →](/contact)
+**Ready for your next financial move?** Whether you're looking to refinance, expand, or acquire your next business, our SBA lending team has collectively originated over $500 million in SBA loans across our careers. We've been through this cycle hundreds of times — let us help you time it right. [Apply for SBA Financing →](/loans/loan-application) or [Talk to Our Team →](/contact)

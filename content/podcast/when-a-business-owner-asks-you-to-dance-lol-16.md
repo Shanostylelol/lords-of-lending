@@ -90,3 +90,8 @@ Lead with respect for their legacy. Ask about their employees, their history, an
 Whether you are an aspiring acquirer looking to close your first deal or a seasoned buyer scaling through acquisition, the Lords of Lending Training Platform gives you the deal-structuring knowledge and lending insight to move with confidence.
 
 [Explore training options at learn.lordsoflending.com/pricing](https://learn.lordsoflending.com/pricing)
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

@@ -156,3 +156,8 @@ And if you want to understand the full mechanics of the program — what qualifi
 Documentation is the number one cause of delays, and having a clean package from day one is the single best thing you can do to compress the timeline. Our [complete SBA documentation checklist](/complete-sba-documentation-checklist) organizes every form and document the way experienced originators build their files.
 
 For originators trying to speed up the process, lender selection matters more than most people realize. Our guide on [matching borrowers to the right SBA lender](/matching-borrowers-sba-lenders) covers how to pick a lender whose credit box and processing speed match your deal type.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

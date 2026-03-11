@@ -72,3 +72,8 @@ Generally yes — the guarantee fee and loan-related costs are typically deducti
 Veterans get real advantages on SBA fees — including periods where the guarantee fee has been eliminated entirely. Read our guide on [SBA loans for veterans](/sba-loans-veterans) before your next deal with a veteran borrower.
 
 For how fees fit into the full deal economics — from [LOI to closing](/sba-deal-structuring-guide) — our deal structuring guide puts the numbers in the context of a real transaction.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

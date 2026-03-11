@@ -251,3 +251,8 @@ If you're brand new, start with the free resources I listed. Read the SOP, liste
 Wherever you are, the principles hold. Spot the issues early. Build your case against those issues. Don't walk into any transaction unprepared. And treat every borrower's deal like it's the most important thing on your desk, because to them, it is.
 
 **[Enroll in the SBA Launch Program](https://learn.lordsoflending.com/pricing)** and get the complete six-module curriculum, live deal walkthroughs, community access, and direct instruction from the Lords of Lending team.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

@@ -120,3 +120,8 @@ When a seller refuses any form of seller financing, it raises questions about wh
 
 ## Ready to Take the Next Step?
 Whether you're buying a business or building an origination practice that lasts, understanding the equity side of SBA lending is non-negotiable. Our training program covers deal structuring, equity injection requirements, and the real-world patterns that separate deals that perform from deals that blow up. [Start your training at learn.lordsoflending.com/pricing](https://learn.lordsoflending.com/pricing)
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

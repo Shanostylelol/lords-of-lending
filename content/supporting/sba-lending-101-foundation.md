@@ -25,7 +25,7 @@ For borrowers trying to understand which SBA program fits their situation, our [
 
 ## The Lender Network
 
-Not every bank does SBA lending, and the ones that do aren't all the same. The landscape includes:
+Not every bank does SBA lending, and the ones that do aren't all the same. The players include:
 
 - **PLP lenders** — Preferred Lender Program banks with authority to approve loans in-house. Faster closings, fewer bottlenecks.
 - **Non-PLP lenders** — Must submit to the SBA for secondary review. Slower, but sometimes more flexible on credit.
@@ -60,3 +60,8 @@ Through referral fees paid by the lender at closing, typically 0.5% to 1.5% of t
 ---
 
 Ready to go deeper? Before you touch your first deal, make sure you understand [who actually qualifies for SBA financing](/sba-eligibility-deep-dive) — the eligibility traps that trip up even experienced originators are the most expensive mistakes in the business.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

@@ -68,3 +68,8 @@ HubSpot's free tier. It handles contacts, pipelines, email tracking, and reporti
 ---
 
 If you're building a pipeline that big, you also need to know how to [match borrowers to the right SBA lender](/matching-borrowers-sba-lenders) — sending the wrong deal to the wrong bank kills your close rate. And for the urgency mindset that separates closers from everyone else, [Episode 3: You Are Not Urgent Enough](/you-are-not-urgent-enough-lol-3) started that conversation.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

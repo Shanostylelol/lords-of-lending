@@ -133,3 +133,8 @@ Your tech stack is only as good as the deal flow running through it. Our guide o
 For the AI conversation from the field — what top performers are actually doing with these tools — [Episode 8: Insights from the Road](/insights-from-the-road-lol-8) covers what we saw at back-to-back industry conferences. The adoption by 25-year veterans was the biggest surprise.
 
 And if you're evaluating how technology will reshape SBA lending over the next few years, our article on [the future of SBA lending](/future-sba-lending) separates the real applications from the hype.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

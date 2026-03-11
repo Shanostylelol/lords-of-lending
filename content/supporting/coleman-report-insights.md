@@ -158,3 +158,8 @@ Use the data. But don't mistake it for the full picture. The full picture requir
 For the forward-looking view of where SBA lending is heading — AI underwriting, fintech disruption, and the policy shifts that are reshaping deal flow — our article on [the future of SBA lending](/future-sba-lending) covers what's real, what's overblown, and what will always require a human.
 
 The Coleman data showed record purchase rates trending upward in 2025. For the full breakdown of what that means for originators and borrowers in the current cycle, [Episode 17: 2025 Lessons and Reflections](/2025-lessons-and-reflections-lol-17) puts those numbers in context with real stories from the field.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

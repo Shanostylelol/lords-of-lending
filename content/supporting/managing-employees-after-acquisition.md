@@ -137,7 +137,7 @@ Let me be clear about the compliance side, because this isn't optional.
 
 **WARN Act (Worker Adjustment and Retraining Notification Act — requires large employers to give 60 days notice before mass layoffs).** If you're acquiring a business with 100 or more employees and you're planning significant layoffs within the first 60 days, this federal law requires 60 days written notice. Violating it carries serious penalties. Even if you're below the federal threshold, several states have their own mini-WARN acts with lower employee count triggers.
 
-**Benefit Continuity.** If the seller offered health insurance, retirement plans, or other benefits, understand your obligations during the transition. Employees who lose coverage during a gap between the seller's plan termination and your new plan enrollment may have COBRA (Consolidated Omnibus Budget Reconciliation Act — a federal law that lets employees temporarily keep their health insurance after a job or ownership change) rights. Work with your benefits broker and your attorney to ensure seamless transitions. Brian covers the [full compliance infrastructure](/financial-systems-setup-post-acquisition) you need in place from Day 1.
+**Benefit Continuity.** If the seller offered health insurance, retirement plans, or other benefits, understand your obligations during the transition. Employees who lose coverage during a gap between the seller's plan termination and your new plan enrollment may have COBRA (Consolidated Omnibus Budget Reconciliation Act — a federal law that lets employees temporarily keep their health insurance after a job or ownership change) rights. Work with your benefits broker and your attorney to ensure smooth transitions. Brian covers the [full compliance infrastructure](/financial-systems-setup-post-acquisition) you need in place from Day 1.
 
 **Employment Agreements.** Review every existing employment agreement, non-compete, and non-disclosure. Understand which ones survive the ownership change and which ones need to be re-executed. This is where having a good attorney isn't optional — it's essential.
 
@@ -187,7 +187,7 @@ Here's your condensed timeline. Print it out, pin it to the wall, check it off a
 
 Here's what I want to leave you with. Yes, the turnover statistics after acquisitions are brutal. But the data also shows that buyers who invest in structured transition plans retain significantly more of their workforce through the first year — often the vast majority. That's the difference between a business that keeps running and a business that stalls.
 
-Guys, I've funded over $450 million in small business loans. The deals that work — the ones where the buyer builds something that lasts, that creates wealth, that creates jobs — those deals almost always had one thing in common. The buyer treated the team like the asset they are. Not the equipment. Not the customer list. The people.
+Guys, I've collectively originated over $500 million in SBA loans across our careers. The deals that work — the ones where the buyer builds something that lasts, that creates wealth, that creates jobs — those deals almost always had one thing in common. The buyer treated the team like the asset they are. Not the equipment. Not the customer list. The people.
 
 Building legacies starts with the people who show up every morning and do the work.
 
@@ -203,4 +203,4 @@ Building legacies starts with the people who show up every morning and do the wo
 
 ---
 
-**Ready to finance your business acquisition?** Our SBA lending team has funded over $450 million in small business loans. [Apply for SBA Financing →](/loans/loan-application) or [Talk to Our Team →](/contact)
+**Ready to finance your business acquisition?** Our SBA lending team has collectively originated over $500 million in SBA loans across our careers. [Apply for SBA Financing →](/loans/loan-application) or [Talk to Our Team →](/contact)

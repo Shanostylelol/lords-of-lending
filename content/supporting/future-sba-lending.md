@@ -167,3 +167,8 @@ For the data side of where SBA lending is heading, the [Coleman Report analysis]
 The fintech conversation came up repeatedly at industry conferences this year. [Episode 8: Insights from the Road](/insights-from-the-road-lol-8) covers what the top performers are actually doing with AI and technology — and it's not what most people expect.
 
 And for the biggest single policy shift in recent memory, [Episode 6: Bomb Goes Off on SBA](/bomb-goes-off-on-sba-lol-6) covers the SOP 50 10 8 changes that have already reshaped how deals get structured, including the reverted injection rules and seller standby requirements.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

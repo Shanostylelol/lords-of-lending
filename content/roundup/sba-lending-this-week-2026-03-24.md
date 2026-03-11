@@ -21,6 +21,8 @@ The catch: Express loans only carry a 50% SBA guarantee (versus 75% to 85% for s
 - **Typical SBA 7(a) Range:** 10.0%–11.5%
 - **10-Year Treasury:** 4.20% (affects SBA 504)
 
+*Rates shown reflect market conditions as of the publication date and are subject to change. Your actual rate will depend on your lender, creditworthiness, and deal structure.*
+
 ## Deal Spotlight
 
 This one's for the equipment folks. We structured a $750K SBA 7(a) loan for a construction company that needed two new excavators and a fleet of trucks. The borrower had been in business for 8 years, solid revenue growth, and a 720 FICO — but their bank said no because they didn't have enough collateral outside the equipment itself.
@@ -38,3 +40,8 @@ We talked about sourcing strategies in detail on a recent episode. If you're try
 ## Worth Reading
 - [How to Become an SBA Loan Broker in 2026](/how-to-become-sba-loan-broker) — the step-by-step guide for getting into the business
 - [SBA 7(a) vs. SBA 504: Which Loan Is Right for You?](/sba-7a-vs-504) — understand when to use each program
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

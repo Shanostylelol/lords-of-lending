@@ -107,3 +107,8 @@ Use AI as a knowledge amplifier, not a replacement for thinking. The most effect
 
 ## Ready to Take the Next Step?
 The lessons from 2025 are clear: better-prepared borrowers get better outcomes. Our training covers everything from deal structuring to equity injection to the real patterns lenders look for in applications. [Explore training options at learn.lordsoflending.com/pricing](https://learn.lordsoflending.com/pricing)
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

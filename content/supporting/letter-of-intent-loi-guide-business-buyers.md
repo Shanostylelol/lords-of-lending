@@ -50,7 +50,7 @@ If any of these are missing, I'm going to ask questions, because the absence of 
 
 **Asset Sale vs. Stock Sale.** This affects tax liability, contract assumptions, and inherited liabilities. In most SBA transactions, asset sales are preferred. If the LOI doesn't specify, the buyer and seller may have completely different assumptions — and that misalignment becomes expensive during purchase agreement drafting.
 
-**Due Diligence Period.** Standard periods range from 30 to 90 days. I think it's worth noting that SBA underwriting (the lender's behind-the-scenes process of analyzing your deal to decide whether to approve it) runs in parallel with due diligence, and if the period is too short, you may not have your lender's answer before time runs out.
+**Due Diligence Period.** Standard periods range from 30 to 90 days. SBA underwriting (the lender's behind-the-scenes process of analyzing your deal to decide whether to approve it) runs in parallel with due diligence, and if the period is too short, you may not have your lender's answer before time runs out.
 
 **Contingencies.** The conditions that must be met before closing:
 - **Financing contingency** — non-negotiable for SBA deals
@@ -130,4 +130,4 @@ Both. Start with a template to cover standard provisions, but have an attorney r
 
 ---
 
-**Ready to finance your business acquisition?** Our SBA lending team has funded over $450 million in small business loans. [Apply for SBA Financing →](/loans/loan-application) or [Talk to Our Team →](/contact)
+**Ready to finance your business acquisition?** Our SBA lending team has collectively originated over $500 million in SBA loans across our careers. [Apply for SBA Financing →](/loans/loan-application) or [Talk to Our Team →](/contact)

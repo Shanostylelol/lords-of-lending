@@ -168,3 +168,8 @@ Want to know how long the process really takes? Our [SBA loan timeline breakdown
 Equity injection is the biggest deal killer in acquisitions. Our [SBA down payment guide](/sba-down-payment) covers what counts as equity, where to find it, and why most lenders want more than the SBA minimum.
 
 For the human capital side of acquisitions — which most buyers skip entirely — [Episode 4: Buying and Scaling a Business](/buying-and-scaling-a-business-lol-4) covers how to assess the workforce you're inheriting and why throwing bodies at growth is almost always the wrong first move.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

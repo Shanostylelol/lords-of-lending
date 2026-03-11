@@ -145,3 +145,8 @@ If you want a full walkthrough of how the SBA 7(a) program works — rates, term
 Before you apply, know what you'll need for a down payment. Our [SBA down payment guide](/sba-down-payment) covers what counts as equity injection, including ROBS rollovers and VA-specific considerations.
 
 The SBA fee reductions for veterans can save tens of thousands on a single deal. For a breakdown of how all SBA fees work — guarantee fees, closing costs, and packaging fees — our [SBA fee structures guide](/sba-fee-structures-explained) walks through every number.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

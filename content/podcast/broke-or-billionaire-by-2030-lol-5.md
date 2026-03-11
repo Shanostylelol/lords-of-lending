@@ -103,3 +103,8 @@ Shane's answer from two decades of banking: buying is almost always the lower-ri
 The Lords of Lending Training Platform teaches you how to find, fund, and scale business acquisitions -- whether you are a first-time buyer eyeing the silver tsunami or a broker helping clients get deals done before the window closes.
 
 [Explore training options at learn.lordsoflending.com/pricing](https://learn.lordsoflending.com/pricing)
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

@@ -103,3 +103,8 @@ Offset language gives the buyer the right to reduce or stop payments on a seller
 Seller notes are one piece of the acquisition puzzle. The Lords of Lending Training Platform teaches you how to structure deals, work with lenders, and close acquisitions with confidence — whether you are using SBA financing, seller notes, or a combination of both.
 
 [Explore training options at learn.lordsoflending.com/pricing](https://learn.lordsoflending.com/pricing)
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

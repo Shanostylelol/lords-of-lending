@@ -21,6 +21,8 @@ If you're an originator, don't view Lender Match as competition. View it as a le
 - **Typical SBA 7(a) Range:** 10.0%–11.5%
 - **10-Year Treasury:** 4.25% (affects SBA 504)
 
+*Rates shown reflect market conditions as of the publication date and are subject to change. Your actual rate will depend on your lender, creditworthiness, and deal structure.*
+
 ## Deal Spotlight
 
 We closed a $1.2M restaurant acquisition this week — full SBA 7(a), 10-year term, 10.75% rate. The buyer had 12 years of restaurant management experience but had never owned. Seller agreed to a full SBA standby note for the equity gap, which made the whole deal possible.
@@ -36,3 +38,8 @@ This week's deal spotlight ties directly to our recent episode on deal structuri
 ## Worth Reading
 - [The Complete Guide to SBA 7(a) Loans in 2026](/complete-guide-sba-7a-loans) — if you're new to SBA lending or need a refresher, start here
 - [The Art of SBA Deal Structuring](/art-of-sba-deal-structuring) — advanced techniques for packaging deals that close
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

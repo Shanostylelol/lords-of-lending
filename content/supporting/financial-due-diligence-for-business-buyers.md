@@ -135,4 +135,4 @@ Don't be the second buyer. Do the work. Ownership isn't deserved — it's earned
 
 ---
 
-**Ready to finance your business acquisition?** Our SBA lending team has funded over $450 million in small business loans. [Apply for SBA Financing →](/loans/loan-application) or [Talk to Our Team →](/contact)
+**Ready to finance your business acquisition?** Our SBA lending team has collectively originated over $500 million in SBA loans across our careers. [Apply for SBA Financing →](/loans/loan-application) or [Talk to Our Team →](/contact)

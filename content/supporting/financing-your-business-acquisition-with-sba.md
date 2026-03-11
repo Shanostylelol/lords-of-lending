@@ -16,7 +16,7 @@ What I'm about to walk you through is not the textbook version. It's the version
 
 Here's why SBA 7(a) dominates the business acquisition market, and it's not complicated:
 
-**Up to 90% financing.** You can buy a business with as little as 10% down. Try getting 90% financing on a conventional business acquisition loan. You can't. Banks want 20% to 30% on conventional deals, if they'll even do them. The SBA guarantee changes the math for the lender and makes the deal possible for you.
+**Up to 90% financing.** You can buy a business with as little as 10% down — though most lenders require 15% or more depending on the deal. Try getting that kind of leverage on a conventional business acquisition loan. Banks want 20% to 30% on conventional deals, if they'll even do them. The SBA guarantee changes the math for the lender and makes the deal possible for you.
 
 **Long repayment terms.** Ten years for a standard business acquisition. Up to 25 years if commercial real estate is included. Longer terms mean lower monthly payments, which means better cash flow for the business post-acquisition. And better cash flow means the deal is more likely to succeed — which is the whole point.
 
@@ -90,6 +90,8 @@ Here's an example of a $1 million acquisition I structured recently. Purchase pr
 
 The SBA loan at $850,000 over 10 years at Prime + 2.75% — let's call it 10.75% — runs about $11,600 per month. The business SDE (Seller's Discretionary Earnings — the total cash the business generates for its owner) is $350,000. After a $100,000 owner's salary, that leaves $250,000 for debt service on $139,000 in annual payments. DSCR of 1.8x. That's a clean deal that any experienced SBA lender would fund.
 
+*Rates shown reflect market conditions as of the publication date and are subject to change. Your actual rate will depend on your lender, creditworthiness, and deal structure.*
+
 For a complete breakdown of [equity injection strategies](/equity-injection-down-payment-strategies) — including ROBS, gift funds, and seller note structures — we have a full guide.
 
 **Want to see if your deal structure works? [Apply here](/loans/loan-application) and we'll run the numbers with you.**
@@ -138,7 +140,7 @@ I've seen enough deals die to write a freaking book about it. But the same mista
 
 I know every lender says they're the best. So let me just tell you what we actually do differently instead of making claims.
 
-We specialize in [SBA business acquisitions](/buy-business-sba-loan). We've funded over $450 million in SBA loans, and we tell you in the first conversation whether your deal is fundable. If it's not, we tell you why. If it is, we give you a realistic timeline and a clear path to closing.
+We specialize in [SBA business acquisitions](/buy-business-sba-loan). Our team has collectively originated over $500 million in SBA loans, and we tell you in the first conversation whether your deal is fundable. If it's not, we tell you why. If it is, we give you a realistic timeline and a clear path to closing.
 
 I don't leave borrowers alone during the process. You'll know what's happening at every stage, what's needed next, and where we stand. When all is said and done, financing a business acquisition is the single biggest financial decision most of our borrowers will ever make. We treat it that way.
 
@@ -157,4 +159,4 @@ I don't leave borrowers alone during the process. You'll know what's happening a
 
 ---
 
-**Ready to finance your business acquisition?** Our SBA lending team has funded over $450 million in small business loans. [Apply for SBA Financing →](/loans/loan-application) or [Talk to Our Team →](/contact)
+**Ready to finance your business acquisition?** Our SBA lending team has collectively originated over $500 million in SBA loans across our careers. [Apply for SBA Financing →](/loans/loan-application) or [Talk to Our Team →](/contact)

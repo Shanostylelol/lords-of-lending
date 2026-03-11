@@ -107,3 +107,8 @@ Yes. A seller note serves multiple functions: it reduces your total borrowing fr
 
 ## Ready to Take the Next Step?
 2026 demands discipline — from borrowers and originators alike. Our training program covers deal structuring, equity injection strategy, seller note negotiations, and the underwriting patterns that separate deals that close from deals that crash. [Get started at learn.lordsoflending.com/pricing](https://learn.lordsoflending.com/pricing)
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

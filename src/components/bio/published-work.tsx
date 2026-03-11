@@ -60,11 +60,6 @@ const CATEGORIES: Category[] = [
         summary: "How to maximize SBA industry conferences, build lender relationships, and turn convention contacts into closed deals. A field-tested networking playbook.",
       },
       {
-        slug: "bank-bdo-to-independent",
-        title: "From Bank BDO to Independent Originator",
-        summary: "How bank business development officers transition to independent SBA loan origination and build their own book. Career path analysis and practical steps.",
-      },
-      {
         slug: "build-10m-sba-pipeline",
         title: "How to Build a $10M SBA Pipeline in 12 Months",
         summary: "The exact system for building a $10M annual SBA pipeline — month-by-month targets, activity metrics, and the habits that separate producers from pretenders.",

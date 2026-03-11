@@ -58,7 +58,7 @@ And be transparent. Consumers are watching the same news. Everyone understands t
 
 ## What This Means for SBA Borrowers
 
-Shane's message to anyone considering an SBA loan right now is simple: apply now. SBA loans are government-backed with the most flexible terms available to small businesses, but they take time to process. If you know you will need $400,000 to $5 million in the near future — whether for inventory, equipment, acquisition, or working capital — the time to start is today, not after your margins have already taken the hit.
+Shane's message to anyone considering an SBA loan right now is straightforward: if you're considering SBA financing, starting the process while your financials are strong may be advantageous. SBA loans offer some of the most favorable terms available to small businesses, but they take time to process. If you know you will need $400,000 to $5 million in the near future — whether for inventory, equipment, acquisition, or working capital — the time to start exploring is today, not after your margins have already taken the hit.
 
 Show as much cash as you can on your tax return. Yes, you will pay the tax man. But that stronger financial picture gives you access to more capital on better terms, which is your best hedge against whatever volatility is coming next.
 
@@ -84,7 +84,7 @@ Tariffs squeeze your profit margins, and lenders evaluate your loan application 
 
 ### Should I apply for an SBA loan now or wait to see how tariffs play out?
 
-Apply now. SBA loans have the best terms available but take time to process. If you wait until your margins have already been damaged, your application will be weaker. Getting approved while your financials are still strong gives you the capital to buy inventory at current prices, invest in supplier diversification, or build cash reserves for what is coming.
+If you're considering SBA financing, starting the process while your financials are strong may be advantageous. SBA loans offer some of the most favorable terms available to small businesses, but they take time to process. If you wait until your margins have already been damaged, your application will be weaker. Getting approved while your financials are still strong gives you the capital to buy inventory at current prices, invest in supplier diversification, or build cash reserves for what is coming.
 
 ### What is the merchant cash advance death spiral?
 
@@ -102,6 +102,11 @@ Any business that relies on imported goods from tariff-affected countries — ma
 
 ## Ready to Protect Your Business from What Is Coming?
 
-The Lords of Lending Training Platform teaches you how to structure deals, protect your margins, and position your business for SBA approval — even when the economy is working against you. Do not wait for the squeeze to start.
+The Lords of Lending Training Platform teaches you how to structure deals, protect your margins, and position your business for SBA approval — even when the economy is working against you. Don't wait until margins are already compressed to start exploring your options.
 
 [Explore training options at learn.lordsoflending.com/pricing](https://learn.lordsoflending.com/pricing)
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

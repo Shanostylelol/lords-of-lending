@@ -113,4 +113,4 @@ When all is said and done, buying a business is one of the most powerful wealth-
 
 ---
 
-**Ready to finance your business acquisition?** Our SBA lending team has funded over $450 million in small business loans. [Apply for SBA Financing →](/loans/loan-application) or [Talk to Our Team →](/contact)
+**Ready to finance your business acquisition?** Our SBA lending team has collectively originated over $500 million in SBA loans across our careers. [Apply for SBA Financing →](/loans/loan-application) or [Talk to Our Team →](/contact)

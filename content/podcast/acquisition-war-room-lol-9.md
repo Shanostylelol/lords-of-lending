@@ -117,3 +117,8 @@ Collin's approach is to let his existing culture speak for itself. Instead of pi
 Planning your first acquisition or scaling through your next one? The Lords of Lending Training Platform gives you the deal-structuring playbooks, lender negotiation tactics, and post-close integration frameworks that separate buyers who survive from buyers who thrive.
 
 [Get the training at learn.lordsoflending.com/pricing](https://learn.lordsoflending.com/pricing)
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

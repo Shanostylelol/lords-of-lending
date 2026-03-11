@@ -212,3 +212,8 @@ No, and I'd argue that buying leads is one of the worst things you can do early 
 Deal sourcing is a skill, and like any skill, it can be learned and sharpened. The 12 strategies in this guide are the foundation. The next step is building the systems that turn sourcing into a consistent, repeatable process.
 
 If you're serious about becoming a top-producing SBA originator, the training at [learn.lordsoflending.com](https://learn.lordsoflending.com) covers deal sourcing, packaging, structuring, and lender relationships in the kind of depth you won't find anywhere else. It's the playbook we wish someone had given us when we started.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

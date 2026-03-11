@@ -112,7 +112,7 @@ Get an attorney to draft your fee agreement. It will cost you a few hundred doll
 
 SBA broker compensation is regulated. The rules are not optional, and violating them can result in the lender losing PLP status, the deal being recalled by the SBA, or criminal fraud charges in extreme cases.
 
-**SBA SOP 50 10 7.1** (and subsequent updates) governs how fees to agents, packagers, and referral sources are handled. Key requirements:
+**SBA SOP 50 10 8** governs how fees to agents, packagers, and referral sources are handled. Key requirements:
 
 1. **All fees must be reasonable.** The SBA does not define a specific cap, but they do review fees during auditor examinations. Fees that are grossly disproportionate to the services provided will be questioned.
 
@@ -175,3 +175,8 @@ The SBA evaluates reasonableness based on the services provided, the complexity 
 ## Start Building Your Compensation Model
 
 Understanding fee structures is step one. Building a business that generates consistent deal flow and closings is the whole game. If you're ready to learn the complete origination process — from sourcing and qualifying to packaging, structuring, and getting paid — the training at [learn.lordsoflending.com](https://learn.lordsoflending.com) is built for exactly that.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

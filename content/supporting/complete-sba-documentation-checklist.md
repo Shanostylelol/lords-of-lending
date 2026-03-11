@@ -163,3 +163,8 @@ Submitting an incomplete package. Every missing item creates a round-trip delay 
 Clean documentation is just one piece of the puzzle. Knowing how to read what's in those documents is where you earn credibility with lenders. Our guide on [how to read borrower financials like a pro](/how-to-read-borrower-financials) covers the 5 C's framework, DSCR calculations, and the red flags that tell you a deal is heading for trouble.
 
 For a look at how timelines stretch when documentation isn't handled properly, our article on [how long an SBA loan takes](/how-long-sba-loan-takes) breaks down where the time goes at each stage — and why the documentation phase is almost always the bottleneck.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

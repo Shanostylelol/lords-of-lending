@@ -95,3 +95,8 @@ Steph was clear on this: if you are a startup with no money in the bank, borrowi
 Stop waiting for perfect conditions and start building. The Lords of Lending Training Platform gives you the tools, frameworks, and deal-structuring knowledge to move with confidence — no matter what the Fed does next.
 
 [Explore training options at learn.lordsoflending.com/pricing](https://learn.lordsoflending.com/pricing)
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

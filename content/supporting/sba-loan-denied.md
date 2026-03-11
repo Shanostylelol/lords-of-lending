@@ -154,3 +154,8 @@ Start with our [Complete Guide to SBA 7(a) Loans](/complete-guide-sba-7a-loans) 
 One of the most common denial reasons is submitting to the wrong lender. If you're working with a broker, ask them to read our guide on [matching borrowers to the right SBA lender](/matching-borrowers-sba-lenders) — it covers how different banks have different appetites, and sending a deal to the wrong one wastes everyone's time.
 
 Before you resubmit, make sure your documentation is airtight. Our [complete SBA documentation checklist](/complete-sba-documentation-checklist) covers every form and document you need, organized the way experienced originators build their packages.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

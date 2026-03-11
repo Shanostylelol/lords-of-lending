@@ -96,3 +96,8 @@ Start with the food — if the product is not good, nothing else matters. Then e
 Whether you are buying your first restaurant or expanding to your fifth location, the right deal structure and lending knowledge make all the difference. The Lords of Lending Training Platform teaches you how to evaluate acquisitions, structure SBA deals, and present yourself to lenders like a professional.
 
 [Explore training options at learn.lordsoflending.com/pricing](https://learn.lordsoflending.com/pricing)
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

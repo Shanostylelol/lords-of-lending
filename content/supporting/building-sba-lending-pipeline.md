@@ -165,3 +165,8 @@ But you have to survive the first 90 days. And surviving means showing up every 
 If you want the complete origination system — sourcing, qualifying, packaging, structuring, lender matching, and pipeline management — the training at [learn.lordsoflending.com](https://learn.lordsoflending.com) is built for exactly this. We built it because nothing else covered the full picture the way it needs to be covered.
 
 For a concrete 12-month target and month-by-month breakdown of pipeline building at scale, our guide on [how to build a $10M SBA pipeline](/build-10m-sba-pipeline) puts specific numbers on each phase. And for the field-level perspective on where the best pipeline connections happen — including what we saw at Transworld, IBBA, and Murphy — [Episode 8: Insights from the Road](/insights-from-the-road-lol-8) covers the conference circuit in detail.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

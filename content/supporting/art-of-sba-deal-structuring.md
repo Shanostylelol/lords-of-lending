@@ -145,3 +145,8 @@ The eight structural failure points that kill SBA deals before they close are do
 For the seller note conversation in full — including why a seller's refusal to carry paper can be a red flag — [Episode 15: Seller Notes Deep Dive](/seller-notes-deep-dive-lol-15) is the most detailed discussion we've recorded on this topic.
 
 And if you're buying a restaurant or food-service business, the structuring challenges are unique. [Episode 14: Building a Successful Restaurant](/building-a-successful-restaurant-lol-14) covers the economics, the three levers that determine survival, and what Seth Hannemann learned building a 14-location brand from a $300-a-day hole in the wall.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

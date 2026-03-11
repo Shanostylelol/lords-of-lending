@@ -162,3 +162,8 @@ If you want to sharpen your ability to catch problems in financials before they 
 For a deeper look at the craft of structuring deals that survive committee review, our article on [the art of SBA deal structuring](/art-of-sba-deal-structuring) covers what separates a package that says "here's the deal" from one that says "here's why this works."
 
 And if you want to hear real examples of deal structure gone wrong — and right — [Episode 4: Buying and Scaling a Business](/buying-and-scaling-a-business-lol-4) covers the human capital side of acquisitions that most buyers skip entirely.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

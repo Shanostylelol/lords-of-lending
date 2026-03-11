@@ -94,3 +94,8 @@ And once that shift happens, the conversation changes. You're not applying with 
 - **[SBA Eligibility Deep Dive: Who Really Qualifies?](/sba-eligibility-deep-dive)** — Credit is only one factor. Size standards, business type, and character requirements all play a role.
 - **[SBA Loan Denial: Why It Happens and What to Do Next](/sba-loan-denied)** — If you've already been turned down, this covers the recovery path and when to reapply.
 - **[5 Myths About SBA Loans Every Founder Should Know](/5-myths-about-sba-loans-every-founder-should-know)** — Separate what's real from what's not before you start the process.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

@@ -98,6 +98,8 @@ SBA 7(a) loans carry variable rates tied to the **Wall Street Journal Prime Rate
 
 So for a loan over $350,000, you're looking at a maximum rate of roughly **10.50%** (Prime 7.50% + 3.0%). Most borrowers with good credit and a strong deal will negotiate somewhere between Prime + 2.25% and Prime + 2.75%.
 
+*Rates shown reflect market conditions as of the publication date and are subject to change. Your actual rate will depend on your lender, creditworthiness, and deal structure.*
+
 Here's something most borrowers miss: SBA 7(a) rates are almost always **variable**. They adjust quarterly based on Prime. That means if rates drop, your payment drops. But if rates rise, so does your payment. Some lenders offer fixed-rate options on certain 7(a) products, but they're less common and often come at a premium.
 
 Shane Pierson — who built his career on the credit side of SBA lending — frames the current rate environment this way:
@@ -305,7 +307,7 @@ He's right. So here's a fast glossary of terms you'll encounter during the SBA p
 - **DSCR (Debt Service Coverage Ratio):** How much cash flow your business generates compared to how much debt it has to repay. A 1.25x DSCR means you produce $1.25 for every $1.00 of debt payment. Higher is better.
 - **Equity Injection:** The cash you bring to the table. Your down payment on the deal.
 - **PLP (Preferred Lender Program):** A designation that lets the lender approve SBA loans without sending the file to the SBA for review. Faster closings.
-- **SOP (Standard Operating Procedure):** The SBA's rulebook. Currently SOP 50 10 7.1. It's dense, but your lender should know it inside and out.
+- **SOP (Standard Operating Procedure):** The SBA's rulebook. The current version is SOP 50 10 8 (updated from 50 10 7.1). It's dense, but your lender should know it inside and out.
 - **Guarantee Fee:** The fee the SBA charges for providing the loan guarantee. Paid by the borrower, usually rolled into the loan.
 - **Add-backs:** Personal expenses that an owner runs through the business. When evaluating cash flow, lenders "add back" these expenses to show the business's true earning capacity.
 - **UCC Filing:** A public notice that the lender has a security interest in your business assets. Standard in every SBA loan.
@@ -404,3 +406,8 @@ If you're a borrower, take this guide and use it to prepare the strongest applic
 If you're a lending professional — a broker, a banker, someone who wants to originate SBA deals — the gap between "knowing the program exists" and "knowing how to close deals consistently" is where careers are made. That gap is what separates the loan officers who close 5 deals a year from the ones who close 50.
 
 Ready to learn how to originate SBA deals? Start your journey at [learn.lordsoflending.com](https://learn.lordsoflending.com).
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

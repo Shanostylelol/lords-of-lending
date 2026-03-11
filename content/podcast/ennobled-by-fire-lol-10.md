@@ -77,3 +77,8 @@ Lenders who have experienced financial hardship -- near-bankruptcy, job loss, ca
 ---
 
 Ready to work with lenders who've been through their own fire? [Explore Lords of Lending training](https://learn.lordsoflending.com/pricing) and learn from professionals who earned their expertise the hard way.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

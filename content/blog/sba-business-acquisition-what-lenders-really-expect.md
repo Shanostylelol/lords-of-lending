@@ -105,3 +105,8 @@ If you're buying in the food-service industry, the structuring challenges are un
 For the workforce evaluation that most buyers skip entirely, [Episode 4: Buying and Scaling a Business](/buying-and-scaling-a-business-lol-4) covers how to assess the people you're inheriting — who your star performers are, who is dead weight, and why throwing bodies at growth is almost always the wrong first move.
 
 And if you're holding off because rates feel too high, [Episode 13: Do Interest Rates Really Matter?](/do-interest-rates-really-matter-lol-13) runs the real math on what a rate cut actually saves on a million-dollar deal. The answer might change your timeline.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

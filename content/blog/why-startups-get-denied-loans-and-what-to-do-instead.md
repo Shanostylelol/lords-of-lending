@@ -181,3 +181,8 @@ When the opportunity comes, you'll be ready. You won't be scrambling to clean up
 - **[SBA Lending 101: The Foundation Every Originator Needs](/sba-lending-101-foundation)** — The baseline every business owner should understand before applying for SBA financing.
 - **[5 Myths About SBA Loans Every Founder Should Know](/5-myths-about-sba-loans-every-founder-should-know)** — The misconceptions that lead to bad applications and wasted time.
 - **[SBA Loan Denial: Why It Happens and What to Do Next](/sba-loan-denied)** — Already been turned down? Here's the specific playbook for what comes next.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

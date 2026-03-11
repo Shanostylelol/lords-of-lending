@@ -99,3 +99,8 @@ Yes. Shane has been doing it for 19 years and has the gray hair to prove it. SBA
 ---
 
 Tired of getting "no" from traditional lenders? [Learn the Lords of Lending approach](https://learn.lordsoflending.com/pricing) and discover how offensive-minded SBA lending actually works.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

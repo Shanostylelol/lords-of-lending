@@ -101,3 +101,8 @@ If you want to understand how the SBA guarantee actually works — and why the d
 If you've already applied and been turned down, our guide on [what to do when your SBA loan gets denied](/sba-loan-denied) covers the top denial reasons and when it makes sense to try again versus try a different lender.
 
 Wondering about the difference between 7(a) and 504? Our [SBA 7(a) vs. 504 comparison](/sba-7a-vs-504) breaks down when each program makes sense. And for the full program breakdown — eligibility, rates, terms, and process — see our [Complete Guide to SBA 7(a) Loans](/complete-guide-sba-7a-loans).
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

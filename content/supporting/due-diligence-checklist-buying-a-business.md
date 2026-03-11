@@ -109,7 +109,7 @@ If the business involves real estate, manufacturing, auto service, dry cleaning,
 
 ### Regulatory Compliance and Insurance
 
-Every industry has its own regulatory framework — HIPAA (Health Insurance Portability and Accountability Act) for healthcare, DOT (Department of Transportation) for transportation, health department requirements for food service. Research the regulatory landscape of the specific business you're [looking to acquire](/buying-a-business) and verify full compliance. Regulatory violations that pre-date your purchase can still become your problem.
+Every industry has its own regulatory framework — HIPAA (Health Insurance Portability and Accountability Act) for healthcare, DOT (Department of Transportation) for transportation, health department requirements for food service. Research the regulatory requirements for the specific business you're [looking to acquire](/buying-a-business) and verify full compliance. Regulatory violations that pre-date your purchase can still become your problem.
 
 Review all insurance policies. Are the coverages adequate? Are there pending claims? Will existing policies transfer? Insurance gaps during a transition can leave you exposed at the worst possible time.
 
@@ -143,4 +143,4 @@ I think it comes down to this: due diligence isn't about being paranoid. It's ab
 
 ---
 
-**Ready to finance your business acquisition?** Our SBA lending team has funded over $450 million in small business loans. [Apply for SBA Financing →](/loans/loan-application) or [Talk to Our Team →](/contact)
+**Ready to finance your business acquisition?** Our SBA lending team has collectively originated over $500 million in SBA loans across our careers. [Apply for SBA Financing →](/loans/loan-application) or [Talk to Our Team →](/contact)

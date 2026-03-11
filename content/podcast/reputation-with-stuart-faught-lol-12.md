@@ -75,3 +75,8 @@ Yes, and it will matter even more in the coming years. As AI replaces traditiona
 ---
 
 Ready to build the kind of reputation that makes lenders, clients, and referral partners trust you on sight? [Explore Lords of Lending training programs](https://learn.lordsoflending.com/pricing) and start building your SBA lending career on a foundation that lasts.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

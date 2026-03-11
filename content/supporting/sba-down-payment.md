@@ -150,3 +150,8 @@ If you want to understand how equity fits into the full picture of an SBA deal, 
 Still weighing whether the 7(a) or 504 program is the right fit for your deal? The down payment requirements differ between the two programs, and picking the wrong one can cost you. Our [SBA 7(a) vs. 504 comparison](/sba-7a-vs-504) breaks down the differences side by side.
 
 For a perspective on why equity injection has become the defining issue in SBA lending right now, listen to [Episode 20: Why Equity (Not Cash Flow) Makes or Breaks SBA Deals](/why-equity-not-cash-flow-makes-or-breaks-sba-deals-lol-20). A former SBA deputy director of liquidations explains what happens when thin deals go sideways.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

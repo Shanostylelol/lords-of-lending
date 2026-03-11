@@ -183,3 +183,8 @@ Once you can read the financials, the next skill is structuring around what you 
 The eight patterns that kill deals — even when the financials look clean — are documented in [Why Most SBA Deals Fall Apart](/why-sba-deals-fall-apart). Most of them are structural problems that surface after the financials are already reviewed.
 
 For the equity vs. cash flow debate — and why the industry's focus has shifted — [Episode 20: Why Equity (Not Cash Flow) Makes or Breaks SBA Deals](/why-equity-not-cash-flow-makes-or-breaks-sba-deals-lol-20) features a 40-year SBA veteran who has processed over a thousand liquidation packages.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

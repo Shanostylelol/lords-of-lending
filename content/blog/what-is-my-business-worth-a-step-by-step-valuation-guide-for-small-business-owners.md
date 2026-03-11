@@ -409,7 +409,7 @@ If not? Stay in the 2x-2.5x range.
 - Reasonable multiple: 2.5x
 - Ballpark value: **$437,500**
 
-That's what your business might sell for in today's market.
+That's what your business might sell for in the current market.
 
 ### Step 5: Reality Check Against the Market
 
@@ -520,3 +520,8 @@ Even if you're not ready to sell now, understanding your valuation gives you lev
 - **[What Lenders Really Expect in a Business Acquisition](/sba-business-acquisition-what-lenders-really-expect)** — The lender's perspective on valuation, cash flow, and what makes an acquisition deal bankable.
 - **[The Complete Guide to SBA 7(a) Loans](/complete-guide-sba-7a-loans)** — The program most buyers use to finance acquisitions. Rates, terms, eligibility, and the full process.
 - **[SBA Deal Structuring: From LOI to Closing](/sba-deal-structuring-guide)** — Once you know the value, this is how the deal gets built — equity injection, seller notes, and the path to funding.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

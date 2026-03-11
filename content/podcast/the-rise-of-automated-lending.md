@@ -105,3 +105,8 @@ Ask yourself Steph's question: what is your highest and best use? If the answer 
 The Lords of Lending Training Platform teaches you how to structure deals, read the lending environment, and position yourself -- whether you are a borrower, a broker, or a banker -- for success in a market that is changing fast.
 
 [Explore training options at learn.lordsoflending.com/pricing](https://learn.lordsoflending.com/pricing)
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

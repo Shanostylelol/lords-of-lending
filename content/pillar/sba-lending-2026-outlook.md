@@ -86,6 +86,8 @@ As of early 2026, the Wall Street Journal Prime Rate sits at **7.50%**. Most SBA
 | $250,001 - $350,000 (7yr+) | Prime + 2.25% | 9.75% |
 | Over $350,000 (7yr+) | Prime + 1.75% | 9.25% |
 
+*Rates shown reflect market conditions as of the publication date and are subject to change. Your actual rate will depend on your lender, creditworthiness, and deal structure.*
+
 Here's the thing. Rates at this level are not historically unusual. They feel high because we spent a decade in a near-zero environment that distorted expectations. When I started in this business, a 10% SBA loan rate was normal. The deals still worked because cash flow supported the payments and borrowers had real equity in the game.
 
 What's killing deals right now isn't the rate. It's the combination of high rates AND thin equity AND optimistic projections AND inflated purchase prices. Stack all four and you've got a deal that looks fine on paper and falls apart the moment revenue dips 10%.
@@ -280,3 +282,8 @@ Get disciplined or get left behind.
 ---
 
 *This article reflects data available as of Q1 2026. We update this piece quarterly.*
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*

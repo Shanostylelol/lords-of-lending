@@ -151,3 +151,8 @@ If you're ready to build, the pipeline is everything. Our guide on [how to build
 For the seller relationship side of the business — reading signals, building trust with business owners who are ready to exit — [Episode 16: When a Business Owner Asks You to Dance](/when-a-business-owner-asks-you-to-dance-lol-16) covers how Ruth Thorn Kress acquired 20+ entities by leading with the right question.
 
 And for a candid look at 2025 in review — what the record lending volume actually meant and where the risk is building — [Episode 17: 2025 Lessons and Reflections](/2025-lessons-and-reflections-lol-17) puts the market environment in context for anyone considering the independent path right now.
+
+
+---
+
+*This content is for educational purposes only and does not constitute legal, financial, or investment advice. Consult with a qualified attorney, CPA, and financial advisor before making business or financing decisions. Loan terms, rates, and programs are subject to change and vary by lender.*
