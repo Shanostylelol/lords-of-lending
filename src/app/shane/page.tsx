@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { LendingEthosInteractive } from "@/components/bio/lending-ethos-interactive";
+import { PublishedWork } from "@/components/bio/published-work";
 import {
   Building2,
   TrendingUp,
@@ -19,11 +21,11 @@ import {
 export const metadata: Metadata = {
   title: "Shane Pierson — SBA Lending Executive & Department Architect",
   description:
-    "Shane Pierson has built and scaled SBA departments at five institutions, deployed $250M+ in capital, and authored definitive lending frameworks. National Sales Manager at PHX Business / Community Bank & Trust.",
+    "Shane Pierson has built and scaled SBA departments at five institutions, deployed $500M+ in capital, and authored definitive lending frameworks. National Sales Manager at PHX Business / Community Bank & Trust.",
   openGraph: {
     title: "Shane Pierson — SBA Lending Executive & Department Architect",
     description:
-      "Shane Pierson has built and scaled SBA departments at five institutions, deployed $250M+ in capital, and authored definitive lending frameworks.",
+      "Shane Pierson has built and scaled SBA departments at five institutions, deployed $500M+ in capital, and authored definitive lending frameworks.",
     images: ["/images/headshots/shane-pierson.webp"],
   },
 };
@@ -86,57 +88,10 @@ const CAREER = [
   },
 ];
 
-/* ─── Published Works on Lords of Lending ─────────────────────────────── */
-const ARTICLES = [
-  { slug: "how-to-become-sba-loan-broker", title: "How to Become an SBA Loan Broker in 2026", category: "Pillar Guide" },
-  { slug: "how-to-source-sba-loans", title: "How to Source SBA Loans: 12 Strategies That Work", category: "Origination" },
-  { slug: "sba-referral-fee-structures", title: "SBA Referral Fee Structures: How Brokers Get Paid", category: "Origination" },
-  { slug: "building-sba-lending-pipeline", title: "Building an SBA Lending Pipeline from Zero", category: "Origination" },
-  { slug: "sba-convention-networking", title: "SBA Convention Season: How to Network and Win Deals", category: "Origination" },
-  { slug: "bank-bdo-to-independent", title: "From Bank BDO to Independent Originator", category: "Origination" },
-  { slug: "how-long-sba-loan-takes", title: "How Long Does an SBA Loan Take? Real Timelines", category: "Borrower" },
-  { slug: "buy-business-sba-loan", title: "Can You Use an SBA Loan to Buy a Business?", category: "Acquisition" },
-  { slug: "sba-loan-denied", title: "SBA Loan Denial: Why It Happens and What to Do Next", category: "Borrower" },
-  { slug: "why-sba-deals-fall-apart", title: "Why Most SBA Deals Fall Apart (And How to Save Them)", category: "Thought Leadership" },
-  { slug: "sba-lending-myths-originators", title: "SBA Lending Myths That Cost Originators Deals", category: "Thought Leadership" },
-  { slug: "sba-lending-101-foundation", title: "SBA Lending 101: The Foundation Every Originator Needs", category: "Training" },
-  { slug: "build-10m-sba-pipeline", title: "How to Build a $10M SBA Pipeline in 12 Months", category: "Training" },
-  { slug: "building-sba-brokerage", title: "Building an SBA Brokerage: From Solo to Scale", category: "Training" },
-  { slug: "are-you-ready-to-buy-a-business", title: "Are You Ready to Buy a Business? The Questions Nobody Asks", category: "Acquisition" },
-  { slug: "how-to-find-businesses-for-sale", title: "How to Find Businesses for Sale: The Insider's Playbook", category: "Acquisition" },
-  { slug: "financing-your-business-acquisition-with-sba", title: "Financing Your Business Acquisition with an SBA 7(a) Loan", category: "Acquisition" },
-  { slug: "first-30-days-after-buying-a-business", title: "Your First 30 Days After Buying a Business: The Playbook", category: "Acquisition" },
-  { slug: "growing-your-newly-acquired-business", title: "Growing Your Newly Acquired Business: From Stabilization to Scale", category: "Acquisition" },
-];
-
-/* ─── External Press / Publications ───────────────────────────────────── */
-const PRESS = [
-  {
-    title: "SBA Lending: Why Experienced Brokers Make the Difference",
-    outlet: "Scotsman Guide",
-    url: "https://www.scotsmanguide.com",
-  },
-  {
-    title: "SBA Industry Market Commentary",
-    outlet: "Scotsman Guide",
-    url: "https://www.scotsmanguide.com",
-  },
-  {
-    title: "Art of SBA Lending Podcast — Episode 118",
-    outlet: "Art of SBA Lending",
-    url: "https://www.artofsbalending.com",
-  },
-  {
-    title: "IncredibleBank Launches National SBA Division",
-    outlet: "GlobeNewsWire",
-    url: "https://www.globenewswire.com",
-  },
-];
-
 /* ─── Stats ───────────────────────────────────────────────────────────── */
 const STATS = [
   { value: "4", label: "SBA Departments Built", icon: Building2 },
-  { value: "$250M+", label: "Capital Deployed", icon: TrendingUp },
+  { value: "$500M+", label: "Capital Deployed", icon: TrendingUp },
   { value: "20+", label: "Published Articles", icon: BookOpen },
   { value: "15", label: "Training Modules Authored", icon: Award },
 ];
@@ -180,7 +135,7 @@ export default function ShanePiersonPage() {
     <main id="main-content" className="overflow-x-hidden">
       {/* ═══ HERO ═══════════════════════════════════════════════════════ */}
       <section
-        className="relative px-6 pt-28 pb-20 md:px-8 md:pt-36 md:pb-28"
+        className="relative px-6 pt-12 pb-20 md:px-8 md:pt-20 md:pb-28"
         style={{ background: `linear-gradient(135deg, ${C.nearBlack} 0%, ${C.maroon} 50%, ${C.maroonDark} 100%)` }}
       >
         {/* Subtle texture overlay */}
@@ -204,7 +159,7 @@ export default function ShanePiersonPage() {
                 alt="Shane Pierson"
                 width={280}
                 height={340}
-                className="h-[340px] w-[280px] object-cover"
+                className="h-[400px] w-[280px] object-cover object-top"
                 priority
               />
             </div>
@@ -212,20 +167,6 @@ export default function ShanePiersonPage() {
 
           {/* Hero text */}
           <div className="text-center md:text-left">
-            {/* Institution badge */}
-            <div className="mb-5 inline-flex items-center gap-3 rounded-full border border-white/15 bg-white/5 px-4 py-2 backdrop-blur-sm">
-              <Image
-                src="/images/bio/phx-white.png"
-                alt="PHX Business"
-                width={28}
-                height={28}
-                className="h-7 w-auto object-contain"
-              />
-              <span className="text-xs font-medium tracking-wide text-white/70 uppercase">
-                National Sales Manager — SBA Lending
-              </span>
-            </div>
-
             <h1 className="font-[family-name:var(--font-montserrat)] text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">
               Shane Pierson
             </h1>
@@ -236,9 +177,9 @@ export default function ShanePiersonPage() {
               SBA Department Architect &bull; National Sales Strategist &bull; Published Authority
             </p>
             <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/75 md:text-lg">
-              Five institutions. Four SBA departments built from the ground up. $250M+ in capital
-              deployed. A career defined by discipline, procedure, and the belief that safe and
-              sound lending is the only lending worth doing.
+              Five institutions. Four SBA departments built from the ground up. $500M+ in SBA 7(a),
+              504, and USDA B&amp;I loans deployed nationwide. A career defined by discipline, procedure,
+              and the belief that safe and sound lending is the only lending worth doing.
             </p>
 
             {/* CTA row */}
@@ -483,170 +424,11 @@ export default function ShanePiersonPage() {
         </div>
       </section>
 
-      {/* ═══ THE LENDING ETHOS ════════════════════════════════════════ */}
-      <section
-        className="px-6 py-16 md:px-8 md:py-24"
-        style={{
-          background: `linear-gradient(135deg, ${C.maroon} 0%, ${C.maroonDark} 100%)`,
-        }}
-      >
-        <div className="mx-auto max-w-5xl">
-          <div className="text-center">
-            <span
-              className="inline-block rounded-full px-4 py-1.5 text-xs font-bold tracking-widest uppercase"
-              style={{ background: "rgba(255,255,255,0.1)", color: C.goldLight }}
-            >
-              Framework
-            </span>
-            <h2 className="mt-4 font-[family-name:var(--font-montserrat)] text-3xl font-bold text-white md:text-4xl">
-              The Lending Ethos
-            </h2>
-            <p className="mx-auto mt-4 max-w-2xl text-base text-white/70">
-              A proprietary four-domain framework for building, evaluating, and scaling SBA lending
-              departments — from credit policy through operational execution.
-            </p>
-          </div>
+      {/* ═══ THE LENDING ETHOS (Interactive) ═════════════════════════ */}
+      <LendingEthosInteractive />
 
-          <div className="mt-12 grid gap-6 md:grid-cols-2">
-            {[
-              {
-                num: "01",
-                title: "Credit Policy",
-                desc: "The regulatory backbone. Defines who you lend to, how much, under what terms, and what safeguards protect the institution.",
-              },
-              {
-                num: "02",
-                title: "Credit Philosophy",
-                desc: "The institutional identity. Establishes risk tolerance, deal appetite, and the cultural principles that guide every lending decision.",
-              },
-              {
-                num: "03",
-                title: "Operational Systems",
-                desc: "The infrastructure. CRM, document management, pipeline tracking, and the technology stack that enables scale without chaos.",
-              },
-              {
-                num: "04",
-                title: "Operating Procedures",
-                desc: "The playbook. Step-by-step processes for origination, underwriting, closing, and servicing that deliver consistent, repeatable results.",
-              },
-            ].map((d) => (
-              <div
-                key={d.num}
-                className="rounded-xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm"
-              >
-                <span
-                  className="font-[family-name:var(--font-montserrat)] text-3xl font-extrabold"
-                  style={{ color: C.gold }}
-                >
-                  {d.num}
-                </span>
-                <h3 className="mt-2 font-[family-name:var(--font-montserrat)] text-lg font-bold text-white">
-                  {d.title}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-white/60">{d.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══ PUBLISHED ARTICLES ═══════════════════════════════════════ */}
-      <section className="px-6 py-16 md:px-8 md:py-24" style={{ background: C.offWhite }}>
-        <div className="mx-auto max-w-5xl">
-          <div className="text-center">
-            <span
-              className="inline-block rounded-full px-4 py-1.5 text-xs font-bold tracking-widest uppercase"
-              style={{ background: `${C.maroon}12`, color: C.maroon }}
-            >
-              Published Work
-            </span>
-            <h2
-              className="mt-4 font-[family-name:var(--font-montserrat)] text-3xl font-bold md:text-4xl"
-              style={{ color: C.nearBlack }}
-            >
-              Articles &amp; Thought Leadership
-            </h2>
-            <p className="mx-auto mt-3 max-w-xl text-base" style={{ color: C.textMuted }}>
-              {ARTICLES.length} articles published on Lords of Lending, plus contributions to
-              Scotsman Guide and industry publications.
-            </p>
-          </div>
-
-          {/* Articles grid */}
-          <div className="mt-10 grid gap-3 md:grid-cols-2">
-            {ARTICLES.map((a) => (
-              <Link
-                key={a.slug}
-                href={`/blog/${a.slug}`}
-                className="group flex items-center gap-4 rounded-lg border bg-white p-4 transition-all hover:shadow-md"
-                style={{ borderColor: C.border }}
-              >
-                <div className="flex-1 min-w-0">
-                  <span
-                    className="text-[10px] font-bold tracking-widest uppercase"
-                    style={{ color: C.maroon }}
-                  >
-                    {a.category}
-                  </span>
-                  <p
-                    className="mt-0.5 text-sm font-semibold leading-snug"
-                    style={{ color: C.nearBlack }}
-                  >
-                    {a.title}
-                  </p>
-                </div>
-                <ChevronRight
-                  size={16}
-                  className="shrink-0 opacity-0 transition-opacity group-hover:opacity-100"
-                  style={{ color: C.maroon }}
-                />
-              </Link>
-            ))}
-          </div>
-
-          {/* External publications */}
-          <div className="mt-10">
-            <h3
-              className="font-[family-name:var(--font-montserrat)] text-lg font-bold"
-              style={{ color: C.nearBlack }}
-            >
-              Industry Publications &amp; Press
-            </h3>
-            <div className="mt-4 grid gap-3 md:grid-cols-2">
-              {PRESS.map((p) => (
-                <a
-                  key={p.title}
-                  href={p.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex items-center gap-4 rounded-lg border bg-white p-4 transition-all hover:shadow-md"
-                  style={{ borderColor: C.border }}
-                >
-                  <div className="flex-1 min-w-0">
-                    <span
-                      className="text-[10px] font-bold tracking-widest uppercase"
-                      style={{ color: C.gold }}
-                    >
-                      {p.outlet}
-                    </span>
-                    <p
-                      className="mt-0.5 text-sm font-semibold leading-snug"
-                      style={{ color: C.nearBlack }}
-                    >
-                      {p.title}
-                    </p>
-                  </div>
-                  <ExternalLink
-                    size={14}
-                    className="shrink-0 opacity-0 transition-opacity group-hover:opacity-100"
-                    style={{ color: C.gold }}
-                  />
-                </a>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* ═══ PUBLISHED ARTICLES (Interactive) ════════════════════════ */}
+      <PublishedWork />
 
       {/* ═══ TECHNOLOGY & VENTURES ════════════════════════════════════ */}
       <section

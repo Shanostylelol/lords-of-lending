@@ -1,9 +1,18 @@
+"use client";
+
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { SITE_CONFIG, NAV_LINKS } from "@/lib/constants";
 import { EmailCapture } from "@/components/ui/email-capture";
 
+/** Routes that render without the site-wide footer */
+const HIDDEN_FOOTER_PAGES = new Set(["/shane"]);
+
 export function Footer() {
+  const pathname = usePathname();
+  if (HIDDEN_FOOTER_PAGES.has(pathname)) return null;
+
   return (
     <footer className="border-t bg-[#181516]" style={{ borderColor: "rgba(226,169,112,0.12)" }}>
       <div className="mx-auto max-w-7xl px-6 py-12 md:px-8 md:py-16">

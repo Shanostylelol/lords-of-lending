@@ -12,11 +12,16 @@ import { SearchModal } from "@/components/ui/search-modal";
 /* Pages that start with a dark hero — navbar starts transparent */
 const DARK_HERO_PAGES = new Set(["/", "/brokers", "/contact", "/loans"]);
 
+/** Routes that render without the site-wide navbar */
+const HIDDEN_NAV_PAGES = new Set(["/shane"]);
+
 export function Navbar() {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+
+  if (HIDDEN_NAV_PAGES.has(pathname)) return null;
 
   const hasDarkHero = DARK_HERO_PAGES.has(pathname);
   /* Always dark nav — black bg with white text */
