@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { SITE_CONFIG, NAV_LINKS } from "@/lib/constants";
+import { EmailCapture } from "@/components/ui/email-capture";
 
 export function Footer() {
   return (
@@ -121,8 +122,17 @@ export function Footer() {
           </div>
         </div>
 
+        {/* Newsletter */}
+        <div className="mt-10 border-t border-white/10 pt-8">
+          <EmailCapture
+            variant="footer"
+            heading="SBA Lending This Week"
+            subheading="Weekly insights for originators and brokers. Free."
+          />
+        </div>
+
         {/* Bottom bar */}
-        <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row">
+        <div className="flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row">
           <p className="text-xs text-white/40">
             &copy; {new Date().getFullYear()} Lords of Lending. All rights reserved.
           </p>
