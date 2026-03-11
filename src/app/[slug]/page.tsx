@@ -29,6 +29,8 @@ import { TableOfContents } from "@/components/ui/table-of-contents";
 import { extractHeadings, slugifyHeading } from "@/lib/extract-headings";
 import { Breadcrumb } from "@/components/ui/breadcrumb";
 import { RelatedArticles } from "@/components/sections/related-articles";
+import { EmailCapture } from "@/components/ui/email-capture";
+import { SocialShare } from "@/components/ui/social-share";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -327,6 +329,8 @@ export default async function ContentPage({ params }: Props) {
             </div>
           )}
 
+          <EmailCapture variant="banner" />
+
           <AuthorBio author="shane" />
         </article>
       </main>
@@ -585,6 +589,8 @@ export default async function ContentPage({ params }: Props) {
               <p>{article.excerpt}</p>
             </div>
           )}
+
+          <EmailCapture variant="banner" />
 
           {(() => {
             const allArticles = [...PILLAR_ARTICLES, ...SUPPORTING_ARTICLES];
