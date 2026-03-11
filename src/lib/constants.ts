@@ -627,7 +627,26 @@ export const SUPPORTING_ARTICLES: ContentMeta[] = [
 ];
 
 export const ROUNDUP_POSTS: ContentMeta[] = [
-  // Will be populated with actual roundup issues
+  {
+    slug: "sba-lending-this-week-2026-03-24",
+    title: "SBA Lending This Week — March 24, 2026",
+    date: "2026-03-24",
+    author: "shane",
+    excerpt: "SBA 7(a) approvals up 12% YoY, Express loan limit raised to $500K, and a $750K equipment deal closes in 38 days.",
+    image: "/images/pillar/sba-lending-2026-outlook.webp",
+    category: "roundup",
+    cluster: "general",
+  },
+  {
+    slug: "sba-lending-this-week-2026-03-17",
+    title: "SBA Lending This Week — March 17, 2026",
+    date: "2026-03-17",
+    author: "shane",
+    excerpt: "WSJ Prime holds at 7.50%, SBA updates Lender Match, and a $1.2M restaurant deal closes in 45 days.",
+    image: "/images/pillar/sba-lending-2026-outlook.webp",
+    category: "roundup",
+    cluster: "general",
+  },
 ];
 
 export const PODCAST_EPISODES = [
