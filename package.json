@@ -9,7 +9,8 @@
     "lint": "eslint",
     "content-freshness": "npx tsx scripts/content-freshness.ts",
     "link-health": "npx tsx scripts/link-health.ts",
-    "seo-audit": "npx tsx scripts/seo-audit.ts"
+    "seo-audit": "npx tsx scripts/seo-audit.ts",
+    "content-gaps": "npx tsx scripts/content-gaps.ts"
   },
   "dependencies": {
     "clsx": "^2.1.1",
