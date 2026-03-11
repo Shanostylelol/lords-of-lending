@@ -26,6 +26,7 @@ import {
 import { TranscriptToggle } from "@/components/ui/transcript-toggle";
 import { AuthorBio } from "@/components/ui/author-bio";
 import { TableOfContents, extractHeadings } from "@/components/ui/table-of-contents";
+import { Breadcrumb } from "@/components/ui/breadcrumb";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -542,12 +543,11 @@ export default async function ContentPage({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd(breadcrumbs)) }}
         />
         <article className="mx-auto max-w-3xl px-6 md:px-8">
-          <Link
-            href="/blog"
-            className="mb-6 inline-flex items-center gap-2 text-sm text-white/60 transition-colors hover:text-[var(--color-gold)]"
-          >
-            <ArrowLeft size={14} /> {isPillar ? "Back to Guides" : "Back to Blog"}
-          </Link>
+          <Breadcrumb items={[
+            { label: "Home", href: "/" },
+            { label: isPillar ? "Guides" : "Articles", href: "/blog" },
+            { label: article.title },
+          ]} />
 
           <div className="flex items-center gap-3">
             <time className="text-sm text-white/40">
@@ -605,11 +605,11 @@ export default async function ContentPage({ params }: Props) {
           <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd([{ name: "Home", href: "/" }, { name: `SBA Loans in ${state.name}`, href: `/${slug}` }])) }} />
           <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }) }} />
           <article className="mx-auto max-w-3xl px-6 md:px-8">
-            <nav className="mb-6 text-sm text-white/40">
-              <Link href="/" className="hover:text-[var(--color-gold)]">Home</Link>
-              <span className="mx-2">/</span>
-              <span className="text-white/60">SBA Loans in {state.name}</span>
-            </nav>
+            <Breadcrumb items={[
+              { label: "Home", href: "/" },
+              { label: "SBA Loans by State", href: "/blog" },
+              { label: `SBA Loans in ${state.name}` },
+            ]} />
             <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold leading-tight text-white md:text-4xl">SBA Loans in {state.name}</h1>
             <div className="mt-6 space-y-4 text-base leading-relaxed text-white/60">{state.uniqueContent.split("\n\n").map((p, i) => <p key={i}>{p}</p>)}</div>
             <h2 className="mt-10 mb-4 font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white">Top SBA Industries in {state.name}</h2>
@@ -662,11 +662,11 @@ export default async function ContentPage({ params }: Props) {
           <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd([{ name: "Home", href: "/" }, { name: `SBA Loans for ${industry.name}`, href: `/${slug}` }])) }} />
           <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }) }} />
           <article className="mx-auto max-w-3xl px-6 md:px-8">
-            <nav className="mb-6 text-sm text-white/40">
-              <Link href="/" className="hover:text-[var(--color-gold)]">Home</Link>
-              <span className="mx-2">/</span>
-              <span className="text-white/60">SBA Loans for {industry.name}</span>
-            </nav>
+            <Breadcrumb items={[
+              { label: "Home", href: "/" },
+              { label: "SBA Loans by Industry", href: "/blog" },
+              { label: `SBA Loans for ${industry.name}` },
+            ]} />
             <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold leading-tight text-white md:text-4xl">SBA Loans for {industry.name}</h1>
             <p className="mt-1 text-sm text-white/40">NAICS {industry.naicsRange} &middot; SBA Popularity: {industry.sbaPopularity}</p>
             <div className="relative mt-8 aspect-video overflow-hidden rounded-xl">
