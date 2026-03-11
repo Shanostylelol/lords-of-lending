@@ -161,6 +161,24 @@ export function articleJsonLdWithAuthor(meta: ContentMeta) {
   };
 }
 
+export function softwareAppJsonLd(name: string, description: string, url: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name,
+    description,
+    url,
+    applicationCategory: "FinanceApplication",
+    operatingSystem: "Web",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+    },
+    publisher: ORG,
+  };
+}
+
 export function articleFaqJsonLd(questions: { q: string; a: string }[]) {
   return {
     "@context": "https://schema.org",
