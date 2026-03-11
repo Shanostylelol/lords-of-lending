@@ -125,7 +125,7 @@ export function LendingEthosInteractive() {
 
   return (
     <section
-      className="px-6 py-16 md:px-8 md:py-24"
+      className="px-4 py-12 sm:px-6 sm:py-16 md:px-8 md:py-24"
       style={{
         background: `linear-gradient(135deg, ${C.maroon} 0%, ${C.maroonDark} 100%)`,
       }}
@@ -139,22 +139,22 @@ export function LendingEthosInteractive() {
           >
             Proprietary Framework
           </span>
-          <h2 className="mt-4 font-[family-name:var(--font-montserrat)] text-3xl font-bold text-white md:text-4xl">
+          <h2 className="mt-4 font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white sm:text-3xl md:text-4xl">
             The Lending Ethos
           </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-base text-white/70">
+          <p className="mx-auto mt-3 max-w-2xl text-sm text-white/70 sm:mt-4 sm:text-base">
             A four-domain framework for building, evaluating, and scaling SBA lending departments.
             Every institution Shane has built follows this architecture — from first hire to first funded deal.
           </p>
         </div>
 
         {/* Domain selector tabs */}
-        <div className="mt-10 flex flex-wrap justify-center gap-2">
+        <div className="mt-6 flex flex-wrap justify-center gap-2 sm:mt-10">
           {DOMAINS.map((d, i) => (
             <button
               key={d.id}
               onClick={() => setActiveDomain(i)}
-              className={`flex items-center gap-2 rounded-lg px-4 py-2.5 text-sm font-semibold transition-all ${
+              className={`flex items-center gap-1.5 rounded-lg px-3 py-2 text-xs font-semibold transition-all sm:gap-2 sm:px-4 sm:py-2.5 sm:text-sm ${
                 i === activeDomain
                   ? "bg-white text-[#4D0A16] shadow-lg"
                   : "border border-white/15 bg-white/5 text-white/70 hover:bg-white/10 hover:text-white"
@@ -177,13 +177,13 @@ export function LendingEthosInteractive() {
             transition={{ duration: 0.25 }}
             className="mt-8"
           >
-            <div className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm md:p-10">
-              <div className="flex items-start gap-4">
+            <div className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm sm:p-6 md:p-10">
+              <div className="flex items-start gap-3 sm:gap-4">
                 <div
-                  className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl"
+                  className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl sm:h-14 sm:w-14"
                   style={{ background: `${C.gold}25` }}
                 >
-                  <domain.icon size={28} style={{ color: C.goldLight }} />
+                  <domain.icon size={22} className="sm:!h-7 sm:!w-7" style={{ color: C.goldLight }} />
                 </div>
                 <div>
                   <span
@@ -192,7 +192,7 @@ export function LendingEthosInteractive() {
                   >
                     Domain {domain.num}
                   </span>
-                  <h3 className="font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white">
+                  <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-bold text-white sm:text-2xl">
                     {domain.title}
                   </h3>
                   <p className="text-sm font-medium text-white/50">{domain.subtitle}</p>
@@ -245,10 +245,10 @@ export function LendingEthosInteractive() {
         </AnimatePresence>
 
         {/* Decision Spine toggle */}
-        <div className="mt-10">
+        <div className="mt-8 sm:mt-10">
           <button
             onClick={() => setShowSpine(!showSpine)}
-            className="mx-auto flex items-center gap-2 rounded-lg border border-white/15 bg-white/5 px-6 py-3 text-sm font-semibold text-white/80 transition-all hover:bg-white/10 hover:text-white"
+            className="mx-auto flex items-center gap-2 rounded-lg border border-white/15 bg-white/5 px-4 py-2.5 text-xs font-semibold text-white/80 transition-all hover:bg-white/10 hover:text-white sm:px-6 sm:py-3 sm:text-sm"
           >
             <Workflow size={16} style={{ color: C.gold }} />
             The Decision Spine — 7 Questions Every Deal Must Answer
@@ -299,7 +299,7 @@ export function LendingEthosInteractive() {
               6-Phase Implementation Model
             </div>
           </div>
-          <div className="mt-6 grid gap-3 md:grid-cols-3 lg:grid-cols-6">
+          <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
             {IMPLEMENTATION.map((p, i) => (
               <div
                 key={p.phase}

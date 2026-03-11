@@ -189,20 +189,20 @@ function ArticleRow({ article }: { article: Article }) {
       className="rounded-lg border bg-white transition-all hover:shadow-md"
       style={{ borderColor: C.border }}
     >
-      <div className="flex items-center gap-3 p-4">
+      <div className="flex items-center gap-2 p-3 sm:gap-3 sm:p-4">
         <div className="min-w-0 flex-1">
           <Link
             href={`/${article.slug}`}
-            className="text-sm font-semibold leading-snug transition-colors hover:underline"
+            className="text-xs font-semibold leading-snug transition-colors hover:underline sm:text-sm"
             style={{ color: C.nearBlack }}
           >
             {article.title}
           </Link>
         </div>
-        <div className="flex shrink-0 items-center gap-2">
+        <div className="flex shrink-0 items-center gap-1.5 sm:gap-2">
           <Link
             href={`/${article.slug}`}
-            className="rounded-md px-3 py-1.5 text-xs font-bold text-white transition-colors hover:opacity-90"
+            className="rounded-md px-2.5 py-1 text-[11px] font-bold text-white transition-colors hover:opacity-90 sm:px-3 sm:py-1.5 sm:text-xs"
             style={{ background: C.maroon }}
           >
             Read
@@ -316,7 +316,7 @@ export function PublishedWork() {
   const totalArticles = CATEGORIES.reduce((sum, cat) => sum + cat.articles.length, 0);
 
   return (
-    <section className="px-6 py-16 md:px-8 md:py-24" style={{ background: C.offWhite }}>
+    <section className="px-4 py-12 sm:px-6 sm:py-16 md:px-8 md:py-24" style={{ background: C.offWhite }}>
       <div className="mx-auto max-w-5xl">
         <div className="text-center">
           <span
@@ -326,7 +326,7 @@ export function PublishedWork() {
             Published Work
           </span>
           <h2
-            className="mt-4 font-[family-name:var(--font-montserrat)] text-3xl font-bold md:text-4xl"
+            className="mt-4 font-[family-name:var(--font-montserrat)] text-2xl font-bold sm:text-3xl md:text-4xl"
             style={{ color: C.nearBlack }}
           >
             Articles &amp; Thought Leadership
@@ -338,10 +338,10 @@ export function PublishedWork() {
         </div>
 
         {/* Category filter tabs */}
-        <div className="mt-8 flex flex-wrap justify-center gap-2">
+        <div className="mt-6 flex flex-wrap justify-center gap-1.5 sm:mt-8 sm:gap-2">
           <button
             onClick={() => setActiveCategory(null)}
-            className={`flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold transition-all ${
+            className={`flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold transition-all sm:gap-2 sm:px-4 sm:py-2 sm:text-sm ${
               activeCategory === null
                 ? "text-white shadow-md"
                 : "border bg-white hover:shadow-sm"
@@ -358,7 +358,7 @@ export function PublishedWork() {
             <button
               key={cat.id}
               onClick={() => setActiveCategory(activeCategory === cat.id ? null : cat.id)}
-              className={`flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold transition-all ${
+              className={`flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold transition-all sm:gap-2 sm:px-4 sm:py-2 sm:text-sm ${
                 activeCategory === cat.id
                   ? "text-white shadow-md"
                   : "border bg-white hover:shadow-sm"
@@ -376,7 +376,7 @@ export function PublishedWork() {
         </div>
 
         {/* Article lists by category */}
-        <div className="mt-8 space-y-8">
+        <div className="mt-6 space-y-6 sm:mt-8 sm:space-y-8">
           {CATEGORIES.filter(
             (cat) => activeCategory === null || activeCategory === cat.id,
           ).map((cat) => (
@@ -393,7 +393,7 @@ export function PublishedWork() {
                   ({cat.articles.length} articles)
                 </span>
               </div>
-              <div className="grid gap-2 md:grid-cols-2">
+              <div className="grid gap-2 sm:grid-cols-2">
                 {cat.articles.map((article) => (
                   <ArticleRow key={article.slug} article={article} />
                 ))}
@@ -413,7 +413,7 @@ export function PublishedWork() {
               Industry Publications &amp; Press
             </h3>
           </div>
-          <div className="grid gap-2 md:grid-cols-2">
+          <div className="grid gap-2 sm:grid-cols-2">
             {PRESS.map((item) => (
               <PressRow key={item.title} item={item} />
             ))}

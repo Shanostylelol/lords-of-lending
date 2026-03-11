@@ -134,7 +134,7 @@ export default function ShanePiersonPage() {
     <main id="main-content" className="overflow-x-hidden">
       {/* ═══ HERO ═══════════════════════════════════════════════════════ */}
       <section
-        className="relative px-6 pt-12 pb-20 md:px-8 md:pt-20 md:pb-28"
+        className="relative px-4 pt-10 pb-14 sm:px-6 sm:pt-12 sm:pb-20 md:px-8 md:pt-20 md:pb-28"
         style={{ background: `linear-gradient(135deg, ${C.nearBlack} 0%, ${C.maroon} 50%, ${C.maroonDark} 100%)` }}
       >
         {/* Subtle texture overlay */}
@@ -146,7 +146,7 @@ export default function ShanePiersonPage() {
           }}
         />
 
-        <div className="relative mx-auto flex max-w-6xl flex-col items-center gap-10 md:flex-row md:items-start md:gap-16">
+        <div className="relative mx-auto flex max-w-6xl flex-col items-center gap-8 sm:gap-10 md:flex-row md:items-start md:gap-16">
           {/* Portrait */}
           <div className="shrink-0">
             <div
@@ -158,7 +158,7 @@ export default function ShanePiersonPage() {
                 alt="Shane Pierson"
                 width={280}
                 height={340}
-                className="h-[400px] w-[280px] object-cover object-top"
+                className="h-[320px] w-[220px] object-cover object-top sm:h-[400px] sm:w-[280px]"
                 priority
               />
             </div>
@@ -166,25 +166,25 @@ export default function ShanePiersonPage() {
 
           {/* Hero text */}
           <div className="text-center md:text-left">
-            <h1 className="font-[family-name:var(--font-montserrat)] text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">
+            <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-extrabold tracking-tight text-white sm:text-4xl md:text-5xl lg:text-6xl">
               Shane Pierson
             </h1>
             <p
-              className="mt-3 font-[family-name:var(--font-montserrat)] text-lg font-medium tracking-wide md:text-xl"
+              className="mt-2 font-[family-name:var(--font-montserrat)] text-sm font-medium tracking-wide sm:mt-3 sm:text-lg md:text-xl"
               style={{ color: C.goldLight }}
             >
               SBA Department Architect &bull; National Sales Strategist &bull; Published Authority
             </p>
-            <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/75 md:text-lg">
+            <p className="mt-4 max-w-2xl text-sm leading-relaxed text-white/75 sm:mt-5 sm:text-base md:text-lg">
               Five institutions. Four SBA departments built from the ground up. $500M+ in SBA 7(a),
               504, and USDA B&amp;I loans deployed nationwide. A career defined by discipline, procedure,
               and the belief that safe and sound lending is the only lending worth doing.
             </p>
 
             {/* Institution logos */}
-            <div className="mt-10 flex flex-wrap items-center justify-center gap-6 md:justify-start">
-              <Image src="/images/bio/phx-white.png" alt="PHX Business" width={100} height={36} className="h-8 w-auto object-contain opacity-60 hover:opacity-100 transition-opacity" />
-              <Image src="/images/bio/cbt-white.png" alt="Community Bank & Trust" width={100} height={36} className="h-8 w-auto object-contain opacity-60 hover:opacity-100 transition-opacity" />
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-4 sm:mt-10 sm:gap-6 md:justify-start">
+              <Image src="/images/bio/phx-white.png" alt="PHX Business" width={100} height={36} className="h-6 w-auto object-contain opacity-60 hover:opacity-100 transition-opacity sm:h-8" />
+              <Image src="/images/bio/cbt-white.png" alt="Community Bank & Trust" width={100} height={36} className="h-6 w-auto object-contain opacity-60 hover:opacity-100 transition-opacity sm:h-8" />
             </div>
           </div>
         </div>
@@ -192,18 +192,18 @@ export default function ShanePiersonPage() {
 
       {/* ═══ STATS BAR ════════════════════════════════════════════════ */}
       <section
-        className="border-y px-6 py-10 md:px-8"
+        className="border-y px-4 py-8 sm:px-6 sm:py-10 md:px-8"
         style={{
           background: C.offWhite,
           borderColor: C.border,
         }}
       >
-        <div className="mx-auto grid max-w-5xl grid-cols-2 gap-8 md:grid-cols-4">
+        <div className="mx-auto grid max-w-5xl grid-cols-2 gap-4 sm:gap-8 md:grid-cols-4">
           {STATS.map((s) => (
             <div key={s.label} className="flex flex-col items-center text-center">
-              <s.icon size={28} style={{ color: C.maroon }} />
+              <s.icon size={24} className="sm:!h-7 sm:!w-7" style={{ color: C.maroon }} />
               <span
-                className="mt-2 font-[family-name:var(--font-montserrat)] text-3xl font-extrabold"
+                className="mt-2 font-[family-name:var(--font-montserrat)] text-2xl font-extrabold sm:text-3xl"
                 style={{ color: C.nearBlack }}
               >
                 {s.value}
@@ -217,7 +217,7 @@ export default function ShanePiersonPage() {
       </section>
 
       {/* ═══ EXECUTIVE SUMMARY ════════════════════════════════════════ */}
-      <section className="px-6 py-16 md:px-8 md:py-24" style={{ background: C.offWhite }}>
+      <section className="px-4 py-12 sm:px-6 sm:py-16 md:px-8 md:py-24" style={{ background: C.offWhite }}>
         <div className="mx-auto max-w-4xl">
           <div className="text-center">
             <span
@@ -227,7 +227,7 @@ export default function ShanePiersonPage() {
               Executive Summary
             </span>
             <h2
-              className="mt-4 font-[family-name:var(--font-montserrat)] text-3xl font-bold md:text-4xl"
+              className="mt-4 font-[family-name:var(--font-montserrat)] text-2xl font-bold sm:text-3xl md:text-4xl"
               style={{ color: C.nearBlack }}
             >
               Building Institutions, Not Just Portfolios
@@ -235,7 +235,7 @@ export default function ShanePiersonPage() {
           </div>
 
           <div
-            className="mt-10 space-y-5 text-base leading-relaxed md:text-lg"
+            className="mt-8 space-y-4 text-sm leading-relaxed sm:mt-10 sm:space-y-5 sm:text-base md:text-lg"
             style={{ color: "#3A3636" }}
           >
             <p>
@@ -274,7 +274,7 @@ export default function ShanePiersonPage() {
 
       {/* ═══ COMPETENCIES ═════════════════════════════════════════════ */}
       <section
-        className="px-6 py-16 md:px-8 md:py-24"
+        className="px-4 py-12 sm:px-6 sm:py-16 md:px-8 md:py-24"
         style={{ background: C.nearBlack }}
       >
         <div className="mx-auto max-w-6xl">
@@ -285,16 +285,16 @@ export default function ShanePiersonPage() {
             >
               Core Competencies
             </span>
-            <h2 className="mt-4 font-[family-name:var(--font-montserrat)] text-3xl font-bold text-white md:text-4xl">
+            <h2 className="mt-4 font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white sm:text-3xl md:text-4xl">
               Discipline. Infrastructure. Results.
             </h2>
           </div>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8 grid gap-4 sm:mt-12 sm:gap-6 md:grid-cols-2 lg:grid-cols-3">
             {COMPETENCIES.map((c) => (
               <div
                 key={c.title}
-                className="rounded-xl border p-6 transition-all hover:border-[var(--color-gold)]"
+                className="rounded-xl border p-4 transition-all hover:border-[var(--color-gold)] sm:p-6"
                 style={{
                   background: "#252222",
                   borderColor: "#3A3636",
@@ -314,7 +314,7 @@ export default function ShanePiersonPage() {
       </section>
 
       {/* ═══ CAREER TIMELINE ══════════════════════════════════════════ */}
-      <section className="px-6 py-16 md:px-8 md:py-24" style={{ background: C.offWhite }}>
+      <section className="px-4 py-12 sm:px-6 sm:py-16 md:px-8 md:py-24" style={{ background: C.offWhite }}>
         <div className="mx-auto max-w-4xl">
           <div className="text-center">
             <span
@@ -324,7 +324,7 @@ export default function ShanePiersonPage() {
               Career
             </span>
             <h2
-              className="mt-4 font-[family-name:var(--font-montserrat)] text-3xl font-bold md:text-4xl"
+              className="mt-4 font-[family-name:var(--font-montserrat)] text-2xl font-bold sm:text-3xl md:text-4xl"
               style={{ color: C.nearBlack }}
             >
               A Track Record of Building
@@ -335,16 +335,16 @@ export default function ShanePiersonPage() {
             </p>
           </div>
 
-          <div className="relative mt-12">
+          <div className="relative mt-8 sm:mt-12">
             {/* Timeline line */}
             <div
               className="absolute top-0 left-6 hidden h-full w-0.5 md:block"
               style={{ background: `linear-gradient(to bottom, ${C.maroon}, ${C.gold})` }}
             />
 
-            <div className="space-y-8">
+            <div className="space-y-4 sm:space-y-8">
               {CAREER.map((c, i) => (
-                <div key={c.institution} className="relative flex gap-6 md:pl-16">
+                <div key={c.institution} className="relative flex gap-4 sm:gap-6 md:pl-16">
                   {/* Timeline dot */}
                   <div
                     className="absolute left-4 top-2 hidden h-5 w-5 rounded-full border-4 md:block"
@@ -355,7 +355,7 @@ export default function ShanePiersonPage() {
                   />
 
                   <div
-                    className="flex-1 rounded-xl border p-6 transition-shadow hover:shadow-md"
+                    className="flex-1 rounded-xl border p-4 transition-shadow hover:shadow-md sm:p-6"
                     style={{
                       background: "white",
                       borderColor: i === CAREER.length - 1 ? C.gold : C.border,
@@ -412,7 +412,7 @@ export default function ShanePiersonPage() {
 
       {/* ═══ TECHNOLOGY & VENTURES ════════════════════════════════════ */}
       <section
-        className="px-6 py-16 md:px-8 md:py-24"
+        className="px-4 py-12 sm:px-6 sm:py-16 md:px-8 md:py-24"
         style={{ background: C.nearBlack }}
       >
         <div className="mx-auto max-w-4xl text-center">
@@ -422,17 +422,17 @@ export default function ShanePiersonPage() {
           >
             Innovation
           </span>
-          <h2 className="mt-4 font-[family-name:var(--font-montserrat)] text-3xl font-bold text-white md:text-4xl">
+          <h2 className="mt-4 font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white sm:text-3xl md:text-4xl">
             Where Banking Meets Technology
           </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-base" style={{ color: "#9A918D" }}>
+          <p className="mx-auto mt-3 max-w-2xl text-sm sm:mt-4 sm:text-base" style={{ color: "#9A918D" }}>
             Through <strong className="text-white">Fitech Ventures LLC</strong>, Shane builds the
             lending technology, process automation, and business intelligence tools that modern SBA
             operations demand. From CRM integrations to borrower-facing platforms, the mission is
             the same: remove friction, increase transparency, and help lenders do what they do best.
           </p>
 
-          <div className="mt-10 grid gap-6 md:grid-cols-2">
+          <div className="mt-8 grid gap-4 sm:mt-10 sm:gap-6 md:grid-cols-2">
             {[
               {
                 title: "Lords of Lending",
@@ -447,7 +447,7 @@ export default function ShanePiersonPage() {
             ].map((v) => (
               <div
                 key={v.title}
-                className="rounded-xl border p-6 text-left"
+                className="rounded-xl border p-4 text-left sm:p-6"
                 style={{ background: "#252222", borderColor: "#3A3636" }}
               >
                 <h3 className="font-[family-name:var(--font-montserrat)] text-base font-bold text-white">
@@ -473,19 +473,19 @@ export default function ShanePiersonPage() {
 
       {/* ═══ PODCAST CALLOUT ══════════════════════════════════════════ */}
       <section
-        className="px-6 py-16 md:px-8 md:py-20"
+        className="px-4 py-12 sm:px-6 sm:py-16 md:px-8 md:py-20"
         style={{
           background: `linear-gradient(135deg, ${C.maroon} 0%, ${C.nearBlack} 100%)`,
         }}
       >
-        <div className="mx-auto flex max-w-5xl flex-col items-center gap-8 md:flex-row">
+        <div className="mx-auto flex max-w-5xl flex-col items-center gap-6 sm:gap-8 md:flex-row">
           <div className="shrink-0">
-            <div className="flex h-24 w-24 items-center justify-center rounded-2xl bg-white/10">
-              <Mic size={40} style={{ color: C.goldLight }} />
+            <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-white/10 sm:h-24 sm:w-24">
+              <Mic size={32} className="sm:!h-10 sm:!w-10" style={{ color: C.goldLight }} />
             </div>
           </div>
           <div className="text-center md:text-left">
-            <h2 className="font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white md:text-3xl">
+            <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white sm:text-2xl md:text-3xl">
               Lords of Lending Podcast
             </h2>
             <p className="mt-2 max-w-xl text-base text-white/70">
