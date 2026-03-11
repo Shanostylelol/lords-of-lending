@@ -140,7 +140,7 @@ const AUTHOR_NAMES: Record<ContentMeta["author"], string> = {
   brian: "Brian Congelliere",
 };
 
-export function articleJsonLdWithAuthor(meta: ContentMeta) {
+export function articleJsonLdWithAuthor(meta: ContentMeta, dateModified?: string) {
   return {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -148,6 +148,7 @@ export function articleJsonLdWithAuthor(meta: ContentMeta) {
     description: meta.excerpt,
     image: `${SITE_CONFIG.url}${meta.image}`,
     datePublished: new Date(meta.date).toISOString(),
+    ...(dateModified ? { dateModified: new Date(dateModified).toISOString() } : {}),
     author: {
       "@type": "Person",
       name: AUTHOR_NAMES[meta.author],
@@ -157,6 +158,35 @@ export function articleJsonLdWithAuthor(meta: ContentMeta) {
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": `${SITE_CONFIG.url}/${meta.slug}`,
+    },
+  };
+}
+
+export function howToJsonLd(title: string, steps: { name: string; text: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: title,
+    step: steps.map((s, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: s.name,
+      text: s.text,
+    })),
+  };
+}
+
+export function courseJsonLd(name: string, description: string, url: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    name,
+    description,
+    url,
+    provider: {
+      "@type": "Organization",
+      name: "Lords of Lending",
+      url: "https://learn.lordsoflending.com",
     },
   };
 }
