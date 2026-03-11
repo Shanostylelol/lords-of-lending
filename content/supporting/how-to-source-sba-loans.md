@@ -98,7 +98,7 @@ Post three to five times a week. Engage with comments. Connect with business bro
 
 I had a deal last year that came entirely from a LinkedIn comment. A woman posted about wanting to buy a daycare franchise. I commented with some specifics about how SBA financing works for franchise acquisitions. She DM'd me. That turned into a $1.2 million SBA loan that closed in 60 days. That's the power of showing up consistently with real expertise.
 
-The training modules inside [The Broker's Codex](https://learn.lordsoflending.com/pricing) go deep on LinkedIn strategy for SBA originators — the posting cadence, the connection scripts, the content frameworks that generate inbound leads.
+The training modules inside [learn.lordsoflending.com](https://learn.lordsoflending.com) go deep on LinkedIn strategy for SBA originators — the posting cadence, the connection scripts, the content frameworks that generate inbound leads.
 
 ---
 
@@ -211,4 +211,4 @@ No, and I'd argue that buying leads is one of the worst things you can do early 
 
 Deal sourcing is a skill, and like any skill, it can be learned and sharpened. The 12 strategies in this guide are the foundation. The next step is building the systems that turn sourcing into a consistent, repeatable process.
 
-If you're serious about becoming a top-producing SBA originator, [The Broker's Codex](https://learn.lordsoflending.com/pricing) covers deal sourcing, packaging, structuring, and lender relationships in the kind of depth you won't find anywhere else. It's the playbook we wish someone had given us when we started.
+If you're serious about becoming a top-producing SBA originator, the training at [learn.lordsoflending.com](https://learn.lordsoflending.com) covers deal sourcing, packaging, structuring, and lender relationships in the kind of depth you won't find anywhere else. It's the playbook we wish someone had given us when we started.

@@ -99,3 +99,5 @@ Use SBA financing when you need to move big levers and you have the track record
 If you want to understand how the SBA guarantee actually works — and why the distinction matters — our [SBA Lending 101 guide](/sba-lending-101-foundation) breaks down the mechanics in plain English.
 
 If you've already applied and been turned down, our guide on [what to do when your SBA loan gets denied](/sba-loan-denied) covers the top denial reasons and when it makes sense to try again versus try a different lender.
+
+Wondering about the difference between 7(a) and 504? Our [SBA 7(a) vs. 504 comparison](/sba-7a-vs-504) breaks down when each program makes sense. And for the full program breakdown — eligibility, rates, terms, and process — see our [Complete Guide to SBA 7(a) Loans](/complete-guide-sba-7a-loans).

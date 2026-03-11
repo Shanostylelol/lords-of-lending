@@ -403,4 +403,4 @@ If you're a borrower, take this guide and use it to prepare the strongest applic
 
 If you're a lending professional — a broker, a banker, someone who wants to originate SBA deals — the gap between "knowing the program exists" and "knowing how to close deals consistently" is where careers are made. That gap is what separates the loan officers who close 5 deals a year from the ones who close 50.
 
-Ready to learn how to originate SBA deals? Start your journey at [The Broker's Codex](https://learn.lordsoflending.com/pricing).
+Ready to learn how to originate SBA deals? Start your journey at [learn.lordsoflending.com](https://learn.lordsoflending.com).

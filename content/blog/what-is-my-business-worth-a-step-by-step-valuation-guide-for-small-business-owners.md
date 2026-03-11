@@ -511,3 +511,12 @@ Too many small business owners work for decades and never stop to ask: "What am 
 So do yourself a favor and start tracking your real cash flow. Clean up your financials. Systematize your operations. Document what makes your business run, and in the end, know your number.
 
 Even if you're not ready to sell now, understanding your valuation gives you leverage. It changes how you grow, how you reinvest, and how you lead. Because you're not just building a business, you're building a legacy.
+
+---
+
+## Related Resources
+
+- **[Can You Use an SBA Loan to Buy a Business?](/buy-business-sba-loan)** — If you're on the buying side, here's how SBA financing works for business acquisitions.
+- **[What Lenders Really Expect in a Business Acquisition](/sba-business-acquisition-what-lenders-really-expect)** — The lender's perspective on valuation, cash flow, and what makes an acquisition deal bankable.
+- **[The Complete Guide to SBA 7(a) Loans](/complete-guide-sba-7a-loans)** — The program most buyers use to finance acquisitions. Rates, terms, eligibility, and the full process.
+- **[SBA Deal Structuring: From LOI to Closing](/sba-deal-structuring-guide)** — Once you know the value, this is how the deal gets built — equity injection, seller notes, and the path to funding.

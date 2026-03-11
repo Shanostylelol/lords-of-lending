@@ -134,7 +134,7 @@ I've tested a lot of approaches. What works best is a simple folder structure pe
 
 Label every file with a prefix that matches the section: `02-PFS-SmithJohn.pdf`, `03-TaxReturn-2024-BusinessName.pdf`. When the underwriter asks for something, you can find it in seconds. When the closing attorney asks for something, you can send it immediately. That speed builds trust and keeps deals on track.
 
-If you want to see how we organize document collection alongside the rest of the deal lifecycle — from lead intake through closing — the originator training at [The Broker's Codex](https://learn.lordsoflending.com/pricing) includes Module 6: Documentation Mastery, with downloadable templates, pre-built folder structures, and the exact checklist system I use on every deal. It's the difference between chasing documents for six weeks and collecting them in six days.
+If you want to see how we organize document collection alongside the rest of the deal lifecycle — from lead intake through closing — the originator training at [learn.lordsoflending.com](https://learn.lordsoflending.com) includes Module 6: Documentation Mastery, with downloadable templates, pre-built folder structures, and the exact checklist system I use on every deal. It's the difference between chasing documents for six weeks and collecting them in six days.
 
 ---
 

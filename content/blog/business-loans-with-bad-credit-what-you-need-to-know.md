@@ -85,3 +85,12 @@ You can also start building business credit slowly. That doesn't mean applying f
 The truth is that rebuilding your funding options takes time. But you're not doing it for a loan next week. You're doing it so that six months from now, or a year from now, you're not stuck choosing between expensive cash and no cash. You're giving yourself leverage. You're giving lenders a reason to see you differently.
 
 And once that shift happens, the conversation changes. You're not applying with your back against the wall. You're presenting a case, on your terms, backed by numbers that speak for themselves. That's how you earn the right to use capital strategically instead of borrowing out of survival.
+
+---
+
+## Related Resources
+
+- **[The Complete Guide to SBA 7(a) Loans](/complete-guide-sba-7a-loans)** — When your credit improves, SBA 7(a) loans offer the best terms available for small businesses. Here's everything you need to know.
+- **[SBA Eligibility Deep Dive: Who Really Qualifies?](/sba-eligibility-deep-dive)** — Credit is only one factor. Size standards, business type, and character requirements all play a role.
+- **[SBA Loan Denial: Why It Happens and What to Do Next](/sba-loan-denied)** — If you've already been turned down, this covers the recovery path and when to reapply.
+- **[5 Myths About SBA Loans Every Founder Should Know](/5-myths-about-sba-loans-every-founder-should-know)** — Separate what's real from what's not before you start the process.

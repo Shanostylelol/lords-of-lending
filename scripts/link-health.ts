@@ -93,7 +93,6 @@ async function buildKnownSlugs(): Promise<Set<string>> {
     "podcast",
     "contact",
     "contact-us-bc",
-    "the-brokers-codex",
     "leave-a-testimonial",
     "privacy-policy",
     "terms-of-use",
@@ -107,6 +106,7 @@ async function buildKnownSlugs(): Promise<Set<string>> {
     "loans",
     "loans/loan-application",
     "loans/business-acquisition",
+    "buying-a-business",
   ];
   for (const route of staticRoutes) {
     slugs.add(route);

@@ -275,4 +275,4 @@ Both. A strong originator submits a deal summary or mini credit memo with the pa
 
 ## Get the Full Packaging System
 
-This checklist covers what goes into the package. The deeper question is how to analyze whether the deal is worth packaging in the first place — and how to structure it so the underwriter sees a deal that works. That's what [The Broker's Codex](https://learn.lordsoflending.com/pricing) covers in depth: qualification, structuring, packaging, and lender matching in one complete system.
+This checklist covers what goes into the package. The deeper question is how to analyze whether the deal is worth packaging in the first place — and how to structure it so the underwriter sees a deal that works. That's what the training at [learn.lordsoflending.com](https://learn.lordsoflending.com) covers in depth: qualification, structuring, packaging, and lender matching in one complete system.

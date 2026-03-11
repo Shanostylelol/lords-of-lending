@@ -174,4 +174,4 @@ The SBA evaluates reasonableness based on the services provided, the complexity 
 
 ## Start Building Your Compensation Model
 
-Understanding fee structures is step one. Building a business that generates consistent deal flow and closings is the whole game. If you're ready to learn the complete origination process — from sourcing and qualifying to packaging, structuring, and getting paid — [The Broker's Codex](https://learn.lordsoflending.com/pricing) is the training platform built for exactly that.
+Understanding fee structures is step one. Building a business that generates consistent deal flow and closings is the whole game. If you're ready to learn the complete origination process — from sourcing and qualifying to packaging, structuring, and getting paid — the training at [learn.lordsoflending.com](https://learn.lordsoflending.com) is built for exactly that.

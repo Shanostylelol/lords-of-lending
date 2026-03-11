@@ -267,7 +267,7 @@ If you're a borrower, bring real equity, know your numbers, and work with an ori
 
 If you're an originator, this is your moment. The market is harder, which means the ones who know their stuff become more valuable. Every tightening cycle in my career has produced the same result: the cream rises.
 
-We'll keep covering this on the Lords of Lending podcast and updating this article quarterly. If you want the deepest, most practical SBA lending education available, get in the room with us.
+We'll keep covering this on the Lords of Lending podcast, our [SBA Lending This Week](/sba-lending-this-week) roundup, and updating this article quarterly. If you want the deepest, most practical SBA lending education available, get in the room with us.
 
 **[Stay ahead of the curve -> learn.lordsoflending.com/pricing](https://learn.lordsoflending.com/pricing)**
 

@@ -162,6 +162,6 @@ When all is said and done, this business rewards the people who are willing to g
 
 But you have to survive the first 90 days. And surviving means showing up every single day with urgency, with a plan, and with the willingness to hear "no" a lot before you start hearing "yes." As we always tell our [podcast listeners](/you-are-not-urgent-enough), deals die in slow motion — and pipelines die in slow motion too, the moment you stop feeding them.
 
-If you want the complete origination system — sourcing, qualifying, packaging, structuring, lender matching, and pipeline management — [The Broker's Codex](https://learn.lordsoflending.com/pricing) is built for exactly this. It's the training we built because nothing else covered the full picture the way it needs to be covered.
+If you want the complete origination system — sourcing, qualifying, packaging, structuring, lender matching, and pipeline management — the training at [learn.lordsoflending.com](https://learn.lordsoflending.com) is built for exactly this. We built it because nothing else covered the full picture the way it needs to be covered.
 
 For a concrete 12-month target and month-by-month breakdown of pipeline building at scale, our guide on [how to build a $10M SBA pipeline](/build-10m-sba-pipeline) puts specific numbers on each phase. And for the field-level perspective on where the best pipeline connections happen — including what we saw at Transworld, IBBA, and Murphy — [Episode 8: Insights from the Road](/insights-from-the-road-lol-8) covers the conference circuit in detail.

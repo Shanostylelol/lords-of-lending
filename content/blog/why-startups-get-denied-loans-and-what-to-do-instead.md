@@ -30,6 +30,8 @@ This also means keeping your overhead as low as possible. No full-time hires unl
 
 That's the bootstrap mindset. Not because it's trendy or noble, but because it's the only option that puts you in control when the banks won't touch the file.
 
+If you want to understand exactly what makes a business SBA-eligible before you spend time applying, our [SBA eligibility deep dive](/sba-eligibility-deep-dive) covers size standards, NAICS codes, and the traps that trip people up. And for the full picture of how the 7(a) program works once you're ready, see our [Complete Guide to SBA 7(a) Loans](/complete-guide-sba-7a-loans).
+
 ## When You Can Use Debt and How to Know You're Ready
 
 Debt becomes a useful tool once you've already proven you don't need it to survive.
@@ -171,3 +173,11 @@ Don't wait until you need money to start getting your act together. The best tim
 Put the systems in place now. Even if you're not borrowing this quarter. Make your business predictable. Build trust with a banker. Keep your books tight. Run your revenue through one place. Pay your bills on time.
 
 When the opportunity comes, you'll be ready. You won't be scrambling to clean up six months of missed receipts and personal Venmo charges.
+
+---
+
+## Related Resources
+
+- **[SBA Lending 101: The Foundation Every Originator Needs](/sba-lending-101-foundation)** — The baseline every business owner should understand before applying for SBA financing.
+- **[5 Myths About SBA Loans Every Founder Should Know](/5-myths-about-sba-loans-every-founder-should-know)** — The misconceptions that lead to bad applications and wasted time.
+- **[SBA Loan Denial: Why It Happens and What to Do Next](/sba-loan-denied)** — Already been turned down? Here's the specific playbook for what comes next.

@@ -97,3 +97,12 @@ If you want to grow in this business, like really grow, not just stack applicati
 That's the difference between being a vendor... And being a trusted voice in someone's most important financial move.
 
 If this resonated, and if you're building teams, managing SBA deals, or trying to stand out in a commoditized market, I'd love to hear how you're applying this. Let's raise the bar on the craft, not just the close.
+
+---
+
+## Related Resources
+
+- **[Why Most SBA Deals Fall Apart (And How to Save Them)](/why-sba-deals-fall-apart)** — The attention failures described above are the root cause of most deal deaths. Here's the full autopsy.
+- **[SBA Deal Structuring: From LOI to Closing](/sba-deal-structuring-guide)** — When you do have full attention on a deal, this is the technical framework for getting it across the finish line.
+- **[How to Build a $10M SBA Pipeline in 12 Months](/build-10m-sba-pipeline)** — Building the pipeline is one thing. Managing it without fracturing your focus is another.
+- **[Episode 3: You Are Not Urgent Enough](/you-are-not-urgent-enough-lol-3)** — The conversation that started this whole thread about urgency, presence, and what separates closers.

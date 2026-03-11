@@ -176,7 +176,7 @@ Depreciation is a non-cash expense and is always added back for cash flow analys
 
 ---
 
-This article covers the fundamentals. In Module 4 of The Broker's Codex, we go deeper with tax return analysis frameworks, advanced add-back strategies, multi-entity financial consolidation, and live deal walkthroughs where we analyze real borrower financials and build the DSCR case from scratch. Start your training at [The Broker's Codex](https://learn.lordsoflending.com/pricing).
+This article covers the fundamentals. In Module 4 of our training at [learn.lordsoflending.com](https://learn.lordsoflending.com), we go deeper with tax return analysis frameworks, advanced add-back strategies, multi-entity financial consolidation, and live deal walkthroughs where we analyze real borrower financials and build the DSCR case from scratch.
 
 Once you can read the financials, the next skill is structuring around what you find. Our article on [the art of SBA deal structuring](/art-of-sba-deal-structuring) covers how to turn financial analysis into a deal narrative the credit committee can get behind.
 

@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { PROGRAM_BASICS, ELIGIBLE_USES, REQUIRED_DOCS, TEAM, SITE_CONFIG } from "@/lib/constants";
 import { Button } from "@/components/ui/button";
-import { Check, Phone, Mail, Calendar } from "lucide-react";
+import { Check, Phone, Mail, Calendar, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Loans",
@@ -69,6 +70,22 @@ export default function LoansPage() {
           </div>
         </div>
       </section>
+
+      {/* ── Cross-link: Buying a Business Guide ── */}
+      <div className="bg-[var(--color-surface)] px-6 py-4 md:px-8">
+        <div className="mx-auto max-w-5xl">
+          <Link
+            href="/buying-a-business"
+            className="group flex items-center justify-between rounded-lg border border-[var(--color-border)] bg-[var(--color-dark)] px-5 py-3 transition-all hover:border-[var(--color-gold)]/40"
+          >
+            <p className="text-sm text-white/70">
+              <span className="font-semibold text-white">Planning to buy a business?</span>{" "}
+              Our step-by-step guide walks you through the entire acquisition process.
+            </p>
+            <ArrowRight size={16} className="shrink-0 text-[var(--color-gold)] transition-transform group-hover:translate-x-1" />
+          </Link>
+        </div>
+      </div>
 
       {/* ── Program Basics — Gold gradient with fleur-de-lis ── */}
       <section

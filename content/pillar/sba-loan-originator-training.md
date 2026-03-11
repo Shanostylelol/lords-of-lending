@@ -70,9 +70,9 @@ My honest assessment: the ideal path combines all three. Self-study for your bas
 
 ---
 
-## The Lords of Lending Methodology: How We Train at The Broker's Codex
+## The Lords of Lending Methodology: How We Train
 
-We built The Broker's Codex around a principle that Shane, Steph, and I share despite having very different styles: the best originators are problem-solvers, not salespeople.
+We built the training platform at [learn.lordsoflending.com](https://learn.lordsoflending.com) around a principle that Shane, Steph, and I share despite having very different styles: the best originators are problem-solvers, not salespeople.
 
 > "We think like business owners. We're here to make a deal work, not to find a reason why it doesn't work." — Brian, Lords of Lending Episode #11
 

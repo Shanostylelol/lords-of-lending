@@ -134,7 +134,7 @@ Most lenders require 1.15x to 1.25x minimum. Some are flexible down to 1.10x wit
 
 ### How do I learn SBA deal structuring beyond the basics?
 
-Reading SOPs and guides gets you the framework. But the applied skill — knowing how to structure a deal that anticipates underwriting pushback — comes from practice, mentorship, and structured training. The [Broker's Codex training program](https://learn.lordsoflending.com/pricing) covers deal structuring in Module 5 with real deal walkthroughs, equity injection worksheets, and DSCR stress testing templates that we use on our own transactions. It's the system we built because we couldn't find it anywhere else.
+Reading SOPs and guides gets you the framework. But the applied skill — knowing how to structure a deal that anticipates underwriting pushback — comes from practice, mentorship, and structured training. Our [originator training at learn.lordsoflending.com](https://learn.lordsoflending.com) covers deal structuring in Module 5 with real deal walkthroughs, equity injection worksheets, and DSCR stress testing templates that we use on our own transactions. It's the system we built because we couldn't find it anywhere else.
 
 ---
 

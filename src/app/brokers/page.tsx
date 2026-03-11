@@ -3,6 +3,9 @@ import Image from "next/image";
 import { PROGRAM_BASICS, ELIGIBLE_USES, REQUIRED_DOCS, TEAM, SITE_CONFIG } from "@/lib/constants";
 import { Button } from "@/components/ui/button";
 import { Check, Phone, Mail, Calendar } from "lucide-react";
+import { BrokerJourney } from "@/components/sections/broker-journey";
+import { BrokerBenefits } from "@/components/sections/broker-benefits";
+import { BrokerContentLibrary } from "@/components/sections/broker-content-library";
 
 export const metadata: Metadata = {
   title: "Brokers",
@@ -25,10 +28,15 @@ export default function BrokersPage() {
             className="h-10 w-auto md:h-12"
           />
           <h1 className="mt-4 font-[family-name:var(--font-montserrat)] text-3xl font-bold uppercase tracking-tight md:text-5xl">
-            <span className="text-[var(--color-gold)]">Small Business</span>
+            <span className="text-[var(--color-gold)]">Broker &amp; Originator</span>
             <br />
-            <span className="text-white">Loan Program</span>
+            <span className="text-white">Partner Program</span>
           </h1>
+          <p className="mt-4 max-w-2xl text-lg text-white/60">
+            Competitive referral fees, direct lender access, and the training
+            resources to build a real origination practice. This is how brokers
+            close more SBA deals.
+          </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button href="#contact" className="px-8 py-4 text-base">
               Get Started on Your Deal
@@ -43,6 +51,12 @@ export default function BrokersPage() {
           </div>
         </div>
       </section>
+
+      {/* ── NEW: Broker Journey — 4-step path ── */}
+      <BrokerJourney />
+
+      {/* ── NEW: Broker Benefits — "Why Partner With Us" ── */}
+      <BrokerBenefits />
 
       {/* ── Program Basics — Gold gradient with fleur-de-lis texture ── */}
       <section
@@ -113,6 +127,9 @@ export default function BrokersPage() {
           </div>
         </div>
       </section>
+
+      {/* ── NEW: Originator Training Content Library ── */}
+      <BrokerContentLibrary />
 
       {/* ── Required Docs — Dark section ── */}
       <section className="bg-[var(--color-dark)] px-6 py-16 md:px-8 md:py-20">

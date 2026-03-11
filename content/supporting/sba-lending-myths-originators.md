@@ -166,4 +166,4 @@ Every deal you walk away from because of a myth is a deal someone else closes. E
 
 The SBA 7(a) program is one of the most powerful lending tools in the country. But that power is only accessible to originators who understand the reality well enough to act on it — not the myths well enough to be paralyzed by them.
 
-If you're ready to build the real skills — not the myth version, the real version — [The Broker's Codex](https://learn.lordsoflending.com/pricing) covers the complete origination system from sourcing to closing. It's the training we built because the myths have gone unchallenged for too long.
+If you're ready to build the real skills — not the myth version, the real version — the training at [learn.lordsoflending.com](https://learn.lordsoflending.com) covers the complete origination system from sourcing to closing. We built it because the myths have gone unchallenged for too long.

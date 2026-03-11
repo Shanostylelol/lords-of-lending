@@ -51,14 +51,19 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/buying-a-business" className="text-sm text-white/60 transition-colors hover:text-white">
+                  Buy a Business
+                </Link>
+              </li>
+              <li>
                 <Link href="/sba-lending-this-week" className="text-sm text-white/60 transition-colors hover:text-white">
                   SBA Lending This Week
                 </Link>
               </li>
               <li>
-                <Link href="/the-brokers-codex" className="text-sm text-white/60 transition-colors hover:text-white">
-                  The Broker&apos;s Codex
-                </Link>
+                <a href="https://learn.lordsoflending.com" target="_blank" rel="noopener noreferrer" className="text-sm text-white/60 transition-colors hover:text-white">
+                  Originator Training
+                </a>
               </li>
               <li>
                 <Link href="/brokers" className="text-sm text-white/60 transition-colors hover:text-white">

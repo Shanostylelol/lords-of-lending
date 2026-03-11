@@ -90,7 +90,7 @@ The number one killer of new brokers is lack of urgency. They think they have ti
 
 I had a borrower last month who found me through a LinkedIn post I wrote about the SBA's equity injection requirements. Tech executive making $180K at his day job, trying to buy a $2 million landscaping company. No one in his network knew anything about SBA lending. His CPA had no clue. His financial advisor had never heard of a change-of-ownership transaction. That borrower became a deal because I was in the right place with the right information at the right time. That is what pipeline building looks like in practice. Not theory. Not a funnel diagram on a whiteboard. A human being with a real problem finding you because you showed up with the answer before they even knew the question.
 
-Module 7 (Building Pipeline) inside [The Broker's Codex](https://learn.lordsoflending.com/pricing) goes deep on each of these channels with exact scripts and follow-up cadences. I am giving you the framework here, but the execution details are what separate the people who build real businesses from the people who give up after 90 days.
+Module 7 (Building Pipeline) inside our [originator training at learn.lordsoflending.com](https://learn.lordsoflending.com) goes deep on each of these channels with exact scripts and follow-up cadences. I am giving you the framework here, but the execution details are what separate the people who build real businesses from the people who give up after 90 days.
 
 ---
 
@@ -118,7 +118,7 @@ Here is where I get fired up. The training situation for SBA lending is pathetic
 
 ### Phase 1: Foundation (Weeks 1-4)
 
-Learn the SBA programs inside and out: 7(a), 504, Express, Community Advantage. Eligibility, size standards, use of proceeds, guarantee requirements. This is what Module 1 in [The Broker's Codex](https://learn.lordsoflending.com/pricing) covers. If a borrower asks "what is the max 7(a) loan amount?" and you hesitate, you have already lost their confidence.
+Learn the SBA programs inside and out: 7(a), 504, Express, Community Advantage. Eligibility, size standards, use of proceeds, guarantee requirements. This is what Module 1 in our [originator training at learn.lordsoflending.com](https://learn.lordsoflending.com) covers. If a borrower asks "what is the max 7(a) loan amount?" and you hesitate, you have already lost their confidence.
 
 ### Phase 2: Credit and Deal Analysis (Weeks 5-8)
 
@@ -208,7 +208,7 @@ Food service, hospitality, healthcare practices, professional services, skilled 
 
 ### Do I need a college degree?
 
-No. What matters is whether you know the SBA programs and can get a deal from application to close. A finance or accounting background helps. If you do not have one, we built [The Broker's Codex](https://learn.lordsoflending.com/pricing) to fill that gap.
+No. What matters is whether you know the SBA programs and can get a deal from application to close. A finance or accounting background helps. If you do not have one, we built the training at [learn.lordsoflending.com](https://learn.lordsoflending.com) to fill that gap.
 
 ### Is SBA lending a good long-term career?
 
@@ -228,8 +228,8 @@ If you like working directly with people, if you can handle rejection and long s
 
 I am not going to pretend this is easy. The learning curve is steep and the first year is lean. But the SBA lending market is growing, the demand for competent originators exceeds the supply, and the business owners who need your help are out there right now with no one to guide them.
 
-We built The Broker's Codex because Brian and Steph and I got tired of watching good people fail for preventable reasons. Bad training, no mentorship, no one to call when a deal hits a wall. We took the playbook from our combined 50-plus years and turned it into something you can learn in months, not decades.
+We built the training platform at [learn.lordsoflending.com](https://learn.lordsoflending.com) because Brian and Steph and I got tired of watching good people fail for preventable reasons. Bad training, no mentorship, no one to call when a deal hits a wall. We took the playbook from our combined 50-plus years and turned it into something you can learn in months, not decades.
 
 If that is you, get moving. Tomorrow is a promise nobody made you.
 
-**[Start your SBA originator training at The Broker's Codex →](https://learn.lordsoflending.com/pricing)**
+**[Start your SBA originator training at learn.lordsoflending.com →](https://learn.lordsoflending.com)**

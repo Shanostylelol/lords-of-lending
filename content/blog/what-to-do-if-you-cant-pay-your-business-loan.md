@@ -81,3 +81,11 @@ This rebuild isn't about getting back to where you were. It's about moving forwa
 And if you manage to turn it around? You'll never run your business the same way again. You'll operate leaner. You'll watch debt closer. You'll know what real risk feels like. That's not failure. That's scar tissue. And it has a funny way of making your next move stronger than your first.
 
 For better cash flow visibility and leaner ops, get real-time insights using [Xero](https://www.xero.com/us/) or [QuickBooks Online](https://quickbooks.intuit.com/).
+
+---
+
+## Related Resources
+
+- **[SBA Loan Denial: Why It Happens and What to Do Next](/sba-loan-denied)** — If you're being denied a new loan or refinance, this covers the specific reasons and the recovery path.
+- **[The Complete Guide to SBA 7(a) Loans](/complete-guide-sba-7a-loans)** — Understanding how the SBA guarantee works helps you negotiate better with your lender during restructuring conversations.
+- **[Why Most SBA Deals Fall Apart (And How to Save Them)](/why-sba-deals-fall-apart)** — Prevention is cheaper than recovery. This covers the deal-killers to watch for before things go sideways.

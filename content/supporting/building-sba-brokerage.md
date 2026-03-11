@@ -126,7 +126,7 @@ I know it sounds premature to think about exit planning when you're just startin
 
 Document your processes. Build training materials. Make sure your lender relationships are held at the company level, not just in your phone contacts. If a private equity firm or a larger brokerage wanted to acquire your shop in 5 years, could they? If the answer is no because everything lives in your head, that's a problem you should fix now, not later.
 
-The [Broker's Codex](https://learn.lordsoflending.com/pricing) covers all of this in Module 8: Business Building — from entity formation and compliance through hiring frameworks, compensation templates, and the operational playbooks we've built for scaling an SBA brokerage. It's the business-within-the-business curriculum that turns a solo originator into a [real SBA lending operation](/sba-loan-originator-training).
+The training at [learn.lordsoflending.com](https://learn.lordsoflending.com) covers all of this in Module 8: Business Building — from entity formation and compliance through hiring frameworks, compensation templates, and the operational playbooks we've built for scaling an SBA brokerage. It's the business-within-the-business curriculum that turns a solo originator into a [real SBA lending operation](/sba-loan-originator-training).
 
 ---
 

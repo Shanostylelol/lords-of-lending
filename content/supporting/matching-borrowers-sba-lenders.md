@@ -199,7 +199,7 @@ Guys, I've placed thousands of SBA deals over 25 years. The pattern is consisten
 
 Ownership isn't deserved, it's earned. And earning it as an originator means putting in the work to know your lenders cold — their appetites, their speed, their quirks, and their people. That's how you go from closing some deals to closing the right deals, consistently, with fewer surprises and faster timelines.
 
-If you want the complete origination system — sourcing, qualifying, packaging, structuring, and lender placement — [The Broker's Codex](https://learn.lordsoflending.com/pricing) covers it end to end. Matching the right borrower to the right lender is the skill that separates amateurs from professionals.
+If you want the complete origination system — sourcing, qualifying, packaging, structuring, and lender placement — the training at [learn.lordsoflending.com](https://learn.lordsoflending.com) covers it end to end. Matching the right borrower to the right lender is the skill that separates amateurs from professionals.
 
 Once you know which lender to use, the next bottleneck is your documentation. Our [complete SBA documentation checklist](/complete-sba-documentation-checklist) has every form organized the way experienced originators build their packages — submit a clean file on the first pass and you'll stand out from every broker spraying deals across 15 banks.
 

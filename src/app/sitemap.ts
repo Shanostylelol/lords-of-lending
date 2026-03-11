@@ -6,7 +6,7 @@ import { INDUSTRY_DATA } from "@/lib/industry-data";
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = SITE_CONFIG.url;
 
-  const siteLastModified = new Date("2026-03-10");
+  const siteLastModified = new Date("2026-03-11");
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: base, lastModified: siteLastModified, changeFrequency: "weekly", priority: 1.0 },
@@ -14,7 +14,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog`, lastModified: siteLastModified, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/podcast`, lastModified: siteLastModified, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/contact`, lastModified: siteLastModified, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${base}/the-brokers-codex`, lastModified: siteLastModified, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/leave-a-testimonial`, lastModified: siteLastModified, changeFrequency: "monthly", priority: 0.4 },
     { url: `${base}/privacy-policy`, lastModified: new Date("2026-03-09"), changeFrequency: "yearly", priority: 0.2 },
     { url: `${base}/terms-of-use`, lastModified: new Date("2026-03-09"), changeFrequency: "yearly", priority: 0.2 },
@@ -26,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/tools/sba-loan-calculator`, lastModified: siteLastModified, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/tools/dscr-calculator`, lastModified: siteLastModified, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/tools/sba-eligibility-checker`, lastModified: siteLastModified, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/buying-a-business`, lastModified: siteLastModified, changeFrequency: "monthly", priority: 0.9 },
   ];
 
   const blogPages: MetadataRoute.Sitemap = BLOG_POSTS.map((post) => ({
