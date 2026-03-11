@@ -309,6 +309,10 @@ export default async function ContentPage({ params }: Props) {
             {post.title}
           </h1>
 
+          <div className="mt-3">
+            <SocialShare url={`${SITE_CONFIG.url}/${slug}`} title={post.title} />
+          </div>
+
           <div className="relative mt-8 aspect-video overflow-hidden rounded-xl">
             <Image
               src={post.image}
@@ -573,6 +577,10 @@ export default async function ContentPage({ params }: Props) {
           <p className="mt-3 text-sm text-white/50">
             By {authorName}
           </p>
+
+          <div className="mt-3">
+            <SocialShare url={`${SITE_CONFIG.url}/${slug}`} title={article.title} />
+          </div>
 
           {content ? (
             <>
