@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: SITE_CONFIG.name,
     images: [
       {
-        url: "/images/heroes/sba-loan-calculator.webp",
+        url: "/images/pillar/complete-guide-sba-7a-loans.webp",
         width: 1200,
         height: 630,
         alt: "SBA Loan Payment Calculator",

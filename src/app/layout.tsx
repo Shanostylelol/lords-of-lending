@@ -47,7 +47,7 @@ export const metadata: Metadata = {
       "The #1 resource for SBA lending education, broker training, and small business financing tools. Podcast, articles, and a learning platform.",
     url: "https://lordsoflending.com",
     siteName: "Lords of Lending",
-    images: [{ url: "/images/logos/wordmark-vert.png", width: 800, height: 1036 }],
+    images: [{ url: "/images/pillar/complete-guide-sba-7a-loans.webp", width: 1200, height: 630 }],
     type: "website",
     locale: "en_US",
   },
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     title: "SBA Lending Knowledge & Originator Training - Lords of Lending",
     description:
       "The #1 resource for SBA lending education, broker training, and small business financing tools.",
-    images: ["/images/logos/wordmark-vert.png"],
+    images: ["/images/pillar/complete-guide-sba-7a-loans.webp"],
   },
   robots: { index: true, follow: true },
   alternates: { canonical: "https://lordsoflending.com" },

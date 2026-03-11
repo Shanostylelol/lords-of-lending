@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "Lords of Lending",
     images: [
       {
-        url: "/images/heroes/sba-eligibility-checker.webp",
+        url: "/images/pillar/complete-guide-sba-7a-loans.webp",
         width: 1200,
         height: 630,
       },
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: pageTitle,
     description: pageDescription,
-    images: ["/images/heroes/sba-eligibility-checker.webp"],
+    images: ["/images/pillar/complete-guide-sba-7a-loans.webp"],
   },
 };
 

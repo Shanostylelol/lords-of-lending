@@ -15,7 +15,7 @@ export const metadata: Metadata = {
       "Free DSCR calculator for SBA loans. Calculate your Debt Service Coverage Ratio instantly and see if your deal qualifies.",
     url: `${SITE_CONFIG.url}/tools/dscr-calculator`,
     siteName: SITE_CONFIG.name,
-    images: [{ url: "/images/heroes/dscr-calculator.webp", width: 1200, height: 630 }],
+    images: [{ url: "/images/supporting/art-of-sba-deal-structuring.webp", width: 1200, height: 630 }],
     type: "website",
   },
 };
