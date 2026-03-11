@@ -2,12 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { ChevronDown } from "lucide-react";
-
-interface TocItem {
-  id: string;
-  text: string;
-  level: 2 | 3;
-}
+import type { TocItem } from "@/lib/extract-headings";
 
 interface TableOfContentsProps {
   items: TocItem[];
@@ -103,24 +98,4 @@ export function TableOfContents({ items }: TableOfContentsProps) {
       </aside>
     </>
   );
-}
-
-/** Parse markdown content to extract H2/H3 headings for TOC */
-export function extractHeadings(markdown: string): TocItem[] {
-  const headingRegex = /^(#{2,3})\s+(.+)$/gm;
-  const items: TocItem[] = [];
-  let match: RegExpExecArray | null;
-
-  while ((match = headingRegex.exec(markdown)) !== null) {
-    const level = match[1].length as 2 | 3;
-    const text = match[2].replace(/\*\*/g, "").replace(/\*/g, "").trim();
-    const id = text
-      .toLowerCase()
-      .replace(/[^a-z0-9\s-]/g, "")
-      .replace(/\s+/g, "-")
-      .replace(/-+/g, "-");
-    items.push({ id, text, level });
-  }
-
-  return items;
 }

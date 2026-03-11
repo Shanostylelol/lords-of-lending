@@ -25,8 +25,10 @@ import {
 } from "@/lib/structured-data";
 import { TranscriptToggle } from "@/components/ui/transcript-toggle";
 import { AuthorBio } from "@/components/ui/author-bio";
-import { TableOfContents, extractHeadings } from "@/components/ui/table-of-contents";
+import { TableOfContents } from "@/components/ui/table-of-contents";
+import { extractHeadings } from "@/lib/extract-headings";
 import { Breadcrumb } from "@/components/ui/breadcrumb";
+import { RelatedArticles } from "@/components/sections/related-articles";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -588,6 +590,24 @@ export default async function ContentPage({ params }: Props) {
             </div>
           )}
 
+          {(() => {
+            const allArticles = [...PILLAR_ARTICLES, ...SUPPORTING_ARTICLES];
+            const related = allArticles
+              .filter((a) => a.slug !== article.slug && a.cluster === article.cluster)
+              .slice(0, 3);
+            return related.length > 0 ? (
+              <RelatedArticles
+                articles={related.map((a) => ({
+                  slug: a.slug,
+                  title: a.title,
+                  image: a.image,
+                  excerpt: a.excerpt,
+                  category: a.category,
+                }))}
+              />
+            ) : null;
+          })()}
+
           <AuthorBio author={article.author} />
         </article>
       </main>
@@ -701,16 +721,14 @@ export default async function ContentPage({ params }: Props) {
             </div>
             <h2 className="mt-10 mb-4 font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white">Frequently Asked Questions</h2>
             <div className="space-y-4">{faqs.map((faq) => <div key={faq.q} className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-4"><h3 className="text-sm font-semibold text-white">{faq.q}</h3><p className="mt-2 text-sm text-white/60">{faq.a}</p></div>)}</div>
-            {(relatedArticleLinks.length > 0 || relatedEpisodeLinks.length > 0) && (
-              <div className="mt-8 space-y-3 text-sm">
-                <p className="font-semibold text-white/80">Related Resources</p>
-                <ul className="space-y-1">
-                  <li><Link href="/complete-guide-sba-7a-loans" className="text-[var(--color-gold)] underline hover:text-[var(--color-gold-dark)]">The Complete Guide to SBA 7(a) Loans in 2026</Link></li>
-                  {relatedArticleLinks.map((link) => <li key={link.slug}><Link href={`/${link.slug}`} className="text-[var(--color-gold)] underline hover:text-[var(--color-gold-dark)]">{link.title}</Link></li>)}
-                  {relatedEpisodeLinks.map((link) => <li key={link.slug}><Link href={`/${link.slug}`} className="text-[var(--color-gold)] underline hover:text-[var(--color-gold-dark)]">{link.title}</Link></li>)}
-                </ul>
-              </div>
-            )}
+            {(() => {
+              const sba7aPillar = PILLAR_ARTICLES.find((a) => a.slug === "complete-guide-sba-7a-loans");
+              const relatedCards = [
+                ...(sba7aPillar ? [{ slug: sba7aPillar.slug, title: sba7aPillar.title, image: sba7aPillar.image, excerpt: sba7aPillar.excerpt, category: sba7aPillar.category }] : []),
+                ...relatedArticleLinks.map((link) => { const a = allContent.find((c) => c.slug === link.slug) as ContentMeta | undefined; return a ? { slug: a.slug, title: a.title, image: a.image, excerpt: a.excerpt, category: a.category } : null; }).filter(Boolean) as { slug: string; title: string; image: string; excerpt: string; category: string }[],
+              ].slice(0, 3);
+              return relatedCards.length > 0 ? <RelatedArticles articles={relatedCards} heading="Related Resources" /> : null;
+            })()}
             <div className="mt-12 rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-6 text-center">
               <p className="font-[family-name:var(--font-montserrat)] text-lg font-bold text-white">Need Help with a {industry.shortName} SBA Deal?</p>
               <p className="mt-2 text-sm text-white/60">Our team has closed hundreds of {industry.name.toLowerCase()} deals. Let us help you structure yours.</p>
