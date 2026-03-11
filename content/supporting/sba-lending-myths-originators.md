@@ -80,7 +80,7 @@ For the full training path — building skills, pipeline, and lender networks �
 
 Too competitive? Are you freaking kidding me?
 
-The SBA 7(a) program did over $100 billion in government-guaranteed lending last year. There are approximately 33 million small businesses in the United States. The percentage of those businesses that have ever used an SBA loan is in the low single digits. The addressable market is enormous and wildly underserved.
+The SBA backed over $100 billion in government-guaranteed lending last year — with the 7(a) program alone accounting for roughly $45 billion. There are approximately 33 million small businesses in the United States. The percentage of those businesses that have ever used an SBA loan is in the low single digits. The addressable market is enormous and wildly underserved.
 
 There aren't enough competent SBA originators to meet the demand. Not even close. Ask any business broker who's trying to get a deal financed and they'll tell you — finding an originator who actually knows what they're doing, who can structure a deal correctly, who can get a file through underwriting without three rounds of conditions, who picks up the damn phone when you call — that person is rare. That person is gold.
 

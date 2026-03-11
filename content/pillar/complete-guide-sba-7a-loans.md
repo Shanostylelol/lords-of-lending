@@ -102,7 +102,7 @@ So for a loan over $350,000, you're looking at a maximum rate of roughly **10.50
 
 Here's something most borrowers miss: SBA 7(a) rates are almost always **variable**. They adjust quarterly based on Prime. That means if rates drop, your payment drops. But if rates rise, so does your payment. Some lenders offer fixed-rate options on certain 7(a) products, but they're less common and often come at a premium.
 
-Shane Pierson — who built his career on the credit side of SBA lending — frames the current rate environment this way:
+Shane — who built his career on the credit side of SBA lending — frames the current rate environment this way:
 
 > "I look at 2025 as kinda like the black card — you're out to dinner with your friends and there's that one guy who's just like, just put it on the black card. 2026 is more like the friend that says, how are we gonna pay this back?"
 

@@ -8,9 +8,9 @@ What's driving it? A few things. Business acquisition activity is up — baby bo
 
 Our take: if you're an originator and your pipeline isn't growing right now, it's a sourcing problem, not a market problem. There are deals everywhere. The question is whether you're positioned to find them.
 
-### New SBA Express Loan Limit Raised to $500K
+### SBA Express Loans: What Originators Need to Know About the $500K Cap
 
-Big news for the small-deal crowd: the SBA Express loan limit has been raised to $500K, up from $350K. Express loans are the SBA's faster-turnaround product — lenders can use their own credit process instead of going through full SBA underwriting, which means quicker approvals and less paperwork.
+Quick refresher on a program more originators should be using: the SBA Express loan cap sits at $500K. Express loans are the SBA's faster-turnaround product — lenders can use their own credit process instead of going through full SBA underwriting, which means quicker approvals and less paperwork.
 
 For borrowers, this means working capital, equipment purchases, and smaller expansion projects just got easier to finance. For originators, it means you've got a new tool in the belt for deals that don't need a full 7(a) but are too big for a conventional line.
 

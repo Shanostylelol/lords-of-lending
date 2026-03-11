@@ -15,7 +15,7 @@ I've seen deals die because a borrower got so frustrated with repeated document 
 
 Every individual who owns 20% or more of the business is a guarantor on the SBA loan. Each guarantor needs to provide:
 
-- [ ] **SBA Form 1919 (Borrower Information Form)** — This replaced the old Form 912 and Form 413. It collects personal background, criminal history disclosure, and personal financial information in one form. Every guarantor fills this out.
+- [ ] **SBA Form 1919 (Borrower Information Form)** — This replaced the old Forms 4 and 4-Schedule A. It collects personal background, criminal history disclosure, and personal financial information in one form. Every guarantor fills this out.
 - [ ] **Personal tax returns (3 years)** — Federal returns including all schedules and K-1s. If the guarantor is married and files jointly, both spouses' returns are needed.
 - [ ] **Personal financial statement** — Some lenders accept the SBA 1919 for this; others want their own PFS format. Ask the lender which they prefer.
 - [ ] **Resume or CV** — Demonstrates relevant industry and management experience. This matters more than people realize — lenders want to see that the borrower can actually run the business.
@@ -142,7 +142,7 @@ If the business is newer, provide whatever exists. Startups with no tax history 
 Yes, and in some cases you should. Different lenders have different appetites for industry, deal size, and risk level. Just be transparent about it — most lenders understand and appreciate honesty about a competitive process. Submitting to 2-3 lenders simultaneously can significantly reduce overall timeline risk.
 
 ### What's the most commonly missing document?
-K-1 schedules from tax returns and the SBA Form 1919 (because it replaced two older forms and borrowers sometimes fill out the wrong version). Having a current template and clear instructions eliminates both issues.
+K-1 schedules from tax returns and the SBA Form 1919 (because it replaced Forms 4 and 4-Schedule A and borrowers sometimes fill out the wrong version). Having a current template and clear instructions eliminates both issues.
 
 ---
 

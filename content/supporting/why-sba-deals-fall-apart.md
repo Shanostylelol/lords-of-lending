@@ -2,7 +2,7 @@
 title: Why Most SBA Deals Fall Apart (And How to Save Them)
 slug: why-sba-deals-fall-apart
 date: 2026-03-10
-author: Shane Duffey
+author: shane
 description: The 8 deal killers that destroy SBA transactions before they close — and what experienced originators do to save a dying deal.
 keywords: [SBA deal problems, SBA loan issues, SBA deal killers, SBA closing problems]
 tags: [SBA loans, deal structuring, origination, underwriting, acquisitions]
@@ -90,7 +90,7 @@ Picking the wrong lender doesn't just waste time — it can burn a credit inquir
 
 Not every troubled deal needs to die. Some of them can be salvaged — but only if you move fast and get creative.
 
-**Restructure the equity injection.** If the buyer is short on cash, explore alternative sources. A 401(k) rollover through a ROBS (Rollout for Business Startups) structure can convert retirement funds into equity without early withdrawal penalties. Gifts from family members can work if they're properly documented with a gift letter. In some cases, adjusting the purchase price or restructuring the seller note can reduce the equity requirement.
+**Restructure the equity injection.** If the buyer is short on cash, explore alternative sources. A 401(k) rollover through a ROBS (Rollover for Business Startups) structure can convert retirement funds into equity without early withdrawal penalties. Gifts from family members can work if they're properly documented with a gift letter. In some cases, adjusting the purchase price or restructuring the seller note can reduce the equity requirement.
 
 **Renegotiate the LOI.** If the valuation came back low, go back to the seller with data. Show them the appraisal methodology and ask whether they'll adjust. Sometimes sellers will bridge the gap with a larger seller note on standby. Sometimes they'll reduce the price. And sometimes the deal just doesn't work at the original terms — and that's okay. Better to know now than at the closing table.
 

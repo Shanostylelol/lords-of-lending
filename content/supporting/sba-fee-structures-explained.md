@@ -38,7 +38,7 @@ The best practice: give borrowers a realistic range early. Not an exact number, 
 
 ## How Originators Get Paid
 
-The standard model: the **lender** pays you a referral fee at closing, from their revenue on the transaction. The borrower should not be paying a separate broker fee — that's a compliance issue and a relationship-killer.
+The standard model: the **lender** pays you a referral fee at closing, from their revenue on the transaction. Borrower-paid broker fees are also permitted under SBA rules, but they must be reasonable, fully disclosed to the lender, and documented in a written fee agreement — see our [SBA referral fee structures guide](/sba-referral-fee-structures) for the full breakdown.
 
 Typical referral fees range from **0.5% to 1.5%** depending on loan size, lender, deal complexity, and your relationship volume. On a $1M deal at 1%, that's $10,000. On a $3M deal at 1.25%, that's $37,500.
 
