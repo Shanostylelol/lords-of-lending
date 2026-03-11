@@ -21,8 +21,6 @@ export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
 
-  if (HIDDEN_NAV_PAGES.has(pathname)) return null;
-
   const hasDarkHero = DARK_HERO_PAGES.has(pathname);
   /* Always dark nav — black bg with white text */
   const isLight = false;
@@ -52,6 +50,8 @@ export function Navbar() {
 
   const openSearch = useCallback(() => setSearchOpen(true), []);
   const closeSearch = useCallback(() => setSearchOpen(false), []);
+
+  if (HIDDEN_NAV_PAGES.has(pathname)) return null;
 
   return (
     <>
