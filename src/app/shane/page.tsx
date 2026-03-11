@@ -89,43 +89,37 @@ const CAREER = [
 
 /* ─── Stats ───────────────────────────────────────────────────────────── */
 const STATS = [
-  { value: "4", label: "SBA Departments Built", icon: Building2 },
+  { value: "5", label: "Institutions", icon: Building2 },
   { value: "$500M+", label: "Capital Deployed", icon: TrendingUp },
-  { value: "20+", label: "Published Articles", icon: BookOpen },
+  { value: "4", label: "Departments Built from Zero", icon: Landmark },
   { value: "15", label: "Training Modules Authored", icon: Award },
 ];
 
-/* ─── Core Competencies ───────────────────────────────────────────────── */
-const COMPETENCIES = [
+/* ─── What I Deliver ──────────────────────────────────────────────────── */
+const DELIVERABLES = [
   {
     icon: Landmark,
-    title: "SBA Department Architecture",
-    desc: "Four ground-up SBA department launches — credit policy, operational systems, staffing models, and regulatory alignment from first hire to first funded deal.",
+    title: "A Fully Built SBA Department",
+    outcome: "Credit policy, operational systems, staffing models, and regulatory alignment — from first hire to first funded deal.",
+    detail: "Done it four times. Each one passed examiner scrutiny.",
   },
   {
     icon: Shield,
-    title: "Safe & Sound Lending Principles",
-    desc: "Every department built on a foundation of credit discipline, fiduciary responsibility, and regulatory compliance that withstands examiner scrutiny.",
+    title: "Examiner-Ready Infrastructure",
+    outcome: "Every policy, procedure, and decision framework documented and defensible before the first loan books.",
+    detail: "Safe and sound lending isn't a talking point — it's the architecture.",
   },
   {
     icon: Target,
-    title: "National Sales Strategy",
-    desc: "Designed and deployed national originator networks, broker channel programs, and go-to-market strategies that scale portfolios efficiently.",
+    title: "A National Origination Network",
+    outcome: "Broker channels, referral partner programs, and go-to-market strategies that produce consistent, qualified deal flow.",
+    detail: "Built to scale without compromising credit discipline.",
   },
   {
     icon: Users,
-    title: "Team & Process Development",
-    desc: "From The Lending Ethos to 15-module originator training — creating the systems, procedures, and human capital that sustain long-term growth.",
-  },
-  {
-    icon: Code,
-    title: "Technology & Innovation",
-    desc: "Founder of Fitech Ventures LLC — building lending technology, process automation, and business intelligence tools that modernize SBA operations.",
-  },
-  {
-    icon: Mic,
-    title: "Published Authority",
-    desc: "Co-host of the Lords of Lending podcast, author of The Broker's Codex, and contributor to Scotsman Guide — educating the next generation of originators.",
+    title: "Trained, Accountable Teams",
+    outcome: "15-module training system, operating procedures, and performance frameworks that make the department run without you.",
+    detail: "The department shouldn't depend on any one producer.",
   },
 ];
 
@@ -216,6 +210,31 @@ export default function ShanePiersonPage() {
         </div>
       </section>
 
+      {/* ═══ PULL QUOTE ════════════════════════════════════════════════ */}
+      <section
+        className="px-4 py-10 sm:px-6 sm:py-14 md:px-8 md:py-16"
+        style={{ background: C.nearBlack }}
+      >
+        <div className="mx-auto max-w-3xl text-center">
+          <div
+            className="mx-auto mb-4 h-px w-16"
+            style={{ background: C.gold }}
+          />
+          <blockquote
+            className="font-[family-name:var(--font-montserrat)] text-xl font-medium leading-relaxed tracking-tight text-white/90 italic sm:text-2xl md:text-3xl"
+          >
+            &ldquo;I don&rsquo;t build departments to hit a number. I build them to withstand an exam.&rdquo;
+          </blockquote>
+          <p className="mt-4 text-sm font-medium tracking-wide" style={{ color: C.gold }}>
+            — Shane Pierson
+          </p>
+          <div
+            className="mx-auto mt-4 h-px w-16"
+            style={{ background: C.gold }}
+          />
+        </div>
+      </section>
+
       {/* ═══ EXECUTIVE SUMMARY ════════════════════════════════════════ */}
       <section className="px-4 py-12 sm:px-6 sm:py-16 md:px-8 md:py-24" style={{ background: C.offWhite }}>
         <div className="mx-auto max-w-4xl">
@@ -272,40 +291,50 @@ export default function ShanePiersonPage() {
         </div>
       </section>
 
-      {/* ═══ COMPETENCIES ═════════════════════════════════════════════ */}
+      {/* ═══ WHAT I DELIVER ════════════════════════════════════════════ */}
       <section
         className="px-4 py-12 sm:px-6 sm:py-16 md:px-8 md:py-24"
         style={{ background: C.nearBlack }}
       >
-        <div className="mx-auto max-w-6xl">
+        <div className="mx-auto max-w-5xl">
           <div className="text-center">
             <span
               className="inline-block rounded-full px-4 py-1.5 text-xs font-bold tracking-widest uppercase"
               style={{ background: `${C.gold}20`, color: C.goldLight }}
             >
-              Core Competencies
+              What I Bring to an Institution
             </span>
             <h2 className="mt-4 font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white sm:text-3xl md:text-4xl">
-              Discipline. Infrastructure. Results.
+              Outcomes, Not Promises
             </h2>
           </div>
 
-          <div className="mt-8 grid gap-4 sm:mt-12 sm:gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {COMPETENCIES.map((c) => (
+          <div className="mt-8 grid gap-4 sm:mt-12 sm:gap-5 md:grid-cols-2">
+            {DELIVERABLES.map((d) => (
               <div
-                key={c.title}
-                className="rounded-xl border p-4 transition-all hover:border-[var(--color-gold)] sm:p-6"
+                key={d.title}
+                className="group rounded-xl border p-5 transition-all hover:border-white/20 sm:p-7"
                 style={{
                   background: "#252222",
                   borderColor: "#3A3636",
                 }}
               >
-                <c.icon size={28} style={{ color: C.gold }} />
-                <h3 className="mt-4 font-[family-name:var(--font-montserrat)] text-lg font-bold text-white">
-                  {c.title}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed" style={{ color: "#9A918D" }}>
-                  {c.desc}
+                <div className="flex items-center gap-3">
+                  <div
+                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg"
+                    style={{ background: `${C.gold}18` }}
+                  >
+                    <d.icon size={20} style={{ color: C.gold }} />
+                  </div>
+                  <h3 className="font-[family-name:var(--font-montserrat)] text-base font-bold text-white sm:text-lg">
+                    {d.title}
+                  </h3>
+                </div>
+                <p className="mt-3 text-sm leading-relaxed text-white/70">
+                  {d.outcome}
+                </p>
+                <p className="mt-2 text-xs font-medium italic" style={{ color: C.gold }}>
+                  {d.detail}
                 </p>
               </div>
             ))}
@@ -410,101 +439,122 @@ export default function ShanePiersonPage() {
       {/* ═══ PUBLISHED ARTICLES (Interactive) ════════════════════════ */}
       <PublishedWork />
 
-      {/* ═══ TECHNOLOGY & VENTURES ════════════════════════════════════ */}
-      <section
-        className="px-4 py-12 sm:px-6 sm:py-16 md:px-8 md:py-24"
-        style={{ background: C.nearBlack }}
-      >
-        <div className="mx-auto max-w-4xl text-center">
-          <span
-            className="inline-block rounded-full px-4 py-1.5 text-xs font-bold tracking-widest uppercase"
-            style={{ background: `${C.gold}20`, color: C.goldLight }}
-          >
-            Innovation
-          </span>
-          <h2 className="mt-4 font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white sm:text-3xl md:text-4xl">
-            Where Banking Meets Technology
-          </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-sm sm:mt-4 sm:text-base" style={{ color: "#9A918D" }}>
-            Through <strong className="text-white">Fitech Ventures LLC</strong>, Shane builds the
-            lending technology, process automation, and business intelligence tools that modern SBA
-            operations demand. From CRM integrations to borrower-facing platforms, the mission is
-            the same: remove friction, increase transparency, and help lenders do what they do best.
-          </p>
-
-          <div className="mt-8 grid gap-4 sm:mt-10 sm:gap-6 md:grid-cols-2">
-            {[
-              {
-                title: "Lords of Lending",
-                desc: "SBA lending education platform, podcast, and the industry's most comprehensive originator training library.",
-                link: "/",
-              },
-              {
-                title: "15-Module Training System",
-                desc: "A comprehensive SBA origination sales strategy and go-to-market plan covering every phase of the lending lifecycle.",
-                link: null,
-              },
-            ].map((v) => (
-              <div
-                key={v.title}
-                className="rounded-xl border p-4 text-left sm:p-6"
-                style={{ background: "#252222", borderColor: "#3A3636" }}
-              >
-                <h3 className="font-[family-name:var(--font-montserrat)] text-base font-bold text-white">
-                  {v.title}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed" style={{ color: "#9A918D" }}>
-                  {v.desc}
-                </p>
-                {v.link && (
-                  <Link
-                    href={v.link}
-                    className="mt-4 inline-flex items-center gap-1 text-sm font-semibold transition-colors hover:underline"
-                    style={{ color: C.gold }}
-                  >
-                    Learn more <ChevronRight size={14} />
-                  </Link>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══ PODCAST CALLOUT ══════════════════════════════════════════ */}
+      {/* ═══ ALSO ════════════════════════════════════════════════════ */}
       <section
         className="px-4 py-12 sm:px-6 sm:py-16 md:px-8 md:py-20"
-        style={{
-          background: `linear-gradient(135deg, ${C.maroon} 0%, ${C.nearBlack} 100%)`,
-        }}
+        style={{ background: C.nearBlack }}
       >
-        <div className="mx-auto flex max-w-5xl flex-col items-center gap-6 sm:gap-8 md:flex-row">
-          <div className="shrink-0">
-            <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-white/10 sm:h-24 sm:w-24">
-              <Mic size={32} className="sm:!h-10 sm:!w-10" style={{ color: C.goldLight }} />
-            </div>
-          </div>
-          <div className="text-center md:text-left">
-            <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white sm:text-2xl md:text-3xl">
-              Lords of Lending Podcast
-            </h2>
-            <p className="mt-2 max-w-xl text-base text-white/70">
-              Shane, Stephanie Dunn, and Brian Congelliere break down SBA lending every week — real
-              deals, real strategies, and the conversations lenders have behind closed doors.
-            </p>
-          </div>
-          <div className="shrink-0">
+        <div className="mx-auto max-w-4xl">
+          <div className="grid gap-4 sm:gap-6 md:grid-cols-3">
+            {/* Podcast */}
             <Link
               href="/podcast"
-              className="inline-flex items-center gap-2 rounded-lg px-6 py-3 font-[family-name:var(--font-montserrat)] text-sm font-bold text-white transition-all hover:shadow-lg"
-              style={{ background: C.gold }}
+              className="group flex items-start gap-4 rounded-xl border p-5 transition-all hover:border-white/20 sm:p-6"
+              style={{ background: "#252222", borderColor: "#3A3636" }}
             >
-              Listen Now
-              <ChevronRight size={16} />
+              <div
+                className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg"
+                style={{ background: `${C.gold}18` }}
+              >
+                <Mic size={18} style={{ color: C.gold }} />
+              </div>
+              <div>
+                <h3 className="font-[family-name:var(--font-montserrat)] text-sm font-bold text-white">
+                  Lords of Lending Podcast
+                </h3>
+                <p className="mt-1 text-xs leading-relaxed" style={{ color: "#9A918D" }}>
+                  Weekly SBA lending conversations with Shane, Stephanie Dunn, and Brian Congelliere.
+                </p>
+              </div>
             </Link>
+
+            {/* Training */}
+            <a
+              href="https://learn.lordsoflending.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-start gap-4 rounded-xl border p-5 transition-all hover:border-white/20 sm:p-6"
+              style={{ background: "#252222", borderColor: "#3A3636" }}
+            >
+              <div
+                className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg"
+                style={{ background: `${C.gold}18` }}
+              >
+                <Award size={18} style={{ color: C.gold }} />
+              </div>
+              <div>
+                <h3 className="font-[family-name:var(--font-montserrat)] text-sm font-bold text-white">
+                  Originator Training
+                </h3>
+                <p className="mt-1 text-xs leading-relaxed" style={{ color: "#9A918D" }}>
+                  15-module SBA origination system covering every phase of the lending lifecycle.
+                </p>
+              </div>
+            </a>
+
+            {/* Fitech */}
+            <div
+              className="flex items-start gap-4 rounded-xl border p-5 sm:p-6"
+              style={{ background: "#252222", borderColor: "#3A3636" }}
+            >
+              <div
+                className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg"
+                style={{ background: `${C.gold}18` }}
+              >
+                <Code size={18} style={{ color: C.gold }} />
+              </div>
+              <div>
+                <h3 className="font-[family-name:var(--font-montserrat)] text-sm font-bold text-white">
+                  Fitech Ventures LLC
+                </h3>
+                <p className="mt-1 text-xs leading-relaxed" style={{ color: "#9A918D" }}>
+                  Lending technology, process automation, and business intelligence tools for modern SBA operations.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
+
+      {/* ═══ EXECUTIVE FOOTER ═══════════════════════════════════════ */}
+      <footer
+        className="px-4 py-10 sm:px-6 sm:py-14 md:px-8"
+        style={{ background: `linear-gradient(135deg, ${C.maroonDark} 0%, ${C.nearBlack} 100%)` }}
+      >
+        <div className="mx-auto max-w-3xl text-center">
+          <div className="flex items-center justify-center gap-4 sm:gap-6">
+            <Image src="/images/bio/phx-white.png" alt="PHX Business" width={80} height={28} className="h-6 w-auto object-contain opacity-50 sm:h-7" />
+            <div className="h-6 w-px bg-white/15" />
+            <Image src="/images/bio/cbt-white.png" alt="Community Bank & Trust" width={80} height={28} className="h-6 w-auto object-contain opacity-50 sm:h-7" />
+          </div>
+          <p className="mt-6 text-sm leading-relaxed text-white/40">
+            Shane Pierson &bull; National Sales Manager, SBA Lending<br />
+            PHX Business, a division of Community Bank &amp; Trust
+          </p>
+          <div className="mt-6 flex items-center justify-center gap-5">
+            <a
+              href="https://www.linkedin.com/in/shanepierson/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/30 transition-colors hover:text-white/60"
+              aria-label="LinkedIn"
+            >
+              <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+            </a>
+            <a
+              href="mailto:shane@lordsoflending.com"
+              className="text-xs font-medium tracking-wide text-white/30 transition-colors hover:text-white/60"
+            >
+              shane@lordsoflending.com
+            </a>
+          </div>
+          <p className="mt-8 text-[11px] text-white/20">
+            &copy; {new Date().getFullYear()} All rights reserved.
+          </p>
+        </div>
+      </footer>
 
     </main>
   );
