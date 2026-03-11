@@ -44,6 +44,9 @@ next-env.d.ts
 tmpclaude-*
 working-memory.md
 
+# subscriber data (created at runtime)
+data/subscribers.json
+
 # content staging
 _content/
 _research/
