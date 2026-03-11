@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const inputClass =
   "w-full rounded-lg border border-[var(--color-border)] bg-white px-4 py-2.5 text-sm text-[var(--color-text)] outline-none focus:border-[var(--color-gold)] focus:ring-1 focus:ring-[var(--color-gold)]";
-const labelClass = "mb-1 block text-sm font-medium text-[var(--color-text)]";
+const labelClass = "mb-1 block text-sm font-medium text-[var(--color-cream)]";
 const required = <span className="text-red-500">*</span>;
 
 const HEADSHOT_OPTIONS = [
@@ -29,7 +29,7 @@ export default function LeaveATestimonialPage() {
     return (
       <main id="main-content" className="pt-24 pb-16 md:pt-32 md:pb-24">
         <div className="mx-auto max-w-2xl px-6 text-center md:px-8">
-          <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-[var(--color-text)] md:text-4xl">
+          <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-white md:text-4xl">
             Thank You!
           </h1>
           <p className="mt-4 text-lg text-[var(--color-text-muted)]">
@@ -48,7 +48,7 @@ export default function LeaveATestimonialPage() {
     <main id="main-content" className="pt-24 pb-16 md:pt-32 md:pb-24">
       <div className="mx-auto max-w-2xl px-6 md:px-8">
         <div className="text-center">
-          <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-[var(--color-text)] md:text-4xl">
+          <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-white md:text-4xl">
             Leave a Testimonial
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-[var(--color-text-muted)]">

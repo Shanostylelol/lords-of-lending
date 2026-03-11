@@ -10,7 +10,7 @@ export default function TermsOfUsePage() {
   return (
     <main id="main-content" className="pt-24 pb-16 md:pt-32 md:pb-24">
       <div className="mx-auto max-w-3xl px-6 md:px-8">
-        <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-[var(--color-text)] md:text-4xl">
+        <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-white md:text-4xl">
           Terms of Use
         </h1>
         <div className="prose-legal mt-8 space-y-6 text-sm leading-relaxed text-[var(--color-text-muted)]">
@@ -18,7 +18,7 @@ export default function TermsOfUsePage() {
             These Terms of Use shall become effective as of July 30, 2025.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             Introduction
           </h2>
           <p>
@@ -42,7 +42,7 @@ export default function TermsOfUsePage() {
             LORDS OF LENDING.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             1. Description of Services
           </h2>
           <p>
@@ -64,7 +64,7 @@ export default function TermsOfUsePage() {
             these Terms will apply to those additional services.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             2. Use of Site and Service
           </h2>
           <p>
@@ -104,7 +104,7 @@ export default function TermsOfUsePage() {
             </li>
           </ul>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             3. Intellectual Property Rights
           </h2>
           <p>
@@ -122,7 +122,7 @@ export default function TermsOfUsePage() {
             display, and distribute such information and content.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             4. Links to Third-Party Websites
           </h2>
           <p>
@@ -134,7 +134,7 @@ export default function TermsOfUsePage() {
             advertiser or third party.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             5. Disclaimer of Warranty
           </h2>
           <p className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-4 text-xs uppercase tracking-wide">
@@ -146,7 +146,7 @@ export default function TermsOfUsePage() {
             NON-INFRINGEMENT.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             6. Limitation of Liability
           </h2>
           <p className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-4 text-xs uppercase tracking-wide">
@@ -159,7 +159,7 @@ export default function TermsOfUsePage() {
             THE AMOUNT OF USD $25.00.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             7. Indemnification
           </h2>
           <p>
@@ -172,7 +172,7 @@ export default function TermsOfUsePage() {
             applicable laws, rules, or regulations.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             8. User Information
           </h2>
           <p>
@@ -188,7 +188,7 @@ export default function TermsOfUsePage() {
             and to improve the Services.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             9. Restrictions
           </h2>
           <ul className="ml-4 list-disc space-y-2 pl-4">
@@ -212,7 +212,7 @@ export default function TermsOfUsePage() {
             </li>
           </ul>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             10. Dispute Resolution by Binding Arbitration
           </h2>
           <p>
@@ -238,7 +238,7 @@ export default function TermsOfUsePage() {
             thirty (30) days after accepting these Terms.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             11. Telephone Communications
           </h2>
           <p>
@@ -268,7 +268,7 @@ export default function TermsOfUsePage() {
             receive from us.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             12. General Provisions
           </h2>
           <p>
@@ -285,7 +285,7 @@ export default function TermsOfUsePage() {
             between you and Lords of Lending regarding the use of this Service.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             13. Content
           </h2>
           <p>
@@ -295,7 +295,7 @@ export default function TermsOfUsePage() {
             dress, copyright, trademark, and other property laws.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             14. Confidentiality
           </h2>
           <p>
@@ -305,7 +305,7 @@ export default function TermsOfUsePage() {
             further governed by our Privacy Policy.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             15. Notification of Terms of Use Changes
           </h2>
           <p>
@@ -314,7 +314,7 @@ export default function TermsOfUsePage() {
             on this Site.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             16. Term and Termination
           </h2>
           <p>
@@ -326,7 +326,7 @@ export default function TermsOfUsePage() {
             account by contacting us.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             17. Contact Information
           </h2>
           <p>

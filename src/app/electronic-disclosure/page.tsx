@@ -10,7 +10,7 @@ export default function ElectronicDisclosurePage() {
   return (
     <main id="main-content" className="pt-24 pb-16 md:pt-32 md:pb-24">
       <div className="mx-auto max-w-3xl px-6 md:px-8">
-        <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-[var(--color-text)] md:text-4xl">
+        <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-white md:text-4xl">
           Electronic Disclosure
         </h1>
         <div className="prose-legal mt-8 space-y-6 text-sm leading-relaxed text-[var(--color-text-muted)]">
@@ -37,7 +37,7 @@ export default function ElectronicDisclosurePage() {
             we reserve the right to terminate your Account.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             1. Delivery Methods
           </h2>
           <p>
@@ -48,7 +48,7 @@ export default function ElectronicDisclosurePage() {
             you where you can access such Communications.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             2. Hardware and Software Requirements
           </h2>
           <p>
@@ -73,7 +73,7 @@ export default function ElectronicDisclosurePage() {
             </li>
           </ul>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             3. Updating Contact Information
           </h2>
           <p>
@@ -90,7 +90,7 @@ export default function ElectronicDisclosurePage() {
             .
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             4. Requesting Paper Copies
           </h2>
           <p>
@@ -106,7 +106,7 @@ export default function ElectronicDisclosurePage() {
             .
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             5. Communications in Writing
           </h2>
           <p>
@@ -114,7 +114,7 @@ export default function ElectronicDisclosurePage() {
             format will be considered delivered &ldquo;in writing.&rdquo;
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             6. Withdrawing Consent
           </h2>
           <p>
@@ -131,7 +131,7 @@ export default function ElectronicDisclosurePage() {
             .
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             7. Contact Information
           </h2>
           <p>

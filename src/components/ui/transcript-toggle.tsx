@@ -23,7 +23,7 @@ export function TranscriptToggle({ transcript }: TranscriptToggleProps) {
       >
         <div className="flex items-center gap-3">
           <FileText size={18} className="text-[var(--color-gold)]" />
-          <span className="font-[family-name:var(--font-montserrat)] text-sm font-semibold text-[var(--color-text)]">
+          <span className="font-[family-name:var(--font-montserrat)] text-sm font-semibold text-white">
             Full Episode Transcript
           </span>
           <span className="rounded-full bg-[var(--color-gold)]/10 px-2.5 py-0.5 text-xs font-medium text-[var(--color-gold)]">
@@ -58,7 +58,7 @@ export function TranscriptToggle({ transcript }: TranscriptToggleProps) {
                 const rest = line.slice(line.indexOf(":") + 1).trim();
                 return (
                   <p key={i}>
-                    <strong className="font-semibold text-[var(--color-text)]">
+                    <strong className="font-semibold text-white">
                       {speaker}:
                     </strong>{" "}
                     {rest}

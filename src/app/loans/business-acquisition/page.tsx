@@ -122,7 +122,7 @@ export default function BusinessAcquisitionPage() {
       {/* Why Business Acquisition */}
       <Section>
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="font-[family-name:var(--font-montserrat)] text-2xl font-bold text-[var(--color-text)] md:text-3xl">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white md:text-3xl">
             Why Lords of Lending for Business Acquisition?
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-[var(--color-text-muted)]">
@@ -151,7 +151,7 @@ export default function BusinessAcquisitionPage() {
               key={item.title}
               className="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-6"
             >
-              <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-bold text-[var(--color-text)]">
+              <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-bold text-white">
                 {item.title}
               </h3>
               <p className="mt-2 text-sm text-[var(--color-text-muted)]">

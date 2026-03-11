@@ -52,7 +52,7 @@ export function LoanProgram({ variant }: LoanProgramProps) {
 
       {/* Program Header */}
       <div className="text-center">
-        <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-[var(--color-text)] md:text-5xl">
+        <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-white md:text-5xl">
           Small Business
           <br />
           Loan Program
@@ -67,7 +67,7 @@ export function LoanProgram({ variant }: LoanProgramProps) {
 
       {/* Program Basics */}
       <div className="mt-16">
-        <h2 className="text-center font-[family-name:var(--font-montserrat)] text-2xl font-bold text-[var(--color-text)]">
+        <h2 className="text-center font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white">
           Program Basics
         </h2>
         <ul className="mx-auto mt-6 max-w-xl space-y-3">
@@ -87,7 +87,7 @@ export function LoanProgram({ variant }: LoanProgramProps) {
 
       {/* Eligible Uses */}
       <div className="mt-16">
-        <h2 className="text-center font-[family-name:var(--font-montserrat)] text-2xl font-bold text-[var(--color-text)]">
+        <h2 className="text-center font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white">
           Eligible Uses
         </h2>
         <div className="mt-8 grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-5">
@@ -100,7 +100,7 @@ export function LoanProgram({ variant }: LoanProgramProps) {
                 height={64}
                 className="h-16 w-16 object-contain"
               />
-              <p className="mt-3 text-xs font-semibold text-[var(--color-text)]">
+              <p className="mt-3 text-xs font-semibold text-[var(--color-cream)]">
                 {use.label}
               </p>
             </div>
@@ -110,7 +110,7 @@ export function LoanProgram({ variant }: LoanProgramProps) {
 
       {/* Required Docs */}
       <div className="mt-16">
-        <h2 className="text-center font-[family-name:var(--font-montserrat)] text-2xl font-bold text-[var(--color-text)]">
+        <h2 className="text-center font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white">
           What We Need to Get Started
         </h2>
         <ul className="mx-auto mt-6 max-w-xl space-y-3">
@@ -138,7 +138,7 @@ export function LoanProgram({ variant }: LoanProgramProps) {
 
       {/* Contact Section */}
       <div className="mt-16" id="contact">
-        <h2 className="text-center font-[family-name:var(--font-montserrat)] text-2xl font-bold text-[var(--color-text)]">
+        <h2 className="text-center font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white">
           Contact Us
         </h2>
         <div className="mt-8 grid gap-6 md:grid-cols-3">

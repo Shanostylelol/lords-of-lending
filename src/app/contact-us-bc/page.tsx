@@ -15,7 +15,7 @@ export default function ContactBrianPage() {
       <div className="mx-auto max-w-3xl px-6 md:px-8">
         {/* Brian's info */}
         <div className="text-center">
-          <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-[var(--color-text)] md:text-4xl">
+          <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-white md:text-4xl">
             Brian Congelliere
           </h1>
           <p className="mt-2 text-sm font-medium text-[var(--color-gold)]">
@@ -25,13 +25,13 @@ export default function ContactBrianPage() {
           <div className="mt-4 flex flex-col items-center gap-2">
             <a
               href={`tel:${brian.phone.replace(/-/g, "")}`}
-              className="flex items-center gap-2 text-sm text-[var(--color-text-muted)] hover:text-[var(--color-text)]"
+              className="flex items-center gap-2 text-sm text-[var(--color-text-muted)] hover:text-white"
             >
               <Phone size={14} /> {brian.phone}
             </a>
             <a
               href={`mailto:${brian.email}`}
-              className="flex items-center gap-2 text-sm text-[var(--color-text-muted)] hover:text-[var(--color-text)]"
+              className="flex items-center gap-2 text-sm text-[var(--color-text-muted)] hover:text-white"
             >
               <Mail size={14} /> {brian.email}
             </a>
@@ -47,7 +47,7 @@ export default function ContactBrianPage() {
 
         {/* Contact form */}
         <div className="mt-12 rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-6 md:p-8">
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             Contact Us
           </h2>
           <p className="mt-2 text-sm text-[var(--color-text-muted)]">
@@ -56,7 +56,7 @@ export default function ContactBrianPage() {
 
           <form className="mt-6 space-y-5">
             <div>
-              <label className="mb-1 block text-sm font-medium text-[var(--color-text)]">
+              <label className="mb-1 block text-sm font-medium text-[var(--color-cream)]">
                 Are you a Loan Broker? <span className="text-red-500">*</span>
               </label>
               <div className="flex gap-4">
@@ -78,7 +78,7 @@ export default function ContactBrianPage() {
 
             <div className="grid gap-5 sm:grid-cols-2">
               <div>
-                <label htmlFor="bc-first" className="mb-1 block text-sm font-medium text-[var(--color-text)]">
+                <label htmlFor="bc-first" className="mb-1 block text-sm font-medium text-[var(--color-cream)]">
                   First Name <span className="text-red-500">*</span>
                 </label>
                 <input
@@ -89,7 +89,7 @@ export default function ContactBrianPage() {
                 />
               </div>
               <div>
-                <label htmlFor="bc-last" className="mb-1 block text-sm font-medium text-[var(--color-text)]">
+                <label htmlFor="bc-last" className="mb-1 block text-sm font-medium text-[var(--color-cream)]">
                   Last Name <span className="text-red-500">*</span>
                 </label>
                 <input
@@ -102,7 +102,7 @@ export default function ContactBrianPage() {
             </div>
 
             <div>
-              <label htmlFor="bc-email" className="mb-1 block text-sm font-medium text-[var(--color-text)]">
+              <label htmlFor="bc-email" className="mb-1 block text-sm font-medium text-[var(--color-cream)]">
                 Email <span className="text-red-500">*</span>
               </label>
               <input
@@ -114,7 +114,7 @@ export default function ContactBrianPage() {
             </div>
 
             <div>
-              <label htmlFor="bc-phone" className="mb-1 block text-sm font-medium text-[var(--color-text)]">
+              <label htmlFor="bc-phone" className="mb-1 block text-sm font-medium text-[var(--color-cream)]">
                 Phone Number <span className="text-red-500">*</span>
               </label>
               <input

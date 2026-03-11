@@ -8,7 +8,7 @@ export function PortfolioMarquee() {
 
   return (
     <section className="overflow-hidden border-y border-[var(--color-border-light)] py-10">
-      <h3 className="mb-6 text-center font-[family-name:var(--font-montserrat)] text-xs font-bold uppercase tracking-[0.2em] text-[var(--color-text-light)]">
+      <h3 className="mb-6 text-center font-[family-name:var(--font-montserrat)] text-xs font-bold uppercase tracking-[0.2em] text-[var(--color-text-muted)]">
         Our Deals in Action
       </h3>
       <div className="group relative">

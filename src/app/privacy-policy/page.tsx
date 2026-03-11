@@ -10,7 +10,7 @@ export default function PrivacyPolicyPage() {
   return (
     <main id="main-content" className="pt-24 pb-16 md:pt-32 md:pb-24">
       <div className="mx-auto max-w-3xl px-6 md:px-8">
-        <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-[var(--color-text)] md:text-4xl">
+        <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-white md:text-4xl">
           Privacy Policy
         </h1>
         <div className="prose-legal mt-8 space-y-6 text-sm leading-relaxed text-[var(--color-text-muted)]">
@@ -55,7 +55,7 @@ export default function PrivacyPolicyPage() {
             specific Services.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             1. Types of Information Collected
           </h2>
           <p>
@@ -63,7 +63,7 @@ export default function PrivacyPolicyPage() {
             when you access our Sites.
           </p>
 
-          <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-semibold text-[var(--color-text)]">
+          <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-semibold text-white">
             1.1 Information We Collect Directly From You
           </h3>
           <ul className="ml-4 list-disc space-y-2 pl-4">
@@ -119,7 +119,7 @@ export default function PrivacyPolicyPage() {
             as required by law.
           </p>
 
-          <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-semibold text-[var(--color-text)]">
+          <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-semibold text-white">
             1.2 Information We Collect Automatically
           </h3>
           <p>
@@ -141,7 +141,7 @@ export default function PrivacyPolicyPage() {
             </li>
           </ul>
 
-          <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-semibold text-[var(--color-text)]">
+          <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-semibold text-white">
             1.3 Information Collected From Third Parties
           </h3>
           <ul className="ml-4 list-disc space-y-2 pl-4">
@@ -166,7 +166,7 @@ export default function PrivacyPolicyPage() {
             </li>
           </ul>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             2. How Information is Collected
           </h2>
           <p>
@@ -194,7 +194,7 @@ export default function PrivacyPolicyPage() {
             to recognize you when you access our Sites via an external link.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             3. How Your Information is Used
           </h2>
           <ul className="ml-4 list-disc space-y-2 pl-4">
@@ -224,7 +224,7 @@ export default function PrivacyPolicyPage() {
             </li>
           </ul>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             4. Disclosures
           </h2>
           <p>
@@ -237,7 +237,7 @@ export default function PrivacyPolicyPage() {
             performing the contract.
           </p>
 
-          <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-semibold text-[var(--color-text)]">
+          <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-semibold text-white">
             4.1 Disclosure by Law
           </h3>
           <p>
@@ -249,7 +249,7 @@ export default function PrivacyPolicyPage() {
             rights or property of Lords of Lending or a third party.
           </p>
 
-          <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-semibold text-[var(--color-text)]">
+          <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-semibold text-white">
             4.2 Lenders and/or Brokers
           </h3>
           <p>
@@ -260,7 +260,7 @@ export default function PrivacyPolicyPage() {
             authorization.
           </p>
 
-          <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-semibold text-[var(--color-text)]">
+          <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-semibold text-white">
             4.3 Disclosure to Trusted Third Parties
           </h3>
           <p>
@@ -271,7 +271,7 @@ export default function PrivacyPolicyPage() {
             third parties, including potential lenders and service providers.
           </p>
 
-          <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-semibold text-[var(--color-text)]">
+          <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-semibold text-white">
             4.4 Service Providers
           </h3>
           <p>
@@ -287,7 +287,7 @@ export default function PrivacyPolicyPage() {
             <li>Data analytics &amp; marketing</li>
           </ul>
 
-          <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-semibold text-[var(--color-text)]">
+          <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-semibold text-white">
             4.5 &ndash; 4.8 Other Disclosures
           </h3>
           <p>
@@ -298,7 +298,7 @@ export default function PrivacyPolicyPage() {
             purpose with your consent.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             5. Updating, Accessing, Retaining, and Deleting Your Information
           </h2>
           <p>
@@ -314,7 +314,7 @@ export default function PrivacyPolicyPage() {
             necessary to fulfill the purposes for which it was collected.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             6. Opting Out of Receiving Electronic Communications
           </h2>
           <p>
@@ -322,7 +322,7 @@ export default function PrivacyPolicyPage() {
             from us, follow the instructions in Section 7 below.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             7. Security
           </h2>
           <p>
@@ -340,7 +340,7 @@ export default function PrivacyPolicyPage() {
             breach notification laws.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             8. Choice / Opt-Out of Marketing
           </h2>
           <p>
@@ -356,7 +356,7 @@ export default function PrivacyPolicyPage() {
             .
           </p>
 
-          <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-semibold text-[var(--color-text)]">
+          <h3 className="font-[family-name:var(--font-montserrat)] text-lg font-semibold text-white">
             California Privacy Notice (CCPA / CPRA)
           </h3>
           <p>
@@ -411,7 +411,7 @@ export default function PrivacyPolicyPage() {
             , or filling out a request form.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             9. Special Notice to Vermont Residents
           </h2>
           <p>
@@ -421,7 +421,7 @@ export default function PrivacyPolicyPage() {
             law.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             10. Notification of Privacy Policy Changes
           </h2>
           <p>
@@ -430,7 +430,7 @@ export default function PrivacyPolicyPage() {
             email or via a notice on the Site.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             11. Contact Information
           </h2>
           <p>

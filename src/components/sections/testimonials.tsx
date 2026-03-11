@@ -13,7 +13,7 @@ export function Testimonials() {
   return (
     <section className="bg-[var(--color-surface)] px-6 py-16 md:px-8 md:py-24">
       <div className="mx-auto max-w-6xl" ref={ref}>
-        <h2 className="text-center font-[family-name:var(--font-montserrat)] text-3xl font-bold uppercase tracking-tight text-[var(--color-text)] md:text-4xl">
+        <h2 className="text-center font-[family-name:var(--font-montserrat)] text-3xl font-bold uppercase tracking-tight text-white md:text-4xl">
           Real Stories. Real Success.
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-center text-[var(--color-text-muted)]">

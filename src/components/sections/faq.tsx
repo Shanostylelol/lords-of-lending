@@ -11,7 +11,7 @@ export function Faq() {
   return (
     <section className="bg-[var(--color-surface)] px-6 py-16 md:px-8 md:py-24">
       <div className="mx-auto max-w-3xl">
-        <h2 className="text-center font-[family-name:var(--font-montserrat)] text-3xl font-bold text-[var(--color-text)] md:text-4xl">
+        <h2 className="text-center font-[family-name:var(--font-montserrat)] text-3xl font-bold text-white md:text-4xl">
           Quick FAQ
         </h2>
 

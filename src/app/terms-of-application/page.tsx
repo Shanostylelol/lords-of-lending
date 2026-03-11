@@ -10,7 +10,7 @@ export default function TermsOfApplicationPage() {
   return (
     <main id="main-content" className="pt-24 pb-16 md:pt-32 md:pb-24">
       <div className="mx-auto max-w-3xl px-6 md:px-8">
-        <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-[var(--color-text)] md:text-4xl">
+        <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-white md:text-4xl">
           Terms of Application
         </h1>
         <div className="prose-legal mt-8 space-y-6 text-sm leading-relaxed text-[var(--color-text-muted)]">
@@ -81,7 +81,7 @@ export default function TermsOfApplicationPage() {
             </li>
           </ul>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             Dispute Resolution by Binding Arbitration
           </h2>
           <p>
@@ -101,7 +101,7 @@ export default function TermsOfApplicationPage() {
             of Lending, 3001 Wrightsville Ave., Suite A, Wilmington, NC 28403.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             Opt-Out
           </h2>
           <p>
@@ -126,7 +126,7 @@ export default function TermsOfApplicationPage() {
             other information to verify your or the entity&rsquo;s identity.
           </p>
 
-          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-[var(--color-text)]">
+          <h2 className="font-[family-name:var(--font-montserrat)] text-xl font-bold text-white">
             Contact Information
           </h2>
           <address className="not-italic">

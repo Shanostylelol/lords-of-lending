@@ -46,7 +46,7 @@ export function Resources() {
   return (
     <section className="px-6 py-16 md:px-8 md:py-24" ref={ref}>
       <div className="mx-auto max-w-7xl">
-        <h2 className="text-center font-[family-name:var(--font-montserrat)] text-3xl font-bold uppercase tracking-tight text-[var(--color-text)] md:text-4xl">
+        <h2 className="text-center font-[family-name:var(--font-montserrat)] text-3xl font-bold uppercase tracking-tight text-white md:text-4xl">
           Your SBA Knowledge Arsenal
         </h2>
 
@@ -93,7 +93,7 @@ export function Resources() {
 
         {/* Blog preview */}
         <div className="mt-16">
-          <h3 className="font-[family-name:var(--font-montserrat)] text-2xl font-bold text-[var(--color-text)]">
+          <h3 className="font-[family-name:var(--font-montserrat)] text-2xl font-bold text-white">
             Lords of Lending Blog
           </h3>
           <p className="mt-2 text-[var(--color-text-muted)]">

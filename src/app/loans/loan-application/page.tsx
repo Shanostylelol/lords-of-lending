@@ -70,7 +70,7 @@ const CREDIT_RANGES = [
 
 const inputClass =
   "w-full rounded-lg border border-[var(--color-border)] bg-white px-4 py-2.5 text-sm text-[var(--color-text)] outline-none focus:border-[var(--color-gold)] focus:ring-1 focus:ring-[var(--color-gold)]";
-const labelClass = "mb-1 block text-sm font-medium text-[var(--color-text)]";
+const labelClass = "mb-1 block text-sm font-medium text-[var(--color-cream)]";
 const required = <span className="text-red-500">*</span>;
 
 export default function LoanApplicationPage() {
@@ -80,7 +80,7 @@ export default function LoanApplicationPage() {
     <main id="main-content" className="pt-24 pb-16 md:pt-32 md:pb-24">
       <div className="mx-auto max-w-3xl px-6 md:px-8">
         <div className="text-center">
-          <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-[var(--color-text)] md:text-4xl">
+          <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-white md:text-4xl">
             Your Growth Starts Here
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-[var(--color-text-muted)]">
@@ -130,7 +130,7 @@ export default function LoanApplicationPage() {
                 exit={{ opacity: 0, x: -20 }}
                 className="space-y-5"
               >
-                <h2 className="font-[family-name:var(--font-montserrat)] text-lg font-bold text-[var(--color-text)]">
+                <h2 className="font-[family-name:var(--font-montserrat)] text-lg font-bold text-white">
                   Basic Business Information
                 </h2>
                 <p className="text-sm text-[var(--color-text-muted)]">
@@ -272,7 +272,7 @@ export default function LoanApplicationPage() {
                 exit={{ opacity: 0, x: -20 }}
                 className="space-y-5"
               >
-                <h2 className="font-[family-name:var(--font-montserrat)] text-lg font-bold text-[var(--color-text)]">
+                <h2 className="font-[family-name:var(--font-montserrat)] text-lg font-bold text-white">
                   Owner Information
                 </h2>
                 <p className="text-sm text-[var(--color-text-muted)]">
@@ -361,7 +361,7 @@ export default function LoanApplicationPage() {
                 exit={{ opacity: 0, x: -20 }}
                 className="space-y-5"
               >
-                <h2 className="font-[family-name:var(--font-montserrat)] text-lg font-bold text-[var(--color-text)]">
+                <h2 className="font-[family-name:var(--font-montserrat)] text-lg font-bold text-white">
                   Terms and Agreement
                 </h2>
                 <p className="text-sm text-[var(--color-text-muted)]">

@@ -43,7 +43,7 @@ export default function PreviewIndex() {
   return (
     <main id="main-content" className="pt-28 pb-20 md:pt-36 md:pb-28">
       <div className="mx-auto max-w-4xl px-6 md:px-8">
-        <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-[var(--color-text)] md:text-4xl">
+        <h1 className="font-[family-name:var(--font-montserrat)] text-3xl font-bold text-white md:text-4xl">
           Landing Page Previews
         </h1>
         <p className="mt-4 text-lg text-[var(--color-text-muted)]">
