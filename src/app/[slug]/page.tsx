@@ -24,6 +24,7 @@ import {
   breadcrumbJsonLd,
 } from "@/lib/structured-data";
 import { TranscriptToggle } from "@/components/ui/transcript-toggle";
+import { AuthorBio } from "@/components/ui/author-bio";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -317,30 +318,7 @@ export default async function ContentPage({ params }: Props) {
             </div>
           )}
 
-          <div className="mt-12 rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-6">
-            <p className="text-sm font-medium text-white">
-              Written by Shane Pierson
-            </p>
-            <p className="mt-1 text-sm text-white/60">
-              Founder, Lords of Lending
-            </p>
-            <div className="mt-4 flex flex-wrap gap-3">
-              <a
-                href="https://learn.lordsoflending.com/pricing"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center rounded-md bg-[var(--color-gold)] px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-[var(--color-gold-dark)]"
-              >
-                Start Learning Free
-              </a>
-              <Link
-                href="/podcast"
-                className="inline-flex items-center rounded-md border border-[var(--color-gold)] px-4 py-2 text-sm font-semibold text-[var(--color-gold)] transition-colors hover:bg-[var(--color-gold)] hover:text-white"
-              >
-                Listen to the Podcast
-              </Link>
-            </div>
-          </div>
+          <AuthorBio author="shane" />
         </article>
       </main>
     );
@@ -594,31 +572,7 @@ export default async function ContentPage({ params }: Props) {
             </div>
           )}
 
-          {/* Author + CTA footer */}
-          <div className="mt-12 rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-6">
-            <p className="text-sm font-medium text-white">
-              Written by {authorName}
-            </p>
-            <p className="mt-1 text-sm text-white/60">
-              Founder, Lords of Lending
-            </p>
-            <div className="mt-4 flex flex-wrap gap-3">
-              <a
-                href="https://learn.lordsoflending.com/pricing"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center rounded-md bg-[var(--color-gold)] px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-[var(--color-gold-dark)]"
-              >
-                Start Learning Free
-              </a>
-              <Link
-                href="/podcast"
-                className="inline-flex items-center rounded-md border border-[var(--color-gold)] px-4 py-2 text-sm font-semibold text-[var(--color-gold)] transition-colors hover:bg-[var(--color-gold)] hover:text-white"
-              >
-                Listen to the Podcast
-              </Link>
-            </div>
-          </div>
+          <AuthorBio author={article.author} />
         </article>
       </main>
     );
