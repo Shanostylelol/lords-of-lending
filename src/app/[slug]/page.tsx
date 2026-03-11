@@ -582,6 +582,16 @@ export default async function ContentPage({ params }: Props) {
             })()}
           </div>
 
+          {article.lastUpdated && article.lastUpdated !== article.date && (
+            <p className="mt-1 text-xs italic text-white/30">
+              Updated: {new Date(article.lastUpdated).toLocaleDateString("en-US", {
+                day: "numeric",
+                month: "long",
+                year: "numeric",
+              })}
+            </p>
+          )}
+
           <h1 className="mt-3 font-[family-name:var(--font-montserrat)] text-3xl font-bold leading-tight text-white md:text-4xl">
             {article.title}
           </h1>

@@ -250,6 +250,7 @@ export interface ContentMeta {
   cluster?: "sba-basics" | "acquisition" | "originator-training" | "deal-structuring" | "industry-trends";
   keywords?: string[];
   readingTime?: number;
+  lastUpdated?: string;
 }
 
 export const PILLAR_ARTICLES: ContentMeta[] = [
