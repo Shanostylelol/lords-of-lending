@@ -206,7 +206,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 async function getContent(type: string, slug: string): Promise<string | null> {
   try {
     const filePath = join(process.cwd(), "content", type, `${slug}.md`);
-    return await readFile(filePath, "utf-8");
+    const raw = await readFile(filePath, "utf-8");
+    // Strip YAML frontmatter (---...---) so it doesn't render as visible text
+    return raw.replace(/^---[\s\S]*?---\n*/, "");
   } catch {
     return null;
   }
