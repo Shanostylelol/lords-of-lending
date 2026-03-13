@@ -203,8 +203,6 @@ If you want the complete origination system — sourcing, qualifying, packaging,
 
 Once you know which lender to use, the next bottleneck is your documentation. Our [complete SBA documentation checklist](/complete-sba-documentation-checklist) has every form organized the way experienced originators build their packages — submit a clean file on the first pass and you'll stand out from every broker spraying deals across 15 banks.
 
-For data on which lenders are most active by state, dollar volume, and industry, the [Coleman Report analysis](/coleman-report-insights) is the best public source available. It shapes how we think about lender selection at Lords of Lending.
-
 
 ---
 

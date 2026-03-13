@@ -162,8 +162,6 @@ What will change is the speed at which information moves, the precision of risk 
 
 The bar is going up. And I think that's exactly what this industry needs.
 
-For the data side of where SBA lending is heading, the [Coleman Report analysis](/coleman-report-insights) tracks quarterly trends in volume, lender activity, and purchase rates — the numbers that tell you whether the program is expanding or contracting.
-
 The fintech conversation came up repeatedly at industry conferences this year. [Episode 8: Insights from the Road](/insights-from-the-road-lol-8) covers what the top performers are actually doing with AI and technology — and it's not what most people expect.
 
 And for the biggest single policy shift in recent memory, [Episode 6: Bomb Goes Off on SBA](/bomb-goes-off-on-sba-lol-6) covers the SOP 50 10 8 changes that have already reshaped how deals get structured, including the reverted injection rules and seller standby requirements.

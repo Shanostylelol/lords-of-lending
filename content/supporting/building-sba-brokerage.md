@@ -33,7 +33,7 @@ This is the first decision, and getting it wrong can set you back years. Here's 
 - You can survive 4-6 months without income while you build the infrastructure
 - You've done the math on your average commission and know you'll earn more independent
 
-When all is said and done, the bank gives you training, a salary, and a safety net. Independence gives you freedom, unlimited upside, and the ability to place deals with any lender in the country. The trade-off is real, and it's not for everyone. We've covered the full [bank BDO to independent path](/bank-bdo-to-independent) in a separate piece if you want the detailed roadmap.
+When all is said and done, the bank gives you training, a salary, and a safety net. Independence gives you freedom, unlimited upside, and the ability to place deals with any lender in the country. The trade-off is real, and it's not for everyone.
 
 ---
 

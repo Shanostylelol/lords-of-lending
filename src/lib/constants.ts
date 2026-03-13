@@ -392,17 +392,6 @@ export const SUPPORTING_ARTICLES: ContentMeta[] = [
     cluster: "originator-training",
     readingTime: 5,
   },
-  {
-    slug: "bank-bdo-to-independent",
-    title: "From Bank BDO to Independent Originator",
-    date: "2026-03-10",
-    excerpt: "How bank business development officers transition to independent SBA loan origination and build their own book.",
-    image: "/images/supporting/bank-bdo-to-independent.webp",
-    category: "supporting",
-    author: "shane",
-    cluster: "originator-training",
-    readingTime: 6,
-  },
   // ─── Borrower Articles ─────────────────────────────────────────────
   {
     slug: "sba-7a-vs-504",
@@ -514,17 +503,6 @@ export const SUPPORTING_ARTICLES: ContentMeta[] = [
     author: "brian",
     cluster: "industry-trends",
     readingTime: 9,
-  },
-  {
-    slug: "coleman-report-insights",
-    title: "What the Coleman Report Won't Tell You About SBA Lending",
-    date: "2026-03-10",
-    excerpt: "Insights beyond the Coleman Report data that reveal what's really happening in the SBA lending market.",
-    image: "/images/supporting/coleman-report-insights.webp",
-    category: "supporting",
-    author: "steph",
-    cluster: "industry-trends",
-    readingTime: 8,
   },
   {
     slug: "sba-lending-myths-originators",

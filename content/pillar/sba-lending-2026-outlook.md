@@ -210,8 +210,6 @@ In a loose market, deals close themselves. In a tight market, relationships matt
 
 ## Keep Reading
 
-The Coleman Report is one of the most referenced data sources in SBA lending, but the numbers only tell part of the story. Our breakdown of [what the Coleman Report won't tell you](/coleman-report-insights) covers what gets left out and why it matters for originators trying to read the market.
-
 AI underwriting, fintech disruptors, and automated loan processing are reshaping the industry. Our article on [the future of SBA lending](/future-sba-lending) separates what's real from what's noise and identifies what will always require a human.
 
 If you want to hear the interest rate debate in full, [Episode 13: Do Interest Rates Really Matter?](/do-interest-rates-really-matter-lol-13) runs the actual math on what a rate cut means for a million-dollar SBA loan. The answer is less than most people think.
