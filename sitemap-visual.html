@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lords of Lending — Full Sitemap & Content Audit</title>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,700;1,9..40,400&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;600&display=swap');
+
+  :root {
+    --navy: #0B1120;
+    --navy-mid: #141E33;
+    --navy-light: #1C2A47;
+    --gold: #C5A44E;
+    --gold-dim: #A68B3A;
+    --gold-glow: rgba(197,164,78,0.15);
+    --text: #E2DDD5;
+    --text-muted: #8B8680;
+    --text-dim: #5A5650;
+    --white: #F5F0EB;
+    --shane: #D4763A;
+    --brian: #4A8EC2;
+    --steph: #9B6BA8;
+    --green: #4A9B6B;
+    --red: #C25555;
+    --border: rgba(197,164,78,0.12);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    background: var(--navy);
+    color: var(--text);
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* Header */
+  .header {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 3rem 2rem 2.5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(ellipse at 50% 0%, var(--gold-glow) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .header h1 {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: 2.8rem;
+    color: var(--gold);
+    position: relative;
+    letter-spacing: 0.02em;
+  }
+  .header p {
+    color: var(--text-muted);
+    margin-top: 0.5rem;
+    font-size: 1.05rem;
+    position: relative;
+  }
+  .header .stats {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-top: 1.5rem;
+    position: relative;
+  }
+  .stat-box {
+    text-align: center;
+  }
+  .stat-box .num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--gold);
+    display: block;
+    line-height: 1.1;
+  }
+  .stat-box .label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  /* Nav Tabs */
+  .tab-nav {
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+    background: var(--navy-mid);
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .tab-btn {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s;
+  }
+  .tab-btn:hover { color: var(--text); background: var(--navy-light); }
+  .tab-btn.active { color: var(--navy); background: var(--gold); font-weight: 700; }
+
+  /* Sections */
+  .section {
+    display: none;
+    padding: 2rem 1.5rem 3rem;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .section.active { display: block; }
+  .section-title {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: 1.8rem;
+    color: var(--gold);
+    margin-bottom: 0.4rem;
+  }
+  .section-desc {
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+  }
+
+  /* Mermaid */
+  .mermaid-wrap {
+    background: var(--navy-mid);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 2rem;
+    overflow-x: auto;
+    margin-bottom: 2rem;
+  }
+  .mermaid-wrap .mermaid {
+    display: flex;
+    justify-content: center;
+  }
+  .mermaid-wrap .mermaid svg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Author Cards */
+  .author-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  @media (max-width: 900px) { .author-grid { grid-template-columns: 1fr; } }
+
+  .author-card {
+    background: var(--navy-mid);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .author-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+  }
+  .author-card.shane::before { background: var(--shane); }
+  .author-card.brian::before { background: var(--brian); }
+  .author-card.steph::before { background: var(--steph); }
+
+  .author-card .name {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: 1.3rem;
+    margin-bottom: 0.15rem;
+  }
+  .author-card.shane .name { color: var(--shane); }
+  .author-card.brian .name { color: var(--brian); }
+  .author-card.steph .name { color: var(--steph); }
+
+  .author-card .alias {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-bottom: 0.8rem;
+  }
+  .author-card .voice-traits {
+    list-style: none;
+    font-size: 0.82rem;
+    color: var(--text);
+    line-height: 1.55;
+  }
+  .author-card .voice-traits li {
+    padding: 0.25rem 0;
+    padding-left: 1.1rem;
+    position: relative;
+  }
+  .author-card .voice-traits li::before {
+    content: '>';
+    position: absolute;
+    left: 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+  }
+  .author-card.shane .voice-traits li::before { color: var(--shane); }
+  .author-card.brian .voice-traits li::before { color: var(--brian); }
+  .author-card.steph .voice-traits li::before { color: var(--steph); }
+
+  .author-card .phrases {
+    margin-top: 0.8rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid var(--border);
+  }
+  .author-card .phrases-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-dim);
+    margin-bottom: 0.4rem;
+  }
+  .author-card .phrase-tag {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    margin: 0.15rem 0.1rem;
+  }
+  .author-card.shane .phrase-tag { background: rgba(212,118,58,0.12); color: var(--shane); }
+  .author-card.brian .phrase-tag { background: rgba(74,142,194,0.12); color: var(--brian); }
+  .author-card.steph .phrase-tag { background: rgba(155,107,168,0.12); color: var(--steph); }
+
+  .count-badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 99px;
+    display: inline-block;
+    margin-bottom: 0.6rem;
+  }
+  .author-card.shane .count-badge { background: rgba(212,118,58,0.15); color: var(--shane); }
+  .author-card.brian .count-badge { background: rgba(74,142,194,0.15); color: var(--brian); }
+  .author-card.steph .count-badge { background: rgba(155,107,168,0.15); color: var(--steph); }
+
+  /* Article Tables */
+  .article-section {
+    margin-bottom: 2.5rem;
+  }
+  .article-section h3 {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  .cluster-tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    background: var(--gold-glow);
+    color: var(--gold);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+  thead th {
+    text-align: left;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-dim);
+    padding: 0.6rem 0.8rem;
+    border-bottom: 1px solid var(--border);
+  }
+  tbody td {
+    padding: 0.6rem 0.8rem;
+    border-bottom: 1px solid rgba(197,164,78,0.06);
+    vertical-align: top;
+  }
+  tbody tr:hover { background: rgba(197,164,78,0.04); }
+
+  .author-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 0.4rem;
+    vertical-align: middle;
+  }
+  .author-dot.shane { background: var(--shane); }
+  .author-dot.brian { background: var(--brian); }
+  .author-dot.steph { background: var(--steph); }
+
+  .read-time {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--text-dim);
+  }
+
+  .type-badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .type-badge.pillar { background: rgba(197,164,78,0.15); color: var(--gold); }
+  .type-badge.supporting { background: rgba(74,142,194,0.12); color: #6BA8D4; }
+  .type-badge.training { background: rgba(74,155,107,0.12); color: var(--green); }
+  .type-badge.blog { background: rgba(155,107,168,0.12); color: var(--steph); }
+  .type-badge.roundup { background: rgba(212,118,58,0.12); color: var(--shane); }
+  .type-badge.podcast { background: rgba(194,85,85,0.12); color: var(--red); }
+
+  /* Cluster summary cards */
+  .cluster-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .cluster-card {
+    background: var(--navy-mid);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.2rem;
+  }
+  .cluster-card h4 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.05rem;
+    color: var(--gold);
+    margin-bottom: 0.3rem;
+  }
+  .cluster-card .count {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    margin-bottom: 0.6rem;
+  }
+  .cluster-card ul {
+    list-style: none;
+    font-size: 0.8rem;
+  }
+  .cluster-card li {
+    padding: 0.2rem 0;
+    color: var(--text-muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Voice Audit */
+  .voice-checklist {
+    background: var(--navy-mid);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .voice-checklist h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.15rem;
+    color: var(--gold);
+    margin-bottom: 0.8rem;
+  }
+  .checklist-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    padding: 0.5rem 0;
+    font-size: 0.85rem;
+    border-bottom: 1px solid rgba(197,164,78,0.05);
+  }
+  .checklist-item:last-child { border-bottom: none; }
+  .check-icon {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    margin-top: 0.1rem;
+  }
+  .check-icon.pass { background: rgba(74,155,107,0.15); color: var(--green); }
+  .check-icon.warn { background: rgba(212,118,58,0.15); color: var(--shane); }
+  .check-icon.fail { background: rgba(194,85,85,0.15); color: var(--red); }
+
+  /* Programmatic pages summary */
+  .prog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 0.4rem;
+    margin-bottom: 1.5rem;
+  }
+  .prog-item {
+    font-size: 0.72rem;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 0.35rem 0.5rem;
+    background: var(--navy-mid);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    color: var(--text-muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .footnote {
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 0.75rem;
+    padding: 2rem 1rem;
+    border-top: 1px solid var(--border);
+    margin-top: 2rem;
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
+<div class="header">
+  <h1>Lords of Lending</h1>
+  <p>Complete Sitemap & Content Voice Audit</p>
+  <div class="stats">
+    <div class="stat-box"><span class="num">172</span><span class="label">Total URLs</span></div>
+    <div class="stat-box"><span class="num">63</span><span class="label">Written Articles</span></div>
+    <div class="stat-box"><span class="num">20</span><span class="label">Podcast Eps</span></div>
+    <div class="stat-box"><span class="num">65</span><span class="label">SEO Pages</span></div>
+    <div class="stat-box"><span class="num">3</span><span class="label">Authors</span></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ TABS ═══════════════════════════ -->
+<div class="tab-nav">
+  <button class="tab-btn active" onclick="showTab('sitemap')">Site Architecture</button>
+  <button class="tab-btn" onclick="showTab('authors')">Authors & Voice</button>
+  <button class="tab-btn" onclick="showTab('articles')">All Articles</button>
+  <button class="tab-btn" onclick="showTab('clusters')">Content Clusters</button>
+  <button class="tab-btn" onclick="showTab('seo')">SEO Pages</button>
+</div>
+
+<!-- ═══════════════════════════ TAB 1: SITEMAP ═══════════════════════════ -->
+<div id="sitemap" class="section active">
+  <h2 class="section-title">Site Architecture</h2>
+  <p class="section-desc">Full navigation tree — 172 unique URLs across 7 content types</p>
+
+  <div class="mermaid-wrap">
+    <pre class="mermaid">
+graph TD
+  ROOT["lordsoflending.com"]
+
+  ROOT --> NAV_PUB["Public Pages"]
+  ROOT --> NAV_CONTENT["Content Hub"]
+  ROOT --> NAV_TOOLS["Tools & Calculators"]
+  ROOT --> NAV_GUIDES["State & Industry Guides"]
+  ROOT --> NAV_LEGAL["Legal"]
+  ROOT --> NAV_HIDDEN["Hidden/Internal"]
+
+  %% Public Pages
+  NAV_PUB --> HOME["/  Homepage"]
+  NAV_PUB --> BLOG["/blog  Articles & Guides"]
+  NAV_PUB --> PODCAST["/podcast  Podcast"]
+  NAV_PUB --> BROKERS["/brokers  For Brokers"]
+  NAV_PUB --> LOANS["/loans  Loan Programs"]
+  NAV_PUB --> BAB["/buying-a-business  Buy a Business"]
+  NAV_PUB --> WEEKLY["/sba-lending-this-week  Weekly Roundup"]
+  NAV_PUB --> CONTACT["/contact  Contact"]
+  NAV_PUB --> CONTACT_BC["/contact-us-bc"]
+  NAV_PUB --> TESTIMONIAL["/leave-a-testimonial"]
+
+  LOANS --> LOAN_APP["/loans/loan-application"]
+  LOANS --> LOAN_ACQ["/loans/business-acquisition"]
+
+  %% Content
+  NAV_CONTENT --> PILLAR["5 Pillar Articles"]
+  NAV_CONTENT --> SUPPORTING["40 Supporting Articles"]
+  NAV_CONTENT --> TRAINING["8 Training Articles"]
+  NAV_CONTENT --> BLOG_POSTS["8 Blog Posts"]
+  NAV_CONTENT --> ROUNDUPS["2 Weekly Roundups"]
+  NAV_CONTENT --> POD_EPS["20 Podcast Episodes"]
+
+  %% Tools
+  NAV_TOOLS --> TOOLS_HUB["/tools  Tools Hub"]
+  TOOLS_HUB --> CALC["/tools/sba-loan-calculator"]
+  TOOLS_HUB --> DSCR["/tools/dscr-calculator"]
+  TOOLS_HUB --> ELIG["/tools/sba-eligibility-checker"]
+
+  %% Guides
+  NAV_GUIDES --> GUIDES_HUB["/guides  Guides Hub"]
+  GUIDES_HUB --> STATES["50 State Pages"]
+  GUIDES_HUB --> INDUSTRIES["15 Industry Pages"]
+
+  %% Legal
+  NAV_LEGAL --> PRIV["/privacy-policy"]
+  NAV_LEGAL --> TOS["/terms-of-use"]
+  NAV_LEGAL --> TOA["/terms-of-application"]
+  NAV_LEGAL --> EDIS["/electronic-disclosure"]
+  NAV_LEGAL --> ADA["/ada-accessibility"]
+
+  %% Hidden
+  NAV_HIDDEN --> SHANE_PAGE["/shane  Executive Page"]
+  NAV_HIDDEN --> CODEX["/the-brokers-codex  → learn.lol"]
+  NAV_HIDDEN --> PREVIEW["/preview  Design Previews"]
+
+  %% Styling
+  classDef hub fill:#1C2A47,stroke:#C5A44E,stroke-width:2px,color:#C5A44E
+  classDef page fill:#141E33,stroke:#3A4F6E,stroke-width:1px,color:#E2DDD5
+  classDef content fill:#141E33,stroke:#4A8EC2,stroke-width:1px,color:#6BA8D4
+  classDef tool fill:#141E33,stroke:#4A9B6B,stroke-width:1px,color:#4A9B6B
+  classDef legal fill:#141E33,stroke:#5A5650,stroke-width:1px,color:#8B8680
+  classDef hidden fill:#141E33,stroke:#5A5650,stroke-width:1px,color:#5A5650,stroke-dasharray: 5 5
+  classDef root fill:#C5A44E,stroke:#C5A44E,color:#0B1120,font-weight:bold
+
+  class ROOT root
+  class NAV_PUB,NAV_CONTENT,NAV_TOOLS,NAV_GUIDES,NAV_LEGAL,NAV_HIDDEN hub
+  class HOME,BLOG,PODCAST,BROKERS,LOANS,BAB,WEEKLY,CONTACT,CONTACT_BC,TESTIMONIAL,LOAN_APP,LOAN_ACQ page
+  class PILLAR,SUPPORTING,TRAINING,BLOG_POSTS,ROUNDUPS,POD_EPS content
+  class TOOLS_HUB,CALC,DSCR,ELIG tool
+  class GUIDES_HUB,STATES,INDUSTRIES tool
+  class PRIV,TOS,TOA,EDIS,ADA legal
+  class SHANE_PAGE,CODEX,PREVIEW hidden
+    </pre>
+  </div>
+
+  <h2 class="section-title" style="font-size:1.3rem;">Content Flow</h2>
+  <p class="section-desc">How content types feed into the single [slug] dynamic route</p>
+
+  <div class="mermaid-wrap">
+    <pre class="mermaid">
+flowchart LR
+  subgraph Sources["Content Sources"]
+    P["content/pillar/ (5)"]
+    S["content/supporting/ (48)"]
+    B["content/blog/ (8)"]
+    R["content/roundup/ (2)"]
+    POD["constants.ts PODCAST (20)"]
+    ST["state-data.ts (50)"]
+    IND["industry-data.ts (15)"]
+  end
+
+  subgraph Route["Dynamic Route"]
+    SLUG["[slug]/page.tsx"]
+  end
+
+  subgraph Templates["Render Templates"]
+    T_ART["Article Layout\n(TOC + Author Bio + Related)"]
+    T_BLOG["Blog Post Layout"]
+    T_ROUND["Roundup Layout\n(Prev/Next nav)"]
+    T_POD["Podcast Layout\n(Buzzsprout + Transcript)"]
+    T_STATE["State Guide Layout\n(Industries + FAQs)"]
+    T_IND["Industry Guide Layout\n(Deal Table + FAQs)"]
+  end
+
+  P --> SLUG
+  S --> SLUG
+  B --> SLUG
+  R --> SLUG
+  POD --> SLUG
+  ST --> SLUG
+  IND --> SLUG
+
+  SLUG --> T_ART
+  SLUG --> T_BLOG
+  SLUG --> T_ROUND
+  SLUG --> T_POD
+  SLUG --> T_STATE
+  SLUG --> T_IND
+
+  style Sources fill:#141E33,stroke:#3A4F6E,color:#E2DDD5
+  style Route fill:#1C2A47,stroke:#C5A44E,stroke-width:2px,color:#C5A44E
+  style Templates fill:#141E33,stroke:#3A4F6E,color:#E2DDD5
+    </pre>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ TAB 2: AUTHORS ═══════════════════════════ -->
+<div id="authors" class="section">
+  <h2 class="section-title">Authors & Voice Profiles</h2>
+  <p class="section-desc">Voice characteristics from transcript analysis — each author should maintain these patterns in written articles</p>
+
+  <div class="author-grid">
+    <!-- SHANE -->
+    <div class="author-card shane">
+      <div class="name">Shane Pierson</div>
+      <div class="alias">"The Alchemist" — Lord of Deals</div>
+      <span class="count-badge">29 articles + 2 roundups + 8 blog posts</span>
+      <ul class="voice-traits">
+        <li>Long cascading sentences that build momentum</li>
+        <li>Fast, energetic, self-interrupting cadence</li>
+        <li>Starts sentences with "So" or "I think"</li>
+        <li>Translates jargon with contempt for banker-speak</li>
+        <li>Physical/vivid metaphors (cars, sports, combat, food)</li>
+        <li>Wide tone range — doom & gloom to fired up</li>
+        <li>Self-deprecating humor about his body, speed, gray hair</li>
+        <li>Direct, urgent audience address</li>
+      </ul>
+      <div class="phrases">
+        <div class="phrases-label">Signature Phrases</div>
+        <span class="phrase-tag">"When all is said and done"</span>
+        <span class="phrase-tag">"The reality is..."</span>
+        <span class="phrase-tag">"Let's be honest"</span>
+        <span class="phrase-tag">"Holy hell"</span>
+        <span class="phrase-tag">"Freaking [anything]"</span>
+        <span class="phrase-tag">"Right?"</span>
+        <span class="phrase-tag">"Get on the freaking boat"</span>
+      </div>
+    </div>
+
+    <!-- BRIAN -->
+    <div class="author-card brian">
+      <div class="name">Brian Congelliere</div>
+      <div class="alias">"The Magistrate" — Lord of Law</div>
+      <span class="count-badge">19 articles (6 training)</span>
+      <ul class="voice-traits">
+        <li>Long, methodical, layered sentences</li>
+        <li>Legal training shows — structured arguments</li>
+        <li>Considers multiple angles, precise language</li>
+        <li>Verbose by design (a running show joke)</li>
+        <li>Highest technical precision — basis points, SOP cites</li>
+        <li>AI/tech enthusiast — builds GPTs, runs webinars</li>
+        <li>Dry humor delivered straight-faced</li>
+        <li>Professional, guiding audience address</li>
+      </ul>
+      <div class="phrases">
+        <div class="phrases-label">Signature Phrases</div>
+        <span class="phrase-tag">"I think it comes down to..."</span>
+        <span class="phrase-tag">"That sort of thing"</span>
+        <span class="phrase-tag">"I was on the Reddits"</span>
+        <span class="phrase-tag">"This is neat"</span>
+        <span class="phrase-tag">"Spotting issues"</span>
+        <span class="phrase-tag">"Pontificate"</span>
+      </div>
+    </div>
+
+    <!-- STEPH -->
+    <div class="author-card steph">
+      <div class="name">Stephanie Dunn</div>
+      <div class="alias">"The Oracle" — Lord of Leadership</div>
+      <span class="count-badge">15 articles</span>
+      <ul class="voice-traits">
+        <li>Structured, declarative statements</li>
+        <li>Shorter and punchier than Shane or Brian</li>
+        <li>Repetition for emphasis pattern</li>
+        <li>Highest data rigor — leads with numbers</li>
+        <li>Cites Coleman Report, SBA annual report</li>
+        <li>2026 thesis: "Year of discipline"</li>
+        <li>Fierce on women in banking, maternal wisdom</li>
+        <li>Warm but authoritative, CTA-oriented closer</li>
+      </ul>
+      <div class="phrases">
+        <div class="phrases-label">Signature Phrases</div>
+        <span class="phrase-tag">"Guys" / "Men"</span>
+        <span class="phrase-tag">"Here's the deal"</span>
+        <span class="phrase-tag">"Building legacies"</span>
+        <span class="phrase-tag">"Golden nuggets"</span>
+        <span class="phrase-tag">"Follow, like, subscribe"</span>
+        <span class="phrase-tag">"Ownership isn't deserved"</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Voice Audit Checklist -->
+  <div class="voice-checklist">
+    <h3>Voice Consistency Audit — Key Questions</h3>
+    <div class="checklist-item">
+      <span class="check-icon warn">?</span>
+      <div><strong>Shane's articles:</strong> Do they use cascading sentences, physical metaphors, and urgent direct address? Or do they read like generic SEO content?</div>
+    </div>
+    <div class="checklist-item">
+      <span class="check-icon warn">?</span>
+      <div><strong>Brian's articles:</strong> Do they show legal-structured arguments, multi-angle analysis, and precise SOP/regulation citations? Or is the technical depth missing?</div>
+    </div>
+    <div class="checklist-item">
+      <span class="check-icon warn">?</span>
+      <div><strong>Steph's articles:</strong> Do they lead with data ($100B, 85K borrowers), use short declarative punches, and close with warm CTAs? Or do they sound like Shane?</div>
+    </div>
+    <div class="checklist-item">
+      <span class="check-icon warn">?</span>
+      <div><strong>Cross-author differentiation:</strong> Can you tell which author wrote a piece WITHOUT looking at the byline? Each should feel distinct.</div>
+    </div>
+    <div class="checklist-item">
+      <span class="check-icon warn">?</span>
+      <div><strong>Podcast-to-article consistency:</strong> Do the written articles sound like how each person ACTUALLY talks on the show? Compare transcript excerpts to article tone.</div>
+    </div>
+    <div class="checklist-item">
+      <span class="check-icon warn">?</span>
+      <div><strong>Blog posts (all Shane):</strong> 8 older blog posts from 2025 — were they written before the voice guide existed? May need a tone pass.</div>
+    </div>
+  </div>
+
+  <!-- Author Article Breakdown -->
+  <h2 class="section-title" style="font-size:1.3rem; margin-top:2rem;">Shane's Articles (29)</h2>
+  <table>
+    <thead><tr><th>Type</th><th>Title</th><th>Cluster</th><th>Time</th></tr></thead>
+    <tbody>
+      <tr><td><span class="type-badge pillar">Pillar</span></td><td>How to Become an SBA Loan Broker in 2026</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">15m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>How to Source SBA Loans: 12 Strategies That Work</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">13m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>SBA Referral Fee Structures: How Brokers Get Paid</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">11m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>Building an SBA Lending Pipeline from Zero</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">13m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>SBA Convention Season: How to Network and Win Deals</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">5m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>From Bank BDO to Independent Originator</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">6m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>SBA Lending Myths That Cost Originators Deals</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">10m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>How Long Does an SBA Loan Take? Real Timelines</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">8m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>SBA Loan Denial: Why It Happens and What to Do Next</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">9m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>Can You Use an SBA Loan to Buy a Business?</td><td><span class="cluster-tag">acquisition</span></td><td class="read-time">10m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>Why Most SBA Deals Fall Apart (And How to Save Them)</td><td><span class="cluster-tag">deal-structuring</span></td><td class="read-time">10m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>Are You Ready to Buy a Business? The Questions Nobody Asks</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">10m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>How to Find Businesses for Sale: The Insider's Playbook</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">11m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>Financing Your Business Acquisition with an SBA 7(a) Loan</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">13m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>Your First 30 Days After Buying a Business: The Playbook</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">13m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>Growing Your Newly Acquired Business: From Stabilization to Scale</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">11m</td></tr>
+      <tr><td><span class="type-badge training">Training</span></td><td>SBA Lending 101: The Foundation Every Originator Needs</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">8m</td></tr>
+      <tr><td><span class="type-badge training">Training</span></td><td>How to Build a $10M SBA Pipeline in 12 Months</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">7m</td></tr>
+      <tr><td><span class="type-badge training">Training</span></td><td>Building an SBA Brokerage: From Solo to Scale</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">8m</td></tr>
+      <tr><td><span class="type-badge roundup">Roundup</span></td><td>SBA Lending This Week — March 24, 2026</td><td><span class="cluster-tag">weekly</span></td><td class="read-time">—</td></tr>
+      <tr><td><span class="type-badge roundup">Roundup</span></td><td>SBA Lending This Week — March 17, 2026</td><td><span class="cluster-tag">weekly</span></td><td class="read-time">—</td></tr>
+    </tbody>
+  </table>
+
+  <p style="margin-top:0.8rem;font-size:0.8rem;color:var(--text-dim);">+ 8 older blog posts (2025) attributed to Shane — no voice guide existed yet</p>
+
+  <h2 class="section-title" style="font-size:1.3rem; margin-top:2.5rem;">Brian's Articles (19)</h2>
+  <table>
+    <thead><tr><th>Type</th><th>Title</th><th>Cluster</th><th>Time</th></tr></thead>
+    <tbody>
+      <tr><td><span class="type-badge pillar">Pillar</span></td><td>SBA Loan Originator Training: The Complete Resource</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">17m</td></tr>
+      <tr><td><span class="type-badge pillar">Pillar</span></td><td>SBA Deal Structuring: From LOI to Closing</td><td><span class="cluster-tag">deal-structuring</span></td><td class="read-time">20m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>SBA Loan Packaging: The Originator's Checklist</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">12m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>The SBA Originator's Tech Stack</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">6m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>SBA Loan Application Checklist: Every Document You Need</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">6m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>Understanding SBA Loan Fees: What You'll Actually Pay</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">9m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>The Future of SBA Lending: AI, Fintech, and the Human Touch</td><td><span class="cluster-tag">industry-trends</span></td><td class="read-time">9m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>Business Brokers vs. Direct Search: Which Path?</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">10m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>The Business Buyer's Due Diligence Checklist</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">12m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>Writing a Letter of Intent (LOI): The Business Buyer's Guide</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">10m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>Closing on a Business Purchase: What to Expect</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">11m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>Setting Up Financial Systems After Buying a Business</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">9m</td></tr>
+      <tr><td><span class="type-badge training">Training</span></td><td>SBA Eligibility Deep Dive: Who Really Qualifies?</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">9m</td></tr>
+      <tr><td><span class="type-badge training">Training</span></td><td>SBA Fee Structures Explained</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">9m</td></tr>
+      <tr><td><span class="type-badge training">Training</span></td><td>How to Read a Borrower's Financials Like a Pro</td><td><span class="cluster-tag">deal-structuring</span></td><td class="read-time">11m</td></tr>
+      <tr><td><span class="type-badge training">Training</span></td><td>The Art of SBA Deal Structuring</td><td><span class="cluster-tag">deal-structuring</span></td><td class="read-time">7m</td></tr>
+      <tr><td><span class="type-badge training">Training</span></td><td>The Complete SBA Documentation Checklist</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">7m</td></tr>
+      <tr><td><span class="type-badge training">Training</span></td><td>SBA Lending Myths That Cost Originators Deals</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">—</td></tr>
+    </tbody>
+  </table>
+
+  <h2 class="section-title" style="font-size:1.3rem; margin-top:2.5rem;">Stephanie's Articles (15)</h2>
+  <table>
+    <thead><tr><th>Type</th><th>Title</th><th>Cluster</th><th>Time</th></tr></thead>
+    <tbody>
+      <tr><td><span class="type-badge pillar">Pillar</span></td><td>The Complete Guide to SBA 7(a) Loans in 2026</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">24m</td></tr>
+      <tr><td><span class="type-badge pillar">Pillar</span></td><td>SBA Lending in 2026: What's Changed and What's Coming</td><td><span class="cluster-tag">industry-trends</span></td><td class="read-time">15m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>How to Match Borrowers with the Right SBA Lender</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">11m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>SBA 7(a) vs. SBA 504: Which Loan Is Right for You?</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">8m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>SBA Loan Down Payment: How Much Do You Really Need?</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">9m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>SBA Loans for Veterans: Benefits and Programs</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">8m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>What the Coleman Report Won't Tell You About SBA Lending</td><td><span class="cluster-tag">industry-trends</span></td><td class="read-time">8m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>The Business Buyer's Self-Assessment: 15 Questions</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">9m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>Financial Due Diligence: Reading the Numbers</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">11m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>How to Value a Small Business for Acquisition</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">12m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>Equity Injection & Down Payment Strategies</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">10m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>Managing Employees After a Business Acquisition</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">10m</td></tr>
+      <tr><td><span class="type-badge supporting">Support</span></td><td>When to Refinance or Expand After Buying a Business</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">10m</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ═══════════════════════════ TAB 3: ALL ARTICLES ═══════════════════════════ -->
+<div id="articles" class="section">
+  <h2 class="section-title">All Articles — Master List</h2>
+  <p class="section-desc">63 written articles + 8 blog posts + 2 roundups = 73 total pieces of authored content</p>
+
+  <div class="article-section">
+    <h3 style="color:var(--gold);">Pillar Articles <span class="cluster-tag">5 articles</span></h3>
+    <table>
+      <thead><tr><th>Author</th><th>Title</th><th>Cluster</th><th>Time</th></tr></thead>
+      <tbody>
+        <tr><td><span class="author-dot steph"></span>Steph</td><td>The Complete Guide to SBA 7(a) Loans in 2026</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">24m</td></tr>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>How to Become an SBA Loan Broker in 2026</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">15m</td></tr>
+        <tr><td><span class="author-dot brian"></span>Brian</td><td>SBA Loan Originator Training: The Complete Resource</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">17m</td></tr>
+        <tr><td><span class="author-dot brian"></span>Brian</td><td>SBA Deal Structuring: From LOI to Closing</td><td><span class="cluster-tag">deal-structuring</span></td><td class="read-time">20m</td></tr>
+        <tr><td><span class="author-dot steph"></span>Steph</td><td>SBA Lending in 2026: What's Changed and What's Coming</td><td><span class="cluster-tag">industry-trends</span></td><td class="read-time">15m</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="article-section">
+    <h3 style="color:#6BA8D4;">Supporting Articles <span class="cluster-tag">40 articles</span></h3>
+    <table>
+      <thead><tr><th>Author</th><th>Title</th><th>Cluster</th><th>Time</th></tr></thead>
+      <tbody>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>How to Source SBA Loans: 12 Strategies That Work</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">13m</td></tr>
+        <tr><td><span class="author-dot brian"></span>Brian</td><td>SBA Loan Packaging: The Originator's Checklist</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">12m</td></tr>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>SBA Referral Fee Structures: How Brokers Get Paid</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">11m</td></tr>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>Building an SBA Lending Pipeline from Zero</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">13m</td></tr>
+        <tr><td><span class="author-dot steph"></span>Steph</td><td>How to Match Borrowers with the Right SBA Lender</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">11m</td></tr>
+        <tr><td><span class="author-dot brian"></span>Brian</td><td>The SBA Originator's Tech Stack</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">6m</td></tr>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>SBA Convention Season: How to Network and Win Deals</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">5m</td></tr>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>From Bank BDO to Independent Originator</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">6m</td></tr>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>SBA Lending Myths That Cost Originators Deals</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">10m</td></tr>
+        <tr><td><span class="author-dot steph"></span>Steph</td><td>SBA 7(a) vs. SBA 504: Which Loan Is Right for You?</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">8m</td></tr>
+        <tr><td><span class="author-dot brian"></span>Brian</td><td>SBA Loan Application Checklist: Every Document You Need</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">6m</td></tr>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>How Long Does an SBA Loan Take? Real Timelines</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">8m</td></tr>
+        <tr><td><span class="author-dot steph"></span>Steph</td><td>SBA Loan Down Payment: How Much Do You Really Need?</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">9m</td></tr>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>SBA Loan Denial: Why It Happens and What to Do Next</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">9m</td></tr>
+        <tr><td><span class="author-dot brian"></span>Brian</td><td>Understanding SBA Loan Fees: What You'll Actually Pay</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">9m</td></tr>
+        <tr><td><span class="author-dot steph"></span>Steph</td><td>SBA Loans for Veterans: Benefits and Programs</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">8m</td></tr>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>Can You Use an SBA Loan to Buy a Business?</td><td><span class="cluster-tag">acquisition</span></td><td class="read-time">10m</td></tr>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>Why Most SBA Deals Fall Apart (And How to Save Them)</td><td><span class="cluster-tag">deal-structuring</span></td><td class="read-time">10m</td></tr>
+        <tr><td><span class="author-dot brian"></span>Brian</td><td>The Future of SBA Lending: AI, Fintech, and the Human Touch</td><td><span class="cluster-tag">industry-trends</span></td><td class="read-time">9m</td></tr>
+        <tr><td><span class="author-dot steph"></span>Steph</td><td>What the Coleman Report Won't Tell You About SBA Lending</td><td><span class="cluster-tag">industry-trends</span></td><td class="read-time">8m</td></tr>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>Are You Ready to Buy a Business? Questions Nobody Asks</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">10m</td></tr>
+        <tr><td><span class="author-dot steph"></span>Steph</td><td>The Business Buyer's Self-Assessment: 15 Questions</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">9m</td></tr>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>How to Find Businesses for Sale: The Insider's Playbook</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">11m</td></tr>
+        <tr><td><span class="author-dot brian"></span>Brian</td><td>Business Brokers vs. Direct Search: Which Path?</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">10m</td></tr>
+        <tr><td><span class="author-dot brian"></span>Brian</td><td>The Business Buyer's Due Diligence Checklist</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">12m</td></tr>
+        <tr><td><span class="author-dot steph"></span>Steph</td><td>Financial Due Diligence: Reading the Numbers</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">11m</td></tr>
+        <tr><td><span class="author-dot steph"></span>Steph</td><td>How to Value a Small Business for Acquisition</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">12m</td></tr>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>Financing Your Business Acquisition with an SBA 7(a) Loan</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">13m</td></tr>
+        <tr><td><span class="author-dot steph"></span>Steph</td><td>Equity Injection & Down Payment Strategies</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">10m</td></tr>
+        <tr><td><span class="author-dot brian"></span>Brian</td><td>Writing a Letter of Intent (LOI): Business Buyer's Guide</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">10m</td></tr>
+        <tr><td><span class="author-dot brian"></span>Brian</td><td>Closing on a Business Purchase: What to Expect</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">11m</td></tr>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>Your First 30 Days After Buying a Business</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">13m</td></tr>
+        <tr><td><span class="author-dot steph"></span>Steph</td><td>Managing Employees After a Business Acquisition</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">10m</td></tr>
+        <tr><td><span class="author-dot brian"></span>Brian</td><td>Setting Up Financial Systems After Buying a Business</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">9m</td></tr>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>Growing Your Newly Acquired Business</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">11m</td></tr>
+        <tr><td><span class="author-dot steph"></span>Steph</td><td>When to Refinance or Expand After Buying a Business</td><td><span class="cluster-tag">buying-a-business</span></td><td class="read-time">10m</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="article-section">
+    <h3 style="color:var(--green);">Training Articles <span class="cluster-tag">8 articles</span></h3>
+    <table>
+      <thead><tr><th>Author</th><th>Title</th><th>Cluster</th><th>Time</th></tr></thead>
+      <tbody>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>SBA Lending 101: The Foundation Every Originator Needs</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">8m</td></tr>
+        <tr><td><span class="author-dot brian"></span>Brian</td><td>SBA Eligibility Deep Dive: Who Really Qualifies?</td><td><span class="cluster-tag">sba-basics</span></td><td class="read-time">9m</td></tr>
+        <tr><td><span class="author-dot brian"></span>Brian</td><td>SBA Fee Structures Explained</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">9m</td></tr>
+        <tr><td><span class="author-dot brian"></span>Brian</td><td>How to Read a Borrower's Financials Like a Pro</td><td><span class="cluster-tag">deal-structuring</span></td><td class="read-time">11m</td></tr>
+        <tr><td><span class="author-dot brian"></span>Brian</td><td>The Art of SBA Deal Structuring</td><td><span class="cluster-tag">deal-structuring</span></td><td class="read-time">7m</td></tr>
+        <tr><td><span class="author-dot brian"></span>Brian</td><td>The Complete SBA Documentation Checklist</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">7m</td></tr>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>How to Build a $10M SBA Pipeline in 12 Months</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">7m</td></tr>
+        <tr><td><span class="author-dot shane"></span>Shane</td><td>Building an SBA Brokerage: From Solo to Scale</td><td><span class="cluster-tag">originator-training</span></td><td class="read-time">8m</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="article-section">
+    <h3 style="color:var(--steph);">Blog Posts <span class="cluster-tag">8 posts — all Shane (pre-voice guide, 2025)</span></h3>
+    <table>
+      <thead><tr><th>Date</th><th>Title</th></tr></thead>
+      <tbody>
+        <tr><td class="read-time">2025-07-09</td><td>What to Do If You Can't Pay Your Business Loan</td></tr>
+        <tr><td class="read-time">2025-07-09</td><td>How to Buy a Business with an SBA Loan</td></tr>
+        <tr><td class="read-time">2025-07-08</td><td>Business Loans with Bad Credit: What You Need to Know</td></tr>
+        <tr><td class="read-time">2025-07-08</td><td>5 Myths About SBA Loans Every Founder Should Know</td></tr>
+        <tr><td class="read-time">2025-07-08</td><td>Why Startups Get Denied Loans — and What to Do Instead</td></tr>
+        <tr><td class="read-time">2025-06-30</td><td>What Is My Business Worth? A Simple Valuation Guide</td></tr>
+        <tr><td class="read-time">2025-06-30</td><td>Attention Trumps Time in SBA Lending</td></tr>
+        <tr><td class="read-time">2025-06-11</td><td>How to Get 100% SBA Financing for Business Expansion</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="article-section">
+    <h3 style="color:var(--red);">Podcast Episodes <span class="cluster-tag">20 episodes — all 3 hosts</span></h3>
+    <table>
+      <thead><tr><th>#</th><th>Title</th><th>Date</th></tr></thead>
+      <tbody>
+        <tr><td class="read-time">20</td><td>Why Equity (Not Cash Flow) Makes or Breaks SBA Deals</td><td class="read-time">2026-03-04</td></tr>
+        <tr><td class="read-time">19</td><td>The Year of Discipline</td><td class="read-time">2026-02-18</td></tr>
+        <tr><td class="read-time">18</td><td>2026 Look Ahead and Predictions</td><td class="read-time">2026-02-04</td></tr>
+        <tr><td class="read-time">17</td><td>2025 Lessons and Reflections</td><td class="read-time">2026-01-28</td></tr>
+        <tr><td class="read-time">16</td><td>When a Business Owner Asks You to Dance</td><td class="read-time">2025-10-08</td></tr>
+        <tr><td class="read-time">15</td><td>Seller Notes Deep Dive</td><td class="read-time">2025-10-03</td></tr>
+        <tr><td class="read-time">14</td><td>Building a Successful Restaurant</td><td class="read-time">2025-09-10</td></tr>
+        <tr><td class="read-time">13</td><td>Do Interest Rates Really Matter?</td><td class="read-time">2025-09-03</td></tr>
+        <tr><td class="read-time">12</td><td>Reputation with Stuart Faught</td><td class="read-time">2025-08-21</td></tr>
+        <tr><td class="read-time">11</td><td>Ask the Experts</td><td class="read-time">2025-08-14</td></tr>
+        <tr><td class="read-time">10</td><td>Ennobled by Fire</td><td class="read-time">2025-06-25</td></tr>
+        <tr><td class="read-time">9</td><td>Acquisition War Room</td><td class="read-time">2025-06-18</td></tr>
+        <tr><td class="read-time">8</td><td>Insights from the Road</td><td class="read-time">2025-05-21</td></tr>
+        <tr><td class="read-time">7</td><td>Meet Your Lords</td><td class="read-time">2025-05-07</td></tr>
+        <tr><td class="read-time">6</td><td>Bomb Goes Off on SBA</td><td class="read-time">2025-04-30</td></tr>
+        <tr><td class="read-time">5</td><td>Broke or Billionaire by 2030</td><td class="read-time">2025-04-15</td></tr>
+        <tr><td class="read-time">4</td><td>Buying and Scaling a Business</td><td class="read-time">2025-04-01</td></tr>
+        <tr><td class="read-time">3</td><td>You Are Not Urgent Enough</td><td class="read-time">2025-03-15</td></tr>
+        <tr><td class="read-time">—</td><td>Let's Talk Tariffs</td><td class="read-time">2025-03-01</td></tr>
+        <tr><td class="read-time">—</td><td>The Rise of Automated Lending</td><td class="read-time">2025-02-15</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ TAB 4: CLUSTERS ═══════════════════════════ -->
+<div id="clusters" class="section">
+  <h2 class="section-title">Content Clusters</h2>
+  <p class="section-desc">How articles group into topic clusters with pillar pages anchoring each set</p>
+
+  <div class="mermaid-wrap">
+    <pre class="mermaid">
+graph TB
+  subgraph OT["Originator Training (17 articles)"]
+    OT_P1["🏛 How to Become an SBA Loan Broker<br/><i>Shane — Pillar</i>"]
+    OT_P2["🏛 SBA Loan Originator Training<br/><i>Brian — Pillar</i>"]
+    OT_S1["How to Source SBA Loans<br/><i>Shane</i>"]
+    OT_S2["SBA Loan Packaging Checklist<br/><i>Brian</i>"]
+    OT_S3["SBA Referral Fee Structures<br/><i>Shane</i>"]
+    OT_S4["Building a Pipeline from Zero<br/><i>Shane</i>"]
+    OT_S5["Match Borrowers w/ Lenders<br/><i>Steph</i>"]
+    OT_S6["Originator's Tech Stack<br/><i>Brian</i>"]
+    OT_S7["Convention Networking<br/><i>Shane</i>"]
+    OT_S8["Bank BDO to Independent<br/><i>Shane</i>"]
+    OT_S9["Myths That Cost Deals<br/><i>Shane</i>"]
+    OT_T1["Fee Structures Explained<br/><i>Brian — Training</i>"]
+    OT_T2["Documentation Checklist<br/><i>Brian — Training</i>"]
+    OT_T3["Build $10M Pipeline<br/><i>Shane — Training</i>"]
+    OT_T4["Building an SBA Brokerage<br/><i>Shane — Training</i>"]
+    OT_P1 --- OT_S1 & OT_S3 & OT_S4 & OT_S7 & OT_S8 & OT_S9 & OT_T3 & OT_T4
+    OT_P2 --- OT_S2 & OT_S5 & OT_S6 & OT_T1 & OT_T2
+  end
+
+  subgraph SB["SBA Basics (10 articles)"]
+    SB_P["🏛 Complete Guide SBA 7(a)<br/><i>Steph — Pillar</i>"]
+    SB_S1["7(a) vs 504<br/><i>Steph</i>"]
+    SB_S2["Application Checklist<br/><i>Brian</i>"]
+    SB_S3["How Long Does It Take?<br/><i>Shane</i>"]
+    SB_S4["Down Payment<br/><i>Steph</i>"]
+    SB_S5["Loan Denial<br/><i>Shane</i>"]
+    SB_S6["Loan Fees<br/><i>Brian</i>"]
+    SB_S7["Veterans Programs<br/><i>Steph</i>"]
+    SB_T1["Lending 101<br/><i>Shane — Training</i>"]
+    SB_T2["Eligibility Deep Dive<br/><i>Brian — Training</i>"]
+    SB_P --- SB_S1 & SB_S2 & SB_S3 & SB_S4 & SB_S5 & SB_S6 & SB_S7 & SB_T1 & SB_T2
+  end
+
+  subgraph BAB["Buying a Business (16 articles)"]
+    BAB_S1["Ready to Buy?<br/><i>Shane</i>"]
+    BAB_S2["Self-Assessment<br/><i>Steph</i>"]
+    BAB_S3["Find Businesses for Sale<br/><i>Shane</i>"]
+    BAB_S4["Brokers vs Direct<br/><i>Brian</i>"]
+    BAB_S5["Due Diligence Checklist<br/><i>Brian</i>"]
+    BAB_S6["Financial Due Diligence<br/><i>Steph</i>"]
+    BAB_S7["Business Valuation<br/><i>Steph</i>"]
+    BAB_S8["SBA Financing<br/><i>Shane</i>"]
+    BAB_S9["Equity Injection<br/><i>Steph</i>"]
+    BAB_S10["LOI Guide<br/><i>Brian</i>"]
+    BAB_S11["Closing Process<br/><i>Brian</i>"]
+    BAB_S12["First 30 Days<br/><i>Shane</i>"]
+    BAB_S13["Managing Employees<br/><i>Steph</i>"]
+    BAB_S14["Financial Systems<br/><i>Brian</i>"]
+    BAB_S15["Growth Playbook<br/><i>Shane</i>"]
+    BAB_S16["Refinance/Expand<br/><i>Steph</i>"]
+  end
+
+  subgraph DS["Deal Structuring (4 articles)"]
+    DS_P["🏛 SBA Deal Structuring<br/><i>Brian — Pillar</i>"]
+    DS_S1["Deals Fall Apart<br/><i>Shane</i>"]
+    DS_T1["Read Financials<br/><i>Brian — Training</i>"]
+    DS_T2["Art of Structuring<br/><i>Brian — Training</i>"]
+    DS_P --- DS_S1 & DS_T1 & DS_T2
+  end
+
+  subgraph IT["Industry Trends (3 articles)"]
+    IT_P["🏛 SBA Lending 2026 Outlook<br/><i>Steph — Pillar</i>"]
+    IT_S1["Future: AI & Fintech<br/><i>Brian</i>"]
+    IT_S2["Coleman Report Insights<br/><i>Steph</i>"]
+    IT_P --- IT_S1 & IT_S2
+  end
+
+  classDef cluster fill:#1C2A47,stroke:#C5A44E,stroke-width:1px,color:#E2DDD5
+    </pre>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ TAB 5: SEO PAGES ═══════════════════════════ -->
+<div id="seo" class="section">
+  <h2 class="section-title">Programmatic SEO Pages</h2>
+  <p class="section-desc">65 auto-generated pages for geographic and industry targeting</p>
+
+  <h3 style="font-family:'DM Serif Display',serif;font-size:1.15rem;color:var(--gold);margin-bottom:1rem;">50 State Pages</h3>
+  <div class="prog-grid">
+    <div class="prog-item">Alabama</div><div class="prog-item">Alaska</div><div class="prog-item">Arizona</div>
+    <div class="prog-item">Arkansas</div><div class="prog-item">California</div><div class="prog-item">Colorado</div>
+    <div class="prog-item">Connecticut</div><div class="prog-item">Delaware</div><div class="prog-item">Florida</div>
+    <div class="prog-item">Georgia</div><div class="prog-item">Hawaii</div><div class="prog-item">Idaho</div>
+    <div class="prog-item">Illinois</div><div class="prog-item">Indiana</div><div class="prog-item">Iowa</div>
+    <div class="prog-item">Kansas</div><div class="prog-item">Kentucky</div><div class="prog-item">Louisiana</div>
+    <div class="prog-item">Maine</div><div class="prog-item">Maryland</div><div class="prog-item">Massachusetts</div>
+    <div class="prog-item">Michigan</div><div class="prog-item">Minnesota</div><div class="prog-item">Mississippi</div>
+    <div class="prog-item">Missouri</div><div class="prog-item">Montana</div><div class="prog-item">Nebraska</div>
+    <div class="prog-item">Nevada</div><div class="prog-item">New Hampshire</div><div class="prog-item">New Jersey</div>
+    <div class="prog-item">New Mexico</div><div class="prog-item">New York</div><div class="prog-item">North Carolina</div>
+    <div class="prog-item">North Dakota</div><div class="prog-item">Ohio</div><div class="prog-item">Oklahoma</div>
+    <div class="prog-item">Oregon</div><div class="prog-item">Pennsylvania</div><div class="prog-item">Rhode Island</div>
+    <div class="prog-item">South Carolina</div><div class="prog-item">South Dakota</div><div class="prog-item">Tennessee</div>
+    <div class="prog-item">Texas</div><div class="prog-item">Utah</div><div class="prog-item">Vermont</div>
+    <div class="prog-item">Virginia</div><div class="prog-item">Washington</div><div class="prog-item">West Virginia</div>
+    <div class="prog-item">Wisconsin</div><div class="prog-item">Wyoming</div>
+  </div>
+
+  <h3 style="font-family:'DM Serif Display',serif;font-size:1.15rem;color:var(--gold);margin-bottom:1rem;">15 Industry Pages</h3>
+  <div class="prog-grid">
+    <div class="prog-item">Restaurants</div>
+    <div class="prog-item">Hotels & Hospitality</div>
+    <div class="prog-item">Healthcare</div>
+    <div class="prog-item">Construction</div>
+    <div class="prog-item">Auto Repair</div>
+    <div class="prog-item">Franchises</div>
+    <div class="prog-item">Manufacturing</div>
+    <div class="prog-item">Professional Svcs</div>
+    <div class="prog-item">Trucking</div>
+    <div class="prog-item">Retail</div>
+    <div class="prog-item">Childcare</div>
+    <div class="prog-item">Home Services</div>
+    <div class="prog-item">Gas Stations</div>
+    <div class="prog-item">Veterinary</div>
+    <div class="prog-item">Laundromats</div>
+  </div>
+
+  <div class="mermaid-wrap">
+    <pre class="mermaid">
+pie title Content Distribution by Type
+  "Pillar Articles" : 5
+  "Supporting Articles" : 40
+  "Training Articles" : 8
+  "Blog Posts" : 8
+  "Roundups" : 2
+  "Podcast Episodes" : 20
+  "State Pages" : 50
+  "Industry Pages" : 15
+    </pre>
+  </div>
+
+  <div class="mermaid-wrap">
+    <pre class="mermaid">
+pie title Author Distribution (Written Articles Only)
+  "Shane (29 + 8 blog)" : 37
+  "Brian (19)" : 19
+  "Stephanie (15)" : 15
+    </pre>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+<div class="footnote">
+  Generated 2026-03-12 &mdash; Lords of Lending Content Audit &mdash; lordsoflending.com
+</div>
+
+<script>
+  // Tab switching
+  function showTab(id) {
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    event.target.classList.add('active');
+  }
+
+  // Init Mermaid with dark theme
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'dark',
+    themeVariables: {
+      primaryColor: '#1C2A47',
+      primaryTextColor: '#E2DDD5',
+      primaryBorderColor: '#C5A44E',
+      lineColor: '#3A4F6E',
+      secondaryColor: '#141E33',
+      tertiaryColor: '#0B1120',
+      fontFamily: 'DM Sans, system-ui, sans-serif',
+      fontSize: '13px',
+      pie1: '#C5A44E',
+      pie2: '#4A8EC2',
+      pie3: '#4A9B6B',
+      pie4: '#9B6BA8',
+      pie5: '#D4763A',
+      pie6: '#C25555',
+      pie7: '#3A4F6E',
+      pie8: '#5A8A6B',
+    },
+    flowchart: {
+      curve: 'basis',
+      padding: 15,
+      nodeSpacing: 30,
+      rankSpacing: 40,
+    },
+  });
+</script>
+</body>
+</html>
