@@ -1,6 +1,23 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  trailingSlash: false,
+  async redirects() {
+    return [
+      // Old WordPress /tag/* URLs — return 410 Gone via permanent redirect to homepage
+      {
+        source: "/tag/:slug*",
+        destination: "/blog",
+        permanent: true,
+      },
+      // Old WordPress /category/* URLs
+      {
+        source: "/category/:slug*",
+        destination: "/blog",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {
