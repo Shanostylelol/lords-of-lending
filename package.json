@@ -13,6 +13,7 @@
     "content-gaps": "npx tsx scripts/content-gaps.ts"
   },
   "dependencies": {
+    "@next/third-parties": "^16.1.7",
     "clsx": "^2.1.1",
     "framer-motion": "^12.35.2",
     "lucide-react": "^0.577.0",

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat, Open_Sans } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/structured-data";
@@ -69,14 +70,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${montserrat.variable} ${openSans.variable}`}>
-      <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WW1N5KBXQM" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-WW1N5KBXQM');`,
-          }}
-        />
-      </head>
       <body className="font-[family-name:var(--font-open-sans)] antialiased">
         <script
           type="application/ld+json"
@@ -95,6 +88,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <GoogleAnalytics gaId="G-WW1N5KBXQM" />
       </body>
     </html>
   );

@@ -26,6 +26,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/tools/dscr-calculator`, lastModified: siteLastModified, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/tools/sba-eligibility-checker`, lastModified: siteLastModified, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/buying-a-business`, lastModified: siteLastModified, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/loans`, lastModified: siteLastModified, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/loans/loan-application`, lastModified: siteLastModified, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/loans/business-acquisition`, lastModified: siteLastModified, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/contact-us-bc`, lastModified: siteLastModified, changeFrequency: "monthly", priority: 0.5 },
   ];
 
   const blogPages: MetadataRoute.Sitemap = BLOG_POSTS.map((post) => ({
